@@ -56,7 +56,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XKYVHARL
 
 [Document2]
-DocumentPath=Schematic Diagrams.SchLib
+DocumentPath=Project Outputs for Midnight Sun Integrated Library\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
