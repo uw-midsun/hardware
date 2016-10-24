@@ -56,7 +56,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XKYVHARL
 
 [Document2]
-DocumentPath=Project Outputs for Midnight Sun Integrated Library\Schematic Diagrams.SchLib
+DocumentPath=..\MSXII-Controller-Board\Controller-Board.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -70,7 +70,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=EAFDVPUK
+DocumentUniqueId=EGIQNEXT
 
 [OutputGroup1]
 Name=Netlist Outputs
