@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=MAIN_RELAY_GND Pin=Q1-2
+Added Pin To Net: NetName=MAIN_RELAY_GND Pin=Q1-5
+Added Pin To Net: NetName=MAIN_RELAY_GND Pin=Q1-6
+Added Pin To Net: NetName=LATCH_IN Pin=R3-1
+Added Member To Class: ClassName=Sheet1 Member=Component K1 Relay-SPST

@@ -1,0 +1,29 @@
+Change Physical Footprint: Designator=C1 Old Footprint=0603 New Footprint=0603
+Change Physical Footprint: Designator=D1 Old Footprint=DO-214AA DIODE New Footprint=DO-214AA Diode
+Change Physical Footprint: Designator=DS1 Old Footprint=LED_0603 New Footprint=LED_0603
+Change Physical Footprint: Designator=DS2 Old Footprint=LED_0603 New Footprint=LED_0603
+Change Physical Footprint: Designator=K1 Old Footprint=RELAY-SPST New Footprint=RELAY-SPST
+Change Physical Footprint: Designator=K2 Old Footprint=RELAY_SPDT New Footprint=RELAY_SPDT
+Change Physical Footprint: Designator=P1 Old Footprint=WM9811CT-ND New Footprint=WM9811CT-ND
+Change Physical Footprint: Designator=P2 Old Footprint=WM4780CT-ND New Footprint=WM4780CT-ND
+Change Physical Footprint: Designator=P3 Old Footprint=WM2282CT-ND New Footprint=WM2282CT-ND
+Change Physical Footprint: Designator=Q1 Old Footprint=P-MOSFET New Footprint=P-MOSFET
+Change Physical Footprint: Designator=Q2 Old Footprint=N-CH MOSFET SOT-23 New Footprint=N-CH MOSFET SOT-23
+Change Physical Footprint: Designator=Q3 Old Footprint=N-CH MOSFET SOT-23 New Footprint=N-CH MOSFET SOT-23
+Change Physical Footprint: Designator=R1 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R2 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R3 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R4 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R5 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R6 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R7 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R8 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R9 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R10 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=R11 Old Footprint=RES_0603 New Footprint=RES_0603
+Change Physical Footprint: Designator=U1 Old Footprint=RM-1212S New Footprint=RM-1212S
+Change Physical Footprint: Designator=U2 Old Footprint=SOIC8 New Footprint=SOIC8
+Change Physical Footprint: Designator=U3 Old Footprint=H11LS New Footprint=H11LS
+Change Physical Footprint: Designator=U4 Old Footprint=CD4043BDR-16SOIC New Footprint=CD4043BDR-16SOIC
+Change Physical Footprint: Designator=VR1 Old Footprint=20K POT New Footprint=20K POT
+Change Physical Footprint: Designator=VR2 Old Footprint=20K POT New Footprint=20K POT
