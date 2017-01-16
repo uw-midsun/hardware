@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Controller-Board
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -104,7 +104,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RXDWPGKY
 
 [Document5]
 DocumentPath=..\..\Integrated Library\Schematic Diagrams.SchLib
@@ -122,6 +122,27 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EGIQNEXT
+
+[Document6]
+DocumentPath=Controller-Board-Rev2-Small.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KBYRDTEE
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Controller-Board\Design Rule Check - Controller-Board-Rev2-Small.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -170,7 +191,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Controller-Board
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1013,10 +1034,8 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
-MatchParameter1=Manufacturer
+MatchParameter1=Comment
 MatchStrictly1=1
-MatchParameter2=Manufacturer PN
-MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
