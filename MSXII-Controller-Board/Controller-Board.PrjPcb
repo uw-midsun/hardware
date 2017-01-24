@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Controller-Board
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -56,23 +56,6 @@ GenerateClassCluster=0
 DocumentUniqueId=JNMNIFMG
 
 [Document2]
-DocumentPath=Controller-Board.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SPWGRVJL
-
-[Document3]
 DocumentPath=Controller-Board-Rev2_Panelized.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QDYRLORH
 
-[Document4]
+[Document3]
 DocumentPath=Controller-Board-Rev2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -104,107 +87,72 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-<<<<<<< .mine
-DocumentUniqueId=GXISEJIJ
-||||||| .r81
-DocumentUniqueId=
-=======
 DocumentUniqueId=RXDWPGKY
->>>>>>> .r82
 
 [GeneratedDocument1]
-DocumentPath=
-DItemRevisionGUID=
-
-<<<<<<< .mine
-[GeneratedDocument2]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.DRL
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.REP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for Controller-Board\Controller-Board-Rev2.TXT
 DItemRevisionGUID=
 
-||||||| .r81
-=======
-[Document6]
-DocumentPath=Controller-Board-Rev2-Small.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KBYRDTEE
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Controller-Board\Design Rule Check - Controller-Board-Rev2-Small.html
-DItemRevisionGUID=
-
->>>>>>> .r82
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -251,7 +199,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for Controller-Board
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -470,7 +418,7 @@ OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType14=Schematic Print
 OutputName14=Schematic Prints
-OutputDocumentPath14=D:\Documents\Controller-Board\Controller-Board\Controller-Board.SchDoc
+OutputDocumentPath14=C:\Users\kevin\Documents\GitHub\hardware.git\trunk\MSXII-Controller-Board\Controller-Board.SchDoc
 OutputVariantName14=
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
