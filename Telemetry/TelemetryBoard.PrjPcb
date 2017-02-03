@@ -106,6 +106,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EGIQNEXT
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for TelemetryBoard\Design Rule Check - TelemetryBoardPCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
