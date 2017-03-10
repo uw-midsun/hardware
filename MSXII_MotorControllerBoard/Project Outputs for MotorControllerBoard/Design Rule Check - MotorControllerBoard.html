@@ -1,0 +1,505 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD16\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2017-02-11</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3:42:39 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:03</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc" class="file"><acronym title="C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc">C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">51</td></tr>
+</table>
+</td>
+</table><a name="ID2HEJE4GD2KQSPXFF0KS5XIQXC1HC1STRQWMBSJMZLANEKVTM4RE"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZ24XT14GAMYAFM15KSZJG0A5MCWQQEKBLJ5Y3OB1EW1R5U3GONUM">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN4QJN1GENJW2MTU0WBQW3MOSSL1JWVVMJKACDEMIO2O2CRTUYWUO">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5UPU4BNVDWIAEU42U0LIFGIGGIPBPVAWKSIEKJE0THAYGB0PVUKB">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEDROUBUEHYZRJAVR5VTRKLEJDTXBVQWLKFMO0MWTNIGNLMCMT3P">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</a></td>
+<td class="column2">28</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIYEN1IELELXZMHB3SGQ1JNVJQGXTLPPOT1CUUBPOIKBAYMAVA2RC">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUSACQYP0OVCLBEEX103ZE0ZGSDKVELDQ1JW2YLHVPAJNTOXCJPSL">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKWPXMX00G2XKETZ0RV4WG5BQGPM4PNMCTLUXIHKQXYHHSAPPXQW">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGOMWGCQHIFHLC42E0XVBVRBT3NMVPKAQYKODGWOTYK5MSTR0PRHE">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1AWYGCBZWVPEMCWJVFGXTHNH0LPF5SAGAKOCPG1TK3LCYB0DHIB">Width Constraint (Min=8mil) (Max=8mil) (Preferred=8mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZ5YONMGWQZ4KGLSIRFVKZ52NYPXFN3PQES1HN1D2VYOWB23TJMDJ">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4C2WZXWKKQSS5TVW4UD1X5XMPI1V53XN3YGJRLXR5M3QDCJUQTE">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZBM44IUVAU30GMBC1CRBD214GH0TMDGRNBB5EROI4RDJVKQNUKRO">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMDSFCUEIKTSVEHKLJFZ34P04CDKHQPBKZFUHUCO0K2KYVMUDD40D">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBFJQ20LOWAEYFLJ4IQQGM44Q5EIO0YUN3WMMSGCJALUVRDGAAO2N">Room MotorControllerBoard (Bounding Region = (1083.996mil, 1003.896mil, 2360.896mil, 1983.896mil) (InComponentClass('MotorControllerBoard'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">51</td>
+</tr>
+</table><br><a name="IDZ24XT14GAMYAFM15KSZJG0A5MCWQQEKBLJ5Y3OB1EW1R5U3GONUM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Modified Polygon (Allow modified: No), (Allow shelved: No)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1083.997mil|Location2.X=2355.896mil|Location1.Y=1003.896mil|Location2.Y=1983.896mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1083.997mil|Location2.X=2355.896mil|Location1.Y=1003.896mil|Location2.Y=1983.896mil|Absolute=True">Modified Polygon: Polygon Not Repour After Edit  (GND Plane) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDEDROUBUEHYZRJAVR5VTRKLEJDTXBVQWLKFMO0MWTNIGNLMCMT3P"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1806.402mil|Location2.Y=1814.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1806.402mil|Location2.Y=1814.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (223.681mil,786.339mil)(223.681mil,806.339mil) on Top Overlay And Pad P1-(257.815mil,797.205mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1373.411mil|Location2.X=1381.077mil|Location1.Y=1786.402mil|Location2.Y=1794.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1373.411mil|Location2.X=1381.077mil|Location1.Y=1786.402mil|Location2.Y=1794.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (293.681mil,786.339mil)(328.681mil,786.339mil) on Top Overlay And Pad P1-(257.815mil,797.205mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1373.411mil|Location2.X=1381.077mil|Location1.Y=1786.402mil|Location2.Y=1794.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1373.411mil|Location2.X=1381.077mil|Location1.Y=1786.402mil|Location2.Y=1794.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (293.681mil,786.339mil)(293.681mil,806.339mil) on Top Overlay And Pad P1-(257.815mil,797.205mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1786.402mil|Location2.Y=1794.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1786.402mil|Location2.Y=1794.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (188.681mil,786.339mil)(223.681mil,786.339mil) on Top Overlay And Pad P1-(257.815mil,797.205mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1806.402mil|Location2.Y=1814.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1806.402mil|Location2.Y=1814.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (223.681mil,806.339mil)(293.681mil,806.339mil) on Top Overlay And Pad P1-(257.815mil,797.205mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1407.052mil|Location2.X=1418.302mil|Location1.Y=1732.563mil|Location2.Y=1743.813mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1407.052mil|Location2.X=1418.302mil|Location1.Y=1732.563mil|Location2.Y=1743.813mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (4.095mil &lt; 10mil) Between Track (328.681mil,741.339mil)(328.681mil,786.339mil) on Top Overlay And Pad P1-1(328.681mil,726.339mil) on Top Layer [Top Overlay] to [Top Solder] clearance [4.095mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1407.052mil|Location2.X=1418.302mil|Location1.Y=1242.88mil|Location2.Y=1254.13mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1407.052mil|Location2.X=1418.302mil|Location1.Y=1242.88mil|Location2.Y=1254.13mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.539mil &lt; 10mil) Between Track (328.681mil,191.339mil)(328.681mil,236.339mil) on Top Overlay And Pad P1-25(328.681mil,253.899mil) on Top Layer [Top Overlay] to [Top Solder] clearance [6.539mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1267.052mil|Location2.X=1278.302mil|Location1.Y=1242.88mil|Location2.Y=1254.13mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1267.052mil|Location2.X=1278.302mil|Location1.Y=1242.88mil|Location2.Y=1254.13mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.539mil &lt; 10mil) Between Track (188.681mil,191.339mil)(188.681mil,236.339mil) on Top Overlay And Pad P1-26(186.949mil,253.899mil) on Top Layer [Top Overlay] to [Top Solder] clearance [6.539mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1267.052mil|Location2.X=1278.302mil|Location1.Y=1732.621mil|Location2.Y=1743.871mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1267.052mil|Location2.X=1278.302mil|Location1.Y=1732.621mil|Location2.Y=1743.871mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.979mil &lt; 10mil) Between Track (188.681mil,741.339mil)(188.681mil,786.339mil) on Top Overlay And Pad P1-50(186.949mil,726.339mil) on Top Layer [Top Overlay] to [Top Solder] clearance [3.979mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1191.402mil|Location2.Y=1199.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1191.402mil|Location2.Y=1199.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (223.681mil,171.339mil)(223.681mil,191.339mil) on Top Overlay And Pad P1-(257.815mil,183.032mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1373.411mil|Location2.X=1381.077mil|Location1.Y=1171.402mil|Location2.Y=1179.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1373.411mil|Location2.X=1381.077mil|Location1.Y=1171.402mil|Location2.Y=1179.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (293.681mil,171.339mil)(293.681mil,191.339mil) on Top Overlay And Pad P1-(257.815mil,183.032mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1373.411mil|Location2.X=1381.077mil|Location1.Y=1191.402mil|Location2.Y=1199.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1373.411mil|Location2.X=1381.077mil|Location1.Y=1191.402mil|Location2.Y=1199.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (293.681mil,191.339mil)(328.681mil,191.339mil) on Top Overlay And Pad P1-(257.815mil,183.032mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1191.402mil|Location2.Y=1199.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1191.402mil|Location2.Y=1199.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (188.681mil,191.339mil)(223.681mil,191.339mil) on Top Overlay And Pad P1-(257.815mil,183.032mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1171.402mil|Location2.Y=1179.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1303.844mil|Location2.X=1311.51mil|Location1.Y=1171.402mil|Location2.Y=1179.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (223.681mil,171.339mil)(293.681mil,171.339mil) on Top Overlay And Pad P1-(257.815mil,183.032mil) on Top Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2058.901mil|Location2.X=2066.567mil|Location1.Y=1786.402mil|Location2.Y=1794.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2058.901mil|Location2.X=2066.567mil|Location1.Y=1786.402mil|Location2.Y=1794.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (938.738mil,786.339mil)(973.738mil,786.339mil) on Bottom Overlay And Pad P2-(1009.606mil,797.205mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2058.901mil|Location2.X=2066.567mil|Location1.Y=1786.402mil|Location2.Y=1794.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2058.901mil|Location2.X=2066.567mil|Location1.Y=1786.402mil|Location2.Y=1794.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (973.738mil,786.339mil)(973.738mil,806.339mil) on Bottom Overlay And Pad P2-(1009.606mil,797.205mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1806.402mil|Location2.Y=1814.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1806.402mil|Location2.Y=1814.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (1043.738mil,786.339mil)(1043.738mil,806.339mil) on Bottom Overlay And Pad P2-(1009.606mil,797.205mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1786.402mil|Location2.Y=1794.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1786.402mil|Location2.Y=1794.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (1043.738mil,786.339mil)(1078.738mil,786.339mil) on Bottom Overlay And Pad P2-(1009.606mil,797.205mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1806.402mil|Location2.Y=1814.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1806.402mil|Location2.Y=1814.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (973.738mil,806.339mil)(1043.738mil,806.339mil) on Bottom Overlay And Pad P2-(1009.606mil,797.205mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2017.109mil|Location2.X=2028.359mil|Location1.Y=1732.563mil|Location2.Y=1743.813mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2017.109mil|Location2.X=2028.359mil|Location1.Y=1732.563mil|Location2.Y=1743.813mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (4.095mil &lt; 10mil) Between Track (938.738mil,741.339mil)(938.738mil,786.339mil) on Bottom Overlay And Pad P2-1(938.738mil,726.339mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [4.095mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2017.109mil|Location2.X=2028.359mil|Location1.Y=1242.879mil|Location2.Y=1254.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2017.109mil|Location2.X=2028.359mil|Location1.Y=1242.879mil|Location2.Y=1254.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.539mil &lt; 10mil) Between Track (938.738mil,191.339mil)(938.738mil,236.339mil) on Bottom Overlay And Pad P2-25(938.738mil,253.899mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [6.539mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2157.109mil|Location2.X=2168.359mil|Location1.Y=1242.879mil|Location2.Y=1254.129mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2157.109mil|Location2.X=2168.359mil|Location1.Y=1242.879mil|Location2.Y=1254.129mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.539mil &lt; 10mil) Between Track (1078.738mil,191.339mil)(1078.738mil,236.339mil) on Bottom Overlay And Pad P2-26(1080.472mil,253.899mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [6.539mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2157.109mil|Location2.X=2168.359mil|Location1.Y=1732.621mil|Location2.Y=1743.871mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2157.109mil|Location2.X=2168.359mil|Location1.Y=1732.621mil|Location2.Y=1743.871mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.979mil &lt; 10mil) Between Track (1078.738mil,741.339mil)(1078.738mil,786.339mil) on Bottom Overlay And Pad P2-50(1080.472mil,726.339mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [3.979mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2058.901mil|Location2.X=2066.567mil|Location1.Y=1171.402mil|Location2.Y=1179.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2058.901mil|Location2.X=2066.567mil|Location1.Y=1171.402mil|Location2.Y=1179.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (973.738mil,171.339mil)(973.738mil,191.339mil) on Bottom Overlay And Pad P2-(1009.606mil,183.031mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2058.901mil|Location2.X=2066.567mil|Location1.Y=1191.402mil|Location2.Y=1199.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2058.901mil|Location2.X=2066.567mil|Location1.Y=1191.402mil|Location2.Y=1199.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (938.738mil,191.339mil)(973.738mil,191.339mil) on Bottom Overlay And Pad P2-(1009.606mil,183.031mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1191.402mil|Location2.Y=1199.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1191.402mil|Location2.Y=1199.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (1043.738mil,171.339mil)(1043.738mil,191.339mil) on Bottom Overlay And Pad P2-(1009.606mil,183.031mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1171.402mil|Location2.Y=1179.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1171.402mil|Location2.Y=1179.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (973.738mil,171.339mil)(1043.738mil,171.339mil) on Bottom Overlay And Pad P2-(1009.606mil,183.031mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1191.402mil|Location2.Y=1199.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2123.901mil|Location2.X=2131.567mil|Location1.Y=1191.402mil|Location2.Y=1199.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Track (1043.738mil,191.339mil)(1078.738mil,191.339mil) on Bottom Overlay And Pad P2-(1009.606mil,183.031mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDIYEN1IELELXZMHB3SGQ1JNVJQGXTLPPOT1CUUBPOIKBAYMAVA2RC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2046.689mil|Location2.X=2057.939mil|Location1.Y=1774.803mil|Location2.Y=1786.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2046.689mil|Location2.X=2057.939mil|Location1.Y=1774.803mil|Location2.Y=1786.053mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (4.146mil &lt; 10mil) Between Pad P2-(1009.606mil,797.205mil) on Bottom Layer And Pad P2-(950.55mil,767.677mil) on Multi-Layer [Bottom Solder] Mask Sliver [4.146mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2046.689mil|Location2.X=2057.939mil|Location1.Y=1201.975mil|Location2.Y=1213.225mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2046.689mil|Location2.X=2057.939mil|Location1.Y=1201.975mil|Location2.Y=1213.225mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (4.146mil &lt; 10mil) Between Pad P2-(1009.606mil,183.031mil) on Bottom Layer And Pad P2-(950.55mil,212.559mil) on Multi-Layer [Bottom Solder] Mask Sliver [4.146mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1377.474mil|Location2.X=1388.724mil|Location1.Y=1774.804mil|Location2.Y=1786.054mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1377.474mil|Location2.X=1388.724mil|Location1.Y=1774.804mil|Location2.Y=1786.054mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (4.145mil &lt; 10mil) Between Pad P1-(257.815mil,797.205mil) on Top Layer And Pad P1-(316.87mil,767.678mil) on Multi-Layer [Top Solder] Mask Sliver [4.145mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1377.474mil|Location2.X=1388.724mil|Location1.Y=1201.976mil|Location2.Y=1213.226mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1377.474mil|Location2.X=1388.724mil|Location1.Y=1201.976mil|Location2.Y=1213.226mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (4.145mil &lt; 10mil) Between Pad P1-(257.815mil,183.032mil) on Top Layer And Pad P1-(316.87mil,212.56mil) on Multi-Layer [Top Solder] Mask Sliver [4.145mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDKWPXMX00G2XKETZ0RV4WG5BQGPM4PNMCTLUXIHKQXYHHSAPPXQW"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2175.741mil|Location2.X=2283.291mil|Location1.Y=1038.901mil|Location2.Y=1146.451mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2175.741mil|Location2.X=2283.291mil|Location1.Y=1038.901mil|Location2.Y=1146.451mil|Absolute=True">Hole Size Constraint: (106.299mil &gt; 100mil) Pad Free-4(1145.52mil,88.78mil) on Multi-Layer Actual Hole Size = 106.299mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2175.741mil|Location2.X=2283.291mil|Location1.Y=1826.301mil|Location2.Y=1933.851mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2175.741mil|Location2.X=2283.291mil|Location1.Y=1826.301mil|Location2.Y=1933.851mil|Absolute=True">Hole Size Constraint: (106.299mil &gt; 100mil) Pad Free-3(1145.52mil,876.18mil) on Multi-Layer Actual Hole Size = 106.299mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1152.121mil|Location2.X=1259.671mil|Location1.Y=1826.301mil|Location2.Y=1933.851mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1152.121mil|Location2.X=1259.671mil|Location1.Y=1826.301mil|Location2.Y=1933.851mil|Absolute=True">Hole Size Constraint: (106.299mil &gt; 100mil) Pad Free-2(121.9mil,876.18mil) on Multi-Layer Actual Hole Size = 106.299mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1152.121mil|Location2.X=1259.671mil|Location1.Y=1038.901mil|Location2.Y=1146.451mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1152.121mil|Location2.X=1259.671mil|Location1.Y=1038.901mil|Location2.Y=1146.451mil|Absolute=True">Hole Size Constraint: (106.299mil &gt; 100mil) Pad Free-1(121.9mil,88.78mil) on Multi-Layer Actual Hole Size = 106.299mil</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID4C2WZXWKKQSS5TVW4UD1X5XMPI1V53XN3YGJRLXR5M3QDCJUQTE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1380.462mil|Location2.X=1393.712mil|Location1.Y=1575.973mil|Location2.Y=1589.223mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1380.462mil|Location2.X=1393.712mil|Location1.Y=1575.973mil|Location2.Y=1589.223mil|Absolute=True">Clearance Constraint: (7.874mil &lt; 12mil) Between Pad P1-9(328.681mil,568.859mil) on Top Layer And Pad P1-8(328.681mil,588.544mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1380.462mil|Location2.X=1393.712mil|Location1.Y=1536.603mil|Location2.Y=1549.853mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1380.462mil|Location2.X=1393.712mil|Location1.Y=1536.603mil|Location2.Y=1549.853mil|Absolute=True">Clearance Constraint: (7.874mil &lt; 12mil) Between Pad P1-11(328.681mil,529.489mil) on Top Layer And Pad P1-10(328.681mil,549.174mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1380.462mil|Location2.X=1393.712mil|Location1.Y=1300.383mil|Location2.Y=1313.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1380.462mil|Location2.X=1393.712mil|Location1.Y=1300.383mil|Location2.Y=1313.633mil|Absolute=True">Clearance Constraint: (7.874mil &lt; 12mil) Between Pad P1-23(328.681mil,293.269mil) on Top Layer And Pad P1-22(328.681mil,312.954mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1238.729mil|Location2.X=1251.979mil|Location1.Y=1300.383mil|Location2.Y=1313.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1238.729mil|Location2.X=1251.979mil|Location1.Y=1300.383mil|Location2.Y=1313.633mil|Absolute=True">Clearance Constraint: (7.874mil &lt; 12mil) Between Pad P1-29(186.949mil,312.954mil) on Top Layer And Pad P1-28(186.949mil,293.269mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1238.729mil|Location2.X=1251.979mil|Location1.Y=1635.028mil|Location2.Y=1648.278mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1238.729mil|Location2.X=1251.979mil|Location1.Y=1635.028mil|Location2.Y=1648.278mil|Absolute=True">Clearance Constraint: (7.874mil &lt; 12mil) Between Pad P1-46(186.949mil,647.599mil) on Top Layer And Pad P1-45(186.949mil,627.914mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1238.729mil|Location2.X=1251.979mil|Location1.Y=1674.398mil|Location2.Y=1687.648mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1238.729mil|Location2.X=1251.979mil|Location1.Y=1674.398mil|Location2.Y=1687.648mil|Absolute=True">Clearance Constraint: (7.874mil &lt; 12mil) Between Pad P1-48(186.949mil,686.969mil) on Top Layer And Pad P1-47(186.949mil,667.284mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1990.518mil|Location2.X=2003.768mil|Location1.Y=1575.972mil|Location2.Y=1589.222mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1990.518mil|Location2.X=2003.768mil|Location1.Y=1575.972mil|Location2.Y=1589.222mil|Absolute=True">Clearance Constraint: (7.873mil &lt; 12mil) Between Pad P2-9(938.738mil,568.859mil) on Bottom Layer And Pad P2-8(938.738mil,588.543mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1990.518mil|Location2.X=2003.768mil|Location1.Y=1536.602mil|Location2.Y=1549.852mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1990.518mil|Location2.X=2003.768mil|Location1.Y=1536.602mil|Location2.Y=1549.852mil|Absolute=True">Clearance Constraint: (7.873mil &lt; 12mil) Between Pad P2-11(938.738mil,529.489mil) on Bottom Layer And Pad P2-10(938.738mil,549.173mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1990.518mil|Location2.X=2003.768mil|Location1.Y=1300.382mil|Location2.Y=1313.632mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1990.518mil|Location2.X=2003.768mil|Location1.Y=1300.382mil|Location2.Y=1313.632mil|Absolute=True">Clearance Constraint: (7.873mil &lt; 12mil) Between Pad P2-23(938.738mil,293.269mil) on Bottom Layer And Pad P2-22(938.738mil,312.953mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2132.252mil|Location2.X=2145.502mil|Location1.Y=1300.382mil|Location2.Y=1313.632mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2132.252mil|Location2.X=2145.502mil|Location1.Y=1300.382mil|Location2.Y=1313.632mil|Absolute=True">Clearance Constraint: (7.873mil &lt; 12mil) Between Pad P2-29(1080.472mil,312.953mil) on Bottom Layer And Pad P2-28(1080.472mil,293.269mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2132.252mil|Location2.X=2145.502mil|Location1.Y=1635.027mil|Location2.Y=1648.277mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2132.252mil|Location2.X=2145.502mil|Location1.Y=1635.027mil|Location2.Y=1648.277mil|Absolute=True">Clearance Constraint: (7.875mil &lt; 12mil) Between Pad P2-46(1080.472mil,647.599mil) on Bottom Layer And Pad P2-45(1080.472mil,627.913mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2132.252mil|Location2.X=2145.502mil|Location1.Y=1674.397mil|Location2.Y=1687.647mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2132.252mil|Location2.X=2145.502mil|Location1.Y=1674.397mil|Location2.Y=1687.647mil|Absolute=True">Clearance Constraint: (7.875mil &lt; 12mil) Between Pad P2-48(1080.472mil,686.969mil) on Bottom Layer And Pad P2-47(1080.472mil,667.283mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZBM44IUVAU30GMBC1CRBD214GH0TMDGRNBB5EROI4RDJVKQNUKRO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2128.972mil|Location2.X=2199.964mil|Location1.Y=1641.59mil|Location2.Y=1681.084mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2128.972mil|Location2.X=2199.964mil|Location1.Y=1641.59mil|Location2.Y=1681.084mil|Absolute=True">Un-Routed Net Constraint: Net UART3_TX Between Pad P2-46(1080.472mil,647.599mil) on Bottom Layer And Pad P2-47(1080.472mil,667.283mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1377.181mil|Location2.X=1448.173mil|Location1.Y=1543.165mil|Location2.Y=1582.661mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Amanda\Documents\Local Midsun Hardware Repo\trunk\MotorControllerBoard\MotorControllerBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1377.181mil|Location2.X=1448.173mil|Location1.Y=1543.165mil|Location2.Y=1582.661mil|Absolute=True">Un-Routed Net Constraint: Net UART1_RX Between Pad P1-10(328.681mil,549.174mil) on Top Layer And Pad P1-9(328.681mil,568.859mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
