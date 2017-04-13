@@ -106,8 +106,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TXDNAKFW
 
+[Document5]
+DocumentPath=Controller-Board-Rev3-Panelized.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AMEWDBXK
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Controller-Board\Design Rule Check - Controller-Board-Rev2.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Controller-Board\Design Rule Check - Controller-Board-Rev3.html
 DItemRevisionGUID=
 
 [Configuration1]
