@@ -56,23 +56,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CPVAWKNL
 
 [Document2]
-DocumentPath=MSXII-Controller-Breakout.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EGIQNEXT
 
-[Document4]
+[Document3]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXDWPGKY
 
-[Document5]
+[Document4]
 DocumentPath=..\MSXII_Project_Template\Carrier_Board_Template\Controller_Board_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CUVCIDOY
 
-[Document6]
+[Document5]
 DocumentPath=..\MSXII_Project_Template\Carrier_Board_Template\Controller_Board_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,7 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=MSXII_Controller_Breakout.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -157,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YKABQEAE
 
-[Document8]
+[Document7]
 DocumentPath=MSXII_Controller_Breakout.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
