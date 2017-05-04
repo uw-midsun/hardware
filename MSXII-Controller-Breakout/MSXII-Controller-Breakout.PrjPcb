@@ -138,9 +138,26 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YKABQEAE
+DocumentUniqueId=GUNVQGLO
 
 [Document7]
+DocumentPath=5x5_ControllerBreakout.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YKABQEAE
+
+[Document8]
 DocumentPath=MSXII_Controller_Breakout.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -157,7 +174,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=Controller_Board+Breakout_Panel.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +202,7 @@ Variation2=Designator=P4|UniqueId=\EGRQBTIC|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MSXII-Controller-Breakout\Design Rule Check - MSXII_Controller_Breakout.html
+DocumentPath=Project Outputs for MSXII-Controller-Breakout\Design Rule Check - 5x5_ControllerBreakout.html
 DItemRevisionGUID=
 
 [Configuration1]
