@@ -44,7 +44,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -104,6 +104,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SNCYRXNG
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXII_SWD_Adapter\Design Rule Check - SWD_Adapter_PCB.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
