@@ -29,4 +29,4 @@ read_schlib() {
   rm -rf "schlib-${branch}"
 }
 
-diff -y <(read_schlib "${1}") <(read_schlib "${2}")
+diff --suppress-common-lines -y <(read_schlib "${1}") <(read_schlib "${2}")
