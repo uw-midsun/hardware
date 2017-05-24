@@ -11,22 +11,29 @@
 pip3 install olefile > /dev/null
 
 read_schlib() {
-  branch=${1}
-  mkdir "schlib-${branch}"
-  cd "schlib-${branch}"
-
+  branch=
   filename="Schematic Diagrams.SchLib"
 
-  url_arg=$(git rev-parse --verify "${branch}^{commit}")
+  commit_hash=$(git rev-parse --verify "${1}^{commit}")
   if [ $? -ne 0 ]; then
-    url_arg=${branch}
+    exit 1
   fi
 
-  wget -q "https://raw.githubusercontent.com/uw-midsun/hardware/${url_arg}/altium-lib/${filename}"
-  python3 -c "import olefile; [print(x[0]) for x in olefile.OleFileIO('${filename}').listdir(streams=False, storages=True)]"
+  wget -q "https://raw.githubusercontent.com/uw-midsun/hardware/${commit_hash}/altium-lib/${filename}" -O "${commit_hash}.SchLib"
+  python3 -c "import olefile; [print(x[0]) for x in olefile.OleFileIO('${commit_hash}.SchLib').listdir(streams=False, storages=True)]" | sort
 
-  cd ..
-  rm -rf "schlib-${branch}"
+  rm -f "${commit_hash}.SchLib"
 }
 
-diff --suppress-common-lines -y <(read_schlib "${1}") <(read_schlib "${2}")
+YELLOW=$(tput bold && tput setaf 3)
+GREEN=$(tput bold && tput setaf 2)
+RED=$(tput bold && tput setaf 1)
+CLEAR=$(tput sgr0)
+
+NEW='\+'
+DEL='\-'
+
+lib_diff="${1}! !${2}\n"
+lib_diff+=$(comm -3 --output-delimiter='!' <(read_schlib "${1}" | sort) <(read_schlib "${2}" | sort) | sed "s/!/ !${DEL}!/g" | sed -E "s/^([^ ].*)$/\1!${NEW}!/")
+
+echo -e "${lib_diff}" | column -s '!' -t | sed -E "s/^${1}([[:space:]]+)${2}$/${YELLOW}${1}\1${2}${CLEAR}/" | sed -E "s/${DEL}/${RED}${DEL}${CLEAR}/" | sed -E "s/${NEW}/${GREEN}${NEW}${CLEAR}/"
