@@ -34,6 +34,6 @@ NEW='\+'
 DEL='\-'
 
 lib_diff="${1}! !${2}\n"
-lib_diff+=$(comm -3 --output-delimiter='!' <(read_schlib "${1}" | sort) <(read_schlib "${2}" | sort) | sed "s/!/ !${NEW}!/g" | sed -E "s/^([^ ].*)$/\1!${DEL}!/")
+lib_diff+=$(comm -3 --output-delimiter='!' <(read_schlib "${1}" | sort) <(read_schlib "${2}" | sort) | sed -r "s/!/ !${NEW}!/; s/^([^ ].*)$/\1!${DEL}!/")
 
-echo -e "${lib_diff}" | column -s '!' -t | sed -E "s/^${1}([[:space:]]+)${2}$/${YELLOW}${1}\1${2}${CLEAR}/" | sed -E "s/ ${DEL}/ ${RED}${DEL}${CLEAR}/" | sed -E "s/ ${NEW}/ ${GREEN}${NEW}${CLEAR}/"
+echo -e "${lib_diff}" | column -s '!' -t | sed -r "s/^${1}([[:space:]]+)${2}$/${YELLOW}${1}\1${2}${CLEAR}/; s/ ${DEL}/ ${RED}${DEL}${CLEAR}/; s/ ${NEW}/ ${GREEN}${NEW}${CLEAR}/"
