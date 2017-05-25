@@ -11,12 +11,15 @@
 pip3 install olefile > /dev/null
 
 read_schlib() {
-  branch=
   filename="Schematic Diagrams.SchLib"
 
   commit_hash=$(git rev-parse --verify "${1}^{commit}")
   if [ $? -ne 0 ]; then
     exit 1
+  fi
+  if [ $(git branch --list "${1}") ]; then
+    # Always try to get latest version of branch
+    commit_hash="${1}"
   fi
 
   wget -q "https://raw.githubusercontent.com/uw-midsun/hardware/${commit_hash}/altium-lib/${filename}" -O "${commit_hash}.SchLib"
