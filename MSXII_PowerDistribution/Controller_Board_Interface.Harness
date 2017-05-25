@@ -1,4 +1,5 @@
 Front&Roof_Interface=PB15,PB14,PB13,PB12,PB11,PB10,PB2,PB1
-MiscBoards_Interface=PB0,PA7,PA6,PA5,PA4
-PowerPath_Interface=PA10/\V\A\L\I\D\1,PA9/\V\A\L\I\D\2,PA8/\S\H\D\N
-Sense_Interface=PA3/ADCIN_3,PA2/ADCIN_2,PA1/ADCIN_1,PA0/ADCIN_0
+MiscBoards_Interface=PB0,PA7,PA6,PB4,PB3
+PowerPath_Interface=PA10/V\A\L\I\D\1\,PA9/V\A\L\I\D\2\,PA8/S\H\D\N\
+Temp_Sense_Interface=PA5/ADC_IN5,PA4/ADCIN_4
+Voltage/Current_Sense=PA3/ADCIN_3,PA2/ADCIN_2,PA1/ADCIN_1,PA0/ADCIN_0

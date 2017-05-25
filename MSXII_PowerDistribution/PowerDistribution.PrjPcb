@@ -39,23 +39,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Block Diagram.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SORACYQM
-
-[Document2]
 DocumentPath=Controller_Board_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -63,7 +46,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -72,7 +55,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CUVCIDOY
 
-[Document3]
+[Document2]
 DocumentPath=PowerPath.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -80,7 +63,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=2
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -89,8 +72,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JACOSRGI
 
-[Document4]
-DocumentPath=Sensing.SchDoc
+[Document3]
+DocumentPath=Voltage&Current_Sense.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -98,6 +81,23 @@ AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=3
 DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TQWYCWSY
+
+[Document4]
+DocumentPath=Temp_Sense.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -147,7 +147,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -164,8 +164,8 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
+AnnotateOrder=6
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -175,40 +175,6 @@ GenerateClassCluster=0
 DocumentUniqueId=LNBFDACQ
 
 [Document9]
-DocumentPath=MiscBoard_Switching.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
-DocumentPath=Front&Roof_Enclosure.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document11]
 DocumentPath=Controller_Board_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -225,41 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=PowerPath.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
-DocumentPath=Sensing.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document14]
+[Document10]
 DocumentPath=Carrier_Board_Template.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -276,25 +208,110 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
-[Parameter1]
-Name=Checked
-Value=N
+[Document11]
+DocumentPath=PowerPath.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[Parameter2]
+[Document12]
+DocumentPath=Voltage&Current_Sense.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=Temp_Sense.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=Front&Roof_Enclosure.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=MiscBoard_Switching.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Parameter1]
 Name=Author
 Value=Taiping Li
 
+[Parameter2]
+Name=Checked
+Value=N
+
 [Parameter3]
-Name=SheetTotal
-Value=6
+Name=Project
+Value=Power Distribution
 
 [Parameter4]
 Name=Revision
 Value=1.2
 
 [Parameter5]
-Name=Project
-Value=Power Distribution
+Name=SheetTotal
+Value=6
 
 [Configuration1]
 Name=Default Configuration
@@ -308,7 +325,7 @@ OutputJobsCount=0
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -429,7 +446,7 @@ OutputDefault23=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -558,17 +575,11 @@ OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
 PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=Logic Analyser Print
-OutputName20=Logic Analyser Prints
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -590,7 +601,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -662,7 +673,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -701,7 +712,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -881,7 +892,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -920,7 +931,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1216,6 +1227,10 @@ MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
 MatchStrictly2=1
+MatchParameter3=Manufacturer Part Number
+MatchStrictly3=1
+MatchParameter4=Manufacturer Part Number 1
+MatchStrictly4=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
@@ -1247,160 +1262,172 @@ ComponentUpdate1=0
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Schematic Diagrams.SchLib
-ComponentDesignItemID2=CAP CER 22UF 16V ±20% X5R 1210
-ComponentSymbolReference2=CAP CER 22UF 16V ±20% X5R 1210
-ComponentUpdate2=0
+ComponentDesignItemID2=CAP CER 10nF 50V 5% X7R 0603
+ComponentSymbolReference2=CAP CER 10nF 50V 5% X7R 0603
+ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Schematic Diagrams.SchLib
-ComponentDesignItemID3=CONN 2POS DURA-CLIK 0.079"
-ComponentSymbolReference3=CONN 2POS DURA-CLIK 0.079"
+ComponentDesignItemID3=CAP CER 22UF 16V ±20% X5R 1210
+ComponentSymbolReference3=CAP CER 22UF 16V ±20% X5R 1210
 ComponentUpdate3=0
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=Schematic Diagrams.SchLib
-ComponentDesignItemID4=CONN 2POS ULTRA-FIT 0.138"
-ComponentSymbolReference4=CONN 2POS ULTRA-FIT 0.138"
+ComponentDesignItemID4=CONN 2POS DURA-CLIK 0.079"
+ComponentSymbolReference4=CONN 2POS DURA-CLIK 0.079"
 ComponentUpdate4=0
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=Schematic Diagrams.SchLib
-ComponentDesignItemID5=CONN 2POS ULTRA-FIT NATURAL COLOR 0.138"
-ComponentSymbolReference5=CONN 2POS ULTRA-FIT NATURAL COLOR 0.138"
+ComponentDesignItemID5=CONN 2POS JUMPER 0.1"
+ComponentSymbolReference5=CONN 2POS JUMPER 0.1"
 ComponentUpdate5=0
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=Schematic Diagrams.SchLib
-ComponentDesignItemID6=CONN 50POS Bergstak Plug 0.02"
-ComponentSymbolReference6=CONN 50POS Bergstak Plug 0.02"
+ComponentDesignItemID6=CONN 2POS ULTRA-FIT 0.138"
+ComponentSymbolReference6=CONN 2POS ULTRA-FIT 0.138"
 ComponentUpdate6=0
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=Schematic Diagrams.SchLib
-ComponentDesignItemID7=CONN 6POS ULTRA-FIT 0.138"
-ComponentSymbolReference7=CONN 6POS ULTRA-FIT 0.138"
+ComponentDesignItemID7=CONN 2POS ULTRA-FIT NATURAL COLOR 0.138"
+ComponentSymbolReference7=CONN 2POS ULTRA-FIT NATURAL COLOR 0.138"
 ComponentUpdate7=0
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=Schematic Diagrams.SchLib
-ComponentDesignItemID8=DIODE TVS 15VWM 24.4VC DO-214AA (SMB)
-ComponentSymbolReference8=DIODE TVS 15VWM 24.4VC DO-214AA (SMB)
+ComponentDesignItemID8=CONN 50POS Bergstak Plug 0.02"
+ComponentSymbolReference8=CONN 50POS Bergstak Plug 0.02"
 ComponentUpdate8=0
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=Schematic Diagrams.SchLib
-ComponentDesignItemID9=FUSE ATO FUSE HOLDER
-ComponentSymbolReference9=FUSE ATO FUSE HOLDER
+ComponentDesignItemID9=CONN 6POS ULTRA-FIT 0.138"
+ComponentSymbolReference9=CONN 6POS ULTRA-FIT 0.138"
 ComponentUpdate9=0
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Schematic Diagrams.SchLib
-ComponentDesignItemID10=IC CURRENT AMPLIFIER SC70-6
-ComponentSymbolReference10=IC CURRENT AMPLIFIER SC70-6
+ComponentDesignItemID10=DIODE TVS 15VWM 24.4VC DO-214AA (SMB)
+ComponentSymbolReference10=DIODE TVS 15VWM 24.4VC DO-214AA (SMB)
 ComponentUpdate10=0
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=Schematic Diagrams.SchLib
-ComponentDesignItemID11=IC OP AMP GEN PURPOSE RR 10MHZ SOT-23-5
-ComponentSymbolReference11=IC OP AMP GEN PURPOSE RR 10MHZ SOT-23-5
-ComponentUpdate11=1
+ComponentDesignItemID11=FUSE ATO FUSE HOLDER
+ComponentSymbolReference11=FUSE ATO FUSE HOLDER
+ComponentUpdate11=0
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
 ComponentLibraryIdentifier12=Schematic Diagrams.SchLib
-ComponentDesignItemID12=IC OR CONTROLLER SOURCE SELECT 24SSOP
-ComponentSymbolReference12=IC OR CONTROLLER SOURCE SELECT 24SSOP
+ComponentDesignItemID12=IC CURRENT AMPLIFIER SC70-6
+ComponentSymbolReference12=IC CURRENT AMPLIFIER SC70-6
 ComponentUpdate12=0
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
 ComponentLibraryIdentifier13=Schematic Diagrams.SchLib
-ComponentDesignItemID13=LED GREEN CLEAR 2V 0603
-ComponentSymbolReference13=LED GREEN CLEAR 2V 0603
-ComponentUpdate13=0
+ComponentDesignItemID13=IC OP AMP GEN PURPOSE RR 10MHZ SOT-23-5
+ComponentSymbolReference13=IC OP AMP GEN PURPOSE RR 10MHZ SOT-23-5
+ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=Schematic Diagrams.SchLib
-ComponentDesignItemID14=LED YELLOW CLEAR 2.1V 0603
-ComponentSymbolReference14=LED YELLOW CLEAR 2.1V 0603
+ComponentDesignItemID14=IC OR CONTROLLER SOURCE SELECT 24SSOP
+ComponentSymbolReference14=IC OR CONTROLLER SOURCE SELECT 24SSOP
 ComponentUpdate14=0
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=Schematic Diagrams.SchLib
-ComponentDesignItemID15=MOSFET DUAL P-CH 40V 8A 3.2W 8-SOIC
-ComponentSymbolReference15=MOSFET DUAL P-CH 40V 8A 3.2W 8-SOIC
+ComponentDesignItemID15=LED GREEN CLEAR 2V 0603
+ComponentSymbolReference15=LED GREEN CLEAR 2V 0603
 ComponentUpdate15=0
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
 ComponentLibraryIdentifier16=Schematic Diagrams.SchLib
-ComponentDesignItemID16=MOSFET N-CH 30V 8.7A 2.1W 6-PQFN (2x2)
-ComponentSymbolReference16=MOSFET N-CH 30V 8.7A 2.1W 6-PQFN (2x2)
-ComponentUpdate16=0
+ComponentDesignItemID16=LED YELLOW CLEAR 2.1V 0603
+ComponentSymbolReference16=LED YELLOW CLEAR 2.1V 0603
+ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
 ComponentLibraryIdentifier17=Schematic Diagrams.SchLib
-ComponentDesignItemID17=RES 0.0 OHM 1/4W 0603
-ComponentSymbolReference17=RES 0.0 OHM 1/4W 0603
-ComponentUpdate17=1
+ComponentDesignItemID17=MOSFET DUAL P-CH 40V 8A 3.2W 8-SOIC
+ComponentSymbolReference17=MOSFET DUAL P-CH 40V 8A 3.2W 8-SOIC
+ComponentUpdate17=0
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
 ComponentLibraryIdentifier18=Schematic Diagrams.SchLib
-ComponentDesignItemID18=RES 0.003 OHM 1% 1.5W 2010
-ComponentSymbolReference18=RES 0.003 OHM 1% 1.5W 2010
+ComponentDesignItemID18=MOSFET N-CH 30V 8.7A 2.1W 6-PQFN (2x2)
+ComponentSymbolReference18=MOSFET N-CH 30V 8.7A 2.1W 6-PQFN (2x2)
 ComponentUpdate18=0
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
 ComponentLibraryIdentifier19=Schematic Diagrams.SchLib
-ComponentDesignItemID19=RES 10K OHM 1% 1/10W 0603
-ComponentSymbolReference19=RES 10K OHM 1% 1/10W 0603
-ComponentUpdate19=0
+ComponentDesignItemID19=RES 0.0 OHM 1/4W 0603
+ComponentSymbolReference19=RES 0.0 OHM 1/4W 0603
+ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
 ComponentLibraryIdentifier20=Schematic Diagrams.SchLib
-ComponentDesignItemID20=RES 140K OHM 1% 1/10W 0603
-ComponentSymbolReference20=RES 140K OHM 1% 1/10W 0603
+ComponentDesignItemID20=RES 0.003 OHM 1% 1.5W 2010
+ComponentSymbolReference20=RES 0.003 OHM 1% 1.5W 2010
 ComponentUpdate20=0
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
 ComponentLibraryIdentifier21=Schematic Diagrams.SchLib
-ComponentDesignItemID21=RES 1M OHM 1% 1/10W 0603
-ComponentSymbolReference21=RES 1M OHM 1% 1/10W 0603
+ComponentDesignItemID21=RES 10K OHM 1% 1/10W 0603
+ComponentSymbolReference21=RES 10K OHM 1% 1/10W 0603
 ComponentUpdate21=0
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
 ComponentLibraryIdentifier22=Schematic Diagrams.SchLib
-ComponentDesignItemID22=RES 255K OHM 1% 1/10W 0603
-ComponentSymbolReference22=RES 255K OHM 1% 1/10W 0603
+ComponentDesignItemID22=RES 140K OHM 1% 1/10W 0603
+ComponentSymbolReference22=RES 140K OHM 1% 1/10W 0603
 ComponentUpdate22=0
 ComponentIsDeviceSheet22=0
 ComponentLibIdentifierKind23=Library Name And Type
 ComponentLibraryIdentifier23=Schematic Diagrams.SchLib
-ComponentDesignItemID23=RES 29.4K OHM 1% 1/10W 0603
-ComponentSymbolReference23=RES 29.4K OHM 1% 1/10W 0603
+ComponentDesignItemID23=RES 1M OHM 1% 1/10W 0603
+ComponentSymbolReference23=RES 1M OHM 1% 1/10W 0603
 ComponentUpdate23=0
 ComponentIsDeviceSheet23=0
 ComponentLibIdentifierKind24=Library Name And Type
 ComponentLibraryIdentifier24=Schematic Diagrams.SchLib
-ComponentDesignItemID24=RES 4.7K OHM 1% 1/10W 0603
-ComponentSymbolReference24=RES 4.7K OHM 1% 1/10W 0603
+ComponentDesignItemID24=RES 255K OHM 1% 1/10W 0603
+ComponentSymbolReference24=RES 255K OHM 1% 1/10W 0603
 ComponentUpdate24=0
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
 ComponentLibraryIdentifier25=Schematic Diagrams.SchLib
-ComponentDesignItemID25=RES 470K OHM 1% 1/4W 0603
-ComponentSymbolReference25=RES 470K OHM 1% 1/4W 0603
+ComponentDesignItemID25=RES 29.4K OHM 1% 1/10W 0603
+ComponentSymbolReference25=RES 29.4K OHM 1% 1/10W 0603
 ComponentUpdate25=0
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
 ComponentLibraryIdentifier26=Schematic Diagrams.SchLib
-ComponentDesignItemID26=RES 53.6K OHM 1% 1/10W 0603
-ComponentSymbolReference26=RES 53.6K OHM 1% 1/10W 0603
+ComponentDesignItemID26=RES 4.7K OHM 1% 1/10W 0603
+ComponentSymbolReference26=RES 4.7K OHM 1% 1/10W 0603
 ComponentUpdate26=0
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
 ComponentLibraryIdentifier27=Schematic Diagrams.SchLib
-ComponentDesignItemID27=RES 80.6K OHM 1% 1/10W 0603
-ComponentSymbolReference27=RES 80.6K OHM 1% 1/10W 0603
+ComponentDesignItemID27=RES 470K OHM 1% 1/4W 0603
+ComponentSymbolReference27=RES 470K OHM 1% 1/4W 0603
 ComponentUpdate27=0
 ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=Schematic Diagrams.SchLib
+ComponentDesignItemID28=RES 53.6K OHM 1% 1/10W 0603
+ComponentSymbolReference28=RES 53.6K OHM 1% 1/10W 0603
+ComponentUpdate28=0
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=Schematic Diagrams.SchLib
+ComponentDesignItemID29=RES 80.6K OHM 1% 1/10W 0603
+ComponentSymbolReference29=RES 80.6K OHM 1% 1/10W 0603
+ComponentUpdate29=0
+ComponentIsDeviceSheet29=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1688,44 +1715,53 @@ ModelType2=PCBLIB
 ModelName2=CAP, 1210
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=CONN, 2POS Dura-Click
+ModelName3=CONN 2POS JUMPER 0.1"
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=CONN, 2POS ULTRA-FIT
+ModelName4=CONN, 2POS Dura-Click
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=CONN, 2POS ULTRA-FIT - NATURAL COLOR
+ModelName5=CONN, 2POS ULTRA-FIT
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=CONN, 6POS ULTRA-FIT
+ModelName6=CONN, 2POS ULTRA-FIT - NATURAL COLOR
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=CONN, Bergstak 50 Pos Plug
+ModelName7=CONN, 6POS ULTRA-FIT
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=DO-214AA Diode
+ModelName8=CONN, Bergstak 50 Pos Plug
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=FUSE ATO/ATC FUSE HOLDER
+ModelName9=DO-214AA Diode
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=IC OP AMP CURR SENSE 80KHZ SC70-6
+ModelName10=FUSE ATO/ATC FUSE HOLDER
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=IC OR CTRLR SRC SELECT 24SSOP
+ModelName11=IC OP AMP CURR SENSE 80KHZ SC70-6
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=LED_0603
+ModelName12=IC OP AMP GP RR 10MHZ SOT-23-5
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=MOSFET N-CH 30V 12A 2mmx2mm PQFN
+ModelName13=IC OR CTRLR SRC SELECT 24SSOP
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=RES, 0603
+ModelName14=LED_0603
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=SOIC8
+ModelName15=MOSFET N-CH 30V 12A 2mmx2mm PQFN
 ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=RES 2010
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=RES, 0603
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=SOIC8
+ModelUpdate18=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
