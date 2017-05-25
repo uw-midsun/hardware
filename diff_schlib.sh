@@ -13,19 +13,18 @@ pip3 install olefile > /dev/null
 read_schlib() {
   filename="Schematic Diagrams.SchLib"
 
-  commit_hash=$(git rev-parse --verify "${1}^{commit}")
-  if [ $? -ne 0 ]; then
-    exit 1
-  fi
-  if [ $(git branch --list "${1}") ]; then
-    # Always try to get latest version of branch
-    commit_hash="${1}"
+  arg=$(git ls-remote --heads https://github.com/uw-midsun/hardware.git | grep -om1 "${1}.*")
+  if [ -z "${arg}" ]; then
+    arg=$(git rev-parse --verify "${1}^{commit}")
+    if [ $? -ne 0 ]; then
+      exit 1
+    fi
   fi
 
-  wget -q "https://raw.githubusercontent.com/uw-midsun/hardware/${commit_hash}/altium-lib/${filename}" -O "${commit_hash}.SchLib"
-  python3 -c "import olefile; [print(x[0]) for x in olefile.OleFileIO('${commit_hash}.SchLib').listdir(streams=False, storages=True)]" | sort
+  wget -q "https://raw.githubusercontent.com/uw-midsun/hardware/${arg}/altium-lib/${filename}" -O "${arg}.SchLib"
+  python3 -c "import olefile; [print(x[0]) for x in olefile.OleFileIO('${arg}.SchLib').listdir(streams=False, storages=True)]" | sort
 
-  rm -f "${commit_hash}.SchLib"
+  rm -f "${arg}.SchLib"
 }
 
 YELLOW=$(tput bold && tput setaf 3)
