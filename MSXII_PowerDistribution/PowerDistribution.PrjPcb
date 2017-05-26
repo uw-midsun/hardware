@@ -294,24 +294,24 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=Author
-Value=Taiping Li
+Name=SheetTotal
+Value=6
 
 [Parameter2]
-Name=Checked
-Value=N
+Name=Revision
+Value=1.2
 
 [Parameter3]
 Name=Project
 Value=Power Distribution
 
 [Parameter4]
-Name=Revision
-Value=1.2
+Name=Checked
+Value=N
 
 [Parameter5]
-Name=SheetTotal
-Value=6
+Name=Author
+Value=Taiping Li
 
 [Configuration1]
 Name=Default Configuration
@@ -1147,7 +1147,7 @@ Type55=1
 Type56=2
 Type57=1
 Type58=1
-Type59=2
+Type59=1
 Type60=1
 Type61=2
 Type62=2
@@ -1221,8 +1221,8 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=1
-SortLocation=0
+SortOrder=3
+SortLocation=1
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
