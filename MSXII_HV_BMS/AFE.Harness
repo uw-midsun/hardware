@@ -1,0 +1,4 @@
+Balancing_Interface=S12,S11,S10,S9,S8,S7,S6,S5,S4,S3,S2,S1
+Cell_Interface=C12,C11,C10,C9,C8,C7,C6,C5,C4,C3,C2,C1,C0
+isoSPI_Interface=IB_P,IB_N,IA_P,IA_N
+T_SENSE_Interface=AUX_ADC_IN_B,T_SEL0,T_SEL1,T_SEL2,T_SEL3
