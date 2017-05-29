@@ -116,8 +116,8 @@ OutputMedium4_Type=Multimedia
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
-OutputDocumentPath1=
-OutputVariantName1=
+OutputDocumentPath1=[Project Physical Documents]
+OutputVariantName1=[No Variations]
 OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
@@ -142,5 +142,5 @@ PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration2_Name1=ColumnNameFormat
 Configuration2_Item1=CaptionAsName
 Configuration2_Name2=General
-Configuration2_Item2=TemplateFilename=BOM Supplier Links.XLT
+Configuration2_Item2=TemplateFilename=..\..\..\..\Desktop\test.xlsx
 
