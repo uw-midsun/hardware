@@ -1,1 +1,2 @@
 isoSPI_Interface=IB_P,IB_N,IA_P,IA_N
+SPI_Interface=A_SDO,A_SDI,A_SCK,A_CSB
