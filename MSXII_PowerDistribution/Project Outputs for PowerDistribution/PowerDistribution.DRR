@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PowerDistribution.PcbDoc   6/9/2017  12:12:59 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Component Side to Solder Side
+ASCII RoundHoles File : PowerDistribution.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T2      16mil (0.406mm)                                           Round             151       PTH        31.37inch (796.92mm)
+T3      24mil (0.6mm)           +/-8mil (0.2mm)                   Round             2         PTH        0.14inch (3.50mm)
+T4      28mil (0.7mm)           +2mil (0.05mm)/-0mil (0mm)        Round             2         PTH        0.56inch (14.10mm)
+T5      28mil (0.711mm)                                           Round             73        PTH        13.65inch (346.82mm)
+T6      32mil (0.8mm)           +4mil (0.1mm)                     Round             4         PTH        0.40inch (10.03mm)
+T7      40mil (1.02mm)          +/-2mil (0.04mm)                  Round             39        PTH        14.46inch (367.28mm)
+T8      63mil (1.6mm)           +/-6mil (0.15mm)                  Round             8         PTH        2.70inch (68.62mm)
+T9      91mil (2.3mm)           +/-2mil (0.04mm)                  Round             9         PTH        8.22inch (208.72mm)
+T10     91mil (2.3mm)           +/-16mil (0.4mm)                  Round             12        PTH        8.38inch (212.81mm)
+T11     91mil (2.3mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T12     106mil (2.7mm)                                            Round             7         PTH        12.20inch (310.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              309
+
+Total Processing Time (hh:mm:ss) : 00:00:00

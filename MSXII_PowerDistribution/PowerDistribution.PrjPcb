@@ -311,24 +311,24 @@ GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
 [Parameter1]
-Name=Author
-Value=Taiping Li
+Name=SheetTotal
+Value=7
 
 [Parameter2]
-Name=Checked
-Value=N
+Name=Revision
+Value=1.11
 
 [Parameter3]
 Name=Project
 Value=Power Distribution
 
 [Parameter4]
-Name=Revision
-Value=1.2
+Name=Checked
+Value=N
 
 [Parameter5]
-Name=SheetTotal
-Value=6
+Name=Author
+Value=Taiping Li
 
 [Configuration1]
 Name=Default Configuration
