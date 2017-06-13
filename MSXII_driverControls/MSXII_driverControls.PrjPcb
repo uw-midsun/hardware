@@ -76,10 +76,10 @@ DocumentUniqueId=EGIQNEXT
 DocumentPath=driverControlsMezzanine.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -92,11 +92,11 @@ DocumentUniqueId=YEHERHKU
 [Document4]
 DocumentPath=carrierboard.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=2
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -122,6 +122,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document6]
+DocumentPath=debouncers.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QFOFUHGX
 
 [Configuration1]
 Name=Sources
@@ -1023,7 +1040,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=3
+SortOrder=1
 SortLocation=0
 MatchParameter1=Comment
 MatchStrictly1=1
