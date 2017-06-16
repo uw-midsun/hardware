@@ -92,7 +92,7 @@ DocumentUniqueId=YEHERHKU
 [Document4]
 DocumentPath=carrierboard.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=2
+AnnotateStartValue=1
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -1040,7 +1040,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=1
+SortOrder=3
 SortLocation=0
 MatchParameter1=Comment
 MatchStrictly1=1
