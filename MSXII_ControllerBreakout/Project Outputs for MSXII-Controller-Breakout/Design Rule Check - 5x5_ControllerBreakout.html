@@ -1,0 +1,584 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD16\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">5/3/2017</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">9:21:14 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc" class="file"><acronym title="C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc">C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">4</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">70</td></tr>
+</table>
+</td>
+</table><a name="IDTNPHKEZXIUYCOPUU3P2QKDTRKOU5KPTXPO5D0YL0OP4G1FDXLY3P"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIFLHPHBHCLZQESZONDUEGKJA0KQYRNMAPK1RAOFCXYNCSEUE4QZ">Your board contains 4 shelved polygons - copper connectivity will not be reported correctly. Unshelve polygons and re-run DRC check before  producing manufacturing outputs.</a></td>
+<td class="column2">4</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">4</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2MR1JY50AWI1BWHJJM0XRK242LRKVFPQJDHNLHJQ3XAG2YUALWDB">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDURK1QVNWFKFPNA3AMGSZH3M13FWJFS0IIAKCQQO23WEU1XTLDYZL">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">49</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFGNYLKS3O3SJLBQHIU2BLYJZEGBIAX2122V24LF4NMYGDKUDIBQO">Clearance Constraint (Gap=6mil) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2UZ1JTO1OPL4M0CKQANA2FVYJIRZDE1CKLE0ZFBVB2IN1S2QU5TC">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIWYMB05KDIWED4B33COUKCCZH1AQWTPUVBMYGP1TW2YEXZ525FD">Width Constraint (Min=6mil) (Max=100mil) (Preferred=8mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPKHDLM2IX3KRE23LADD2FW3KUJJMWJOJYAFT0BBQNF1OOBXBQNKI">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYXNRNWAYHC44N3QQIL4XWBWXHNCPOHNA3C1VSKEKC50OPB1KURSK">Hole Size Constraint (Min=1mil) (Max=200mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCWF22XHZZ13JLLFKVF0ADQTXSPUFENZWYGGST2JMJ1SWQFSWNFAH">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDRECJMZOHQFNMSTBBDJLWMPNFK41QCZ0ZPQOUPLK01MKCNEQK25N">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAM5MFEYQVURGIJIUFXR45YBMHC0L5BLRB0SEBFIOIE0FWOBJFXCL">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</a></td>
+<td class="column2">12</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFAJO2UEKMB2JGZNOSFO3B2I5NHKSUMDPYEAMZKEIVJMXZAMIL2AE">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHELPQKVJC0WWIDYMS31EBHBKHFOYOQCB11LE1YE3SSJP31ZLJW0E">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN3M0KCBCWUDVM4CTRR0NTE11GKK0FHWGWSE0Z3BK0FU3A5MEVBSN">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">70</td>
+</tr>
+</table><br><a name="IDVLDCFS3Y4JRTK5YONKGLH4HJOJBFA1GAU4NQAOGCPK4UU2K1L1AL"><h2>Warnings</h2></a><a name="IDIFLHPHBHCLZQESZONDUEGKJA0KQYRNMAPK1RAOFCXYNCSEUE4QZ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning">Your board contains 4 shelved polygons - copper connectivity will not be reported correctly. Unshelve polygons and re-run DRC check before  producing manufacturing outputs.</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Polygon named: NONET_L01_P034 In net +12V On Top Layer</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Polygon named: NONET_L01_P040 In net 3V3 On Top Layer</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1">Polygon named: NONET_L02_P036 In net +12V On Bottom Layer</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1">Polygon named: NONET_L02_P038 In net 3V3 On Bottom Layer</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDURK1QVNWFKFPNA3AMGSZH3M13FWJFS0IIAKCQQO23WEU1XTLDYZL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2234.189mil|Location2.Y=2273.684mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2234.189mil|Location2.Y=2273.684mil|Absolute=True">Un-Routed Net Constraint: Net +12V Between Pad P1-47(1822.836mil,1161.416mil) on Bottom Layer And Pad P1-48(1822.836mil,1181.1mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2273.559mil|Location2.Y=2313.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2273.559mil|Location2.Y=2313.053mil|Absolute=True">Un-Routed Net Constraint: Net +12V Between Pad P1-49(1822.836mil,1200.786mil) on Bottom Layer And Pad P1-50(1822.836mil,1220.47mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2779.463mil|Location2.X=2941.008mil|Location1.Y=2293.242mil|Location2.Y=2850.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2779.463mil|Location2.X=2941.008mil|Location1.Y=2293.242mil|Location2.Y=2850.457mil|Absolute=True">Un-Routed Net Constraint: Net +12V Between Pad P4-1(1732.284mil,1732.284mil) on Multi-Layer And Pad P1-50(1822.836mil,1220.47mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.945mil|Location2.X=2941.008mil|Location1.Y=1635.764mil|Location2.Y=2253.999mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.945mil|Location2.X=2941.008mil|Location1.Y=1635.764mil|Location2.Y=2253.999mil|Absolute=True">Un-Routed Net Constraint: Net +12V Between Pad P2-9(841.734mil,590.55mil) on Multi-Layer And Pad P1-47(1822.836mil,1161.416mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2253.872mil|Location2.Y=2293.369mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2253.872mil|Location2.Y=2293.369mil|Absolute=True">Un-Routed Net Constraint: Net +12V Between Pad P1-48(1822.836mil,1181.1mil) on Bottom Layer And Pad P1-49(1822.836mil,1200.786mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2155.448mil|Location2.Y=2194.943mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2155.448mil|Location2.Y=2194.943mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad P1-43(1822.836mil,1082.676mil) on Bottom Layer And Pad P1-44(1822.836mil,1102.36mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2116.079mil|Location2.Y=2155.573mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2116.079mil|Location2.Y=2155.573mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad P1-41(1822.836mil,1043.306mil) on Bottom Layer And Pad P1-42(1822.836mil,1062.99mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2175.133mil|Location2.Y=2214.63mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2175.133mil|Location2.Y=2214.63mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad P1-44(1822.836mil,1102.36mil) on Bottom Layer And Pad P1-45(1822.836mil,1122.046mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2096.392mil|Location2.Y=2135.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2096.392mil|Location2.Y=2135.89mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad P1-40(1822.836mil,1023.62mil) on Bottom Layer And Pad P1-41(1822.836mil,1043.306mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.945mil|Location2.X=2941.008mil|Location1.Y=2194.818mil|Location2.Y=2498.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.945mil|Location2.X=2941.008mil|Location1.Y=2194.818mil|Location2.Y=2498.095mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad P3-1(1541.734mil,1377.952mil) on Multi-Layer And Pad P1-45(1822.836mil,1122.046mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2135.762mil|Location2.Y=2175.26mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=2135.762mil|Location2.Y=2175.26mil|Absolute=True">Un-Routed Net Constraint: Net 3V3 Between Pad P1-42(1822.836mil,1062.99mil) on Bottom Layer And Pad P1-43(1822.836mil,1082.676mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2799.276mil|Location1.Y=2273.559mil|Location2.Y=2313.053mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2799.276mil|Location1.Y=2273.559mil|Location2.Y=2313.053mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-2(1681.104mil,1200.786mil) on Bottom Layer And Pad P1-1(1681.104mil,1220.47mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=1840.488mil|Location2.Y=1879.984mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=1840.488mil|Location2.Y=1879.984mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-27(1822.836mil,767.716mil) on Bottom Layer And Pad P1-28(1822.836mil,787.4mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2799.276mil|Location1.Y=2234.189mil|Location2.Y=2273.684mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2799.276mil|Location1.Y=2234.189mil|Location2.Y=2273.684mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-4(1681.104mil,1161.416mil) on Bottom Layer And Pad P1-3(1681.104mil,1181.1mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=1860.172mil|Location2.Y=1899.669mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=1860.172mil|Location2.Y=1899.669mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-28(1822.836mil,787.4mil) on Bottom Layer And Pad P1-29(1822.836mil,807.086mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=1820.803mil|Location2.Y=1860.3mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.016mil|Location2.X=2941.008mil|Location1.Y=1820.803mil|Location2.Y=1860.3mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-26(1822.836mil,748.03mil) on Bottom Layer And Pad P1-27(1822.836mil,767.716mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2988.251mil|Location1.Y=2293.242mil|Location2.Y=2850.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2988.251mil|Location1.Y=2293.242mil|Location2.Y=2850.457mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-1(1681.104mil,1220.47mil) on Bottom Layer And Pad P4-2(1870.079mil,1732.284mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.945mil|Location2.X=2799.276mil|Location1.Y=2293.242mil|Location2.Y=2498.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.945mil|Location2.X=2799.276mil|Location1.Y=2293.242mil|Location2.Y=2498.095mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P3-8(841.734mil,1377.952mil) on Multi-Layer And Pad P1-1(1681.104mil,1220.47mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2799.276mil|Location1.Y=2253.872mil|Location2.Y=2293.369mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2799.276mil|Location1.Y=2253.872mil|Location2.Y=2293.369mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-3(1681.104mil,1181.1mil) on Bottom Layer And Pad P1-2(1681.104mil,1200.786mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2941.008mil|Location1.Y=1879.859mil|Location2.Y=2253.999mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2728.284mil|Location2.X=2941.008mil|Location1.Y=1879.859mil|Location2.Y=2253.999mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad P1-4(1681.104mil,1161.416mil) on Bottom Layer And Pad P1-29(1822.836mil,807.086mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1840.613mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1840.613mil|Absolute=True">Un-Routed Net Constraint: Net PA0 Between Pad P2-1(1541.734mil,690.55mil) on Multi-Layer And Pad P1-25(1681.104mil,748.03mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1860.3mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1860.3mil|Absolute=True">Un-Routed Net Constraint: Net PA1 Between Pad P2-2(1441.734mil,690.55mil) on Multi-Layer And Pad P1-24(1681.104mil,767.716mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2386.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1879.984mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2386.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1879.984mil|Absolute=True">Un-Routed Net Constraint: Net PA2/USART2_TX Between Pad P2-3(1341.734mil,690.55mil) on Multi-Layer And Pad P1-23(1681.104mil,787.4mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2286.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1899.669mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2286.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1899.669mil|Absolute=True">Un-Routed Net Constraint: Net PA3/USART2_RX Between Pad P2-4(1241.734mil,690.55mil) on Multi-Layer And Pad P1-22(1681.104mil,807.086mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2186.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1919.353mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2186.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1919.353mil|Absolute=True">Un-Routed Net Constraint: Net PA4/SPI1_NSS Between Pad P2-5(1141.734mil,690.55mil) on Multi-Layer And Pad P1-21(1681.104mil,826.77mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2086.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1939.04mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2086.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1939.04mil|Absolute=True">Un-Routed Net Constraint: Net PA5/SPI1_SCK Between Pad P2-6(1041.734mil,690.55mil) on Multi-Layer And Pad P1-20(1681.104mil,846.456mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1986.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1958.724mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1986.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1958.724mil|Absolute=True">Un-Routed Net Constraint: Net PA6/SPI1_MISO Between Pad P2-7(941.734mil,690.55mil) on Multi-Layer And Pad P1-19(1681.104mil,866.14mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1978.409mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.945mil|Location2.X=2799.276mil|Location1.Y=1735.764mil|Location2.Y=1978.409mil|Absolute=True">Un-Routed Net Constraint: Net PA7/SPI1_MOSI Between Pad P2-8(841.734mil,690.55mil) on Multi-Layer And Pad P1-18(1681.104mil,885.826mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.945mil|Location2.X=2799.276mil|Location1.Y=2175.133mil|Location2.Y=2398.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.945mil|Location2.X=2799.276mil|Location1.Y=2175.133mil|Location2.Y=2398.095mil|Absolute=True">Un-Routed Net Constraint: Net PA8 Between Pad P3-15(1441.734mil,1277.952mil) on Multi-Layer And Pad P1-7(1681.104mil,1102.36mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.945mil|Location2.X=2799.276mil|Location1.Y=2194.818mil|Location2.Y=2398.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.945mil|Location2.X=2799.276mil|Location1.Y=2194.818mil|Location2.Y=2398.095mil|Absolute=True">Un-Routed Net Constraint: Net PA9 Between Pad P3-16(1541.734mil,1277.952mil) on Multi-Layer And Pad P1-6(1681.104mil,1122.046mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1986.945mil|Location2.X=2799.276mil|Location1.Y=1635.764mil|Location2.Y=2234.314mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1986.945mil|Location2.X=2799.276mil|Location1.Y=1635.764mil|Location2.Y=2234.314mil|Absolute=True">Un-Routed Net Constraint: Net PA10 Between Pad P2-10(941.734mil,590.55mil) on Multi-Layer And Pad P1-5(1681.104mil,1141.73mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.945mil|Location2.X=2941.008mil|Location1.Y=2076.709mil|Location2.Y=2498.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.945mil|Location2.X=2941.008mil|Location1.Y=2076.709mil|Location2.Y=2498.095mil|Absolute=True">Un-Routed Net Constraint: Net PA15 Between Pad P3-2(1441.734mil,1377.952mil) on Multi-Layer And Pad P1-39(1822.836mil,1003.936mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.945mil|Location2.X=2799.276mil|Location1.Y=1635.764mil|Location2.Y=1998.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2586.945mil|Location2.X=2799.276mil|Location1.Y=1635.764mil|Location2.Y=1998.093mil|Absolute=True">Un-Routed Net Constraint: Net PB0 Between Pad P2-16(1541.734mil,590.55mil) on Multi-Layer And Pad P1-17(1681.104mil,905.51mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.945mil|Location2.X=2799.276mil|Location1.Y=1635.764mil|Location2.Y=2017.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2486.945mil|Location2.X=2799.276mil|Location1.Y=1635.764mil|Location2.Y=2017.78mil|Absolute=True">Un-Routed Net Constraint: Net PB1 Between Pad P2-15(1441.734mil,590.55mil) on Multi-Layer And Pad P1-16(1681.104mil,925.196mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2386.945mil|Location2.X=2799.276mil|Location1.Y=1635.764mil|Location2.Y=2037.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2386.945mil|Location2.X=2799.276mil|Location1.Y=1635.764mil|Location2.Y=2037.464mil|Absolute=True">Un-Routed Net Constraint: Net PB2 Between Pad P2-14(1341.734mil,590.55mil) on Multi-Layer And Pad P1-15(1681.104mil,944.88mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2386.945mil|Location2.X=2941.008mil|Location1.Y=2057.023mil|Location2.Y=2498.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2386.945mil|Location2.X=2941.008mil|Location1.Y=2057.023mil|Location2.Y=2498.095mil|Absolute=True">Un-Routed Net Constraint: Net PB3 Between Pad P3-3(1341.734mil,1377.952mil) on Multi-Layer And Pad P1-38(1822.836mil,984.25mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2286.945mil|Location2.X=2941.008mil|Location1.Y=2037.339mil|Location2.Y=2498.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2286.945mil|Location2.X=2941.008mil|Location1.Y=2037.339mil|Location2.Y=2498.095mil|Absolute=True">Un-Routed Net Constraint: Net PB4 Between Pad P3-4(1241.734mil,1377.952mil) on Multi-Layer And Pad P1-37(1822.836mil,964.566mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2186.945mil|Location2.X=2941.008mil|Location1.Y=2017.652mil|Location2.Y=2498.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2186.945mil|Location2.X=2941.008mil|Location1.Y=2017.652mil|Location2.Y=2498.095mil|Absolute=True">Un-Routed Net Constraint: Net PB5 Between Pad P3-5(1141.734mil,1377.952mil) on Multi-Layer And Pad P1-36(1822.836mil,944.88mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2086.945mil|Location2.X=2941.008mil|Location1.Y=1978.283mil|Location2.Y=2498.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2086.945mil|Location2.X=2941.008mil|Location1.Y=1978.283mil|Location2.Y=2498.095mil|Absolute=True">Un-Routed Net Constraint: Net PB6/USART1_TX Between Pad P3-6(1041.734mil,1377.952mil) on Multi-Layer And Pad P1-34(1822.836mil,905.51mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1986.945mil|Location2.X=2941.008mil|Location1.Y=1958.599mil|Location2.Y=2498.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1986.945mil|Location2.X=2941.008mil|Location1.Y=1958.599mil|Location2.Y=2498.095mil|Absolute=True">Un-Routed Net Constraint: Net PB7/USART1_RX Between Pad P3-7(941.734mil,1377.952mil) on Multi-Layer And Pad P1-33(1822.836mil,885.826mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2086.945mil|Location2.X=2941.008mil|Location1.Y=1635.764mil|Location2.Y=1958.724mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2086.945mil|Location2.X=2941.008mil|Location1.Y=1635.764mil|Location2.Y=1958.724mil|Absolute=True">Un-Routed Net Constraint: Net PB8/I2C1_SCL Between Pad P2-11(1041.734mil,590.55mil) on Multi-Layer And Pad P1-32(1822.836mil,866.14mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2186.945mil|Location2.X=2941.008mil|Location1.Y=1635.764mil|Location2.Y=1939.04mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2186.945mil|Location2.X=2941.008mil|Location1.Y=1635.764mil|Location2.Y=1939.04mil|Absolute=True">Un-Routed Net Constraint: Net PB9/I2C1_SDA Between Pad P2-12(1141.734mil,590.55mil) on Multi-Layer And Pad P1-31(1822.836mil,846.456mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.945mil|Location2.X=2799.276mil|Location1.Y=2037.339mil|Location2.Y=2398.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1886.945mil|Location2.X=2799.276mil|Location1.Y=2037.339mil|Location2.Y=2398.095mil|Absolute=True">Un-Routed Net Constraint: Net PB10/USART3_TX/I2C2_SCL Between Pad P3-9(841.734mil,1277.952mil) on Multi-Layer And Pad P1-14(1681.104mil,964.566mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1986.945mil|Location2.X=2799.276mil|Location1.Y=2057.023mil|Location2.Y=2398.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1986.945mil|Location2.X=2799.276mil|Location1.Y=2057.023mil|Location2.Y=2398.095mil|Absolute=True">Un-Routed Net Constraint: Net PB11/USART3_RX/I2C2_SDA Between Pad P3-10(941.734mil,1277.952mil) on Multi-Layer And Pad P1-13(1681.104mil,984.25mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2086.945mil|Location2.X=2799.276mil|Location1.Y=2096.392mil|Location2.Y=2398.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2086.945mil|Location2.X=2799.276mil|Location1.Y=2096.392mil|Location2.Y=2398.095mil|Absolute=True">Un-Routed Net Constraint: Net PB12/SPI2_NSS Between Pad P3-11(1041.734mil,1277.952mil) on Multi-Layer And Pad P1-11(1681.104mil,1023.62mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2186.945mil|Location2.X=2799.276mil|Location1.Y=2116.079mil|Location2.Y=2398.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2186.945mil|Location2.X=2799.276mil|Location1.Y=2116.079mil|Location2.Y=2398.095mil|Absolute=True">Un-Routed Net Constraint: Net PB13/SPI2_SCK Between Pad P3-12(1141.734mil,1277.952mil) on Multi-Layer And Pad P1-10(1681.104mil,1043.306mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2286.945mil|Location2.X=2799.276mil|Location1.Y=2135.762mil|Location2.Y=2398.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2286.945mil|Location2.X=2799.276mil|Location1.Y=2135.762mil|Location2.Y=2398.095mil|Absolute=True">Un-Routed Net Constraint: Net PB14/SPI2_MISO Between Pad P3-13(1241.734mil,1277.952mil) on Multi-Layer And Pad P1-9(1681.104mil,1062.99mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2386.945mil|Location2.X=2799.276mil|Location1.Y=2155.448mil|Location2.Y=2398.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2386.945mil|Location2.X=2799.276mil|Location1.Y=2155.448mil|Location2.Y=2398.095mil|Absolute=True">Un-Routed Net Constraint: Net PB15/SPI2_MOSI Between Pad P3-14(1341.734mil,1277.952mil) on Multi-Layer And Pad P1-8(1681.104mil,1082.676mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2286.945mil|Location2.X=2941.008mil|Location1.Y=1635.764mil|Location2.Y=1919.353mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2286.945mil|Location2.X=2941.008mil|Location1.Y=1635.764mil|Location2.Y=1919.353mil|Absolute=True">Un-Routed Net Constraint: Net PC13 Between Pad P2-13(1241.734mil,590.55mil) on Multi-Layer And Pad P1-30(1822.836mil,826.77mil) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDFGNYLKS3O3SJLBQHIU2BLYJZEGBIAX2122V24LF4NMYGDKUDIBQO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=6mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2355.062mil|Location2.X=2360.062mil|Location1.Y=1770.728mil|Location2.Y=1775.728mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2355.062mil|Location2.X=2360.062mil|Location1.Y=1770.728mil|Location2.Y=1775.728mil|Absolute=True">Clearance Constraint: (Collision &lt; 6mil) Between Track (1279.575mil,-98.425mil)(1279.575mil,1082.575mil) on Keep-Out Layer And Pad P2-4(1241.734mil,690.55mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2355.062mil|Location2.X=2360.062mil|Location1.Y=1670.728mil|Location2.Y=1675.728mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2355.062mil|Location2.X=2360.062mil|Location1.Y=1670.728mil|Location2.Y=1675.728mil|Absolute=True">Clearance Constraint: (Collision &lt; 6mil) Between Track (1279.575mil,-98.425mil)(1279.575mil,1082.575mil) on Keep-Out Layer And Pad P2-13(1241.734mil,590.55mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDDRECJMZOHQFNMSTBBDJLWMPNFK41QCZ0ZPQOUPLK01MKCNEQK25N"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.309mil|Location2.X=2881.559mil|Location1.Y=1774.889mil|Location2.Y=1786.139mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.309mil|Location2.X=2881.559mil|Location1.Y=1774.889mil|Location2.Y=1786.139mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (4.144mil &lt; 10mil) Between Pad P1-(1751.97mil,677.164mil) on Bottom Layer And Pad P1-(1811.024mil,706.692mil) on Multi-Layer [Bottom Solder] Mask Sliver [4.144mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.309mil|Location2.X=2881.559mil|Location1.Y=2347.719mil|Location2.Y=2358.969mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2870.309mil|Location2.X=2881.559mil|Location1.Y=2347.719mil|Location2.Y=2358.969mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (4.144mil &lt; 10mil) Between Pad P1-(1751.97mil,1291.338mil) on Bottom Layer And Pad P1-(1811.024mil,1261.81mil) on Multi-Layer [Bottom Solder] Mask Sliver [4.144mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDAM5MFEYQVURGIJIUFXR45YBMHC0L5BLRB0SEBFIOIE0FWOBJFXCL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1920.755mil|Location2.X=1932.005mil|Location1.Y=2010.536mil|Location2.Y=2021.786mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1920.755mil|Location2.X=1932.005mil|Location1.Y=2010.536mil|Location2.Y=2021.786mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.63mil &lt; 10mil) Between Text "3V3" (869.291mil,940.945mil) on Top Overlay And Pad Free-0(849.606mil,896.063mil) on Multi-Layer [Top Overlay] to [Top Solder] clearance [8.63mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2216.136mil|Location2.X=2223.802mil|Location1.Y=1957.103mil|Location2.Y=1964.769mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2216.136mil|Location2.X=2223.802mil|Location1.Y=1957.103mil|Location2.Y=1964.769mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Text "P1" (1160.63mil,864.567mil) on Bottom Overlay And Pad Free-0(1149.606mil,896.063mil) on Multi-Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1920.423mil|Location2.X=1928.09mil|Location1.Y=2054.353mil|Location2.Y=2062.02mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1920.423mil|Location2.X=1928.09mil|Location1.Y=2054.353mil|Location2.Y=2062.02mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Text "3V3" (870.079mil,1036.221mil) on Bottom Overlay And Pad Free-0(849.606mil,996.063mil) on Multi-Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1914.388mil|Location2.X=1922.055mil|Location1.Y=2049.016mil|Location2.Y=2056.682mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1914.388mil|Location2.X=1922.055mil|Location1.Y=2049.016mil|Location2.Y=2056.682mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Text "3V3" (869.291mil,940.945mil) on Top Overlay And Pad Free-0(849.606mil,996.063mil) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2301.036mil|Location2.X=2308.703mil|Location1.Y=1756.35mil|Location2.Y=1764.016mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2301.036mil|Location2.X=2308.703mil|Location1.Y=1756.35mil|Location2.Y=1764.016mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Text "MSXII CONTROLLER BOARD BREAKOUT
+K.CHEN T.LI
+MAY 2017
+REV 1.3" (1231.496mil,250.394mil) on Top Overlay And Pad P2-4(1241.734mil,690.55mil) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1918.177mil|Location2.X=1925.843mil|Location1.Y=1738.438mil|Location2.Y=1746.105mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1918.177mil|Location2.X=1925.843mil|Location1.Y=1738.438mil|Location2.Y=1746.105mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Text "PA9" (874.016mil,727.813mil) on Bottom Overlay And Pad P2-8(841.734mil,690.55mil) on Multi-Layer [Bottom Overlay] to [Bottom Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1921.955mil|Location2.X=1929.622mil|Location1.Y=1740.257mil|Location2.Y=1747.924mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1921.955mil|Location2.X=1929.622mil|Location1.Y=1740.257mil|Location2.Y=1747.924mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Text "PA9" (870.079mil,645.669mil) on Top Overlay And Pad P2-8(841.734mil,690.55mil) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2302.19mil|Location2.X=2309.856mil|Location1.Y=1651.397mil|Location2.Y=1659.063mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2302.19mil|Location2.X=2309.856mil|Location1.Y=1651.397mil|Location2.Y=1659.063mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Text "MSXII CONTROLLER BOARD BREAKOUT
+K.CHEN T.LI
+MAY 2017
+REV 1.3" (1231.496mil,250.394mil) on Top Overlay And Pad P2-13(1241.734mil,590.55mil) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2734.533mil|Location2.X=2745.783mil|Location1.Y=2307.819mil|Location2.Y=2319.069mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2734.533mil|Location2.X=2745.783mil|Location1.Y=2307.819mil|Location2.Y=2319.069mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.78mil &lt; 10mil) Between Track (1657.482mil,1240.156mil)(1657.482mil,1291.338mil) on Bottom Overlay And Pad P1-1(1681.104mil,1220.47mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [8.78mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2734.533mil|Location2.X=2745.783mil|Location1.Y=1814.73mil|Location2.Y=1825.98mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2734.533mil|Location2.X=2745.783mil|Location1.Y=1814.73mil|Location2.Y=1825.98mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.663mil &lt; 10mil) Between Track (1657.482mil,677.164mil)(1657.482mil,728.346mil) on Bottom Overlay And Pad P1-25(1681.104mil,748.03mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [8.663mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2923.509mil|Location2.X=2934.759mil|Location1.Y=1814.73mil|Location2.Y=1825.98mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2923.509mil|Location2.X=2934.759mil|Location1.Y=1814.73mil|Location2.Y=1825.98mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.663mil &lt; 10mil) Between Track (1846.458mil,677.164mil)(1846.458mil,728.346mil) on Bottom Overlay And Pad P1-26(1822.836mil,748.03mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [8.663mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2923.509mil|Location2.X=2934.759mil|Location1.Y=2307.877mil|Location2.Y=2319.127mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2923.509mil|Location2.X=2934.759mil|Location1.Y=2307.877mil|Location2.Y=2319.127mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (8.665mil &lt; 10mil) Between Track (1846.458mil,1240.156mil)(1846.458mil,1291.338mil) on Bottom Overlay And Pad P1-50(1822.836mil,1220.47mil) on Bottom Layer [Bottom Overlay] to [Bottom Solder] clearance [8.665mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDFAJO2UEKMB2JGZNOSFO3B2I5NHKSUMDPYEAMZKEIVJMXZAMIL2AE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1814.265mil|Location2.X=1821.932mil|Location1.Y=1734.74mil|Location2.Y=1742.407mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1814.265mil|Location2.X=1821.932mil|Location1.Y=1734.74mil|Location2.Y=1742.407mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 10mil) Between Text "PA8" (767.716mil,645.669mil) on Top Overlay And Text "P2" (719.685mil,624.409mil) on Top Overlay Silk Text to Silk Clearance [0mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDN3M0KCBCWUDVM4CTRR0NTE11GKK0FHWGWSE0Z3BK0FU3A5MEVBSN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Modified Polygon (Allow modified: No), (Allow shelved: No)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2231.495mil|Location2.X=2298.424mil|Location1.Y=1726.773mil|Location2.Y=1829.135mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2231.495mil|Location2.X=2298.424mil|Location1.Y=1726.773mil|Location2.Y=1829.135mil|Absolute=True">Modified Polygon: Polygon Shelved  (NONET_L01_P034) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2239.369mil|Location2.X=2298.424mil|Location1.Y=1624.41mil|Location2.Y=1714.961mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2239.369mil|Location2.X=2298.424mil|Location1.Y=1624.41mil|Location2.Y=1714.961mil|Absolute=True">Modified Polygon: Polygon Shelved  (NONET_L01_P040) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2156.692mil|Location2.X=2293.306mil|Location1.Y=1726.772mil|Location2.Y=1825.198mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2156.692mil|Location2.X=2293.306mil|Location1.Y=1726.772mil|Location2.Y=1825.198mil|Absolute=True">Modified Polygon: Polygon Shelved  (NONET_L02_P036) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2170.388mil|Location2.X=2293.306mil|Location1.Y=1601.183mil|Location2.Y=1719.293mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII-Controller-Breakout\5x5_ControllerBreakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2170.388mil|Location2.X=2293.306mil|Location1.Y=1601.183mil|Location2.Y=1719.293mil|Absolute=True">Modified Polygon: Polygon Shelved  (NONET_L02_P038) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
