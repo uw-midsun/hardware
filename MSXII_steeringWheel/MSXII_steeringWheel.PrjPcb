@@ -106,6 +106,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document5]
+DocumentPath=..\MSXII_driverControls\BlockDiagram.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UDBKNWWI
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1043,20 +1060,20 @@ ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Schematic Diagrams.SchLib
-ComponentDesignItemID2=RELAY CPC1017N SPST 100mA
-ComponentSymbolReference2=RELAY CPC1017N SPST 100mA
+ComponentDesignItemID2=RES 1K OHM 5% 1/10W 0603
+ComponentSymbolReference2=RES 1K OHM 5% 1/10W 0603
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Schematic Diagrams.SchLib
-ComponentDesignItemID3=RES 2 OHM 5% 1/10W 0603
-ComponentSymbolReference3=RES 2 OHM 5% 1/10W 0603
+ComponentDesignItemID3=RES ARRAY 10K OHM 5% 8RES EXB-2HV103JV
+ComponentSymbolReference3=RES ARRAY 10K OHM 5% 8RES EXB-2HV103JV
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=Schematic Diagrams.SchLib
-ComponentDesignItemID4=RES ARRAY 10K OHM 5% 8RES EXB-2HV103JV
-ComponentSymbolReference4=RES ARRAY 10K OHM 5% 8RES EXB-2HV103JV
+ComponentDesignItemID4=SW SPST-NO 15VDC@0.02A via hole
+ComponentSymbolReference4=SW SPST-NO 15VDC@0.02A via hole
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 FullReplace=1
@@ -1115,13 +1132,13 @@ ModelType1=PCBLIB
 ModelName1=IC 18SOIC
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=RELAY SOP4
+ModelName2=RES ARRAY, 8 POS 1506
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=RES ARRAY, 8 POS 1506
+ModelName3=RES, 0603
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=RES, 0603
+ModelName4=SW SPST-NO 6x6mm Via Hole
 ModelUpdate4=1
 
 [DatabaseUpdateOptions]
