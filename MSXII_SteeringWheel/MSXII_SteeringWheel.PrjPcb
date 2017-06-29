@@ -73,23 +73,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EGIQNEXT
 
 [Document3]
-DocumentPath=MSXII_SteeringWheelSchematic.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JAWKNKXW
-
-[Document4]
 DocumentPath=SteeringWheelBoard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -104,9 +87,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JSHNVUMS
 
-[Document5]
+[Document4]
 DocumentPath=..\MSXII_driverControls\BlockDiagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,6 +105,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UDBKNWWI
+
+[Document5]
+DocumentPath=MSXII_SteeringWheelSchematic.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JAWKNKXW
 
 [Configuration1]
 Name=Sources
