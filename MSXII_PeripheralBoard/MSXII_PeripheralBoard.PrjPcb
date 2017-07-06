@@ -127,6 +127,10 @@ Variation3=Designator=P1|UniqueId=\VLFTTAVJ|Kind=1|AlternatePart=
 Variation4=Designator=P2|UniqueId=\XFBRMATH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXII_PeripheralBoard\Design Rule Check - PeripheralPCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
