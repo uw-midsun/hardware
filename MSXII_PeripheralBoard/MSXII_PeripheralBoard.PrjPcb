@@ -111,8 +111,7 @@ UniqueID=DE111D45-A103-4C93-B292-0AE278C04DE0
 Description=With_ADC
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
-Variation1=Designator=P3|UniqueId=\SPAFVQKC|Kind=1|AlternatePart= 
+VariationCount=0
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -120,11 +119,10 @@ UniqueID=6DBFE293-9B9B-4F4E-981E-24EA0F07D0E0
 Description=No_ADC
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
+VariationCount=3
 Variation1=Designator=U2|UniqueId=\CKOGSYSG|Kind=1|AlternatePart= 
 Variation2=Designator=C2|UniqueId=\OTVBCXTY|Kind=1|AlternatePart= 
-Variation3=Designator=P1|UniqueId=\VLFTTAVJ|Kind=1|AlternatePart= 
-Variation4=Designator=P2|UniqueId=\XFBRMATH|Kind=1|AlternatePart= 
+Variation3=Designator=P2|UniqueId=\XFBRMATH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
