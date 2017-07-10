@@ -7,4 +7,5 @@
 *.TLT
 *.REP
 *.LOG
-
+*.drc
+*.html
