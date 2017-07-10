@@ -53,7 +53,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RXDWPGKY
 
 [Document2]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
@@ -70,7 +70,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WYDNESVI
 
 [Document3]
 DocumentPath=PeripheralMain.SchDoc
@@ -119,10 +119,12 @@ UniqueID=6DBFE293-9B9B-4F4E-981E-24EA0F07D0E0
 Description=No_ADC
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=5
 Variation1=Designator=U2|UniqueId=\CKOGSYSG|Kind=1|AlternatePart= 
-Variation2=Designator=C2|UniqueId=\OTVBCXTY|Kind=1|AlternatePart= 
+Variation2=Designator=C2|UniqueId=\CIJIFOBA|Kind=1|AlternatePart= 
 Variation3=Designator=P2|UniqueId=\XFBRMATH|Kind=1|AlternatePart= 
+Variation4=Designator=U3|UniqueId=\EHGFXDTQ|Kind=1|AlternatePart= 
+Variation5=Designator=C3|UniqueId=\JJGIGHBB|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -293,7 +295,7 @@ PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 OutputType5=PCBDrawing
 OutputName5=Draftsman
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType6=PCBLIB Print
@@ -1060,28 +1062,22 @@ ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=Schematic Diagrams.SchLib
-ComponentDesignItemID1=CONN 4POS DURA-CLIK 0.079"
-ComponentSymbolReference1=CONN 4POS DURA-CLIK 0.079"
+ComponentDesignItemID1=CONN 6POS DURA-CLIK 0.079"
+ComponentSymbolReference1=CONN 6POS DURA-CLIK 0.079"
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Schematic Diagrams.SchLib
-ComponentDesignItemID2=CONN 6POS DURA-CLIK 0.079"
-ComponentSymbolReference2=CONN 6POS DURA-CLIK 0.079"
+ComponentDesignItemID2=IC ADC 12-BIT VSSOP-10
+ComponentSymbolReference2=IC ADC 12-BIT VSSOP-10
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Schematic Diagrams.SchLib
-ComponentDesignItemID3=IC ADC 12-BIT VSSOP-10
-ComponentSymbolReference3=IC ADC 12-BIT VSSOP-10
+ComponentDesignItemID3=IC SENSOR HALL I2C TSOP-6
+ComponentSymbolReference3=IC SENSOR HALL I2C TSOP-6
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Schematic Diagrams.SchLib
-ComponentDesignItemID4=IC SENSOR HALL I2C TSOP-6
-ComponentSymbolReference4=IC SENSOR HALL I2C TSOP-6
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1273,17 +1269,14 @@ ModelType0=PCBLIB
 ModelName0=CAP, 0603
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=CONN, 4POS DURA-CLIK VERT
+ModelName1=CONN, 6POS DURA-CLIK VERT
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=CONN, 6POS DURA-CLIK VERT
+ModelName2=IC ADC VSSOP10
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=IC ADC VSSOP10
+ModelName3=IC TLV496D MAG SENSOR TSOP-6
 ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=IC TLV496D MAG SENSOR TSOP-6
-ModelUpdate4=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
