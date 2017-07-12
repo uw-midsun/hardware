@@ -127,10 +127,6 @@ Variation4=Designator=U3|UniqueId=\EHGFXDTQ|Kind=1|AlternatePart=
 Variation5=Designator=C3|UniqueId=\JJGIGHBB|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for MSXII_PeripheralBoard\Design Rule Check - PeripheralPCB.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
