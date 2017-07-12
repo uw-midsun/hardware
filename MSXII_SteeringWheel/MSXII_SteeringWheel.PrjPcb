@@ -73,7 +73,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EGIQNEXT
 
 [Document3]
-DocumentPath=MSXII_SteeringWheelRightBoard.SchDoc
+DocumentPath=MSXII_SteeringWheelBoard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -88,23 +88,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JAWKNKXW
-
-[Document4]
-DocumentPath=MSXII_SteeringWheelLeftBoard.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IQOCMHKP
 
 [Configuration1]
 Name=Sources
