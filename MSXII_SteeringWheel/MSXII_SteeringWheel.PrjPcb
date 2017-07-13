@@ -104,7 +104,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JSHNVUMS
 
 [ProjectVariant1]
 UniqueID=C06FABD1-70D7-4EFF-B69A-1932058B26D6
@@ -136,6 +136,10 @@ Variation8=Designator=R2|UniqueId=\WTMJLHEM|Kind=1|AlternatePart=
 Variation9=Designator=C1|UniqueId=\YFEPUXWY|Kind=1|AlternatePart= 
 Variation10=Designator=P1|UniqueId=\YGXUCQXT|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXII_SteeringWheel\Design Rule Check - MainBoard.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
