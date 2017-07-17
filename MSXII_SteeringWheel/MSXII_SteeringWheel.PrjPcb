@@ -70,7 +70,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=EGIQNEXT
+DocumentUniqueId=WYDNESVI
 
 [Document3]
 DocumentPath=MSXII_SteeringWheelBoard.SchDoc
@@ -111,12 +111,13 @@ UniqueID=C06FABD1-70D7-4EFF-B69A-1932058B26D6
 Description=Right Side
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
-Variation1=Designator=P3|UniqueId=\IWULHNUK|Kind=1|AlternatePart= 
-Variation2=Designator=S4|UniqueId=\OJSUHNKH|Kind=1|AlternatePart= 
-Variation3=Designator=S5|UniqueId=\LUUVVUWQ|Kind=1|AlternatePart= 
-Variation4=Designator=S6|UniqueId=\IMMRSSWM|Kind=1|AlternatePart= 
-Variation5=Designator=S7|UniqueId=\WSBWOOGE|Kind=1|AlternatePart= 
+VariationCount=6
+Variation1=Designator=P3|UniqueId=\BUSFBJLO|Kind=1|AlternatePart= 
+Variation2=Designator=R9|UniqueId=\KBVUOODO|Kind=1|AlternatePart= 
+Variation3=Designator=R8|UniqueId=\EQRHQBXK|Kind=1|AlternatePart= 
+Variation4=Designator=R6|UniqueId=\VWNSYCXV|Kind=1|AlternatePart= 
+Variation5=Designator=R4|UniqueId=\MUTKTAEJ|Kind=1|AlternatePart= 
+Variation6=Designator=S4|UniqueId=\WSBWOOGE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -124,18 +125,176 @@ UniqueID=33742584-A70A-41FE-91E0-AB9CC4068C14
 Description=Left Side
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
-Variation1=Designator=P2|UniqueId=\WXQESELW|Kind=1|AlternatePart= 
+VariationCount=12
+Variation1=Designator=P2|UniqueId=\JBUNEULT|Kind=1|AlternatePart= 
 Variation2=Designator=R1|UniqueId=\SNIVMJIF|Kind=1|AlternatePart= 
-Variation3=Designator=S3|UniqueId=\BRMQNRLA|Kind=1|AlternatePart= 
-Variation4=Designator=S2|UniqueId=\YCPQTLKV|Kind=1|AlternatePart= 
-Variation5=Designator=S1|UniqueId=\MSFCVLHP|Kind=1|AlternatePart= 
-Variation6=Designator=U1|UniqueId=\QRCDKNVY|Kind=1|AlternatePart= 
-Variation7=Designator=LED1|UniqueId=\WUKSIEEC|Kind=1|AlternatePart= 
-Variation8=Designator=R2|UniqueId=\WTMJLHEM|Kind=1|AlternatePart= 
-Variation9=Designator=C1|UniqueId=\YFEPUXWY|Kind=1|AlternatePart= 
-Variation10=Designator=P1|UniqueId=\YGXUCQXT|Kind=1|AlternatePart= 
-ParamVariationCount=0
+Variation3=Designator=U1|UniqueId=\QRCDKNVY|Kind=1|AlternatePart= 
+Variation4=Designator=LED1|UniqueId=\WUKSIEEC|Kind=1|AlternatePart= 
+Variation5=Designator=R2|UniqueId=\WTMJLHEM|Kind=1|AlternatePart= 
+Variation6=Designator=C1|UniqueId=\YFEPUXWY|Kind=1|AlternatePart= 
+Variation7=Designator=P1|UniqueId=\TVXWPIQL|Kind=1|AlternatePart= 
+Variation8=Designator=R3|UniqueId=\EQUIWLKP|Kind=1|AlternatePart= 
+Variation9=Designator=R5|UniqueId=\AESLKYQS|Kind=1|AlternatePart= 
+Variation10=Designator=R7|UniqueId=\RNBIHDIM|Kind=1|AlternatePart= 
+Variation11=Designator=S2|UniqueId=\YCPQTLKV|Kind=2|AlternatePart=SPST|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=SW SPST-NO 0.1A 32V D6 Series White|AltLibLink_DesignItemID=SW SPST-NO 0.1A 32V D6 Series Yellow|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SW SPST D6 SERIES YELLOW|AltLibLink_IsSameFootprint=False
+ParamVariation1=ParameterName=Comment|VariantValue=SPST
+ParamDesignator1=S2
+ParamVariation2=ParameterName=Actuator Type|VariantValue=Round, Button
+ParamDesignator2=S2
+ParamVariation3=ParameterName=Category|VariantValue=Switches
+ParamDesignator3=S2
+ParamVariation4=ParameterName=Circuit|VariantValue=SPST-NO
+ParamDesignator4=S2
+ParamVariation5=ParameterName=Color - Actuator/Cap|VariantValue=Yellow
+ParamDesignator5=S2
+ParamVariation6=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator6=S2
+ParamVariation7=ParameterName=ComponentLink1Description|VariantValue=http://www.ckswitches.com/media/1341/d6.pdf
+ParamDesignator7=S2
+ParamVariation8=ParameterName=ComponentLink1URL|VariantValue=http://www.ckswitches.com/media/1341/d6.pdf
+ParamDesignator8=S2
+ParamVariation9=ParameterName=Current Rating|VariantValue=100mA (DC)
+ParamDesignator9=S2
+ParamVariation10=ParameterName=Description|VariantValue=Pushbutton Switch SPST-NO Keyswitch Through Hole D6 Series Yellow
+ParamDesignator10=S2
+ParamVariation11=ParameterName=Electrical Life|VariantValue=250,000 Cycles
+ParamDesignator11=S2
+ParamVariation12=ParameterName=Features|VariantValue=Tactile Feedback
+ParamDesignator12=S2
+ParamVariation13=ParameterName=Footprint|VariantValue=SW SPST D6 SERIES YELLOW
+ParamDesignator13=S2
+ParamVariation14=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator14=S2
+ParamVariation15=ParameterName=Illumination Type, Color|VariantValue=-
+ParamDesignator15=S2
+ParamVariation16=ParameterName=Illumination Voltage (Nominal)|VariantValue=-
+ParamDesignator16=S2
+ParamVariation17=ParameterName=Ingress Protection|VariantValue=-
+ParamDesignator17=S2
+ParamVariation18=ParameterName=Library Reference|VariantValue=SW SPST-NO 0.1A 32V D6 Series Yellow
+ParamDesignator18=S2
+ParamVariation19=ParameterName=Manufacturer|VariantValue=C&K
+ParamDesignator19=S2
+ParamVariation20=ParameterName=Manufacturer Part Number|VariantValue=D6R30 F1 LFS
+ParamDesignator20=S2
+ParamVariation21=ParameterName=Mechanical Life|VariantValue=-
+ParamDesignator21=S2
+ParamVariation22=ParameterName=Mounting Type|VariantValue=Through Hole
+ParamDesignator22=S2
+ParamVariation23=ParameterName=Operating Temperature|VariantValue=-20°C ~ 85°C
+ParamDesignator23=S2
+ParamVariation24=ParameterName=Packaging|VariantValue=Bulk
+ParamDesignator24=S2
+ParamVariation25=ParameterName=Panel Cutout Dimensions|VariantValue=-
+ParamDesignator25=S2
+ParamVariation26=ParameterName=Part Status|VariantValue=Active
+ParamDesignator26=S2
+ParamVariation27=ParameterName=PCB3D|VariantValue= 
+ParamDesignator27=S2
+ParamVariation28=ParameterName=Pricing 1|VariantValue=1=1.73, 10=1.607, 25=1.5308, 50=1.454, 100=1.4158, 250=1.37756, 500=1.30102, 1000=1.22448, 5000=1.03316 (CAD)
+ParamDesignator28=S2
+ParamVariation29=ParameterName=RoHS|VariantValue=RoHS Compliant
+ParamDesignator29=S2
+ParamVariation30=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator30=S2
+ParamVariation31=ParameterName=Simulation|VariantValue= 
+ParamDesignator31=S2
+ParamVariation32=ParameterName=Stock 1|VariantValue=2814
+ParamDesignator32=S2
+ParamVariation33=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator33=S2
+ParamVariation34=ParameterName=Supplier Part Number 1|VariantValue=401-1974-ND
+ParamDesignator34=S2
+ParamVariation35=ParameterName=Switch Function|VariantValue=Off-Mom
+ParamDesignator35=S2
+ParamVariation36=ParameterName=Termination Style|VariantValue=PC Pin
+ParamDesignator36=S2
+ParamVariation37=ParameterName=Type|VariantValue=Keyswitch
+ParamDesignator37=S2
+ParamVariation38=ParameterName=Voltage Rating - AC|VariantValue=-
+ParamDesignator38=S2
+ParamVariation39=ParameterName=Voltage Rating - DC|VariantValue=32V
+ParamDesignator39=S2
+Variation12=Designator=S3|UniqueId=\BRMQNRLA|Kind=2|AlternatePart=SPST|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=SW SPST-NO 0.1A 32V D6 Series Blue|AltLibLink_DesignItemID=SW SPST-NO 0.1A 32V D6 Series Yellow|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SW SPST D6 SERIES YELLOW|AltLibLink_IsSameFootprint=False
+ParamVariation40=ParameterName=Comment|VariantValue=SPST
+ParamDesignator40=S3
+ParamVariation41=ParameterName=Actuator Type|VariantValue=Round, Button
+ParamDesignator41=S3
+ParamVariation42=ParameterName=Category|VariantValue=Switches
+ParamDesignator42=S3
+ParamVariation43=ParameterName=Circuit|VariantValue=SPST-NO
+ParamDesignator43=S3
+ParamVariation44=ParameterName=Color - Actuator/Cap|VariantValue=Yellow
+ParamDesignator44=S3
+ParamVariation45=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator45=S3
+ParamVariation46=ParameterName=ComponentLink1Description|VariantValue=http://www.ckswitches.com/media/1341/d6.pdf
+ParamDesignator46=S3
+ParamVariation47=ParameterName=ComponentLink1URL|VariantValue=http://www.ckswitches.com/media/1341/d6.pdf
+ParamDesignator47=S3
+ParamVariation48=ParameterName=Current Rating|VariantValue=100mA (DC)
+ParamDesignator48=S3
+ParamVariation49=ParameterName=Description|VariantValue=Pushbutton Switch SPST-NO Keyswitch Through Hole D6 Series Yellow
+ParamDesignator49=S3
+ParamVariation50=ParameterName=Electrical Life|VariantValue=250,000 Cycles
+ParamDesignator50=S3
+ParamVariation51=ParameterName=Features|VariantValue=Tactile Feedback
+ParamDesignator51=S3
+ParamVariation52=ParameterName=Footprint|VariantValue=SW SPST D6 SERIES YELLOW
+ParamDesignator52=S3
+ParamVariation53=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator53=S3
+ParamVariation54=ParameterName=Illumination Type, Color|VariantValue=-
+ParamDesignator54=S3
+ParamVariation55=ParameterName=Illumination Voltage (Nominal)|VariantValue=-
+ParamDesignator55=S3
+ParamVariation56=ParameterName=Ingress Protection|VariantValue=-
+ParamDesignator56=S3
+ParamVariation57=ParameterName=Library Reference|VariantValue=SW SPST-NO 0.1A 32V D6 Series Yellow
+ParamDesignator57=S3
+ParamVariation58=ParameterName=Manufacturer|VariantValue=C&K
+ParamDesignator58=S3
+ParamVariation59=ParameterName=Manufacturer Part Number|VariantValue=D6R30 F1 LFS
+ParamDesignator59=S3
+ParamVariation60=ParameterName=Mechanical Life|VariantValue=-
+ParamDesignator60=S3
+ParamVariation61=ParameterName=Mounting Type|VariantValue=Through Hole
+ParamDesignator61=S3
+ParamVariation62=ParameterName=Operating Temperature|VariantValue=-20°C ~ 85°C
+ParamDesignator62=S3
+ParamVariation63=ParameterName=Packaging|VariantValue=Bulk
+ParamDesignator63=S3
+ParamVariation64=ParameterName=Panel Cutout Dimensions|VariantValue=-
+ParamDesignator64=S3
+ParamVariation65=ParameterName=Part Status|VariantValue=Active
+ParamDesignator65=S3
+ParamVariation66=ParameterName=PCB3D|VariantValue= 
+ParamDesignator66=S3
+ParamVariation67=ParameterName=Pricing 1|VariantValue=1=1.73, 10=1.607, 25=1.5308, 50=1.454, 100=1.4158, 250=1.37756, 500=1.30102, 1000=1.22448, 5000=1.03316 (CAD)
+ParamDesignator67=S3
+ParamVariation68=ParameterName=RoHS|VariantValue=RoHS Compliant
+ParamDesignator68=S3
+ParamVariation69=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator69=S3
+ParamVariation70=ParameterName=Simulation|VariantValue= 
+ParamDesignator70=S3
+ParamVariation71=ParameterName=Stock 1|VariantValue=2814
+ParamDesignator71=S3
+ParamVariation72=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator72=S3
+ParamVariation73=ParameterName=Supplier Part Number 1|VariantValue=401-1974-ND
+ParamDesignator73=S3
+ParamVariation74=ParameterName=Switch Function|VariantValue=Off-Mom
+ParamDesignator74=S3
+ParamVariation75=ParameterName=Termination Style|VariantValue=PC Pin
+ParamDesignator75=S3
+ParamVariation76=ParameterName=Type|VariantValue=Keyswitch
+ParamDesignator76=S3
+ParamVariation77=ParameterName=Voltage Rating - AC|VariantValue=-
+ParamDesignator77=S3
+ParamVariation78=ParameterName=Voltage Rating - DC|VariantValue=32V
+ParamDesignator78=S3
+ParamVariationCount=78
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MSXII_SteeringWheel\Design Rule Check - MainBoard.html
