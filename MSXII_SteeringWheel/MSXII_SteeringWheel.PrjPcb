@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for MSXII_SteeringWheel
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -111,13 +111,11 @@ UniqueID=C06FABD1-70D7-4EFF-B69A-1932058B26D6
 Description=Right Side
 AllowFabrication=0
 ParameterCount=0
-VariationCount=6
-Variation1=Designator=P3|UniqueId=\BUSFBJLO|Kind=1|AlternatePart= 
-Variation2=Designator=R9|UniqueId=\KBVUOODO|Kind=1|AlternatePart= 
-Variation3=Designator=R8|UniqueId=\EQRHQBXK|Kind=1|AlternatePart= 
-Variation4=Designator=R6|UniqueId=\VWNSYCXV|Kind=1|AlternatePart= 
-Variation5=Designator=R4|UniqueId=\MUTKTAEJ|Kind=1|AlternatePart= 
-Variation6=Designator=S4|UniqueId=\WSBWOOGE|Kind=1|AlternatePart= 
+VariationCount=4
+Variation1=Designator=P4|UniqueId=\FJKPWLSM|Kind=1|AlternatePart= 
+Variation2=Designator=R8|UniqueId=\EQRHQBXK|Kind=1|AlternatePart= 
+Variation3=Designator=R6|UniqueId=\VWNSYCXV|Kind=1|AlternatePart= 
+Variation4=Designator=R4|UniqueId=\MUTKTAEJ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -125,8 +123,8 @@ UniqueID=33742584-A70A-41FE-91E0-AB9CC4068C14
 Description=Left Side
 AllowFabrication=0
 ParameterCount=0
-VariationCount=12
-Variation1=Designator=P2|UniqueId=\JBUNEULT|Kind=1|AlternatePart= 
+VariationCount=15
+Variation1=Designator=P2|UniqueId=\LWEHPSGL|Kind=1|AlternatePart= 
 Variation2=Designator=R1|UniqueId=\SNIVMJIF|Kind=1|AlternatePart= 
 Variation3=Designator=U1|UniqueId=\QRCDKNVY|Kind=1|AlternatePart= 
 Variation4=Designator=LED1|UniqueId=\WUKSIEEC|Kind=1|AlternatePart= 
@@ -294,7 +292,88 @@ ParamVariation77=ParameterName=Voltage Rating - AC|VariantValue=-
 ParamDesignator77=S3
 ParamVariation78=ParameterName=Voltage Rating - DC|VariantValue=32V
 ParamDesignator78=S3
-ParamVariationCount=78
+Variation13=Designator=S1|UniqueId=\MSFCVLHP|Kind=2|AlternatePart=SPST|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=SW SPST-NO 0.1A 32V D6 Series Green|AltLibLink_DesignItemID=SW SPST-NO 0.1A 32V D6 Series Green|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SW SPST D6 SERIES GREEN|AltLibLink_IsSameFootprint=True
+ParamVariation79=ParameterName=Actuator Type|VariantValue=Round, Button
+ParamDesignator79=S1
+ParamVariation80=ParameterName=Category|VariantValue=Switches
+ParamDesignator80=S1
+ParamVariation81=ParameterName=Circuit|VariantValue=SPST-NO
+ParamDesignator81=S1
+ParamVariation82=ParameterName=Color - Actuator/Cap|VariantValue=Green
+ParamDesignator82=S1
+ParamVariation83=ParameterName=Comment|VariantValue=SPST
+ParamDesignator83=S1
+ParamVariation84=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator84=S1
+ParamVariation85=ParameterName=ComponentLink1Description|VariantValue=http://www.ckswitches.com/media/1341/d6.pdf
+ParamDesignator85=S1
+ParamVariation86=ParameterName=ComponentLink1URL|VariantValue=http://www.ckswitches.com/media/1341/d6.pdf
+ParamDesignator86=S1
+ParamVariation87=ParameterName=Current Rating|VariantValue=100mA (DC)
+ParamDesignator87=S1
+ParamVariation88=ParameterName=Description|VariantValue=Pushbutton Switch SPST-NO Keyswitch Through Hole D6 Series Green
+ParamDesignator88=S1
+ParamVariation89=ParameterName=Electrical Life|VariantValue=250,000 Cycles
+ParamDesignator89=S1
+ParamVariation90=ParameterName=Features|VariantValue=Tactile Feedback
+ParamDesignator90=S1
+ParamVariation91=ParameterName=Footprint|VariantValue=SW SPST D6 SERIES GREEN
+ParamDesignator91=S1
+ParamVariation92=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator92=S1
+ParamVariation93=ParameterName=Illumination Type, Color|VariantValue=-
+ParamDesignator93=S1
+ParamVariation94=ParameterName=Illumination Voltage (Nominal)|VariantValue=-
+ParamDesignator94=S1
+ParamVariation95=ParameterName=Ingress Protection|VariantValue=-
+ParamDesignator95=S1
+ParamVariation96=ParameterName=Library Reference|VariantValue=SW SPST-NO 0.1A 32V D6 Series Green
+ParamDesignator96=S1
+ParamVariation97=ParameterName=Manufacturer|VariantValue=C&K
+ParamDesignator97=S1
+ParamVariation98=ParameterName=Manufacturer Part Number|VariantValue=D6R50 F1 LFS
+ParamDesignator98=S1
+ParamVariation99=ParameterName=Mechanical Life|VariantValue=-
+ParamDesignator99=S1
+ParamVariation100=ParameterName=Mounting Type|VariantValue=Through Hole
+ParamDesignator100=S1
+ParamVariation101=ParameterName=Operating Temperature|VariantValue=-20°C ~ 85°C
+ParamDesignator101=S1
+ParamVariation102=ParameterName=Packaging|VariantValue=Bulk
+ParamDesignator102=S1
+ParamVariation103=ParameterName=Panel Cutout Dimensions|VariantValue=-
+ParamDesignator103=S1
+ParamVariation104=ParameterName=Part Status|VariantValue=Active
+ParamDesignator104=S1
+ParamVariation105=ParameterName=PCB3D|VariantValue= 
+ParamDesignator105=S1
+ParamVariation106=ParameterName=Pricing 1|VariantValue=1=1.73, 10=1.607, 25=1.5308, 50=1.454, 100=1.4158, 250=1.37756, 500=1.30102, 1000=1.22448, 5000=1.03316 (CAD)
+ParamDesignator106=S1
+ParamVariation107=ParameterName=RoHS|VariantValue=RoHS Compliant
+ParamDesignator107=S1
+ParamVariation108=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator108=S1
+ParamVariation109=ParameterName=Simulation|VariantValue= 
+ParamDesignator109=S1
+ParamVariation110=ParameterName=Stock 1|VariantValue=3742
+ParamDesignator110=S1
+ParamVariation111=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator111=S1
+ParamVariation112=ParameterName=Supplier Part Number 1|VariantValue=401-1976-ND
+ParamDesignator112=S1
+ParamVariation113=ParameterName=Switch Function|VariantValue=Off-Mom
+ParamDesignator113=S1
+ParamVariation114=ParameterName=Termination Style|VariantValue=PC Pin
+ParamDesignator114=S1
+ParamVariation115=ParameterName=Type|VariantValue=Keyswitch
+ParamDesignator115=S1
+ParamVariation116=ParameterName=Voltage Rating - AC|VariantValue=-
+ParamDesignator116=S1
+ParamVariation117=ParameterName=Voltage Rating - DC|VariantValue=32V
+ParamDesignator117=S1
+Variation14=Designator=P3|UniqueId=\BNVTXOGJ|Kind=1|AlternatePart= 
+Variation15=Designator=C2|UniqueId=\EWSOYSYL|Kind=1|AlternatePart= 
+ParamVariationCount=117
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MSXII_SteeringWheel\Design Rule Check - MainBoard.html
@@ -309,6 +388,45 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=0
+ZoomPrecision=50
+AddNetsInformation=0
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=0
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=0
+SaveSettingsToOutJob=0
+
+[Generic_EDE]
+OutputDir=Project Outputs for MSXII_SteeringWheel
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -442,7 +560,29 @@ OutputName1=Composite Drawing
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration1_Name2=OutputConfigurationParameter2
+Configuration1_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration1_Name3=OutputConfigurationParameter3
+Configuration1_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name4=OutputConfigurationParameter4
+Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name5=OutputConfigurationParameter5
+Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name6=OutputConfigurationParameter6
+Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name7=OutputConfigurationParameter7
+Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name8=OutputConfigurationParameter8
+Configuration1_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name9=OutputConfigurationParameter9
+Configuration1_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name10=OutputConfigurationParameter10
+Configuration1_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration1_Name11=OutputConfigurationParameter11
+Configuration1_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 OutputType2=PCB 3D Print
 OutputName2=PCB 3D Print
 OutputDocumentPath2=
@@ -1527,4 +1667,26 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Co
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration_Name1=OutputConfigurationParameter1
+Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration_Name2=OutputConfigurationParameter2
+Configuration_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration_Name3=OutputConfigurationParameter3
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name4=OutputConfigurationParameter4
+Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name5=OutputConfigurationParameter5
+Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name6=OutputConfigurationParameter6
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name7=OutputConfigurationParameter7
+Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name8=OutputConfigurationParameter8
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name9=OutputConfigurationParameter9
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name10=OutputConfigurationParameter10
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name11=OutputConfigurationParameter11
+Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 
