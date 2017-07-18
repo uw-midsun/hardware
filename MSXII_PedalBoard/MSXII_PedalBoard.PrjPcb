@@ -73,7 +73,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
 [Document3]
-DocumentPath=PeripheralMain.SchDoc
+DocumentPath=PedalMain.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -90,7 +90,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EVGRPMMX
 
 [Document4]
-DocumentPath=PeripheralPCB.PcbDoc
+DocumentPath=PedalPCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -104,7 +104,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=SWEMGVXU
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=DE111D45-A103-4C93-B292-0AE278C04DE0
