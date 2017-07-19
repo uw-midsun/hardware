@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for MSXII_SteeringWheel
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -293,15 +293,15 @@ ParamDesignator77=S3
 ParamVariation78=ParameterName=Voltage Rating - DC|VariantValue=32V
 ParamDesignator78=S3
 Variation13=Designator=S1|UniqueId=\MSFCVLHP|Kind=2|AlternatePart=SPST|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=SW SPST-NO 0.1A 32V D6 Series Green|AltLibLink_DesignItemID=SW SPST-NO 0.1A 32V D6 Series Green|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SW SPST D6 SERIES GREEN|AltLibLink_IsSameFootprint=True
-ParamVariation79=ParameterName=Actuator Type|VariantValue=Round, Button
+ParamVariation79=ParameterName=Comment|VariantValue=SPST
 ParamDesignator79=S1
-ParamVariation80=ParameterName=Category|VariantValue=Switches
+ParamVariation80=ParameterName=Actuator Type|VariantValue=Round, Button
 ParamDesignator80=S1
-ParamVariation81=ParameterName=Circuit|VariantValue=SPST-NO
+ParamVariation81=ParameterName=Category|VariantValue=Switches
 ParamDesignator81=S1
-ParamVariation82=ParameterName=Color - Actuator/Cap|VariantValue=Green
+ParamVariation82=ParameterName=Circuit|VariantValue=SPST-NO
 ParamDesignator82=S1
-ParamVariation83=ParameterName=Comment|VariantValue=SPST
+ParamVariation83=ParameterName=Color - Actuator/Cap|VariantValue=Green
 ParamDesignator83=S1
 ParamVariation84=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator84=S1
@@ -426,7 +426,7 @@ SCH_HasExpandLogicalToPhysicalSheets=0
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for MSXII_SteeringWheel
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
