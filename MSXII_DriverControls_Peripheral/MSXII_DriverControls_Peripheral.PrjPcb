@@ -121,7 +121,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SWEMGVXU
 
 [ProjectVariant1]
 UniqueID=DE111D45-A103-4C93-B292-0AE278C04DE0
@@ -143,6 +143,10 @@ Variation3=Designator=P2|UniqueId=\XFBRMATH|Kind=1|AlternatePart=
 Variation4=Designator=U3|UniqueId=\EHGFXDTQ|Kind=1|AlternatePart= 
 Variation5=Designator=C3|UniqueId=\JJGIGHBB|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\Design Rule Check - DriverControls_PeripheralPCB.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
