@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for MSXII_DriverControls_Peripheral
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -73,13 +73,13 @@ GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
 [Document3]
-DocumentPath=DriverControls_PeripheralMain.SchDoc
+DocumentPath=PedalBoardBlockDiagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -87,10 +87,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=EVGRPMMX
+DocumentUniqueId=
 
 [Document4]
-DocumentPath=DriverControls_PeriphealBlockDiagram.SchDoc
+DocumentPath=PedalBoard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -104,10 +104,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KEOXBNLT
+DocumentUniqueId=
 
 [Document5]
-DocumentPath=DriverControls_PeripheralPCB.PcbDoc
+DocumentPath=PedalBoard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -121,7 +121,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=SWEMGVXU
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=DE111D45-A103-4C93-B292-0AE278C04DE0
@@ -149,83 +149,7 @@ DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\Design Rule Che
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
 DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -275,7 +199,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for MSXII_DriverControls_Peripheral
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
