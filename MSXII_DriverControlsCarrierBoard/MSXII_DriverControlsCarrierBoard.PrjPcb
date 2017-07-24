@@ -73,7 +73,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
 [Document3]
-DocumentPath=DriverControls_Carrierboard_PCB.PcbDoc
+DocumentPath=DriverControlsCarrierboard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -90,23 +90,6 @@ GenerateClassCluster=0
 DocumentUniqueId=ULWVQGUU
 
 [Document4]
-DocumentPath=DriverControls_Carrierboard.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HNUPEDXA
-
-[Document5]
 DocumentPath=Carrierboard.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,25 +106,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
-DocumentPath=DriverControls_CarrierBoardMezzanine.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YEHERHKU
-
-[Document7]
-DocumentPath=DriverControls_CarrierBoardMezzanine.Harness
+[Document5]
+DocumentPath=DriverControlsCarrierBoardMezzanine.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,8 +123,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
-DocumentPath=DriverControls_Carrierboard.Harness
+[Document6]
+DocumentPath=DriverControlsCarrierboard.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=DriverControlsCarrierboard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -175,10 +158,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MSXII_DriverControls\Design Rule Check - Carrierboard_PCB.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for MSXII_DriverControls_CarrierBoard\Design Rule Check - DriverControls_Carrierboard_PCB.html
 DItemRevisionGUID=
 
