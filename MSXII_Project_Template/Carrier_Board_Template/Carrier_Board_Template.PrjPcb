@@ -124,12 +124,12 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=ProjectRevision
-Value=*
+Name=ProjectAuthor
+Value=
 
 [Parameter2]
-Name=ProjectAuthor
-Value=*
+Name=ProjectRevision
+Value=
 
 [Configuration1]
 Name=Default Configuration
