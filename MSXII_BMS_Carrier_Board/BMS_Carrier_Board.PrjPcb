@@ -196,12 +196,8 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=
-Value=
-
-[Parameter2]
 Name=ProjectRevision
-Value=1.3
+Value=2.0
 
 [Configuration1]
 Name=Default Configuration
