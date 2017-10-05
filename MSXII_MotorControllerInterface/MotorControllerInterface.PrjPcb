@@ -106,6 +106,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DBFQGMCV
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MotorControllerInterface\Design Rule Check - MotorControllerInterface.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
