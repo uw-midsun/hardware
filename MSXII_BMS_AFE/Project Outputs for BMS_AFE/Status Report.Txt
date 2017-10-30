@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [BMS_AFE.PrjPcb]
+   Generated File[Bill of Materials-BMS_AFE.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 5:52:41 PM On 2017-10-29
