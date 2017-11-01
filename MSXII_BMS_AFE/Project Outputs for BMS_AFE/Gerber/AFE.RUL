@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\kevin\Desktop\hardware-master\hardware-master\MSXII_BMS_AFE\AFE.PcbDoc
+DRC Rules Export File for PCB: C:\Users\kevin\Documents\Hardware\MSXII_BMS_AFE\AFE.PcbDoc
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
