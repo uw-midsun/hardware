@@ -297,12 +297,12 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectRevision
-Value=2.2
-
-[Parameter2]
 Name=ProjectAuthor
 Value=Taiping Li
+
+[Parameter2]
+Name=ProjectRevision
+Value=2.2
 
 [Configuration1]
 Name=Default Configuration
