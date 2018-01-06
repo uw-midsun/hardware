@@ -124,7 +124,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
 [Document6]
-DocumentPath=IMU_Board.Harness
+DocumentPath=Controller_Board_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -141,7 +141,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document7]
-DocumentPath=Controller_Board_Interface.Harness
+DocumentPath=IMU_Board.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -159,7 +159,7 @@ DocumentUniqueId=
 
 [Parameter1]
 Name=ProjectRevision
-Value=1.1
+Value=1.3
 
 [Parameter2]
 Name=ProjectAuthor
