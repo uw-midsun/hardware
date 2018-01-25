@@ -129,7 +129,7 @@ Value=3
 
 [Parameter2]
 Name=ProjectRevision
-Value=1.4
+Value=1.5
 
 [Parameter3]
 Name=ProjectAuthor
