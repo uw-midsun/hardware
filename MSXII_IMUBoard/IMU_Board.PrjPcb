@@ -73,7 +73,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YYEGWLMJ
 
 [Document3]
-DocumentPath=Carrier_Board_Template.PcbDoc
+DocumentPath=IMU_Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -158,12 +158,12 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=ProjectRevision
-Value=1.5
-
-[Parameter2]
 Name=ProjectAuthor
 Value=George Mardari
+
+[Parameter2]
+Name=ProjectRevision
+Value=1.5
 
 [Configuration1]
 Name=Default Configuration
