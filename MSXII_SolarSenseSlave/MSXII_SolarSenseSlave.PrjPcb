@@ -192,20 +192,20 @@ GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
 [Parameter1]
-Name=Project
-Value=Solar Sense Slave
+Name=SheetTotal
+Value=4
 
 [Parameter2]
+Name=ProjectRevision
+Value=1.7
+
+[Parameter3]
 Name=ProjectAuthor
 Value=Peiliang Guo
 
-[Parameter3]
-Name=ProjectRevision
-Value=1.6
-
 [Parameter4]
-Name=SheetTotal
-Value=4
+Name=Project
+Value=Solar Sense Slave
 
 [Configuration1]
 Name=Sources
