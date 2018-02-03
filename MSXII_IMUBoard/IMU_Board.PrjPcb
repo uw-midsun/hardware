@@ -158,12 +158,12 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=ProjectAuthor
-Value=George Mardari
+Name=ProjectRevision
+Value=1.6
 
 [Parameter2]
-Name=ProjectRevision
-Value=1.5
+Name=ProjectAuthor
+Value=George Mardari
 
 [Configuration1]
 Name=Default Configuration
