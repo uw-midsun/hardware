@@ -231,7 +231,7 @@ Value=
 
 [Parameter2]
 Name=ProjectRevision
-Value=1.4
+Value=1.6
 
 [Parameter3]
 Name=ProjectAuthor
@@ -246,6 +246,10 @@ Name=
 Value=
 
 [Parameter6]
+Name=
+Value=
+
+[Parameter7]
 Name=
 Value=
 
