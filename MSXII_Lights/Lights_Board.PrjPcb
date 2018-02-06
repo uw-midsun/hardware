@@ -107,7 +107,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ECLYAKKX
 
 [Document5]
-DocumentPath=Carrier_Board_Template.PcbDoc
+DocumentPath=MSXII_Lights.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -227,7 +227,7 @@ DocumentUniqueId=
 
 [Parameter1]
 Name=ProjectRevision
-Value=1.7
+Value=1.8
 
 [Parameter2]
 Name=ProjectAuthor
