@@ -1,14 +1,9 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 9:09:51 PM On 2018-02-07
-
-Output: Export STEP
-Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [BMS_Current_Sense.PcbDoc]
-   Generated File[BMS_Current_Sense_2.1.step]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [BMS_Current_Sense.PrjPcb]
 
 
-Files Generated   : 1
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 9:09:59 PM On 2018-02-07
+Finished Output Generation At 9:39:38 PM On 2018-02-07
