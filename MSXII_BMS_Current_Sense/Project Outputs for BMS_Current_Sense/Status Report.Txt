@@ -1,9 +1,12 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [BMS_Current_Sense.PrjPcb]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [BMS_Current_Sense.PrjPcb]
+   Generated File[BMS_Current_Sense.TXT]
+   Generated File[BMS_Current_Sense.LDP]
+   Generated File[BMS_Current_Sense.DRR]
 
 
-Files Generated   : 0
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 9:39:38 PM On 2018-02-07
+Finished Output Generation At 6:35:22 PM On 2018-02-11
