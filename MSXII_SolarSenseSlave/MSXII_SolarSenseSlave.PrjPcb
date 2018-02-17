@@ -191,13 +191,17 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXII_SolarSenseSlave\Design Rule Check - SolarSenseSlave.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=SheetTotal
 Value=4
 
 [Parameter2]
 Name=ProjectRevision
-Value=1.10
+Value=1.11
 
 [Parameter3]
 Name=ProjectAuthor
