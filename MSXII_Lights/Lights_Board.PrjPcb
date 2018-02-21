@@ -90,7 +90,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LWAXAIYG
 
 [Document4]
-DocumentPath=Headlight_Board.SchDoc
+DocumentPath=Headlight_Right_Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -107,6 +107,23 @@ GenerateClassCluster=0
 DocumentUniqueId=ECLYAKKX
 
 [Document5]
+DocumentPath=Headlight_Left_Board.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BFPUKEEB
+
+[Document6]
 DocumentPath=MSXII_Lights.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
-[Document6]
+[Document7]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,23 +156,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
-
-[Document7]
-DocumentPath=Project Logs for Lights_Board\IC DVR HISIDE QUAD POWERSSO24.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MQKQGDRI
 
 [Document8]
 DocumentPath=..\altium-lib\Footprints.PcbLib
@@ -225,33 +225,47 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Parameter1]
-Name=ProjectRevision
-Value=1.8
+[Document12]
+DocumentPath=Headlight_Right_Board.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[Parameter2]
+[Document13]
+DocumentPath=Headlight_Left_Board.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Parameter1]
 Name=ProjectAuthor
 Value=Veronica Lee
 
-[Parameter3]
-Name=
-Value=
-
-[Parameter4]
-Name=
-Value=
-
-[Parameter5]
-Name=
-Value=
-
-[Parameter6]
-Name=
-Value=
-
-[Parameter7]
-Name=
-Value=
+[Parameter2]
+Name=ProjectRevision
+Value=1.8
 
 [Configuration1]
 Name=Default Configuration
