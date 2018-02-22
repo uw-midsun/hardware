@@ -361,12 +361,12 @@ DocumentPath=Project Outputs for BMS_AFE\BOM\Bill of Materials-BMS_AFE.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=3.1
-
-[Parameter2]
 Name=ProjectAuthor
 Value=Kevin Chen, Taiping Li
+
+[Parameter2]
+Name=ProjectRevision
+Value=3.1
 
 [Configuration1]
 Name=Default Configuration
