@@ -260,12 +260,16 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
+Name=ProjectRevision
+Value=1.10
+
+[Parameter2]
 Name=ProjectAuthor
 Value=Veronica Lee
 
-[Parameter2]
-Name=ProjectRevision
-Value=1.8
+[Parameter3]
+Name=
+Value=
 
 [Configuration1]
 Name=Default Configuration
@@ -510,6 +514,8 @@ OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
 PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration15_Name1=OutputConfigurationParameter1
+Configuration15_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 OutputType16=SimView Print
 OutputName16=SimView Prints
 OutputDocumentPath16=
