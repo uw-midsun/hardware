@@ -261,7 +261,7 @@ DocumentUniqueId=
 
 [Parameter1]
 Name=ProjectRevision
-Value=1.10
+Value=1.11
 
 [Parameter2]
 Name=ProjectAuthor
