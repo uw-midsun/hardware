@@ -260,10 +260,14 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=ProjectRevision
-Value=1.15
+Name=
+Value=
 
 [Parameter2]
+Name=ProjectRevision
+Value=1.16
+
+[Parameter3]
 Name=ProjectAuthor
 Value=Veronica Lee
 
