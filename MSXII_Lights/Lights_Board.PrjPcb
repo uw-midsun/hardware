@@ -265,11 +265,19 @@ Value=
 
 [Parameter2]
 Name=ProjectRevision
-Value=1.16
+Value=1.18
 
 [Parameter3]
 Name=ProjectAuthor
 Value=Veronica Lee
+
+[Parameter4]
+Name=
+Value=
+
+[Parameter5]
+Name=
+Value=
 
 [Configuration1]
 Name=Default Configuration
