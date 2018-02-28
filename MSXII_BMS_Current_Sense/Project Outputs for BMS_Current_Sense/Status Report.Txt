@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [BMS_Current_Sense.PcbDoc]
+   Generated File[BMS_Current_Sense_2.2.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:41:01 PM On 2018-02-27
