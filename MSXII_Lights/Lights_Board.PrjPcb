@@ -141,7 +141,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
 [Document7]
-DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
+DocumentPath=..\altium-lib\Schematic Diagrams_Lights.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -158,7 +158,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
 [Document8]
-DocumentPath=..\altium-lib\Footprints.PcbLib
+DocumentPath=..\altium-lib\Footprints_Light.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -258,6 +258,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document14]
+DocumentPath=Block_Diagram.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GYOBBEPF
 
 [Parameter1]
 Name=
