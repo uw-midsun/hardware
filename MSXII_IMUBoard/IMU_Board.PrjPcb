@@ -120,7 +120,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WYDNESVI
+DocumentUniqueId=UIHCYTIQ
 
 [Document6]
 DocumentPath=Controller_Board_Interface.Harness
@@ -174,92 +174,16 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.REP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument18]
 DocumentPath=Project Outputs for IMU_Board\IMU_Board_1.6.step
 DItemRevisionGUID=
 
-[GeneratedDocument19]
-DocumentPath=Project Outputs for IMU_Board\Fabrication Files\IMU_Board_1.6.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for IMU_Board\IMU_Board_1.6.xlsx
-DItemRevisionGUID=
-
 [Parameter1]
-Name=ProjectRevision
-Value=1.7
-
-[Parameter2]
 Name=ProjectAuthor
 Value=George Mardari
+
+[Parameter2]
+Name=ProjectRevision
+Value=1.7
 
 [Configuration1]
 Name=Default Configuration
@@ -852,36 +776,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
