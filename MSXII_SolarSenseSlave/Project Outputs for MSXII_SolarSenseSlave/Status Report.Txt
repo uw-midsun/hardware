@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [SolarSenseSlave.PcbDoc]
+   Generated File[MSXII_SolarSenseSlave_1.13.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 8:23:43 PM On 2018-02-27
