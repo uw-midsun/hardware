@@ -39,23 +39,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WYDNESVI
-
-[Document2]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,8 +55,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXDWPGKY
 
-[Document3]
-DocumentPath=DriverControlsCarrierboard.PcbDoc
+[Document2]
+DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -87,9 +70,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ULWVQGUU
+DocumentUniqueId=WYDNESVI
 
-[Document4]
+[Document3]
 DocumentPath=Carrierboard.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,14 +89,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document4]
 DocumentPath=DriverControlsCarrierBoardMezzanine.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -123,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YEHERHKU
 
-[Document6]
+[Document5]
 DocumentPath=DriverControlsCarrierboard.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,14 +123,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=DriverControlsCarrierboard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -157,14 +140,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HNUPEDXA
 
-[Document8]
+[Document7]
 DocumentPath=BlockDiagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -174,7 +157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UDBKNWWI
 
-[Document9]
+[Document8]
 DocumentPath=DriverControlsCarrierBoardMezzanine.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,6 +173,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document9]
+DocumentPath=DriverControlsCarrierboard.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UYRDSECY
 
 [Configuration1]
 Name=Sources
@@ -1475,6 +1475,132 @@ ModelUpdate10=1
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Schematic Diagrams.SchLib
+ComponentDesignItemID0=CAP CER 10nF 50V 5% X7R 0603
+ComponentSymbolReference0=CAP CER 10nF 50V 5% X7R 0603
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Schematic Diagrams.SchLib
+ComponentDesignItemID1=CAP CER 1UF 50V 10% X7R 0603
+ComponentSymbolReference1=CAP CER 1UF 50V 10% X7R 0603
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Schematic Diagrams.SchLib
+ComponentDesignItemID2=CAP CER 2.2UF 25V 10% X5R 0603
+ComponentSymbolReference2=CAP CER 2.2UF 25V 10% X5R 0603
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Schematic Diagrams.SchLib
+ComponentDesignItemID3=CONN 2POS DURA-CLIK 0.079" VERT
+ComponentSymbolReference3=CONN 2POS DURA-CLIK 0.079" VERT
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Schematic Diagrams.SchLib
+ComponentDesignItemID4=CONN 2POS ULTRA-FIT 0.138"
+ComponentSymbolReference4=CONN 2POS ULTRA-FIT 0.138"
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Schematic Diagrams.SchLib
+ComponentDesignItemID5=CONN 4POS DURA-CLIK 0.079"
+ComponentSymbolReference5=CONN 4POS DURA-CLIK 0.079"
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Schematic Diagrams.SchLib
+ComponentDesignItemID6=CONN 50POS Bergstak Plug 0.02"
+ComponentSymbolReference6=CONN 50POS Bergstak Plug 0.02"
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Schematic Diagrams.SchLib
+ComponentDesignItemID7=CONN 6POS DURA-CLIK 0.079"
+ComponentSymbolReference7=CONN 6POS DURA-CLIK 0.079"
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Schematic Diagrams.SchLib
+ComponentDesignItemID8=CONN 8POS DURA-CLIK 0.079"
+ComponentSymbolReference8=CONN 8POS DURA-CLIK 0.079"
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Schematic Diagrams.SchLib
+ComponentDesignItemID9=IC ACCELERATOR I2C 1CH TSOT23-5
+ComponentSymbolReference9=IC ACCELERATOR I2C 1CH TSOT23-5
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Schematic Diagrams.SchLib
+ComponentDesignItemID10=IC OP AMP GEN PURPOSE RR 10MHZ SOT-23-5
+ComponentSymbolReference10=IC OP AMP GEN PURPOSE RR 10MHZ SOT-23-5
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=Schematic Diagrams.SchLib
+ComponentDesignItemID11=IC REG LDO 5V 0.1A SOT23-5
+ComponentSymbolReference11=IC REG LDO 5V 0.1A SOT23-5
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Schematic Diagrams.SchLib
+ComponentDesignItemID12=LED GREEN CLEAR 2V 0603
+ComponentSymbolReference12=LED GREEN CLEAR 2V 0603
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=Schematic Diagrams.SchLib
+ComponentDesignItemID13=RELAY CPC1017N SPST 100mA
+ComponentSymbolReference13=RELAY CPC1017N SPST 100mA
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=Schematic Diagrams.SchLib
+ComponentDesignItemID14=RES 0.0 OHM 1/4W 0603
+ComponentSymbolReference14=RES 0.0 OHM 1/4W 0603
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=Schematic Diagrams.SchLib
+ComponentDesignItemID15=RES 1K OHM 5% 1/10W 0603
+ComponentSymbolReference15=RES 1K OHM 5% 1/10W 0603
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=Schematic Diagrams.SchLib
+ComponentDesignItemID16=RES 2K OHM 1% 1/10W 0603
+ComponentSymbolReference16=RES 2K OHM 1% 1/10W 0603
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=Schematic Diagrams.SchLib
+ComponentDesignItemID17=RES 4.7K OHM 1% 1/10W 0603
+ComponentSymbolReference17=RES 4.7K OHM 1% 1/10W 0603
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=Schematic Diagrams.SchLib
+ComponentDesignItemID18=RES 6.8k OHM 1% 1/10W 0603
+ComponentSymbolReference18=RES 6.8k OHM 1% 1/10W 0603
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=Schematic Diagrams.SchLib
+ComponentDesignItemID19=RES ARRAY 10K OHM 5% 8RES EXB-2HV103JV
+ComponentSymbolReference19=RES ARRAY 10K OHM 5% 8RES EXB-2HV103JV
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=Schematic Diagrams.SchLib
+ComponentDesignItemID20=Test Point
+ComponentSymbolReference20=Test Point
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
