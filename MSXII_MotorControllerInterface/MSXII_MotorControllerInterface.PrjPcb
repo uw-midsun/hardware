@@ -140,6 +140,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXII_MotorControllerInterface\Design Rule Check - Motor_Controller_Interface_Board.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Project
 Value=CAN Interface Board
