@@ -246,7 +246,10 @@ UniqueID=99B0C714-7DDF-4B69-AD3C-EB605D671CDF
 Description=BMS Carrier - Master Battery Box
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=3
+Variation1=Designator=R11|UniqueId=\BWWVRXXF|Kind=1|AlternatePart= 
+Variation2=Designator=R12|UniqueId=\TPRCUFSE|Kind=1|AlternatePart= 
+Variation3=Designator=R3|UniqueId=\NVGVCBRI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -257,17 +260,17 @@ ParameterCount=0
 VariationCount=13
 Variation1=Designator=C1|UniqueId=\ORTGBEUJ|Kind=1|AlternatePart= 
 Variation2=Designator=C2|UniqueId=\SPPXEGNR|Kind=1|AlternatePart= 
-Variation3=Designator=R2|UniqueId=\YMHJVPOU|Kind=1|AlternatePart= 
-Variation4=Designator=R3|UniqueId=\CSUFFHND|Kind=1|AlternatePart= 
-Variation5=Designator=R4|UniqueId=\XJIGRFNX|Kind=1|AlternatePart= 
-Variation6=Designator=R5|UniqueId=\VGOBNYQY|Kind=1|AlternatePart= 
+Variation3=Designator=R5|UniqueId=\YMHJVPOU|Kind=1|AlternatePart= 
+Variation4=Designator=R6|UniqueId=\CSUFFHND|Kind=1|AlternatePart= 
+Variation5=Designator=R7|UniqueId=\XJIGRFNX|Kind=1|AlternatePart= 
+Variation6=Designator=R8|UniqueId=\VGOBNYQY|Kind=1|AlternatePart= 
 Variation7=Designator=TP1|UniqueId=\PSIFXVHD|Kind=1|AlternatePart= 
 Variation8=Designator=TP2|UniqueId=\WWODBNDT|Kind=1|AlternatePart= 
-Variation9=Designator=TP3|UniqueId=\JBNRPRAC|Kind=1|AlternatePart= 
-Variation10=Designator=TP4|UniqueId=\QHJSXIXS|Kind=1|AlternatePart= 
-Variation11=Designator=TP5|UniqueId=\QUMMRMGA|Kind=1|AlternatePart= 
-Variation12=Designator=TP6|UniqueId=\MYRJVJVU|Kind=1|AlternatePart= 
-Variation13=Designator=U1|UniqueId=\JNTXWDQM|Kind=1|AlternatePart= 
+Variation9=Designator=U1|UniqueId=\JNTXWDQM|Kind=1|AlternatePart= 
+Variation10=Designator=P10|UniqueId=\EKDCPBBE|Kind=1|AlternatePart= 
+Variation11=Designator=R11|UniqueId=\BWWVRXXF|Kind=1|AlternatePart= 
+Variation12=Designator=R12|UniqueId=\TPRCUFSE|Kind=1|AlternatePart= 
+Variation13=Designator=R1|UniqueId=\FGBMILDM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [SearchPath1]
