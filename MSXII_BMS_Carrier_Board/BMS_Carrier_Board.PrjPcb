@@ -116,7 +116,7 @@ AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -133,7 +133,7 @@ AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -150,7 +150,7 @@ AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -167,7 +167,7 @@ AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -184,7 +184,7 @@ AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -257,7 +257,7 @@ UniqueID=2A081959-7401-4529-A86E-EA398D10DC7E
 Description=BMS Carrier - Slave Battery Box
 AllowFabrication=0
 ParameterCount=0
-VariationCount=13
+VariationCount=15
 Variation1=Designator=C1|UniqueId=\ORTGBEUJ|Kind=1|AlternatePart= 
 Variation2=Designator=C2|UniqueId=\SPPXEGNR|Kind=1|AlternatePart= 
 Variation3=Designator=R5|UniqueId=\YMHJVPOU|Kind=1|AlternatePart= 
@@ -271,6 +271,8 @@ Variation10=Designator=P10|UniqueId=\EKDCPBBE|Kind=1|AlternatePart=
 Variation11=Designator=R11|UniqueId=\BWWVRXXF|Kind=1|AlternatePart= 
 Variation12=Designator=R12|UniqueId=\TPRCUFSE|Kind=1|AlternatePart= 
 Variation13=Designator=R1|UniqueId=\FGBMILDM|Kind=1|AlternatePart= 
+Variation14=Designator=P9|UniqueId=\OGPSCNYV|Kind=1|AlternatePart= 
+Variation15=Designator=P7|UniqueId=\GAOQOLHY|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [SearchPath1]
@@ -278,12 +280,12 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectAuthor
-Value=Taiping Li
-
-[Parameter2]
 Name=ProjectRevision
 Value=3.0
+
+[Parameter2]
+Name=ProjectAuthor
+Value=Taiping Li
 
 [Configuration1]
 Name=Default Configuration
