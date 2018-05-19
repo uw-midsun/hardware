@@ -127,10 +127,6 @@ DocumentUniqueId=WIANIMTT
 Name=ProjectAuthor
 Value=Mena Labib
 
-[Parameter2]
-Name=
-Value=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
