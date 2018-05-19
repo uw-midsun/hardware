@@ -31,7 +31,6 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-LinkedManagedProjectGUID=
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -79,7 +78,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -104,36 +103,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-
-[ProjectVariant1]
-UniqueID=DE111D45-A103-4C93-B292-0AE278C04DE0
-Description=With_ADC
-AllowFabrication=0
-ParameterCount=0
-VariationCount=0
-ParamVariationCount=0
-
-[ProjectVariant2]
-UniqueID=6DBFE293-9B9B-4F4E-981E-24EA0F07D0E0
-Description=No_ADC
-AllowFabrication=0
-ParameterCount=0
-VariationCount=5
-Variation1=Designator=U2|UniqueId=\CKOGSYSG|Kind=1|AlternatePart= 
-Variation2=Designator=C2|UniqueId=\CIJIFOBA|Kind=1|AlternatePart= 
-Variation3=Designator=P2|UniqueId=\XFBRMATH|Kind=1|AlternatePart= 
-Variation4=Designator=U3|UniqueId=\EHGFXDTQ|Kind=1|AlternatePart= 
-Variation5=Designator=C3|UniqueId=\JJGIGHBB|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\Design Rule Check - DriverControls_PeripheralPCB.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for MSXII_DriverControls_Peripheral\DriverControls_PeripheralPCB.REP
-DItemRevisionGUID=
+DocumentUniqueId=SWEMGVXU
 
 [Configuration1]
 Name=Sources
@@ -289,22 +259,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -371,18 +331,6 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Wave Print
-OutputName11=Wave Prints
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=WaveSim Print
-OutputName12=WaveSim Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -903,6 +851,32 @@ Type87=1
 Type88=1
 Type89=1
 Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
 
 [Difference Levels]
 Type1=1
@@ -954,6 +928,22 @@ Type46=1
 Type47=1
 Type48=1
 Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1069,6 +1059,15 @@ Type110=1
 Type111=1
 Type112=1
 Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
+MultiChannelAlternate=2
+AlternateItemFail=3
+Type122=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
