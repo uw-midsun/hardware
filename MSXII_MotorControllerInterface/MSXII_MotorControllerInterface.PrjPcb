@@ -130,7 +130,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -145,20 +145,20 @@ DocumentPath=Project Outputs for MSXII_MotorControllerInterface\Design Rule Chec
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Project
-Value=CAN Interface Board
+Name=SheetTotal
+Value=3
 
 [Parameter2]
+Name=ProjectRevision
+Value=1.5
+
+[Parameter3]
 Name=ProjectAuthor
 Value=Peiliang Guo
 
-[Parameter3]
-Name=ProjectRevision
-Value=1.0
-
 [Parameter4]
-Name=SheetTotal
-Value=3
+Name=Project
+Value=Motor Controller Interface Board
 
 [Configuration1]
 Name=Sources
