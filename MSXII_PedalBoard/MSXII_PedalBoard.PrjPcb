@@ -105,6 +105,111 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SWEMGVXU
 
+[Document5]
+DocumentPath=..\MSXII_Templates\Output Jobs\Elecrow.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.REP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for MSXII_PedalBoard\MSXII_PedalBoard_ProjectRevision.step
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for MSXII_PedalBoard\Fabrication Files\MSXII_PedalBoard_ProjectRevision.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for MSXII_PedalBoard\MSXII_PedalBoard_ProjectRevision.xlsx
+DItemRevisionGUID=
+
+[Parameter1]
+Name=ProjectRevision
+Value=2.1
+
+[Parameter2]
+Name=ProjectAuthor
+Value=Taiping Li
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
