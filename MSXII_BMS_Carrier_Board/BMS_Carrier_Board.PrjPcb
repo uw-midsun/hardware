@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for BMS_Carrier_Board
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -241,6 +241,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document13]
+DocumentPath=Elecrow.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=99B0C714-7DDF-4B69-AD3C-EB605D671CDF
 Description=BMS Carrier - Master Battery Box
@@ -257,7 +274,7 @@ UniqueID=2A081959-7401-4529-A86E-EA398D10DC7E
 Description=BMS Carrier - Slave Battery Box
 AllowFabrication=0
 ParameterCount=0
-VariationCount=15
+VariationCount=14
 Variation1=Designator=C1|UniqueId=\ORTGBEUJ|Kind=1|AlternatePart= 
 Variation2=Designator=C2|UniqueId=\SPPXEGNR|Kind=1|AlternatePart= 
 Variation3=Designator=R5|UniqueId=\YMHJVPOU|Kind=1|AlternatePart= 
@@ -272,8 +289,91 @@ Variation11=Designator=R11|UniqueId=\BWWVRXXF|Kind=1|AlternatePart=
 Variation12=Designator=R12|UniqueId=\TPRCUFSE|Kind=1|AlternatePart= 
 Variation13=Designator=R1|UniqueId=\FGBMILDM|Kind=1|AlternatePart= 
 Variation14=Designator=P9|UniqueId=\OGPSCNYV|Kind=1|AlternatePart= 
-Variation15=Designator=P7|UniqueId=\GAOQOLHY|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.step
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.xlsx
+DItemRevisionGUID=
 
 [SearchPath1]
 Path=..\altium-lib\*.*
@@ -281,7 +381,7 @@ IncludeSubFolders=1
 
 [Parameter1]
 Name=ProjectRevision
-Value=3.0
+Value=3.1
 
 [Parameter2]
 Name=ProjectAuthor
@@ -334,7 +434,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for BMS_Carrier_Board
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -922,6 +1022,36 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad v7 Capture Design
+OutputName12=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=P-CAD ASCII
+OutputName13=P-CAD ASCII (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD V16 Schematic Design
+OutputName14=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=SiSoft
+OutputName15=SiSoft (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

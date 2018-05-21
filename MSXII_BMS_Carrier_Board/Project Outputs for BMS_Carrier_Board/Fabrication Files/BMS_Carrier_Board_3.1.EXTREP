@@ -1,0 +1,22 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: BMS_Carrier_Board_3.1.GBR   5/21/2018  12:44:28 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Top Layer                               
+.GTP                Top Paste                               
+.GBS                Bottom Solder                           
+.GBL                Bottom Layer                            
+.GPB                Bottom Pad Master                       
+.GPT                Top Pad Master                          
+.GTS                Top Solder                              
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
+.GM13               Mechanical 13                           
+.GTO                Top Overlay                             
+.GM15               Mechanical 15                           
+------------------------------------------------------------------------------------------

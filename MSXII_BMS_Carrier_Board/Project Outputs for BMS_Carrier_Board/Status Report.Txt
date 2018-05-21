@@ -1,9 +1,10 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [BMS_Carrier_Board.PrjPcb]
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [BMS Carrier - Master Battery Box] of PCB Document [BMS_Carrier_Board.PcbDoc]
+   Generated File[BMS_Carrier_Board_3.1.step]
 
 
-Files Generated   : 0
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 11:28:47 PM On 2017-10-31
+Finished Output Generation At 12:45:10 AM On 5/21/2018
