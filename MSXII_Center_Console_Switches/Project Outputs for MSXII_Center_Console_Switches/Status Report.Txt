@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [Center Console.PcbDoc]
+   Generated File[MSXII_Center_Console_Switches_1.2.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:58:55 PM On 2018-05-21
