@@ -28,10 +28,9 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for MSXII_DriverControlsCarrierBoard
 LogFolderPath=
 ManagedProjectGUID=
-LinkedManagedProjectGUID=
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -124,23 +123,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HNUPEDXA
 
 [Document6]
-DocumentPath=BlockDiagram.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UDBKNWWI
-
-[Document7]
 DocumentPath=DriverControlsCarrierboard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,6 +138,191 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
+
+[Document7]
+DocumentPath=..\MSXII_Templates\Output Jobs\Elecrow.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\MSXII_DriverControlsCarrierBoard_2.1.step
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_2.1.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\MSXII_DriverControlsCarrierBoard_2.1.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.REP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\MSXII_DriverControlsCarrierBoard_ProjectRevision.step
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\Fabrication Files\MSXII_DriverControlsCarrierBoard_ProjectRevision.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for MSXII_DriverControlsCarrierBoard\MSXII_DriverControlsCarrierBoard_ProjectRevision.xlsx
+DItemRevisionGUID=
+
+[Parameter1]
+Name=ProjectRevision
+Value=2.1
+
+[Parameter2]
+Name=ProjectAuthor
+Value=Mena Labib
 
 [Configuration1]
 Name=Sources
@@ -204,12 +371,12 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for MSXII_DriverControlsCarrierBoard
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P1102w
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -311,22 +478,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P1102w
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -393,23 +550,11 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Wave Print
-OutputName11=Wave Prints
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=WaveSim Print
-OutputName12=WaveSim Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P1102w
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -431,7 +576,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P1102w
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -503,7 +648,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P1102w
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -540,7 +685,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P1102w
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -720,7 +865,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P1102w
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -759,7 +904,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P1102w
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -810,7 +955,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P1102w
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -909,6 +1054,32 @@ Type87=1
 Type88=1
 Type89=1
 Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
 
 [Difference Levels]
 Type1=1
@@ -960,6 +1131,22 @@ Type46=1
 Type47=1
 Type48=1
 Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1075,7 +1262,15 @@ Type110=1
 Type111=1
 Type112=1
 Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
 MultiChannelAlternate=2
+AlternateItemFail=3
+Type122=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
