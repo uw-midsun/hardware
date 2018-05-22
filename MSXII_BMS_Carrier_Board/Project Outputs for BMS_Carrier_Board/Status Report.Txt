@@ -1,10 +1,12 @@
-Output: Export STEP
-Type  : ExportSTEP
-From  : Variant [BMS Carrier - Master Battery Box] of PCB Document [BMS_Carrier_Board.PcbDoc]
-   Generated File[BMS_Carrier_Board_3.1.step]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [BMS_Carrier_Board.PcbDoc]
+   Generated File[BMS_Carrier_Board_3.1.TXT]
+   Generated File[BMS_Carrier_Board_3.1.LDP]
+   Generated File[BMS_Carrier_Board_3.1.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 12:45:10 AM On 5/21/2018
+Finished Output Generation At 9:52:30 PM On 2018-05-21
