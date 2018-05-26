@@ -158,20 +158,20 @@ GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
 [Parameter1]
-Name=Project
-Value=CAN Interface Board
+Name=SheetTotal
+Value=4
 
 [Parameter2]
-Name=ProjectAuthor
-Value=Peiliang Guo
+Name=ProjectRevision
+Value=1.1
 
 [Parameter3]
-Name=ProjectRevision
-Value=1.0
+Name=ProjectAuthor
+Value=Mena Labib
 
 [Parameter4]
-Name=SheetTotal
-Value=3
+Name=Project
+Value=CAN Interface Board
 
 [Configuration1]
 Name=Sources
