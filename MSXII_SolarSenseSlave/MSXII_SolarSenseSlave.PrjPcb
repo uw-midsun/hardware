@@ -56,23 +56,6 @@ GenerateClassCluster=0
 DocumentUniqueId=TUBJEDTK
 
 [Document2]
-DocumentPath=Controller_Board_Interface.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CUVCIDOY
-
-[Document3]
 DocumentPath=PowerSupplies.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WERBABAQ
 
-[Document4]
+[Document3]
 DocumentPath=SolarSenseBoard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMTKIPTE
 
-[Document5]
+[Document4]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXDWPGKY
 
-[Document6]
+[Document5]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,41 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
-[Document7]
-DocumentPath=SolarSenseBoard.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document8]
-DocumentPath=Controller_Board_Interface.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
+[Document6]
 DocumentPath=SolarSenseSlave.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -196,20 +145,20 @@ DocumentPath=Project Outputs for MSXII_SolarSenseSlave\Design Rule Check - Solar
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SheetTotal
-Value=4
+Name=Project
+Value=Solar Sense Slave
 
 [Parameter2]
-Name=ProjectRevision
-Value=1.13
-
-[Parameter3]
 Name=ProjectAuthor
 Value=Peiliang Guo
 
+[Parameter3]
+Name=ProjectRevision
+Value=1.13
+
 [Parameter4]
-Name=Project
-Value=Solar Sense Slave
+Name=SheetTotal
+Value=4
 
 [Configuration1]
 Name=Sources
