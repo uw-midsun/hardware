@@ -77,7 +77,7 @@ Configuration3_Item1=CaptionAsName
 Configuration3_Name2=Filter
 Configuration3_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration3_Name3=General
-Configuration3_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\..\..\..\Desktop\Midnight Sun BOM Template.xltx|BatchMode=5|FormWidth=1884|FormHeight=1288|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|ViewType=0
+Configuration3_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|BatchMode=5|FormWidth=1884|FormHeight=1315|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|ViewType=0
 Configuration3_Name4=GroupOrder
 Configuration3_Item4=
 Configuration3_Name5=OutputConfigurationParameter1
@@ -201,7 +201,7 @@ Configuration9_Item1=G?
 [PublishSettings]
 OutputFilePath2=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_BMS_Current_Sense\Project Outputs for BMS_Current_Sense\Job1.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Carrier_Board_Template
+OutputBasePath2=Project Outputs for MSXII_MotorControllerInterface
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -228,7 +228,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_DC-DC_Converter\Project Outputs for MSXII_DC-DC_Converter\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Carrier_Board_Template
+OutputBasePath3=Project Outputs for MSXII_MotorControllerInterface
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Custom]
@@ -241,7 +241,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_DC-DC_Converter\Project Outputs for MSXII_DC-DC_Converter\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Carrier_Board_Template
+OutputBasePath4=Project Outputs for MSXII_MotorControllerInterface
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=
