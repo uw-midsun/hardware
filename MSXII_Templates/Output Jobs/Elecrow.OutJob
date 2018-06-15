@@ -21,7 +21,7 @@ TargetOutputMedium=BOM & STEP
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=Send To OneNote 2016
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -77,7 +77,7 @@ Configuration3_Item1=CaptionAsName
 Configuration3_Name2=Filter
 Configuration3_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration3_Name3=General
-Configuration3_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|BatchMode=5|FormWidth=1884|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|ViewType=0
+Configuration3_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|BatchMode=5|FormWidth=1884|FormHeight=1315|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|ViewType=0
 Configuration3_Name4=GroupOrder
 Configuration3_Item4=
 Configuration3_Name5=OutputConfigurationParameter1
@@ -97,7 +97,7 @@ OutputEnabled4_OutputMedium2=4
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.30|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.48|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=15551181|ViewY=13523623|LookAtX=38877948|LookAtY=27194882|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=0.000108698682298375|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 OutputType5=PCB Print
@@ -155,7 +155,7 @@ OutputEnabled6_OutputMedium3=1
 OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908289~1,16908301~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16908289~1,16908301~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 OutputType7=NC Drill
 OutputName7=NC Drill Files
 OutputCategory7=Fabrication
@@ -201,7 +201,7 @@ Configuration9_Item1=G?
 [PublishSettings]
 OutputFilePath2=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_BMS_Current_Sense\Project Outputs for BMS_Current_Sense\Job1.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for MSXII_SteeringWheelInterfaceBoard
+OutputBasePath2=Project Outputs for MSXII_MotorControllerInterface
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -226,9 +226,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_SteeringWheelInterfaceBoard\Project Outputs for MSXII_SteeringWheelInterfaceBoard\
+OutputFilePath3=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_DC-DC_Converter\Project Outputs for MSXII_DC-DC_Converter\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for MSXII_SteeringWheelInterfaceBoard
+OutputBasePath3=Project Outputs for MSXII_MotorControllerInterface
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Custom]
@@ -239,9 +239,9 @@ OutputFileNameMulti3==ProjectName+'_'+ProjectRevision
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_SteeringWheelInterfaceBoard\Project Outputs for MSXII_SteeringWheelInterfaceBoard\
+OutputFilePath4=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_DC-DC_Converter\Project Outputs for MSXII_DC-DC_Converter\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for MSXII_SteeringWheelInterfaceBoard
+OutputBasePath4=Project Outputs for MSXII_MotorControllerInterface
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=
@@ -256,7 +256,7 @@ OpenOutput4=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_BMS_Current_Sense\Project Outputs for BMS_Current_Sense\Job1.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_SteeringWheelInterfaceBoard\Project Outputs for MSXII_SteeringWheelInterfaceBoard\
+RelativeOutputPath3=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_DC-DC_Converter\Project Outputs for MSXII_DC-DC_Converter\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
@@ -266,7 +266,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_SteeringWheelInterfaceBoard\Project Outputs for MSXII_SteeringWheelInterfaceBoard\
+RelativeOutputPath4=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_DC-DC_Converter\Project Outputs for MSXII_DC-DC_Converter\
 OpenOutputs4=0
 AddToProject4=1
 TimestampFolder4=0
