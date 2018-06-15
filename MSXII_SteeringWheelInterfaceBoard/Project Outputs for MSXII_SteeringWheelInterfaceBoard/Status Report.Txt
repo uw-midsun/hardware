@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [SteeringWheelInterfaceBoard.PcbDoc]
+   Generated File[MSXII_SteeringWheelInterfaceBoard_1.1.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:36:14 PM On 5/20/2018

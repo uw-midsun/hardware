@@ -1,0 +1,22 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: MSXII_SteeringWheelInterfaceBoard_1.1.GBR   5/20/2018  11:35:55 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTO                Top Overlay                             
+.GBS                Bottom Solder                           
+.GKO                Keep-Out Layer                          
+.GM1                Mechanical 1                            
+.GM15               Mechanical 15                           
+.GBO                Bottom Overlay                          
+.GM13               Mechanical 13                           
+------------------------------------------------------------------------------------------
