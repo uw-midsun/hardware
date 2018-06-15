@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [PedalBoard.PcbDoc]
+   Generated File[MSXII_PedalBoard_2.1.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:16:44 PM On 2018-05-21
