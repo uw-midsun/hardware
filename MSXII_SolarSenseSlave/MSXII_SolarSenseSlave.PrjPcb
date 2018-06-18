@@ -90,6 +90,23 @@ GenerateClassCluster=0
 DocumentUniqueId=GMTKIPTE
 
 [Document4]
+DocumentPath=SolarSenseBoard.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,7 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXDWPGKY
 
-[Document5]
+[Document6]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
-[Document6]
+[Document7]
 DocumentPath=SolarSenseSlave.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,23 +156,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
-
-[Document7]
-DocumentPath=SolarSenseBoard.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [Document8]
 DocumentPath=I2CInterface.SchDoc
@@ -196,20 +196,20 @@ DocumentPath=Project Outputs for MSXII_SolarSenseSlave\Design Rule Check - Solar
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SheetTotal
-Value=4
+Name=Project
+Value=Solar Sense Slave
 
 [Parameter2]
-Name=ProjectRevision
-Value=2.0
-
-[Parameter3]
 Name=ProjectAuthor
 Value=Peiliang Guo
 
+[Parameter3]
+Name=ProjectRevision
+Value=2.0
+
 [Parameter4]
-Name=Project
-Value=Solar Sense Slave
+Name=SheetTotal
+Value=4
 
 [Configuration1]
 Name=Sources
