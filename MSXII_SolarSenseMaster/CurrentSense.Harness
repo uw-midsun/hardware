@@ -1,2 +1,2 @@
 I2C1 Interface=PB8/I2C1_SCL,PB9/I2C1_SDA
-Shunt Resistor Interface=SHUNT_RES_LOW,SHUNT_RES_HIGH
+Shunt Resistor Interface=

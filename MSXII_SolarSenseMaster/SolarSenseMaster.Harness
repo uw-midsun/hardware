@@ -1,3 +1,1 @@
-HV Passthrough Interface=HV_A_HIGH,HV_A_LOW,HV_B_HIGH,HV_B_LOW
-Relay Control Interface=PA8/RELAY_A,PA9/RELAY_B
-Shunt Resistor Interface=SHUNT_RES_LOW,SHUNT_RES_HIGH
+Relay Control Interface=PA8/RELAY_A
