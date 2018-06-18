@@ -1,0 +1,2 @@
+HV Passthrough Interface=HV_A_HIGH,HV_A_LOW,HV_B_HIGH,HV_B_LOW
+I2C1 Interface=PB8/I2C1_SCL,PB9/I2C1_SDA
