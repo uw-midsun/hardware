@@ -56,6 +56,23 @@ GenerateClassCluster=0
 DocumentUniqueId=CUVCIDOY
 
 [Document2]
+DocumentPath=EVSEInterface&ChargerRelay.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FRJOUOAG
+
+[Document3]
 DocumentPath=Pre_Charge_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DVOADHMD
 
-[Document3]
+[Document4]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXDWPGKY
 
-[Document4]
+[Document5]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,7 +123,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
-[Document5]
+[Document6]
 DocumentPath=Slave_Controller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,7 +140,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MLMXGGFH
 
-[Document6]
+[Document7]
 DocumentPath=Motor_Controller_Interface_Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,7 +157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
-[Document7]
+[Document8]
 DocumentPath=..\MSXII_Templates\Output Jobs\Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -157,7 +174,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=Controller_Board_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -174,7 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document10]
 DocumentPath=Slave_Controller.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,7 +208,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document11]
 DocumentPath=Pre_Charge_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
