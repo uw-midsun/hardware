@@ -1,1 +1,2 @@
-Relay Control Interface=PA8/RELAY_A
+Current Sensor Interface=PA1/CURRENT_SENSE
+Relay Control Interface=PA8/SOLAR_RELAY

@@ -1,2 +1,3 @@
-I2C Interface=PB11/I2C2_SDA,PB10/I2C2_SCL
-Relay Control Interface=PA9/RELAY_B,PA8/RELAY_A
+Current Sensor Interface=PA1/CURRENT_SENSE
+I2C Interface=PB11/I2C2_SDA,PB10/I2C2_SCL,PB2/I2C_BUFFER_EN
+Relay Control Interface=PA8/SOLAR_RELAY
