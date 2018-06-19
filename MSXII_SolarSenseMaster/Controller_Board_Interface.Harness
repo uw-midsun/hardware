@@ -1,3 +1,4 @@
 Current Sensor Interface=PA1/CURRENT_SENSE
 I2C Interface=PB11/I2C2_SDA,PB10/I2C2_SCL,PB2/I2C_BUFFER_EN
+Mode Selection Interface=PA5/MODE_SEL_1,PA4/MODE_SEL_0
 Relay Control Interface=PA8/SOLAR_RELAY
