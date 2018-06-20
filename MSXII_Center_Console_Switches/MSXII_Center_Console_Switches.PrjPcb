@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for MSXII_Center_Console_Switches
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -38,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Center Console - IO Expander.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HOFWOGPI
-
-[Document2]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WYDNESVI
 
-[Document3]
+[Document2]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document3]
 DocumentPath=Center Console.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WIANIMTT
 
-[Document5]
+[Document4]
 DocumentPath=..\MSXII_Templates\Output Jobs\Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,13 +105,110 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document5]
+DocumentPath=Center Console.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HOFWOGPI
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\MSXII_Center_Console_Switches_2.2.step
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\Fabrication Files\MSXII_Center_Console_Switches_2.2.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for MSXII_Center_Console_Switches\MSXII_Center_Console_Switches_2.2.xls
+DItemRevisionGUID=
+
 [Parameter1]
-Name=ProjectAuthor
-Value=Mena Labib
+Name=ProjectRevision
+Value=2.2
 
 [Parameter2]
-Name=ProjectRevision
-Value=2
+Name=ProjectAuthor
+Value= 
 
 [Configuration1]
 Name=Sources
@@ -159,6 +239,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
+
+[Generic_EDE]
+OutputDir=Project Outputs for MSXII_Center_Console_Switches
 
 [OutputGroup1]
 Name=Netlist Outputs
