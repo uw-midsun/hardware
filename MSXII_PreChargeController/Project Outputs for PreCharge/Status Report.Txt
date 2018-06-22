@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [PreCharge.PrjPcb]
-   Generated File[PreCharge.TXT]
-   Generated File[PreCharge.LDP]
-   Generated File[PreCharge.DRR]
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [PreCharge.PcbDoc]
+   Generated File[PreCharge_3.0.step]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 1:21:03 AM On 2018-06-22
+Finished Output Generation At 1:57:24 AM On 2018-06-22
