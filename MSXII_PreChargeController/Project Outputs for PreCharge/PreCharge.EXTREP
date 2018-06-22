@@ -1,25 +1,23 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: PreCharge.GBR   4/23/2017  2:48:37 PM
+Gerber File Extension Report For: PreCharge.GBR   2018-06-22  1:19:03 AM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.GTL                Top Layer                               
-.GP1                Internal Plane 1                        
-.GP2                Internal Plane 2                        
+.GTL                Component Side                          
 .GBL                Bottom Layer                            
 .GPB                Bottom Pad Master                       
 .GPT                Top Pad Master                          
 .GTO                Top Overlay                             
 .GTP                Top Paste                               
 .GTS                Top Solder                              
-.GBS                Bottom Solder                           
+.GBS                Solder Side                             
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
-.GKO                Keep-Out Layer                          
 .GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
 .GM13               Mechanical 13                           
 .GM15               Mechanical 15                           
 ------------------------------------------------------------------------------------------

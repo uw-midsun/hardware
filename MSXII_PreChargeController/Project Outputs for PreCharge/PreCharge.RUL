@@ -1,6 +1,7 @@
-DRC Rules Export File for PCB: C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_PreChargeController\PreCharge.PcbDoc
-RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=31.50
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+DRC Rules Export File for PCB: C:\Users\HANNA\Desktop\Midnight Sun\hardware\MSXII_PreChargeController\PreCharge.PcbDoc
+RuleKind=Clearance|RuleName=Schematic Clearance Constraint_1|Scope=Board|Minimum=49.21
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=31.50
