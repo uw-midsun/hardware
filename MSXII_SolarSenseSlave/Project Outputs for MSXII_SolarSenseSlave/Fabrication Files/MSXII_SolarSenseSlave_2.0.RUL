@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_SolarSenseSlave\SolarSenseSlave.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_PV_to_LOW_V|Scope=Board|Minimum=196.85
+RuleKind=Clearance|RuleName=Clearance_PV|Scope=Board|Minimum=20.87
+RuleKind=Clearance|RuleName=HV_Clearance_to_GND|Scope=Board|Minimum=20.87
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.91
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
