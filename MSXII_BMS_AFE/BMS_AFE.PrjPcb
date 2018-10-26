@@ -269,11 +269,11 @@ DItemRevisionGUID=
 
 [Parameter1]
 Name=ProjectRevision
-Value=3.1
+Value=4.0
 
 [Parameter2]
 Name=ProjectAuthor
-Value=Kevin Chen, Taiping Li
+Value=Taiping Li
 
 [Parameter3]
 Name=MSPartNumber
