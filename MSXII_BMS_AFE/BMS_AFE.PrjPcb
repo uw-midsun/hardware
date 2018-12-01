@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for BMS_AFE
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -275,6 +275,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document15]
+DocumentPath=AFE.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=925A97B5-A744-41D8-94C8-11F166C3FD7F
 Description=01 - Standard
@@ -479,7 +496,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for BMS_AFE
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -2046,8 +2063,8 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
-Net2=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
+Net1=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
+Net2=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
 Net3=NetName=AFE_TEMP_MUX_OUTPUT|NetColor=$006EFF6E
 Net4=NetName=THERMISTOR_AMBIENT_|NetColor=$006EFF6E
 Net5=NetName=5V0|NetColor=clYellow
