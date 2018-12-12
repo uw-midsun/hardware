@@ -297,12 +297,14 @@ UniqueID=925A97B5-A744-41D8-94C8-11F166C3FD7F
 Description=01 - Standard
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=7
 Variation1=Designator=R1|UniqueId=\TIPIMKKY\NTCOHQQI|Kind=1|AlternatePart= 
 Variation2=Designator=R2|UniqueId=\TIPIMKKY\DSJYYLXJ|Kind=1|AlternatePart= 
 Variation3=Designator=R61|UniqueId=\THLOCXPK\EBHYMEBG|Kind=1|AlternatePart= 
 Variation4=Designator=R63|UniqueId=\THLOCXPK\VPCTQTFJ|Kind=1|AlternatePart= 
 Variation5=Designator=R60|UniqueId=\THLOCXPK\JLAWNXJX|Kind=1|AlternatePart= 
+Variation6=Designator=R59|UniqueId=\THLOCXPK\JSBSUKNG|Kind=1|AlternatePart= 
+Variation7=Designator=P7|UniqueId=\NNJSQBUO\QSCLDBGO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -2063,8 +2065,8 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
-Net2=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
+Net1=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
+Net2=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
 Net3=NetName=AFE_TEMP_MUX_OUTPUT|NetColor=$006EFF6E
 Net4=NetName=THERMISTOR_AMBIENT_|NetColor=$006EFF6E
 Net5=NetName=5V0|NetColor=clYellow
