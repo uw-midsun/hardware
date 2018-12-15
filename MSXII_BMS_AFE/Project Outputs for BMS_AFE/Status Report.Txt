@@ -1,10 +1,12 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Project [BMS_AFE.PrjPcb]
-   Generated File[Bill of Materials-BMS_AFE.xlsx]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [AFE.PcbDoc]
+   Generated File[BMS_AFE_3.1.TXT]
+   Generated File[BMS_AFE_3.1.LDP]
+   Generated File[BMS_AFE_3.1.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 7:22:05 PM On 2017-10-31
+Finished Output Generation At 8:54:47 PM On 2018-02-27
