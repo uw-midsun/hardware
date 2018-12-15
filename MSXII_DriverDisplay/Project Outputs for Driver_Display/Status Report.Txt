@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Driver_Display_Board.PcbDoc]
+   Generated File[Driver_Display_1.0.TXT]
+   Generated File[Driver_Display_1.0.LDP]
+   Generated File[Driver_Display_1.0.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 4:05:15 AM On 2018-06-22
