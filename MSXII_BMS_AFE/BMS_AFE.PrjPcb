@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for BMS_AFE
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -313,216 +313,104 @@ DocumentPath=BMS_AFE.sdf
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for BMS_AFE\BMS_AFE_3.1.step
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for BMS_AFE\BMS_AFE_3.1.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.G1
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.G2
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.REP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument26]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument28]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.G1
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.G2
-DItemRevisionGUID=
-
-[GeneratedDocument30]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GPB
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GPT
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument44]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.REP
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for BMS_AFE\BMS_AFE_4.1.step
 DItemRevisionGUID=
 
-[GeneratedDocument48]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.step
-DItemRevisionGUID=
-
-[GeneratedDocument49]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for BMS_AFE\BMS_AFE_4.1.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument51]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.xlsx
-DItemRevisionGUID=
-
 [Parameter1]
-Name=ProjectRevision
-Value=4.1
+Name=MSPartNumber
+Value=MS40005
 
 [Parameter2]
 Name=ProjectAuthor
 Value=Taiping Li
 
 [Parameter3]
-Name=MSPartNumber
-Value=MS40005
+Name=ProjectRevision
+Value=4.1
 
 [Configuration1]
 Name=Default Configuration
@@ -691,7 +579,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for BMS_AFE
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -2262,8 +2150,8 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
-Net2=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
+Net1=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
+Net2=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
 Net3=NetName=AFE_TEMP_MUX_OUTPUT|NetColor=$006EFF6E
 Net4=NetName=THERMISTOR_AMBIENT_|NetColor=$006EFF6E
 Net5=NetName=5V0|NetColor=clYellow

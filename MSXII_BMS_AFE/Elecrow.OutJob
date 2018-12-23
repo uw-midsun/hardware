@@ -18,7 +18,7 @@ RevisionNamingSchemeGUID=
 Name=Elecrow.OutJob
 Description=
 TargetOutputMedium=PDF
-VariantName=01 - Standard
+VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Virtual Printer
@@ -49,7 +49,7 @@ Configuration1_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModels
 OutputType2=Schematic Print
 OutputName2=Schematic Prints
 OutputCategory2=Documentation
-OutputDocumentPath2=
+OutputDocumentPath2=[Project Physical Documents]
 OutputVariantName2=
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
