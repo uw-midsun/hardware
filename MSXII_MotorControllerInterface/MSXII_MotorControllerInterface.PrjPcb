@@ -301,20 +301,20 @@ DocumentPath=Project Outputs for MSXII_MotorControllerInterface\MSXII_MotorContr
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SheetTotal
-Value=4
+Name=Project
+Value=Motor Controller Interface Board
 
 [Parameter2]
-Name=ProjectRevision
-Value=2.1
-
-[Parameter3]
 Name=ProjectAuthor
 Value=Peiliang Guo
 
+[Parameter3]
+Name=ProjectRevision
+Value=2.1
+
 [Parameter4]
-Name=Project
-Value=Motor Controller Interface Board
+Name=SheetTotal
+Value=4
 
 [Configuration1]
 Name=Sources
@@ -1367,7 +1367,7 @@ ComponentLibIdentifierKind15=Library Name And Type
 ComponentLibraryIdentifier15=Schematic Diagrams.SchLib
 ComponentDesignItemID15=DIODE TVS 12VWM 19.6VC DO-214AA (SMB)
 ComponentSymbolReference15=DIODE TVS 12VWM 19.6VC DO-214AA (SMB)
-ComponentUpdate15=1
+ComponentUpdate15=0
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
 ComponentLibraryIdentifier16=Schematic Diagrams.SchLib
@@ -1379,7 +1379,7 @@ ComponentLibIdentifierKind17=Library Name And Type
 ComponentLibraryIdentifier17=Schematic Diagrams.SchLib
 ComponentDesignItemID17=DIODE TVS 5VWM 9.1VC DO-214AA (SMB)
 ComponentSymbolReference17=DIODE TVS 5VWM 9.1VC DO-214AA (SMB)
-ComponentUpdate17=1
+ComponentUpdate17=0
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
 ComponentLibraryIdentifier18=Schematic Diagrams.SchLib
@@ -1433,13 +1433,13 @@ ComponentLibIdentifierKind26=Library Name And Type
 ComponentLibraryIdentifier26=Schematic Diagrams.SchLib
 ComponentDesignItemID26=RES 1.3K OHM 1% 1/10W 0603
 ComponentSymbolReference26=RES 1.3K OHM 1% 1/10W 0603
-ComponentUpdate26=0
+ComponentUpdate26=1
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
 ComponentLibraryIdentifier27=Schematic Diagrams.SchLib
 ComponentDesignItemID27=RES 1.6K OHM 1% 1/10W 0603
 ComponentSymbolReference27=RES 1.6K OHM 1% 1/10W 0603
-ComponentUpdate27=0
+ComponentUpdate27=1
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
 ComponentLibraryIdentifier28=Schematic Diagrams.SchLib
@@ -1451,7 +1451,7 @@ ComponentLibIdentifierKind29=Library Name And Type
 ComponentLibraryIdentifier29=Schematic Diagrams.SchLib
 ComponentDesignItemID29=RES 2.7K OHM 1% 1/10W 0603
 ComponentSymbolReference29=RES 2.7K OHM 1% 1/10W 0603
-ComponentUpdate29=0
+ComponentUpdate29=1
 ComponentIsDeviceSheet29=0
 ComponentLibIdentifierKind30=Library Name And Type
 ComponentLibraryIdentifier30=Schematic Diagrams.SchLib
@@ -1463,13 +1463,13 @@ ComponentLibIdentifierKind31=Library Name And Type
 ComponentLibraryIdentifier31=Schematic Diagrams.SchLib
 ComponentDesignItemID31=RES 3.65KOHM 0.1% 1/10W 0603
 ComponentSymbolReference31=RES 3.65KOHM 0.1% 1/10W 0603
-ComponentUpdate31=0
+ComponentUpdate31=1
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
 ComponentLibraryIdentifier32=Schematic Diagrams.SchLib
 ComponentDesignItemID32=RES 330 OHM 1% 1/10W 0603
 ComponentSymbolReference32=RES 330 OHM 1% 1/10W 0603
-ComponentUpdate32=0
+ComponentUpdate32=1
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
 ComponentLibraryIdentifier33=Schematic Diagrams.SchLib
@@ -1481,7 +1481,7 @@ ComponentLibIdentifierKind34=Library Name And Type
 ComponentLibraryIdentifier34=Schematic Diagrams.SchLib
 ComponentDesignItemID34=RES 820 OHM 5% 1/4W 0603
 ComponentSymbolReference34=RES 820 OHM 5% 1/4W 0603
-ComponentUpdate34=0
+ComponentUpdate34=1
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
 ComponentLibraryIdentifier35=Schematic Diagrams.SchLib
