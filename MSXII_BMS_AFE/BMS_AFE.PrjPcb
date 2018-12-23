@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for BMS_AFE
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -297,14 +297,15 @@ UniqueID=925A97B5-A744-41D8-94C8-11F166C3FD7F
 Description=01 - Standard
 AllowFabrication=0
 ParameterCount=0
-VariationCount=7
-Variation1=Designator=R1|UniqueId=\TIPIMKKY\NTCOHQQI|Kind=1|AlternatePart= 
-Variation2=Designator=R2|UniqueId=\TIPIMKKY\DSJYYLXJ|Kind=1|AlternatePart= 
-Variation3=Designator=R61|UniqueId=\THLOCXPK\EBHYMEBG|Kind=1|AlternatePart= 
-Variation4=Designator=R63|UniqueId=\THLOCXPK\VPCTQTFJ|Kind=1|AlternatePart= 
-Variation5=Designator=R60|UniqueId=\THLOCXPK\JLAWNXJX|Kind=1|AlternatePart= 
-Variation6=Designator=R59|UniqueId=\THLOCXPK\JSBSUKNG|Kind=1|AlternatePart= 
-Variation7=Designator=P7|UniqueId=\NNJSQBUO\QSCLDBGO|Kind=1|AlternatePart= 
+VariationCount=8
+Variation1=Designator=R52|UniqueId=\TIPIMKKY\NTCOHQQI|Kind=1|AlternatePart= 
+Variation2=Designator=R66|UniqueId=\TIPIMKKY\DSJYYLXJ|Kind=1|AlternatePart= 
+Variation3=Designator=R11|UniqueId=\THLOCXPK\EBHYMEBG|Kind=1|AlternatePart= 
+Variation4=Designator=R12|UniqueId=\THLOCXPK\VPCTQTFJ|Kind=1|AlternatePart= 
+Variation5=Designator=R3|UniqueId=\THLOCXPK\JLAWNXJX|Kind=1|AlternatePart= 
+Variation6=Designator=R10|UniqueId=\THLOCXPK\JSBSUKNG|Kind=1|AlternatePart= 
+Variation7=Designator=P5|UniqueId=\NNJSQBUO\QSCLDBGO|Kind=1|AlternatePart= 
+Variation8=Designator=C6|UniqueId=\THLOCXPK\MEYRNRCM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -319,17 +320,209 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for BMS_AFE\BMS_AFE_3.1.xlsx
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.G1
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.G2
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.0.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.G1
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.G2
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for BMS_AFE\BMS_AFE_4.1.step
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.step
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for BMS_AFE\BMS_AFE_4.1.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_4.1.xlsx
+DItemRevisionGUID=
+
 [Parameter1]
-Name=MSPartNumber
-Value=MS40005
+Name=ProjectRevision
+Value=4.1
 
 [Parameter2]
 Name=ProjectAuthor
 Value=Taiping Li
 
 [Parameter3]
-Name=ProjectRevision
-Value=4.0
+Name=MSPartNumber
+Value=MS40005
 
 [Configuration1]
 Name=Default Configuration
@@ -498,7 +691,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for BMS_AFE
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -779,54 +972,58 @@ Name=Report Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Script
-OutputName1=Script Output
+OutputType1=BOM_PartType
+OutputName1=Bill of Materials
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-OutputType2=SimpleBOM
-OutputName2=Simple BOM
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=Filter
+Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration1_Name3=ForceUpdateSettings
+Configuration1_Item3=False
+Configuration1_Name4=General
+Configuration1_Item4=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1884|FormHeight=1316|SupplierProdQty=1|SupplierAutoQty=True|SupplierUseCachedPricing=False|SupplierCurrency=CAD|ViewType=0
+Configuration1_Name5=GroupOrder
+Configuration1_Item5=
+Configuration1_Name6=OutputConfigurationParameter1
+Configuration1_Item6==SimpleBOMView|SimpleBOMMode=0
+Configuration1_Name7=SortOrder
+Configuration1_Item7=Supplier Subtotal 1=Up
+Configuration1_Name8=VisibleOrder
+Configuration1_Item8=Line #=69|Comment=69|Description=95|Designator=93|Quantity=81|Manufacturer 1=114|Manufacturer Part Number 1=179|Manufacturer Lifecycle 1=158|Supplier 1=89|Supplier Part Number 1=154|Supplier Unit Price 1=138|Supplier Subtotal 1=132|Supplier Currency 1=50|Supplier Order Qty 1=50|Supplier Stock 1=50|Supplier Subtotal per Board 1=50
+Configuration1_Name9=VisibleOrder_Base
+Configuration1_Item9=Line #=69|Comment=69|Description=95|Designator=93|Quantity=81|Manufacturer 1=114|Manufacturer Part Number 1=179|Manufacturer Lifecycle 1=158|Supplier 1=89|Supplier Part Number 1=154|Supplier Unit Price 1=138|Supplier Subtotal 1=132|Supplier Currency 1=50|Supplier Order Qty 1=50|Supplier Stock 1=50|Supplier Subtotal per Board 1=50
+Configuration1_Name10=VisibleOrder_Consolidated
+Configuration1_Item10=Line #=69|Comment=69|Description=95|Designator=93|Quantity=81|Manufacturer 1=114|Manufacturer Part Number 1=179|Manufacturer Lifecycle 1=158|Supplier 1=89|Supplier Part Number 1=154|Supplier Unit Price 1=138|Supplier Subtotal 1=132
+Configuration1_Name11=VisibleOrder_Flat
+Configuration1_Item11=Line #=69|Comment=69|Description=95|Designator=93|Manufacturer 1=114|Manufacturer Part Number 1=179|Manufacturer Lifecycle 1=158|Supplier 1=89|Supplier Part Number 1=154|Supplier Unit Price 1=138|Supplier Subtotal 1=132
+OutputType2=ComponentCrossReference
+OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=SimpleBOMView|SimpleBOMMode=0
-OutputType3=SinglePinNetReporter
-OutputName3=Report Single Pin Nets
+OutputType3=ReportHierarchy
+OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=BOM_PartType
-OutputName4=Bill of Materials
+OutputType4=Script
+OutputName4=Script Output
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration4_Name1=ColumnNameFormat
-Configuration4_Item1=CaptionAsName
-Configuration4_Name2=ForceUpdateSettings
-Configuration4_Item2=False
-Configuration4_Name3=GroupOrder
-Configuration4_Item3=
-Configuration4_Name4=OutputConfigurationParameter1
-Configuration4_Item4==SimpleBOMView|SimpleBOMMode=0
-Configuration4_Name5=SortOrder
-Configuration4_Item5=Supplier Subtotal 1=Up
-Configuration4_Name6=VisibleOrder
-Configuration4_Item6=Line #=69|Comment=69|Description=95|Designator=93|Quantity=81|Manufacturer 1=114|Manufacturer Part Number 1=179|Manufacturer Lifecycle 1=158|Supplier 1=89|Supplier Part Number 1=154|Supplier Unit Price 1=138|Supplier Subtotal 1=132
-Configuration4_Name7=VisibleOrder_Base
-Configuration4_Item7=Line #=69|Comment=69|Description=95|Designator=93|Quantity=81|Manufacturer 1=114|Manufacturer Part Number 1=179|Manufacturer Lifecycle 1=158|Supplier 1=89|Supplier Part Number 1=154|Supplier Unit Price 1=138|Supplier Subtotal 1=132
-Configuration4_Name8=VisibleOrder_Consolidated
-Configuration4_Item8=Line #=69|Comment=69|Description=95|Designator=93|Quantity=81|Manufacturer 1=114|Manufacturer Part Number 1=179|Manufacturer Lifecycle 1=158|Supplier 1=89|Supplier Part Number 1=154|Supplier Unit Price 1=138|Supplier Subtotal 1=132
-Configuration4_Name9=VisibleOrder_Flat
-Configuration4_Item9=Line #=69|Comment=69|Description=95|Designator=93|Manufacturer 1=114|Manufacturer Part Number 1=179|Manufacturer Lifecycle 1=158|Supplier 1=89|Supplier Part Number 1=154|Supplier Unit Price 1=138|Supplier Subtotal 1=132
-OutputType5=ComponentCrossReference
-OutputName5=Component Cross Reference Report
+OutputType5=SimpleBOM
+OutputName5=Simple BOM
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ReportHierarchy
-OutputName6=Report Project Hierarchy
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=SimpleBOMView|SimpleBOMMode=0
+OutputType6=SinglePinNetReporter
+OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
@@ -2065,8 +2262,8 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
-Net2=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
+Net1=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
+Net2=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
 Net3=NetName=AFE_TEMP_MUX_OUTPUT|NetColor=$006EFF6E
 Net4=NetName=THERMISTOR_AMBIENT_|NetColor=$006EFF6E
 Net5=NetName=5V0|NetColor=clYellow
