@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [SolarSenseMaster.PcbDoc]
+   Generated File[MSXII_SolarSenseMaster_1.0.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 6:38:53 PM On 2018-07-08

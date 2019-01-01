@@ -169,10 +169,96 @@ DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
+<<<<<<< HEAD
+=======
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PCB_Project\Design Rule Check - PCB1.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for PreCharge\PreCharge.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for PreCharge\PreCharge.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for PreCharge\PreCharge.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for PreCharge\PreCharge.LDP
+>>>>>>> master
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+<<<<<<< HEAD
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PCB_Project\Design Rule Check - PCB1.html
 DItemRevisionGUID=
@@ -184,6 +270,103 @@ Value=Hanna Muratovic
 [Parameter2]
 Name=ProjectRevision
 Value=3.0
+=======
+[GeneratedDocument21]
+DocumentPath=Project Outputs for PreCharge\PreCharge.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for PreCharge\PreCharge.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.EXTREP
+DItemRevisionGUID=
+>>>>>>> master
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.REP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for PreCharge\PreCharge_ProjectRevision.step
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for PreCharge\Fabrication Files\PreCharge_ProjectRevision.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for PreCharge\PreCharge_ProjectRevision.xlsx
+DItemRevisionGUID=
+
+[Parameter1]
+Name=ProjectRevision
+Value=3.0
+
+[Parameter2]
+Name=ProjectAuthor
+Value=Hanna Muratovic 
 
 [Configuration1]
 Name=Default Configuration
@@ -343,7 +526,11 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
+<<<<<<< HEAD
 TargetPrinter=HP7AADDB (HP ENVY 7640 series)
+=======
+TargetPrinter=Send To OneNote 2016
+>>>>>>> master
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -439,7 +626,11 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
+<<<<<<< HEAD
 TargetPrinter=HP7AADDB (HP ENVY 7640 series)
+=======
+TargetPrinter=Send To OneNote 2016
+>>>>>>> master
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -854,7 +1045,11 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
+<<<<<<< HEAD
 TargetPrinter=HP7AADDB (HP ENVY 7640 series)
+=======
+TargetPrinter=Send To OneNote 2016
+>>>>>>> master
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -974,6 +1169,14 @@ Type108=1
 Type109=1
 Type110=1
 Type111=1
+<<<<<<< HEAD
+=======
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
+>>>>>>> master
 
 [Difference Levels]
 Type1=1
@@ -1038,6 +1241,12 @@ Type59=1
 Type60=1
 Type61=1
 Type62=1
+<<<<<<< HEAD
+=======
+Type63=1
+Type64=1
+Type65=1
+>>>>>>> master
 
 [Electrical Rules Check]
 Type1=1
@@ -1161,6 +1370,10 @@ Type118=3
 Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
+<<<<<<< HEAD
+=======
+Type122=2
+>>>>>>> master
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
