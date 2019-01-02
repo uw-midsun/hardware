@@ -1,0 +1,18 @@
+* C:\Users\Taiping\Documents\Midnight Sun\hardware\MSXII_PreChargeController\Simulations\Comparator.asc
+XU1 N006 N004 VDD 0 N005 LT1720
+R1 N005 0 1000
+V1 N003 0 150
+R2 N001 N004 470k
+R3 N002 N006 470k
+R5 N004 0 31.4k
+R4 N006 0 33k
+V2 VDD 0 12
+R6 N002 N001 72
+C1 N002 0 10000µ
+V3 N001 N003 SINE(0 1 1k 0 0 0 10000)
+R7 N005 N006 {Rh}
+.tran 5 startup
+.step param Rh list 1Meg 5Meg 10Meg 50Meg 100Meg
+.lib LTC.lib
+.backanno
+.end
