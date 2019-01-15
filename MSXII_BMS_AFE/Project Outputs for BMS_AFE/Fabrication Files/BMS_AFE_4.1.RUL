@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_BMS_AFE\AFE.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=HV_IN_Clearance_to_GND|Scope=Board|Minimum=23.62
+RuleKind=Clearance|RuleName=HV_IN_Clearance_to_+5V|Scope=Board|Minimum=23.62
+RuleKind=Clearance|RuleName=HV_IN_Clearance_to_+6V|Scope=Board|Minimum=23.62
