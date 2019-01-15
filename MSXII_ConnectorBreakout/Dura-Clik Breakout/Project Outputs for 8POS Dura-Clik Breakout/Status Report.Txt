@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Ultrafit Breakout.PcbDoc]
+   Generated File[8POS Dura-Clik Breakout_ProjectRevision.TXT]
+   Generated File[8POS Dura-Clik Breakout_ProjectRevision.LDP]
+   Generated File[8POS Dura-Clik Breakout_ProjectRevision.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 6:51:43 PM On 2019-01-15

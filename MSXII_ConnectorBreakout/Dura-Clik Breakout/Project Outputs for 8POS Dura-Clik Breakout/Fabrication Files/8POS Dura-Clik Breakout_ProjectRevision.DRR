@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Ultrafit Breakout.PcbDoc   2019-01-15  6:51:43 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : 8POS Dura-Clik Breakout_ProjectRevision.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T2      40mil (1.02mm)          +/-2mil (0.04mm)                  Round             16        PTH        0.00inch (0.00mm)
+T3      91mil (2.3mm)           +/-16mil (0.4mm)                  Round             16        PTH        0.00inch (0.00mm)
+T4      106mil (2.7mm)                                            Round             4         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              37
+
+Total Processing Time (hh:mm:ss) : 00:00:00
