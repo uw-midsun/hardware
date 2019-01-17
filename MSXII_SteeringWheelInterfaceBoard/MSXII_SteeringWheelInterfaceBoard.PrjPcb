@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -174,12 +174,12 @@ GenerateClassCluster=0
 DocumentUniqueId=MSPHVCTT
 
 [Parameter1]
-Name=ProjectRevision
-Value=2.0
-
-[Parameter2]
 Name=ProjectAuthor
 Value=Jenny Xia
+
+[Parameter2]
+Name=ProjectRevision
+Value=2.0
 
 [Configuration1]
 Name=Sources
@@ -228,7 +228,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for MSXII_SteeringWheelInterfaceBoard
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
