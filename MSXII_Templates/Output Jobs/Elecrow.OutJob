@@ -74,18 +74,16 @@ OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration3_Name1=ColumnNameFormat
 Configuration3_Item1=CaptionAsName
-Configuration3_Name2=Filter
-Configuration3_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration3_Name3=General
-Configuration3_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|BatchMode=5|FormWidth=1884|FormHeight=1315|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|ViewType=0
-Configuration3_Name4=GroupOrder
-Configuration3_Item4=
-Configuration3_Name5=OutputConfigurationParameter1
-Configuration3_Item5=????
-Configuration3_Name6=SortOrder
-Configuration3_Item6=
-Configuration3_Name7=VisibleOrder
-Configuration3_Item7=Comment=50|Description=50|Designator=50|Footprint=50|LibRef=50|Manufacturer 1=50|Manufacturer Lifecycle 1=50|Manufacturer Part Number 1=50|Quantity=50|Supplier 1=50|Supplier Currency 1=50|Supplier Order Qty 1=50|Supplier Part Number 1=50|Supplier Stock 1=50|Supplier Subtotal 1=50|Supplier Unit Price 1=50
+Configuration3_Name2=General
+Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1884|FormHeight=801|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=True|BomSetName=
+Configuration3_Name3=GroupOrder
+Configuration3_Item3=LibRef=True
+Configuration3_Name4=OutputConfigurationParameter1
+Configuration3_Item4=????
+Configuration3_Name5=VisibleOrder
+Configuration3_Item5=Comment=50|Description=50|Designator=393|Footprint=50|LibRef=50|Manufacturer 1=50|Manufacturer Lifecycle 1=50|Manufacturer Part Number 1=50|Quantity=50|Supplier 1=50|Supplier Currency 1=50|Supplier Order Qty 1=50|Supplier Part Number 1=50|Supplier Stock 1=50|Supplier Subtotal 1=50|Supplier Unit Price 1=50
+Configuration3_Name6=VisibleOrder_Flat
+Configuration3_Item6=Comment=50|Description=50|Designator=393|Footprint=50|LibRef=50|Manufacturer 1=50|Manufacturer Lifecycle 1=50|Manufacturer Part Number 1=50|Quantity=50|Supplier 1=50|Supplier Currency 1=50|Supplier Order Qty 1=50|Supplier Part Number 1=50|Supplier Stock 1=50|Supplier Subtotal 1=50|Supplier Unit Price 1=50
 OutputType4=PCB 3D Print
 OutputName4=PCB 3D Print
 OutputCategory4=Documentation
