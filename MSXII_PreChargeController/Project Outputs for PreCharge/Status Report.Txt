@@ -1,10 +1,10 @@
 Output: Export STEP
 Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [PreCharge.PcbDoc]
-   Generated File[PreCharge_3.0.step]
+From  : Variant [01 - Standard] of PCB Document [Motor Interface.PcbDoc]
+   Generated File[PreCharge_4.0.step]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 1:57:24 AM On 2018-06-22
+Finished Output Generation At 11:02:58 PM On 2019-01-23
