@@ -1,1 +1,1 @@
-Controller_Board_Interface=PA0/AN0,PB1/AN9
+ADC I2C Interface=ADC_SCL,ADC_SDA

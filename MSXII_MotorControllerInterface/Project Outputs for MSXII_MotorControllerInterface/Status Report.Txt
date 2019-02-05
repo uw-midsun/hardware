@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Motor_Controller_Interface_Board.PcbDoc]
+   Generated File[MSXII_MotorControllerInterface_1.6.TXT]
+   Generated File[MSXII_MotorControllerInterface_1.6.LDP]
+   Generated File[MSXII_MotorControllerInterface_1.6.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 4:33:14 AM On 2018-06-22

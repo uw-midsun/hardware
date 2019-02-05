@@ -1,0 +1,5 @@
+Device Type,Power Pin,Ground Pin,Voltage,Drop on Power,Drop on Ground,Current
+,,,,,,
+Power Supply,sourcevirtualcomponent1_1,sourcevirtualcomponent1_3,11.96,0.04,5.48246e-008,40,
+IO Device,u19_1,u19_4,11.6993,0.22756,0.0731143,-20,
+,u19_9,u19_4,11.6942,0.23265,0.0731143,-20,
