@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FYHVFSUM
+DocumentUniqueId=TDJXRXCT
 
 [Document3]
 DocumentPath=Elecrow.OutJob
@@ -95,7 +95,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -174,13 +174,30 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
+DocumentPath=Schematics\BMS AFE - Regulator.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SEOPCZPC
+
+[Document10]
 DocumentPath=Schematics\BMS AFE - AFE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -190,14 +207,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MGUDWJXO
 
-[Document10]
+[Document11]
 DocumentPath=Schematics\BMS AFE - Cell Balancing.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -207,14 +224,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LDGGKUYA
 
-[Document11]
+[Document12]
 DocumentPath=Schematics\BMS AFE - Cell Inputs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -224,14 +241,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IELRAEFU
 
-[Document12]
+[Document13]
 DocumentPath=Schematics\BMS AFE - Communications.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -241,14 +258,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UHJRMBTY
 
-[Document13]
+[Document14]
 DocumentPath=Schematics\BMS AFE - Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -258,14 +275,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MTTUKAPC
 
-[Document14]
+[Document15]
 DocumentPath=Schematics\BMS AFE - Thermistors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -665,7 +682,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HPBF975B (HP OfficeJet Pro 6970)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1557,22 +1574,30 @@ Order4=6
 IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
-UniqueIDPath5=\FPISKIWU
-DocumentName5=BMS AFE - Thermistors.SchDoc
+UniqueIDPath5=\BNQPZEEL
+DocumentName5=BMS AFE - Regulator.SchDoc
 IsEnabled5=1
 SelectionScope5=All
-Order5=7
+Order5=8
 IndexEnabled5=0
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=
-DocumentName6=BMS AFE - Top Sheet.SchDoc
+UniqueIDPath6=\FPISKIWU
+DocumentName6=BMS AFE - Thermistors.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=1
+Order6=7
 IndexEnabled6=0
 IndexStartValue6=1
 Suffix6=
+UniqueIDPath7=
+DocumentName7=BMS AFE - Top Sheet.SchDoc
+IsEnabled7=1
+SelectionScope7=All
+Order7=1
+IndexEnabled7=0
+IndexStartValue7=1
+Suffix7=
 
 [PrjClassGen]
 CompClassManualEnabled=0
@@ -2276,8 +2301,8 @@ UpdateVariants=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
-Net2=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
+Net1=NetName=AFE_CELL_INPUT_8|NetColor=$006EFF6E
+Net2=NetName=AFE_CELL_INPUT_6|NetColor=$006EFF6E
 Net3=NetName=AFE_TEMP_MUX_OUTPUT|NetColor=$006EFF6E
 Net4=NetName=THERMISTOR_AMBIENT_|NetColor=$006EFF6E
 Net5=NetName=5V0|NetColor=clYellow
