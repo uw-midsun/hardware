@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [TailLightPrototype.PcbDoc]
+   Generated File[TailLightsPrototype_1.0.TXT]
+   Generated File[TailLightsPrototype_1.0.LDP]
+   Generated File[TailLightsPrototype_1.0.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At ?? 3:31:40 On 2019/3/16
