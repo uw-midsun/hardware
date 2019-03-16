@@ -47,19 +47,18 @@ For Nidec [D08A](https://www.nidec.com/en-Global/product/fan/category/F010/G070/
 **Rated Power:** 1.08W  
 
 **Linear**:   
-Component 1: [LDFMPT-TR	](https://www.digikey.ca/product-detail/en/stmicroelectronics/LDFMPT-TR/497-14187-2-ND/4506352)
+Use a resistor.  
+$$R= V/I = (12-7)/(0.06 A_{est.@5V})= 83.3 \Omega  $$  
+ 
+$$P_{res} = I^2 * R = 0.3W$$  
+$$P_{fan@7V} = IV = 0.42WW$$   
+$$P_T = 0.72W$$   
 
-Fan circuit power consumption at:
+**PWM**:   
 
-- 100% fan speed:   
-- 50% fan speed:   
+$$
+P_{@50\%duty} = V(I*0.5) = 0.54W 
+$$ 
 
-Efficiency at 50% fan speed:
-
-Component 2: [LDK320M-R	](https://www.digikey.ca/product-detail/en/stmicroelectronics/LDK320M-R/497-16565-2-ND/6072602)
-Pros:
-Cons:
-
-**PWM**: 
-Pros:
-Cons:
+Pros: 0.18W more efficient  
+Cons: more complex to integrate   
