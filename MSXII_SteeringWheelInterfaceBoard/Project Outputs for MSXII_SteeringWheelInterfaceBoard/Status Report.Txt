@@ -1,11 +1,12 @@
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [01 - Standard] of Project [MSXII_SteeringWheelInterfaceBoard.PrjPcb]
-   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.xlsx]
-   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.xlsx]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [SteeringWheelInterfaceBoard.PcbDoc]
+   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.TXT]
+   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.LDP]
+   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.DRR]
 
 
-Files Generated   : 2
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 16:57:02 On 2019/3/6
+Finished Output Generation At ?? 9:28:07 On 2019/3/16

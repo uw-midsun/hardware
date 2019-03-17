@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: MSXII_SteeringWheelInterfaceBoard_3.0.GBR   2019/3/6  16:46:05
+Gerber File Extension Report For: MSXII_SteeringWheelInterfaceBoard_3.0.GBR   2019/3/16  ?? 9:28:05
 ------------------------------------------------------------------------------------------
 
 
@@ -18,7 +18,10 @@ Layer Extension     Layer Description
 .GM3                Assembly Top                            
 .GM5                Courtyard Top                           
 .GM7                3D Body Top                             
+.GM9                Assembly Top                            
+.GM11               Courtyard Top                           
 .GM13               Mechanical 13                           
+.GM14               3D Body Top                             
 .GM15               Mechanical 15                           
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
