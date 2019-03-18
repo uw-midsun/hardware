@@ -1,12 +1,14 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [SteeringWheelInterfaceBoard.PcbDoc]
-   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.TXT]
-   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.LDP]
-   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.DRR]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At ?? 8:11:14 On 2019/3/17
+
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [SteeringWheelInterfaceBoard.PcbDoc]
+   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.step]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At ?? 9:28:07 On 2019/3/16
+Finished Output Generation At ?? 8:12:08 On 2019/3/17
