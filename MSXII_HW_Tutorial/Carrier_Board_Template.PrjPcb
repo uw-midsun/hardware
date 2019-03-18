@@ -105,6 +105,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Carrier_Board_Template\Design Rule Check - hw_tutorial.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectAuthor
 Value=
