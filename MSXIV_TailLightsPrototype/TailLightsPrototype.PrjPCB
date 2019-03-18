@@ -137,11 +137,11 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=6
 Variation1=Designator=D1|UniqueId=\MPJKHHIQ|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation1=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation1=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
 ParamDesignator1=D1
-ParamVariation2=ParameterName=Color|VariantValue=White
+ParamVariation2=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator2=D1
-ParamVariation3=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamVariation3=ParameterName=Color|VariantValue=White
 ParamDesignator3=D1
 ParamVariation4=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator4=D1
@@ -210,11 +210,11 @@ ParamDesignator35=D1
 ParamVariation36=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator36=D1
 Variation2=Designator=D2|UniqueId=\DAGHEAAT|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation37=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation37=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
 ParamDesignator37=D2
-ParamVariation38=ParameterName=Color|VariantValue=White
+ParamVariation38=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator38=D2
-ParamVariation39=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamVariation39=ParameterName=Color|VariantValue=White
 ParamDesignator39=D2
 ParamVariation40=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator40=D2
@@ -283,11 +283,11 @@ ParamDesignator71=D2
 ParamVariation72=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator72=D2
 Variation3=Designator=D6|UniqueId=\UGJDGQOG|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation73=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation73=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
 ParamDesignator73=D6
-ParamVariation74=ParameterName=Color|VariantValue=White
+ParamVariation74=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator74=D6
-ParamVariation75=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamVariation75=ParameterName=Color|VariantValue=White
 ParamDesignator75=D6
 ParamVariation76=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator76=D6
@@ -356,11 +356,11 @@ ParamDesignator107=D6
 ParamVariation108=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator108=D6
 Variation4=Designator=D4|UniqueId=\IWYALBYP|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation109=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation109=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
 ParamDesignator109=D4
-ParamVariation110=ParameterName=Color|VariantValue=White
+ParamVariation110=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator110=D4
-ParamVariation111=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamVariation111=ParameterName=Color|VariantValue=White
 ParamDesignator111=D4
 ParamVariation112=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator112=D4
@@ -429,11 +429,11 @@ ParamDesignator143=D4
 ParamVariation144=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator144=D4
 Variation5=Designator=D3|UniqueId=\WCFSARWL|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation145=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation145=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
 ParamDesignator145=D3
-ParamVariation146=ParameterName=Color|VariantValue=White
+ParamVariation146=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator146=D3
-ParamVariation147=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamVariation147=ParameterName=Color|VariantValue=White
 ParamDesignator147=D3
 ParamVariation148=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator148=D3
@@ -502,11 +502,11 @@ ParamDesignator179=D3
 ParamVariation180=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator180=D3
 Variation6=Designator=D5|UniqueId=\DSQLSVSO|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation181=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation181=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
 ParamDesignator181=D5
-ParamVariation182=ParameterName=Color|VariantValue=White
+ParamVariation182=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator182=D5
-ParamVariation183=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamVariation183=ParameterName=Color|VariantValue=White
 ParamDesignator183=D5
 ParamVariation184=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator184=D5
@@ -583,11 +583,11 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=6
 Variation1=Designator=D1|UniqueId=\MPJKHHIQ|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation1=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation1=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
 ParamDesignator1=D1
-ParamVariation2=ParameterName=Color|VariantValue=Orange
+ParamVariation2=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator2=D1
-ParamVariation3=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamVariation3=ParameterName=Color|VariantValue=Orange
 ParamDesignator3=D1
 ParamVariation4=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator4=D1
@@ -684,11 +684,11 @@ ParamDesignator49=D1
 ParamVariation50=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator50=D1
 Variation2=Designator=D3|UniqueId=\WCFSARWL|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation51=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation51=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
 ParamDesignator51=D3
-ParamVariation52=ParameterName=Color|VariantValue=Orange
+ParamVariation52=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator52=D3
-ParamVariation53=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamVariation53=ParameterName=Color|VariantValue=Orange
 ParamDesignator53=D3
 ParamVariation54=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator54=D3
@@ -785,11 +785,11 @@ ParamDesignator99=D3
 ParamVariation100=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator100=D3
 Variation3=Designator=D4|UniqueId=\IWYALBYP|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation101=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation101=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
 ParamDesignator101=D4
-ParamVariation102=ParameterName=Color|VariantValue=Orange
+ParamVariation102=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator102=D4
-ParamVariation103=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamVariation103=ParameterName=Color|VariantValue=Orange
 ParamDesignator103=D4
 ParamVariation104=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator104=D4
@@ -886,11 +886,11 @@ ParamDesignator149=D4
 ParamVariation150=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator150=D4
 Variation4=Designator=D5|UniqueId=\DSQLSVSO|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation151=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation151=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
 ParamDesignator151=D5
-ParamVariation152=ParameterName=Color|VariantValue=Orange
+ParamVariation152=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator152=D5
-ParamVariation153=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamVariation153=ParameterName=Color|VariantValue=Orange
 ParamDesignator153=D5
 ParamVariation154=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator154=D5
@@ -987,11 +987,11 @@ ParamDesignator199=D5
 ParamVariation200=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator200=D5
 Variation5=Designator=D6|UniqueId=\UGJDGQOG|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation201=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation201=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
 ParamDesignator201=D6
-ParamVariation202=ParameterName=Color|VariantValue=Orange
+ParamVariation202=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator202=D6
-ParamVariation203=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamVariation203=ParameterName=Color|VariantValue=Orange
 ParamDesignator203=D6
 ParamVariation204=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator204=D6
@@ -1088,11 +1088,11 @@ ParamDesignator249=D6
 ParamVariation250=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator250=D6
 Variation6=Designator=D2|UniqueId=\DAGHEAAT|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
-ParamVariation251=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamVariation251=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
 ParamDesignator251=D2
-ParamVariation252=ParameterName=Color|VariantValue=Orange
+ParamVariation252=ParameterName=Case/Package|VariantValue=SMD/SMT
 ParamDesignator252=D2
-ParamVariation253=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamVariation253=ParameterName=Color|VariantValue=Orange
 ParamDesignator253=D2
 ParamVariation254=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator254=D2
@@ -1189,90 +1189,6 @@ ParamDesignator299=D2
 ParamVariation300=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator300=D2
 ParamVariationCount=300
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.REP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for TailLightsPrototype\TailLightsPrototype_ProjectRevision.step
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_ProjectRevision.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for TailLightsPrototype\TailLightsPrototype_ProjectRevision.xlsx
-DItemRevisionGUID=
 
 [Parameter1]
 Name=ProjectRevision
@@ -1400,7 +1316,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother HL-L2360D series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1874,6 +1790,36 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=Ansoft Neutral
+OutputName10=Ansoft Neutral (AutoPCB)
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=HyperLynx
+OutputName11=HyperLynx (AutoPCB)
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=Orcad v7 Capture Design
+OutputName12=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=P-CAD ASCII
+OutputName13=P-CAD ASCII (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=P-CAD V16 Schematic Design
+OutputName14=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=SiSoft
+OutputName15=SiSoft (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
