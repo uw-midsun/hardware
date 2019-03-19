@@ -1,11 +1,9 @@
 Output: Bill of Materials
 Type  : BOM
 From  : Variant [[No Variations]] of Project [MSXII_ChargerInterface.PrjPcb]
-   Generated File[MSXII_ChargerInterface_3.0.xlsx]
-   Generated File[MSXII_ChargerInterface_3.0.xlsx]
 
 
-Files Generated   : 2
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 11:17:59 AM On 2019-03-18
+Finished Output Generation At 10:14:00 PM On 3/18/2019
