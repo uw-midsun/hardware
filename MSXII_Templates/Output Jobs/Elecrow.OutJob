@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Elecrow.OutJob
 Description=
-TargetOutputMedium=BOM & STEP
-VariantName=[No Variations]
+TargetOutputMedium=Fabrication Files
+VariantName=01 - Standard
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HPBF975B (HP OfficeJet Pro 6970)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -38,7 +38,7 @@ OutputName1=Export STEP
 OutputCategory1=Export
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
@@ -65,7 +65,7 @@ OutputName3=Bill of Materials
 OutputCategory3=Report
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=2
 OutputEnabled3_OutputMedium3=0
@@ -74,18 +74,16 @@ OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration3_Name1=ColumnNameFormat
 Configuration3_Item1=CaptionAsName
-Configuration3_Name2=Filter
-Configuration3_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration3_Name3=General
-Configuration3_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|BatchMode=5|FormWidth=1884|FormHeight=1315|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|ViewType=0
-Configuration3_Name4=GroupOrder
-Configuration3_Item4=
-Configuration3_Name5=OutputConfigurationParameter1
-Configuration3_Item5=????
-Configuration3_Name6=SortOrder
-Configuration3_Item6=
-Configuration3_Name7=VisibleOrder
-Configuration3_Item7=Comment=50|Description=50|Designator=50|Footprint=50|LibRef=50|Manufacturer 1=50|Manufacturer Lifecycle 1=50|Manufacturer Part Number 1=50|Quantity=50|Supplier 1=50|Supplier Currency 1=50|Supplier Order Qty 1=50|Supplier Part Number 1=50|Supplier Stock 1=50|Supplier Subtotal 1=50|Supplier Unit Price 1=50
+Configuration3_Name2=General
+Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=True|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1358|FormHeight=768|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration3_Name3=GroupOrder
+Configuration3_Item3=LibRef=True|Comment=True
+Configuration3_Name4=OutputConfigurationParameter1
+Configuration3_Item4=????
+Configuration3_Name5=VisibleOrder
+Configuration3_Item5=Comment=276|Description=50|Designator=50|Footprint=50|LibRef=50|Manufacturer 1=238|Manufacturer Lifecycle 1=50|Manufacturer Part Number 1=50|Quantity=50|Supplier 1=50|Supplier Currency 1=50|Supplier Order Qty 1=50|Supplier Part Number 1=50|Supplier Stock 1=50|Supplier Subtotal 1=50|Supplier Unit Price 1=50
+Configuration3_Name6=VisibleOrder_Flat
+Configuration3_Item6=Comment=276|Description=50|Designator=50|Footprint=50|LibRef=50|Manufacturer 1=238|Manufacturer Lifecycle 1=50|Manufacturer Part Number 1=50|Quantity=50|Supplier 1=50|Supplier Currency 1=50|Supplier Order Qty 1=50|Supplier Part Number 1=50|Supplier Stock 1=50|Supplier Subtotal 1=50|Supplier Unit Price 1=50
 OutputType4=PCB 3D Print
 OutputName4=PCB 3D Print
 OutputCategory4=Documentation
@@ -148,20 +146,20 @@ OutputName6=Gerber Files
 OutputCategory6=Fabrication
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=0
+OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=1
 OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908291~1,16908293~1,16908295~1,16908301~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908291~1,16908293~1,16908295~1,16908297~1,16908299~1,16908301~1,16908302~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 OutputType7=NC Drill
 OutputName7=NC Drill Files
 OutputCategory7=Fabrication
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=2
@@ -264,7 +262,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
+OutputFilePath3=C:\Users\Taiping\Documents\Midnight Sun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for Center Console
 OutputPathMedia3=
@@ -277,7 +275,7 @@ OutputFileNameMulti3==ProjectName+'_'+ProjectRevision
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
+OutputFilePath4=C:\Users\Taiping\Documents\Midnight Sun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
 ReleaseManaged4=1
 OutputBasePath4=Project Outputs for Center Console
 OutputPathMedia4=
@@ -294,7 +292,7 @@ OpenOutput4=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_BMS_Current_Sense\Project Outputs for BMS_Current_Sense\Job1.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
+RelativeOutputPath3=C:\Users\Taiping\Documents\Midnight Sun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
@@ -304,7 +302,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
+RelativeOutputPath4=C:\Users\Taiping\Documents\Midnight Sun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
 OpenOutputs4=0
 AddToProject4=1
 TimestampFolder4=0
