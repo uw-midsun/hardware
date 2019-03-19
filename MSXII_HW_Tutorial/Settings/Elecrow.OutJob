@@ -17,15 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Elecrow.OutJob
 Description=
-TargetOutputMedium=PDF
+TargetOutputMedium=BOM & STEP
 VariantName=01 - Standard
 VariantScope=1
 CurrentConfigurationName=
-<<<<<<< HEAD
-TargetPrinter=Virtual Printer
-=======
-TargetPrinter=Microsoft Print to PDF
->>>>>>> master
+TargetPrinter=Brother HL-2270DW series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -42,7 +38,7 @@ OutputName1=Export STEP
 OutputCategory1=Export
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
@@ -55,7 +51,7 @@ OutputName2=Schematic Prints
 OutputCategory2=Documentation
 OutputDocumentPath2=[Project Physical Documents]
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=1
 OutputEnabled2_OutputMedium3=0
@@ -69,17 +65,17 @@ OutputName3=Bill of Materials
 OutputCategory3=Report
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=0
+OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=2
 OutputEnabled3_OutputMedium3=0
-OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium4=2
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration3_Name1=ColumnNameFormat
 Configuration3_Item1=CaptionAsName
 Configuration3_Name2=General
-Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1884|FormHeight=801|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=True|BomSetName=
+Configuration3_Item2=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1695|FormHeight=801|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=True|BomSetName=
 Configuration3_Name3=GroupOrder
 Configuration3_Item3=LibRef=True
 Configuration3_Name4=OutputConfigurationParameter1
@@ -93,13 +89,13 @@ OutputName4=PCB 3D Print
 OutputCategory4=Documentation
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=3
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.97|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.20|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=15551181|ViewY=13523623|LookAtX=38877948|LookAtY=27194882|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=0.000108698682298375|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 OutputType5=PCB Print
@@ -176,7 +172,7 @@ OutputName8=Electrical Rules Check
 OutputCategory8=Validation
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=6
 OutputEnabled8_OutputMedium3=0
@@ -190,7 +186,7 @@ OutputName9=Design Rules Check
 OutputCategory9=Validation
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=7
 OutputEnabled9_OutputMedium3=0
@@ -199,29 +195,13 @@ OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=G?
-<<<<<<< HEAD
 OutputType10=PCB Print
 OutputName10=Top Layer Prints
 OutputCategory10=Documentation
-OutputDocumentPath10=
-OutputVariantName10=
-OutputEnabled10=1
-OutputEnabled10_OutputMedium1=0
-=======
-<<<<<<< HEAD
-OutputType10=BOM_PartType
-OutputName10=Copy of Bill of Materials
-OutputCategory10=Report
-=======
-OutputType10=PCB Print
-OutputName10=Top Layer Prints
-OutputCategory10=Documentation
->>>>>>> master
 OutputDocumentPath10=
 OutputVariantName10=
 OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
-<<<<<<< HEAD
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
 OutputEnabled10_OutputMedium4=0
@@ -241,30 +221,13 @@ Configuration10_Name6=SortOrder
 Configuration10_Item6=Designator=Up|Comment=Up|Footprint=Up
 Configuration10_Name7=VisibleOrder
 Configuration10_Item7=Comment=50|Description=50|Designator=50|Footprint=50|LibRef=50|Manufacturer 1=50|Manufacturer Lifecycle 1=50|Manufacturer Part Number 1=50|Quantity=50|Supplier 1=50|Supplier Currency 1=50|Supplier Order Qty 1=50|Supplier Part Number 1=50|Supplier Stock 1=50|Supplier Subtotal 1=50|Supplier Subtotal per Board 1=50|Supplier Unit Price 1=50
-=======
->>>>>>> master
-OutputEnabled10_OutputMedium2=4
-OutputEnabled10_OutputMedium3=0
-OutputEnabled10_OutputMedium4=0
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
-Configuration10_Name2=OutputConfigurationParameter2
-Configuration10_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top Layer Prints|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration10_Name3=OutputConfigurationParameter3
-Configuration10_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 PcbPrintPreferences10=
 OutputType11=PCB Print
 OutputName11=Bottom Layer Print
 OutputCategory11=Documentation
 OutputDocumentPath11=
 OutputVariantName11=
-<<<<<<< HEAD
-OutputEnabled11=1
-=======
 OutputEnabled11=0
->>>>>>> master
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=5
 OutputEnabled11_OutputMedium3=0
@@ -278,23 +241,11 @@ Configuration11_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerCompone
 Configuration11_Name3=OutputConfigurationParameter3
 Configuration11_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 PcbPrintPreferences11=
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> master
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_BMS_Current_Sense\Project Outputs for BMS_Current_Sense\Job1.PDF
 ReleaseManaged2=1
-<<<<<<< HEAD
-OutputBasePath2=Project Outputs for PreCharge
-=======
-<<<<<<< HEAD
-OutputBasePath2=Project Outputs for MSXII_PedalBoard
-=======
-OutputBasePath2=Project Outputs for Center Console
->>>>>>> master
->>>>>>> master
+OutputBasePath2=Project Outputs for Carrier_Board_Template
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -319,17 +270,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
+OutputFilePath3=\\Mac\Home\Documents\midsun\hardware\MSXII_HW_Tutorial\Project Outputs for Carrier_Board_Template\
 ReleaseManaged3=1
-<<<<<<< HEAD
-OutputBasePath3=Project Outputs for PreCharge
-=======
-<<<<<<< HEAD
-OutputBasePath3=Project Outputs for MSXII_PedalBoard
-=======
-OutputBasePath3=Project Outputs for Center Console
->>>>>>> master
->>>>>>> master
+OutputBasePath3=Project Outputs for Carrier_Board_Template
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Custom]
@@ -340,17 +283,9 @@ OutputFileNameMulti3==ProjectName+'_'+ProjectRevision
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
+OutputFilePath4=\\Mac\Home\Documents\midsun\hardware\MSXII_HW_Tutorial\Project Outputs for Carrier_Board_Template\
 ReleaseManaged4=1
-<<<<<<< HEAD
-OutputBasePath4=Project Outputs for PreCharge
-=======
-<<<<<<< HEAD
-OutputBasePath4=Project Outputs for MSXII_PedalBoard
-=======
-OutputBasePath4=Project Outputs for Center Console
->>>>>>> master
->>>>>>> master
+OutputBasePath4=Project Outputs for Carrier_Board_Template
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=
@@ -365,7 +300,7 @@ OpenOutput4=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_BMS_Current_Sense\Project Outputs for BMS_Current_Sense\Job1.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
+RelativeOutputPath3=\\Mac\Home\Documents\midsun\hardware\MSXII_HW_Tutorial\Project Outputs for Carrier_Board_Template\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
@@ -375,7 +310,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_Center_Console\Project Outputs for Center Console\
+RelativeOutputPath4=\\Mac\Home\Documents\midsun\hardware\MSXII_HW_Tutorial\Project Outputs for Carrier_Board_Template\
 OpenOutputs4=0
 AddToProject4=1
 TimestampFolder4=0

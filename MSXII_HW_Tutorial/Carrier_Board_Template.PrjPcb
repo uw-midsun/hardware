@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Carrier_Board_Template
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -123,6 +123,106 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for Carrier_Board_Template\Carrier_Board_Template.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.REP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Carrier_Board_Template\Carrier_Board_Template_ProjectRevision.step
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for Carrier_Board_Template\Fabrication Files\Carrier_Board_Template_ProjectRevision.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument26]
 DocumentPath=Project Outputs for Carrier_Board_Template\Design Rule Check - hw_tutorial.html
 DItemRevisionGUID=
 
@@ -143,6 +243,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=
 ConfigurationType=
+
+[Generic_EDE]
+OutputDir=Project Outputs for Carrier_Board_Template
 
 [OutputGroup1]
 Name=Netlist Outputs
