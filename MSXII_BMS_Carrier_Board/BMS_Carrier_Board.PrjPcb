@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WYDNESVI
+DocumentUniqueId=FYHVFSUM
 
 [Document3]
 DocumentPath=..\altium-lib\Footprints.PcbLib
@@ -174,6 +174,23 @@ GenerateClassCluster=0
 DocumentUniqueId=NDKOBCDO
 
 [Document9]
+DocumentPath=BMS Carrier - Firmware Contactor Control.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UKULPNPF
+
+[Document10]
 DocumentPath=BMS Carrier - Fan Controls.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FTLDFDBD
 
-[Document10]
+[Document11]
 DocumentPath=BMS_Carrier_Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
-[Document11]
+[Document12]
 DocumentPath=BMS Carrier - AFE Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document13]
 DocumentPath=BMS Carrier - Current Sense Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document14]
 DocumentPath=Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -308,70 +325,78 @@ DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBS
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GKO
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM1
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM13
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM15
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPB
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPT
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTL
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTO
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTP
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTS
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.LDP
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.REP
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.RUL
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.step
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.TXT
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument21]
+DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.step
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument23]
 DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.xlsx
 DItemRevisionGUID=
 
@@ -380,12 +405,12 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectAuthor
-Value=Taiping Li
+Name=Aashmika Mali
+Value=4.0
 
 [Parameter2]
-Name=ProjectRevision
-Value=3.1
+Name=ProjectAuthor
+Value=Taiping Li
 
 [Configuration1]
 Name=Default Configuration
@@ -545,7 +570,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Send To OneNote 2016
+TargetPrinter=Samsung ML-1440 (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1022,36 +1047,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

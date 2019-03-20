@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_BMS_Carrier_Board\BMS_Carrier_Board.PcbDoc
+DRC Rules Export File for PCB: C:\Users\Aashmika Mali\Documents\First Year\Midnight Sun\hardware\MSXII_BMS_Carrier_Board\BMS_Carrier_Board.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=8.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
