@@ -62,3 +62,10 @@ $$
 
 Pros: 0.18W more efficient  
 Cons: more complex to integrate   
+
+
+## Resistor spec
+
+Resistor for low power fan mode should be $$82 \Omega, 0.3W$$ minimum. [here's one](https://www.digikey.ca/product-detail/en/rohm-semiconductor/SDR03EZPJ820/511-1790-1-ND/9675141).
+
+P.S. [a voltage regulator drops the same amount of power as a resistor](https://www.instructables.com/topics/voltage-regulators-vs-resistors/)
