@@ -309,94 +309,10 @@ Variation14=Designator=P9|UniqueId=\OGPSCNYV|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument21]
 DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.step
 DItemRevisionGUID=
 
-[GeneratedDocument22]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument23]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.xlsx
 DItemRevisionGUID=
 
@@ -405,12 +321,12 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=Aashmika Mali
+Name=ProjectRevision
 Value=4.0
 
 [Parameter2]
 Name=ProjectAuthor
-Value=Taiping Li
+Value=Aashmika Mali & Liam Hawkins
 
 [Configuration1]
 Name=Default Configuration
