@@ -69,3 +69,31 @@ Cons: more complex to integrate
 Resistor for low power fan mode should be $$82 \Omega, 0.3W$$ minimum. [here's one](https://www.digikey.ca/product-detail/en/rohm-semiconductor/SDR03EZPJ820/511-1790-1-ND/9675141).
 
 P.S. [a voltage regulator drops the same amount of power as a resistor](https://www.instructables.com/topics/voltage-regulators-vs-resistors/)
+
+## FAN TESTING RESULTS
+
+### Resistor Armature Voltage Control
+Tested on **high**, 12vdc, and **low**, through 82 $$\Omega$$ resistor.
+
+
+Cui Inc. 0.22A 12VDC fan, CFM-6015-13-11:  
+**High**: 0.16A  
+**Low:** 0.07A  
+
+SunOn MagLev, MF992251V3: 12VDC 0.9W  
+**High:** 0.07A  
+**low:** 0.05A  
+
+### PWM Control with 555 Timer
+
+All tests conducted at 12VDC, SunOn MagLev fan 0.9W. 
+ 
+555 Timer hooked up according to [HowToMechatronics.](https://howtomechatronics.com/how-it-works/electronics/how-to-make-pwm-dc-motor-speed-controller-using-555-timer-ic/)  
+On high (pot. turned to max 10kOhm), circuit drew 0.09A. This was reduced to 0.077A when the 555 was disconnected from GND. 
+
+On low (50% duty cycle, 1.13s period) circuit was drawing 0.126A with periodic spikes assumed to be from motor startup. Assumed higher current due to lower resistance (approx. 6kOhm).  
+
+
+**Overall, resistor control method is cheaper in terms of parts and complexity, and only marginally more power consuming.**
+
+
