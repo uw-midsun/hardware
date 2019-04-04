@@ -1,0 +1,30 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: Controller_Board_7.0.GBR   2019-03-17  6:35:39 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.G1                 L2 (GND)                                
+.G2                 L3 (PWR)                                
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM16               Mechanical 16                           
+.GM15               Mechanical 15                           
+.GM14               Route Tool Path                         
+.GM13               Mechanical 13                           
+.GM11               Courtyard Top                           
+.GM9                Assembly Top                            
+.GM4                Mechanical 4                            
+.GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+------------------------------------------------------------------------------------------
