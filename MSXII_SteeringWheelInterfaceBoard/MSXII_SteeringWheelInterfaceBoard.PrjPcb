@@ -174,220 +174,132 @@ GenerateClassCluster=0
 DocumentUniqueId=MSPHVCTT
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GM7
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.REP
 DItemRevisionGUID=
 
-[GeneratedDocument21]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\MSXII_SteeringWheelInterfaceBoard_2.0.step
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\MSXII_SteeringWheelInterfaceBoard_2.0.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument25]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GM3
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GM5
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GM7
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GM9
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GM11
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GM14
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GPB
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GPT
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument44]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.REP
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument26]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument27]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\MSXII_SteeringWheelInterfaceBoard_3.0.step
 DItemRevisionGUID=
 
-[GeneratedDocument51]
+[GeneratedDocument28]
 DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_3.0.TXT
 DItemRevisionGUID=
 
+[GeneratedDocument29]
+DocumentPath=Project Outputs for MSXII_SteeringWheelInterfaceBoard\MSXII_SteeringWheelInterfaceBoard_3.0.xlsx
+DItemRevisionGUID=
+
 [Parameter1]
-Name=MSPartNumber
-Value=MS40012
+Name=ProjectRevision
+Value=3.1
 
 [Parameter2]
 Name=ProjectAuthor
 Value=Jenny Xia
 
 [Parameter3]
-Name=ProjectRevision
-Value=3.0
+Name=MSPartNumber
+Value=MS-ELE0008
 
 [Configuration1]
 Name=Sources

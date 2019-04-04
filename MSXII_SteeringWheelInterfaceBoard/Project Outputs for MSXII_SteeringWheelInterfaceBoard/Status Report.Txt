@@ -1,11 +1,11 @@
 Output: Bill of Materials
 Type  : BOM
 From  : Variant [01 - Standard] of Project [MSXII_SteeringWheelInterfaceBoard.PrjPcb]
-   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.xlsx]
-   Generated File[MSXII_SteeringWheelInterfaceBoard_3.0.xlsx]
+   Generated File[MSXII_SteeringWheelInterfaceBoard_3.1.xlsx]
+   Generated File[MSXII_SteeringWheelInterfaceBoard_3.1.xlsx]
 
 
 Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At ?? 6:15:22 On 2019/4/3
+Finished Output Generation At ?? 7:57:20 On 2019/4/3
