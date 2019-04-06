@@ -1,10 +1,12 @@
-Output: Export STEP
-Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [PedalBoard.PcbDoc]
-   Generated File[MSXII_PedalBoard_2.1.step]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Pedal Board.PcbDoc]
+   Generated File[MSXII_PedalBoard_2.1.TXT]
+   Generated File[MSXII_PedalBoard_2.1.LDP]
+   Generated File[MSXII_PedalBoard_2.1.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 7:16:44 PM On 2018-05-21
+Finished Output Generation At 8:03:47 PM On 2019-01-18
