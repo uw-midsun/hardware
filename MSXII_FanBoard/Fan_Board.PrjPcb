@@ -140,12 +140,12 @@ GenerateClassCluster=0
 DocumentUniqueId=AMGLMWKI
 
 [Parameter1]
-Name=ProjectRevision
-Value=1.0
-
-[Parameter2]
 Name=ProjectAuthor
 Value=John Webster and Vlad Hociota
+
+[Parameter2]
+Name=ProjectRevision
+Value=1.0
 
 [Configuration1]
 Name=Default Configuration
@@ -266,7 +266,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2520DW series
+TargetPrinter=HP OfficeJet Pro 6960
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
