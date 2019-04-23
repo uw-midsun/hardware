@@ -139,6 +139,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AMGLMWKI
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Fan_Board\Design Rule Check - MSXII_Fan_Control.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectAuthor
 Value=John Webster and Vlad Hociota
