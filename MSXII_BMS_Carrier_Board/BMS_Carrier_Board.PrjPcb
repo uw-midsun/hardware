@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WYDNESVI
+DocumentUniqueId=TDJXRXCT
 
 [Document3]
 DocumentPath=..\altium-lib\Footprints.PcbLib
@@ -174,6 +174,23 @@ GenerateClassCluster=0
 DocumentUniqueId=NDKOBCDO
 
 [Document9]
+DocumentPath=BMS Carrier - Firmware Contactor Control.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UKULPNPF
+
+[Document10]
 DocumentPath=BMS Carrier - Fan Controls.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FTLDFDBD
 
-[Document10]
+[Document11]
 DocumentPath=BMS_Carrier_Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
-[Document11]
+[Document12]
 DocumentPath=BMS Carrier - AFE Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document13]
 DocumentPath=BMS Carrier - Current Sense Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document14]
 DocumentPath=Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -263,10 +280,12 @@ UniqueID=99B0C714-7DDF-4B69-AD3C-EB605D671CDF
 Description=BMS Carrier - Master Battery Box
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=5
 Variation1=Designator=R11|UniqueId=\BWWVRXXF|Kind=1|AlternatePart= 
 Variation2=Designator=R12|UniqueId=\TPRCUFSE|Kind=1|AlternatePart= 
 Variation3=Designator=R3|UniqueId=\NVGVCBRI|Kind=1|AlternatePart= 
+Variation4=Designator=P10|UniqueId=\EKDCPBBE|Kind=1|AlternatePart= 
+Variation5=Designator=P11|UniqueId=\NOMISCYQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -274,104 +293,42 @@ UniqueID=2A081959-7401-4529-A86E-EA398D10DC7E
 Description=BMS Carrier - Slave Battery Box
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
+VariationCount=28
 Variation1=Designator=C1|UniqueId=\ORTGBEUJ|Kind=1|AlternatePart= 
 Variation2=Designator=C2|UniqueId=\SPPXEGNR|Kind=1|AlternatePart= 
 Variation3=Designator=R5|UniqueId=\YMHJVPOU|Kind=1|AlternatePart= 
-Variation4=Designator=R6|UniqueId=\CSUFFHND|Kind=1|AlternatePart= 
+Variation4=Designator=R6|UniqueId=\YYHXQQPA|Kind=1|AlternatePart= 
 Variation5=Designator=R7|UniqueId=\XJIGRFNX|Kind=1|AlternatePart= 
 Variation6=Designator=R8|UniqueId=\VGOBNYQY|Kind=1|AlternatePart= 
-Variation7=Designator=TP1|UniqueId=\PSIFXVHD|Kind=1|AlternatePart= 
-Variation8=Designator=TP2|UniqueId=\WWODBNDT|Kind=1|AlternatePart= 
-Variation9=Designator=U1|UniqueId=\JNTXWDQM|Kind=1|AlternatePart= 
-Variation10=Designator=P10|UniqueId=\EKDCPBBE|Kind=1|AlternatePart= 
-Variation11=Designator=R11|UniqueId=\BWWVRXXF|Kind=1|AlternatePart= 
-Variation12=Designator=R12|UniqueId=\TPRCUFSE|Kind=1|AlternatePart= 
-Variation13=Designator=R1|UniqueId=\FGBMILDM|Kind=1|AlternatePart= 
-Variation14=Designator=P9|UniqueId=\OGPSCNYV|Kind=1|AlternatePart= 
+Variation7=Designator=U1|UniqueId=\JNTXWDQM|Kind=1|AlternatePart= 
+Variation8=Designator=P10|UniqueId=\EKDCPBBE|Kind=1|AlternatePart= 
+Variation9=Designator=R11|UniqueId=\BWWVRXXF|Kind=1|AlternatePart= 
+Variation10=Designator=R12|UniqueId=\TPRCUFSE|Kind=1|AlternatePart= 
+Variation11=Designator=R1|UniqueId=\FGBMILDM|Kind=1|AlternatePart= 
+Variation12=Designator=P9|UniqueId=\OGPSCNYV|Kind=1|AlternatePart= 
+Variation13=Designator=U2|UniqueId=\DAGYDMHO|Kind=1|AlternatePart= 
+Variation14=Designator=C3|UniqueId=\GGQEGLNV|Kind=1|AlternatePart= 
+Variation15=Designator=C4|UniqueId=\INHQKFOO|Kind=1|AlternatePart= 
+Variation16=Designator=C20|UniqueId=\BXUPXBDL|Kind=1|AlternatePart= 
+Variation17=Designator=R9|UniqueId=\FXMIREMX|Kind=1|AlternatePart= 
+Variation18=Designator=R10|UniqueId=\QMVQQTRY|Kind=1|AlternatePart= 
+Variation19=Designator=R13|UniqueId=\UOTJJMOE|Kind=1|AlternatePart= 
+Variation20=Designator=R14|UniqueId=\OPRWGPQK|Kind=1|AlternatePart= 
+Variation21=Designator=R15|UniqueId=\OQANKXLM|Kind=1|AlternatePart= 
+Variation22=Designator=R16|UniqueId=\EMXJDJHN|Kind=1|AlternatePart= 
+Variation23=Designator=R47|UniqueId=\SPQHOLDW|Kind=1|AlternatePart= 
+Variation24=Designator=P11|UniqueId=\NOMISCYQ|Kind=1|AlternatePart= 
+Variation25=Designator=XFMR1|UniqueId=\BFCOBYHV|Kind=1|AlternatePart= 
+Variation26=Designator=R46|UniqueId=\PDYAJCDH|Kind=1|AlternatePart= 
+Variation27=Designator=C19|UniqueId=\DILTNATK|Kind=1|AlternatePart= 
+Variation28=Designator=P8|UniqueId=\TFIKGNFU|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument19]
 DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.step
 DItemRevisionGUID=
 
-[GeneratedDocument20]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_3.1.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument21]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.xlsx
 DItemRevisionGUID=
 
@@ -380,12 +337,16 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectAuthor
-Value=Taiping Li
+Name=MSPartNumber
+Value=MS-ELE0003
 
 [Parameter2]
 Name=ProjectRevision
-Value=3.1
+Value=4.0
+
+[Parameter3]
+Name=ProjectAuthor
+Value=Aashmika Mali & Liam Hawkins
 
 [Configuration1]
 Name=Default Configuration
@@ -545,7 +506,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Send To OneNote 2016
+TargetPrinter=Samsung ML-1440 (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1022,36 +983,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
