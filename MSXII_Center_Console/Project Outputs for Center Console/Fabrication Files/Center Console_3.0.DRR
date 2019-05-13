@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Center Console.PcbDoc   2019-03-18  10:40:49 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Center Console_3.0.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             224       PTH        0.00inch (0.00mm)
+T2      28mil (0.7mm)           +2mil (0.05mm)/-0mil (0mm)        Round             2         PTH        0.00inch (0.00mm)
+T3      39mil (1mm)             +/-8mil (0.2mm)                   Round             1         PTH        0.00inch (0.00mm)
+T4      39mil (1mm)                                               Round             39        PTH        0.00inch (0.00mm)
+T5      40mil (1.02mm)          +/-2mil (0.04mm)                  Round             6         PTH        0.00inch (0.00mm)
+T6      40mil (1.02mm)          +/-2mil (0.05mm)                  Round             36        PTH        0.00inch (0.00mm)
+T7      91mil (2.3mm)           +/-16mil (0.4mm)                  Round             6         PTH        0.00inch (0.00mm)
+T8      106mil (2.7mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T9      108mil (2.75mm)                                           Round             3         PTH        0.00inch (0.00mm)
+T10     138mil (3.5mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T11     146mil (3.7mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T12     1102mil (28mm)                                            Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              326
+
+Total Processing Time (hh:mm:ss) : 00:00:00
