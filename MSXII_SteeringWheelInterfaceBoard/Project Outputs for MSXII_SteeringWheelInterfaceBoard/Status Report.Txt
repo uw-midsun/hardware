@@ -1,10 +1,11 @@
-Output: Export STEP
-Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [SteeringWheelInterfaceBoard.PcbDoc]
-   Generated File[MSXII_SteeringWheelInterfaceBoard_1.1.step]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [01 - Standard] of Project [MSXII_SteeringWheelInterfaceBoard.PrjPcb]
+   Generated File[MSXII_SteeringWheelInterfaceBoard_3.1.xlsx]
+   Generated File[MSXII_SteeringWheelInterfaceBoard_3.1.xlsx]
 
 
-Files Generated   : 1
+Files Generated   : 2
 Documents Printed : 0
 
-Finished Output Generation At 11:36:14 PM On 5/20/2018
+Finished Output Generation At ?? 7:57:20 On 2019/4/3
