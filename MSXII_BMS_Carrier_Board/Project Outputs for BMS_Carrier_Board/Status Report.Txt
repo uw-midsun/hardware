@@ -1,10 +1,10 @@
 Output: Export STEP
 Type  : ExportSTEP
 From  : Variant [BMS Carrier - Slave Battery Box] of PCB Document [BMS_Carrier_Board.PcbDoc]
-   Generated File[BMS_Carrier_Board_4.0.step]
+   Generated File[BMS_Carrier_Board_4.1.step]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 3:32:47 PM On 2019-04-06
+Finished Output Generation At 7:35:35 PM On 2019-05-23
