@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: TailLightsPrototype_1.0.GBR   2019-03-18  12:28:52 PM
+Gerber File Extension Report For: TailLightsPrototype_1.0.GBR   5/23/2019  9:56:08 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -18,4 +18,5 @@ Layer Extension     Layer Description
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
+.GM13               Mechanical 13                           
 ------------------------------------------------------------------------------------------
