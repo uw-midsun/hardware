@@ -1,9 +1,9 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: SteeringWheelInterfaceBoard.PcbDoc   2019/4/3  ?? 7:56:24
+NCDrill File Report For: SteeringWheelInterfaceBoard.PcbDoc   2019-05-24  11:18:15 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : MSXII_SteeringWheelInterfaceBoard_3.1.TXT
+ASCII Plated RoundHoles File : MSXII_SteeringWheelInterfaceBoard_3.1-Plated.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
