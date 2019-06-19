@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: BMS_Carrier_Board.PcbDoc   2019-06-12  11:39:55 PM
+NCDrill File Report For: BMS_Carrier_Board.PcbDoc   2019-06-19  12:02:37 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,7 +8,7 @@ ASCII RoundHoles File : BMS_Carrier_Board_5.0.TXT
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
 T1      8mil (0.2mm)                                              Round             6         PTH        0.00inch (0.00mm)
-T2      12mil (0.3mm)                                             Round             109       PTH        0.00inch (0.00mm)
+T2      12mil (0.3mm)                                             Round             174       PTH        0.00inch (0.00mm)
 T3      28mil (0.7mm)           +2mil (0.05mm)/-0mil (0mm)        Round             2         PTH        0.00inch (0.00mm)
 T4      28mil (0.711mm)                                           Round             2         PTH        0.00inch (0.00mm)
 T5      33mil (0.85mm)                                            Round             10        PTH        0.00inch (0.00mm)
@@ -18,6 +18,6 @@ T8      51mil (1.3mm)                                             Round         
 T9      91mil (2.3mm)           +/-16mil (0.4mm)                  Round             2         PTH        0.00inch (0.00mm)
 T10     106mil (2.7mm)                                            Round             7         PTH        0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              172
+Totals                                                                              237
 
 Total Processing Time (hh:mm:ss) : 00:00:00
