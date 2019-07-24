@@ -324,14 +324,6 @@ Variation27=Designator=C19|UniqueId=\DILTNATK|Kind=1|AlternatePart=
 Variation28=Designator=P8|UniqueId=\TFIKGNFU|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.step
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.xlsx
-DItemRevisionGUID=
-
 [SearchPath1]
 Path=..\altium-lib\*.*
 IncludeSubFolders=1
@@ -341,12 +333,12 @@ Name=MSPartNumber
 Value=MS-ELE0003
 
 [Parameter2]
-Name=ProjectRevision
-Value=4.0
-
-[Parameter3]
 Name=ProjectAuthor
 Value=Aashmika Mali & Liam Hawkins
+
+[Parameter3]
+Name=ProjectRevision
+Value=4.0
 
 [Configuration1]
 Name=Default Configuration
@@ -506,7 +498,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Samsung ML-1440 (USB001)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -932,6 +924,11 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -983,6 +980,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1112,6 +1119,7 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
+Type117=1
 
 [Difference Levels]
 Type1=1
@@ -1179,6 +1187,7 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
+Type66=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1365,8 +1374,8 @@ ComponentUpdate2=0
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Schematic Diagrams.SchLib
-ComponentDesignItemID3=CAP CER 20PF 50V ±5% C0G/NP0 0603
-ComponentSymbolReference3=CAP CER 20PF 50V ±5% C0G/NP0 0603
+ComponentDesignItemID3=CAP CER 20PF 50V ?% C0G/NP0 0603
+ComponentSymbolReference3=CAP CER 20PF 50V ?% C0G/NP0 0603
 ComponentUpdate3=0
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
@@ -1762,7 +1771,7 @@ ParameterName125=Voltage - Output
 ParameterUpdate125=1
 ParameterName126=Voltage - Supply
 ParameterUpdate126=1
-ParameterName127=Voltage - Supply, Single/Dual (±)
+ParameterName127=Voltage - Supply, Single/Dual (?
 ParameterUpdate127=1
 ParameterName128=Voltage - Zener (Nom)
 ParameterUpdate128=1
