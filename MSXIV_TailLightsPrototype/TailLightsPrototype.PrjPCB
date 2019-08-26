@@ -126,6 +126,23 @@ DocumentUniqueId=
 DocumentPath=DriverPrototype.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EFJMAMHW
+
+[Document7]
+DocumentPath=DriverPrototype.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
@@ -137,7 +154,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LTOSWBAX
+DocumentUniqueId=DLVQFVDQ
 
 [ProjectVariant1]
 UniqueID=E81F1FDC-9E21-4578-8243-F028ADADBF74
