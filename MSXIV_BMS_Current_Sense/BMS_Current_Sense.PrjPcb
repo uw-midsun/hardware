@@ -227,12 +227,12 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=ProjectRevision
-Value=3.0
-
-[Parameter2]
 Name=ProjectAuthor
 Value=Liam Hawkins
+
+[Parameter2]
+Name=ProjectRevision
+Value=3.0
 
 [Configuration1]
 Name=Sources
