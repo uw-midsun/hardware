@@ -1284,7 +1284,7 @@ L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
 SortOrder=3
-SortLocation=0
+SortLocation=1
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
