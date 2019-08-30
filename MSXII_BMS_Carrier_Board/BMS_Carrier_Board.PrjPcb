@@ -103,7 +103,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RXDWPGKY
+DocumentUniqueId=EMDFJJIM
 
 [Document5]
 DocumentPath=BMS Carrier - Connectors.SchDoc
@@ -330,11 +330,11 @@ IncludeSubFolders=1
 
 [Parameter1]
 Name=ProjectRevision
-Value=5.0
+Value=6.0
 
 [Parameter2]
 Name=ProjectAuthor
-Value=Aashmika Mali & Liam Hawkins
+Value=Liam Hawkins
 
 [Parameter3]
 Name=MSPartNumber
