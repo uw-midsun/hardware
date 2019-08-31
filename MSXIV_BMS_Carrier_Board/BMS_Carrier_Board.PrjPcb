@@ -275,70 +275,21 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[ProjectVariant1]
-UniqueID=99B0C714-7DDF-4B69-AD3C-EB605D671CDF
-Description=BMS Carrier - Master Battery Box
-AllowFabrication=0
-ParameterCount=0
-VariationCount=5
-Variation1=Designator=R11|UniqueId=\BWWVRXXF|Kind=1|AlternatePart= 
-Variation2=Designator=R12|UniqueId=\TPRCUFSE|Kind=1|AlternatePart= 
-Variation3=Designator=R3|UniqueId=\NVGVCBRI|Kind=1|AlternatePart= 
-Variation4=Designator=P10|UniqueId=\EKDCPBBE|Kind=1|AlternatePart= 
-Variation5=Designator=P11|UniqueId=\NOMISCYQ|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[ProjectVariant2]
-UniqueID=2A081959-7401-4529-A86E-EA398D10DC7E
-Description=BMS Carrier - Slave Battery Box
-AllowFabrication=0
-ParameterCount=0
-VariationCount=28
-Variation1=Designator=C1|UniqueId=\ORTGBEUJ|Kind=1|AlternatePart= 
-Variation2=Designator=C2|UniqueId=\SPPXEGNR|Kind=1|AlternatePart= 
-Variation3=Designator=R5|UniqueId=\YMHJVPOU|Kind=1|AlternatePart= 
-Variation4=Designator=R6|UniqueId=\YYHXQQPA|Kind=1|AlternatePart= 
-Variation5=Designator=R7|UniqueId=\XJIGRFNX|Kind=1|AlternatePart= 
-Variation6=Designator=R8|UniqueId=\VGOBNYQY|Kind=1|AlternatePart= 
-Variation7=Designator=U1|UniqueId=\JNTXWDQM|Kind=1|AlternatePart= 
-Variation8=Designator=P10|UniqueId=\EKDCPBBE|Kind=1|AlternatePart= 
-Variation9=Designator=R11|UniqueId=\BWWVRXXF|Kind=1|AlternatePart= 
-Variation10=Designator=R12|UniqueId=\TPRCUFSE|Kind=1|AlternatePart= 
-Variation11=Designator=R1|UniqueId=\FGBMILDM|Kind=1|AlternatePart= 
-Variation12=Designator=P9|UniqueId=\OGPSCNYV|Kind=1|AlternatePart= 
-Variation13=Designator=U2|UniqueId=\DAGYDMHO|Kind=1|AlternatePart= 
-Variation14=Designator=C3|UniqueId=\GGQEGLNV|Kind=1|AlternatePart= 
-Variation15=Designator=C4|UniqueId=\INHQKFOO|Kind=1|AlternatePart= 
-Variation16=Designator=C20|UniqueId=\BXUPXBDL|Kind=1|AlternatePart= 
-Variation17=Designator=R9|UniqueId=\FXMIREMX|Kind=1|AlternatePart= 
-Variation18=Designator=R10|UniqueId=\QMVQQTRY|Kind=1|AlternatePart= 
-Variation19=Designator=R13|UniqueId=\UOTJJMOE|Kind=1|AlternatePart= 
-Variation20=Designator=R14|UniqueId=\OPRWGPQK|Kind=1|AlternatePart= 
-Variation21=Designator=R15|UniqueId=\OQANKXLM|Kind=1|AlternatePart= 
-Variation22=Designator=R16|UniqueId=\EMXJDJHN|Kind=1|AlternatePart= 
-Variation23=Designator=R47|UniqueId=\SPQHOLDW|Kind=1|AlternatePart= 
-Variation24=Designator=P11|UniqueId=\NOMISCYQ|Kind=1|AlternatePart= 
-Variation25=Designator=XFMR1|UniqueId=\BFCOBYHV|Kind=1|AlternatePart= 
-Variation26=Designator=R46|UniqueId=\PDYAJCDH|Kind=1|AlternatePart= 
-Variation27=Designator=C19|UniqueId=\DILTNATK|Kind=1|AlternatePart= 
-Variation28=Designator=P8|UniqueId=\TFIKGNFU|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
 [SearchPath1]
 Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectRevision
-Value=6.0
+Name=MSPartNumber
+Value=MS-ELE0003
 
 [Parameter2]
 Name=ProjectAuthor
 Value=Liam Hawkins
 
 [Parameter3]
-Name=MSPartNumber
-Value=MS-ELE0003
+Name=ProjectRevision
+Value=6.0
 
 [Configuration1]
 Name=Default Configuration
