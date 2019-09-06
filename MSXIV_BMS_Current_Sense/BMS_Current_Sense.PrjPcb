@@ -226,6 +226,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for BMS_Current_Sense\Design Rule Check - BMS_Current_Sense.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=ProjectAuthor
 Value=Liam Hawkins
