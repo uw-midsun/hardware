@@ -191,13 +191,13 @@ GenerateClassCluster=0
 DocumentUniqueId=TNMAWICD
 
 [Document10]
-DocumentPath=Power Distribution - Solar Sense, Telemetry, and Motor Interface.SchDoc
+DocumentPath=Power Distribution - Load Switchs and Connectos.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=16
+AnnotateOrder=20
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -205,60 +205,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=PEZGHVXP
+DocumentUniqueId=LEJACKZX
 
 [Document11]
-DocumentPath=Power Distribution - Rear lights.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=15
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XLVHFCMH
-
-[Document12]
-DocumentPath=Power Distribution - BMS,Rear Camera, and Charger.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GMQVXOAU
-
-[Document13]
-DocumentPath=Power Distribution - Spare Load Switch.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=17
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JCUXHNLZ
-
-[Document14]
 DocumentPath=Power Distribution - Output to front Power Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JIUBWCZA
 
-[Document15]
+[Document12]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMDFJJIM
 
-[Document16]
+[Document13]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TDJXRXCT
 
-[Document17]
+[Document14]
 DocumentPath=Power Distribution - External ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FRBCOKEV
 
-[Document18]
+[Document15]
 DocumentPath=Power Distribution - IO Expander.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=STPQBCBQ
 
-[Document19]
+[Document16]
 DocumentPath=Power Distribution - ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,8 +309,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GVECDCUQ
 
-[Document20]
-DocumentPath=Power Distribution - Power Path 3 Parallel MOSFET.SchDoc
+[Document17]
+DocumentPath=Power Distribution - Power Path DCDC MOSFET.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -377,8 +326,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FXBGYJTB
 
-[Document21]
-DocumentPath=Power Distribution - Power Path 2 Parallel MOSFET.SchDoc
+[Document18]
+DocumentPath=Power Distribution - Power Path AUX MOSFET.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1255,7 +1204,7 @@ Type55=1
 Type56=2
 Type57=1
 Type58=1
-Type59=2
+Type59=1
 Type60=1
 Type61=2
 Type62=2
