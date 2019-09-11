@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for MSXIV_DC-DC_Converter
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -139,7 +139,38 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ACNEKDLO
 
+[Document7]
+DocumentPath=MSXIV_DC-DC_Converter.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueID=FF58CAF9-0887-4D13-9B15-2AFE8CA098B7
+Description=Variant of MSXIV_DC-DC_Converter
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=C10|UniqueId=\WLVGABVB|Kind=1|AlternatePart= 
+Variation2=Designator=C19|UniqueId=\YWOJMUYG|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Design Rule Check - MSXIV_DC-DC_Converter.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXIV_DC-DC_Converter_BOM.xlsx
 DItemRevisionGUID=
 
@@ -198,7 +229,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for MSXIV_DC-DC_Converter
 
 [OutputGroup1]
 Name=Netlist Outputs
