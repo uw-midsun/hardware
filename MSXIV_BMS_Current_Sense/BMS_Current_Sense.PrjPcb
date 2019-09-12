@@ -231,12 +231,12 @@ DocumentPath=Project Outputs for BMS_Current_Sense\Design Rule Check - BMS_Curre
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectAuthor
-Value=Liam Hawkins
+Name=ProjectRevision
+Value=1.0
 
 [Parameter2]
-Name=ProjectRevision
-Value=3.0
+Name=ProjectAuthor
+Value=Liam Hawkins
 
 [Configuration1]
 Name=Sources
