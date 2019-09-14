@@ -8,7 +8,7 @@ ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
-SeparateFolders=0
+SeparateFolders=1
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
@@ -171,16 +171,100 @@ DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Design Rule Check - MSXIV
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\MSXIV_DC-DC_Converter.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\MSXIV_DC-DC_Converter_2.0.step
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\MSXIV_DC-DC_Converter_2.0.xls
+DItemRevisionGUID=
+
+[GeneratedDocument23]
 DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXIV_DC-DC_Converter_BOM.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectAuthor
-Value=Aashmika Mali
-
-[Parameter2]
 Name=ProjectRevision
 Value=2.0
+
+[Parameter2]
+Name=ProjectAuthor
+Value=Aashmika Mali
 
 [Configuration1]
 Name=Default Configuration
@@ -527,7 +611,7 @@ Configuration1_Item3=OpenExported=True|AddToProject=True|ReportBOMViolationsInMe
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Comment=True|Footprint=True
 Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Item5=Footprint=Up
 Configuration1_Name6=VisibleOrder
 Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=ComponentCrossReference
