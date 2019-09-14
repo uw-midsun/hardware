@@ -1,25 +1,10 @@
-<<<<<<< HEAD
 Output: Export STEP
 Type  : ExportSTEP
 From  : Variant [[No Variations]] of PCB Document [BMS_Current_Sense.PcbDoc]
-   Generated File[BMS_Current_Sense_2.2.step]
+   Generated File[BMS_Current_Sense_1.0.step]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 9:41:01 PM On 2018-02-27
-=======
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [BMS_Current_Sense.PrjPcb]
-   Generated File[BMS_Current_Sense.TXT]
-   Generated File[BMS_Current_Sense.LDP]
-   Generated File[BMS_Current_Sense.DRR]
-
-
-Files Generated   : 3
-Documents Printed : 0
-
-Finished Output Generation At 6:35:22 PM On 2018-02-11
->>>>>>> master
+Finished Output Generation At 8:16:29 PM On 2019-09-13

@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for BMS_Current_Sense
 LogFolderPath=
 ManagedProjectGUID=
 VaultGUID=073572BA-2248-4B30-AA7A-4C69E1C955BA
@@ -226,17 +226,114 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document12]
+DocumentPath=Elecrow.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for BMS_Current_Sense\BMS_Current_Sense_1.0.step
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for BMS_Current_Sense\Fabrication Files\BMS_Current_Sense_1.0.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for BMS_Current_Sense\BMS_Current_Sense_1.0.xls
+DItemRevisionGUID=
+
+[GeneratedDocument21]
 DocumentPath=Project Outputs for BMS_Current_Sense\Design Rule Check - BMS_Current_Sense.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=1.0
-
-[Parameter2]
 Name=ProjectAuthor
 Value=Liam Hawkins
+
+[Parameter2]
+Name=ProjectRevision
+Value=1.0
 
 [Configuration1]
 Name=Sources
@@ -305,7 +402,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for BMS_Current_Sense
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -944,6 +1041,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
