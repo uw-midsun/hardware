@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: BMS_Current_Sense_1.0.GBR   2019-09-13  8:14:06 PM
+Gerber File Extension Report For: BMS_Current_Sense_1.0.GBR   2019-09-14  12:19:12 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -12,6 +12,7 @@ Layer Extension     Layer Description
 .GTL                Top Layer                               
 .GBL                Bottom Layer                            
 .GBS                Bottom Solder                           
+.GBO                Bottom Overlay                          
 .GM1                Mechanical 1                            
 .GM13               Mechanical 13                           
 .GM15               Mechanical 15                           
