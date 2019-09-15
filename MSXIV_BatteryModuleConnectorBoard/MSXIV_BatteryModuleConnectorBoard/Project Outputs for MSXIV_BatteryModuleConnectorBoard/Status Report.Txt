@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [MSXIV_BatteryModuleConnectorBoard.PcbDoc]
+   Generated File[MSXIV_BatteryModuleConnectorBoard.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:27:43 PM On 2019-09-15
