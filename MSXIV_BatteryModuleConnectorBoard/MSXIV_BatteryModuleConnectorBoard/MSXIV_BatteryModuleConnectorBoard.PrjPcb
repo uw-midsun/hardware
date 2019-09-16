@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -199,12 +199,12 @@ Name=ProjectAuthor
 Value=Aashmika Mali
 
 [Parameter2]
-Name=website
-Value=uwmidsun.com
-
-[Parameter3]
 Name=ProjectRevision
 Value=1.0
+
+[Parameter3]
+Name=website
+Value=uwmidsun.com
 
 [Configuration1]
 Name=Sources
@@ -217,7 +217,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for MSXIV_BatteryModuleConnectorBoard
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
