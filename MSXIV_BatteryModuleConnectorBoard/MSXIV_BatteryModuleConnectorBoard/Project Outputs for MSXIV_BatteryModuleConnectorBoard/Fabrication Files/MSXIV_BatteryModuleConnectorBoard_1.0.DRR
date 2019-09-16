@@ -1,9 +1,9 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: MSXIV_BatteryModuleConnectorBoard.PcbDoc   2019-09-15  11:36:28 PM
+NCDrill File Report For: MSXIV_BatteryModuleConnectorBoard.PcbDoc   2019-09-15  11:52:41 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : MSXIV_BatteryModuleConnectorBoard.TXT
+ASCII RoundHoles File : MSXIV_BatteryModuleConnectorBoard_1.0.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------

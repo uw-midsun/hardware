@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: MSXIV_BatteryModuleConnectorBoard.GBR   2019-09-15  11:36:25 PM
+Gerber File Extension Report For: MSXIV_BatteryModuleConnectorBoard_1.0.GBR   2019-09-15  11:52:41 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -19,4 +19,5 @@ Layer Extension     Layer Description
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
+.GM13               Mechanical 13                           
 ------------------------------------------------------------------------------------------
