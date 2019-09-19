@@ -55,23 +55,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CUVCIDOY
 
 [Document2]
-DocumentPath=Controller_Board_Interface.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TDJXRXCT
 
-[Document4]
+[Document3]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMDFJJIM
 
-[Document5]
+[Document4]
 DocumentPath=BMS Carrier - Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WIMLAFIJ
 
-[Document6]
+[Document5]
 DocumentPath=BMS Carrier - AFE Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PMJOOQIO
 
-[Document7]
+[Document6]
 DocumentPath=BMS Carrier - AFE Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=BMS Carrier - Current Sense Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YTDIAOCO
 
-[Document9]
+[Document8]
 DocumentPath=BMS Carrier - Current Sense Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=BMS Carrier - Battery Relay Controls.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDKOBCDO
 
-[Document11]
+[Document10]
 DocumentPath=BMS Carrier - Firmware Contactor Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UKULPNPF
 
-[Document12]
+[Document11]
 DocumentPath=BMS Carrier - Fan Controls.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FTLDFDBD
 
-[Document13]
+[Document12]
 DocumentPath=BMS_Carrier_Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
-[Document14]
+[Document13]
 DocumentPath=Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,8 +258,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
-DocumentPath=BMS Carrier - Connectors.Harness
+[Document14]
+DocumentPath=Controller_Board_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -297,16 +280,16 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectRevision
-Value=1.0
+Name=MSPartNumber
+Value=MS-ELE0003
 
 [Parameter2]
 Name=ProjectAuthor
 Value=Liam Hawkins
 
 [Parameter3]
-Name=MSPartNumber
-Value=MS-ELE0003
+Name=ProjectRevision
+Value=1.0
 
 [Configuration1]
 Name=Default Configuration
