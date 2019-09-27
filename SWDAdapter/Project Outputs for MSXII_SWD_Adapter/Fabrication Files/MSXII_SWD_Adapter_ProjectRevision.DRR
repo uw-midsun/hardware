@@ -1,17 +1,16 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: DriverPrototype.PcbDoc   2019-09-16  12:01:21 AM
+NCDrill File Report For: SWD_Adapter_PCB.PcbDoc   2019-09-16  12:12:40 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : TailLightsPrototype_1.0.TXT
+ASCII RoundHoles File : MSXII_SWD_Adapter_ProjectRevision.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.3mm)                                             Round             303       PTH        0.00inch (0.00mm)
-T2      28mil (0.711mm)                                           Round             7         PTH        0.00inch (0.00mm)
-T3      40mil (1.02mm)          +/-2mil (0.04mm)                  Round             2         PTH        0.00inch (0.00mm)
-T4      91mil (2.3mm)           +/-16mil (0.4mm)                  Round             2         PTH        0.00inch (0.00mm)
+T1      16mil (0.406mm)                                           Round             58        PTH        0.00inch (0.00mm)
+T2      32mil (0.8mm)           +4mil (0.1mm)                     Round             2         PTH        0.00inch (0.00mm)
+T3      39mil (1mm)             +/-8mil (0.2mm)                   Round             13        PTH        0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              314
+Totals                                                                              73
 
 Total Processing Time (hh:mm:ss) : 00:00:00

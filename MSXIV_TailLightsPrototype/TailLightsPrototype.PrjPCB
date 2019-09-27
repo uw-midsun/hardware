@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for TailLightsPrototype
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -193,7 +193,7 @@ ParamVariation10=ParameterName=ComponentLink3URL|VariantValue=https://www.verica
 ParamDesignator10=D1
 ParamVariation11=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator11=D1
-ParamVariation12=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation12=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator12=D1
 ParamVariation13=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator13=D1
@@ -239,7 +239,7 @@ ParamVariation33=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator33=D1
 ParamVariation34=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator34=D1
-ParamVariation35=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation35=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator35=D1
 ParamVariation36=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator36=D1
@@ -266,7 +266,7 @@ ParamVariation46=ParameterName=ComponentLink3URL|VariantValue=https://www.verica
 ParamDesignator46=D2
 ParamVariation47=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator47=D2
-ParamVariation48=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation48=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator48=D2
 ParamVariation49=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator49=D2
@@ -312,7 +312,7 @@ ParamVariation69=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator69=D2
 ParamVariation70=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator70=D2
-ParamVariation71=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation71=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator71=D2
 ParamVariation72=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator72=D2
@@ -339,7 +339,7 @@ ParamVariation82=ParameterName=ComponentLink3URL|VariantValue=https://www.verica
 ParamDesignator82=D6
 ParamVariation83=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator83=D6
-ParamVariation84=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation84=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator84=D6
 ParamVariation85=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator85=D6
@@ -385,7 +385,7 @@ ParamVariation105=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator105=D6
 ParamVariation106=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator106=D6
-ParamVariation107=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation107=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator107=D6
 ParamVariation108=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator108=D6
@@ -412,7 +412,7 @@ ParamVariation118=ParameterName=ComponentLink3URL|VariantValue=https://www.veric
 ParamDesignator118=D4
 ParamVariation119=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator119=D4
-ParamVariation120=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation120=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator120=D4
 ParamVariation121=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator121=D4
@@ -458,7 +458,7 @@ ParamVariation141=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator141=D4
 ParamVariation142=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator142=D4
-ParamVariation143=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation143=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator143=D4
 ParamVariation144=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator144=D4
@@ -485,7 +485,7 @@ ParamVariation154=ParameterName=ComponentLink3URL|VariantValue=https://www.veric
 ParamDesignator154=D3
 ParamVariation155=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator155=D3
-ParamVariation156=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation156=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator156=D3
 ParamVariation157=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator157=D3
@@ -531,7 +531,7 @@ ParamVariation177=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator177=D3
 ParamVariation178=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator178=D3
-ParamVariation179=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation179=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator179=D3
 ParamVariation180=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator180=D3
@@ -558,7 +558,7 @@ ParamVariation190=ParameterName=ComponentLink3URL|VariantValue=https://www.veric
 ParamDesignator190=D5
 ParamVariation191=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator191=D5
-ParamVariation192=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation192=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator192=D5
 ParamVariation193=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator193=D5
@@ -604,7 +604,7 @@ ParamVariation213=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator213=D5
 ParamVariation214=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator214=D5
-ParamVariation215=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation215=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator215=D5
 ParamVariation216=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator216=D5
@@ -635,7 +635,7 @@ ParamVariation8=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.c
 ParamDesignator8=D1
 ParamVariation9=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator9=D1
-ParamVariation10=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation10=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator10=D1
 ParamVariation11=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator11=D1
@@ -711,7 +711,7 @@ ParamVariation46=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator46=D1
 ParamVariation47=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator47=D1
-ParamVariation48=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation48=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator48=D1
 ParamVariation49=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator49=D1
@@ -736,7 +736,7 @@ ParamVariation58=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.
 ParamDesignator58=D3
 ParamVariation59=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator59=D3
-ParamVariation60=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation60=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator60=D3
 ParamVariation61=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator61=D3
@@ -812,7 +812,7 @@ ParamVariation96=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator96=D3
 ParamVariation97=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator97=D3
-ParamVariation98=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation98=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator98=D3
 ParamVariation99=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator99=D3
@@ -837,7 +837,7 @@ ParamVariation108=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser
 ParamDesignator108=D4
 ParamVariation109=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator109=D4
-ParamVariation110=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation110=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator110=D4
 ParamVariation111=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator111=D4
@@ -913,7 +913,7 @@ ParamVariation146=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator146=D4
 ParamVariation147=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator147=D4
-ParamVariation148=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation148=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator148=D4
 ParamVariation149=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator149=D4
@@ -938,7 +938,7 @@ ParamVariation158=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser
 ParamDesignator158=D5
 ParamVariation159=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator159=D5
-ParamVariation160=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation160=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator160=D5
 ParamVariation161=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator161=D5
@@ -1014,7 +1014,7 @@ ParamVariation196=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator196=D5
 ParamVariation197=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator197=D5
-ParamVariation198=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation198=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator198=D5
 ParamVariation199=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator199=D5
@@ -1039,7 +1039,7 @@ ParamVariation208=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser
 ParamDesignator208=D6
 ParamVariation209=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator209=D6
-ParamVariation210=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation210=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator210=D6
 ParamVariation211=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator211=D6
@@ -1115,7 +1115,7 @@ ParamVariation246=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator246=D6
 ParamVariation247=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator247=D6
-ParamVariation248=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation248=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator248=D6
 ParamVariation249=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator249=D6
@@ -1140,7 +1140,7 @@ ParamVariation258=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser
 ParamDesignator258=D2
 ParamVariation259=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator259=D2
-ParamVariation260=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation260=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator260=D2
 ParamVariation261=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator261=D2
@@ -1216,7 +1216,7 @@ ParamVariation296=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator296=D2
 ParamVariation297=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator297=D2
-ParamVariation298=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation298=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator298=D2
 ParamVariation299=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator299=D2
@@ -1241,75 +1241,71 @@ DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLight
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBS
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GKO
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM1
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM13
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM15
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM32767
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPB
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM32767
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPT
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTL
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTO
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTP
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTS
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.LDP
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.REP
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.RUL
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.REP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for TailLightsPrototype\TailLightsPrototype_1.0.step
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument21]
 DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for TailLightsPrototype\TailLightsPrototype_1.0.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
@@ -1327,7 +1323,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for TailLightsPrototype
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1438,7 +1434,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DW series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1459,7 +1455,7 @@ OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=1200|ViewY=900|LookAtX=0|LookAtY=0|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig= 
+Configuration2_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=1200|ViewY=900|LookAtX=0|LookAtY=0|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig=
 OutputType3=PCB 3D Video
 OutputName3=PCB 3D Video
 OutputDocumentPath3=
@@ -1930,46 +1926,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=MBAExportPARASOLID
-OutputName12=Export PARASOLID
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=MBAExportSTEP
-OutputName13=Export STEP
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
