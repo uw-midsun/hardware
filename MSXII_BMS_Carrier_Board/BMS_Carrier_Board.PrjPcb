@@ -324,6 +324,17 @@ Variation27=Designator=C19|UniqueId=\DILTNATK|Kind=1|AlternatePart=
 Variation28=Designator=P8|UniqueId=\TFIKGNFU|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+<<<<<<< HEAD
+[GeneratedDocument1]
+DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.step
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for BMS_Carrier_Board\BMS_Carrier_Board_3.1.xlsx
+DItemRevisionGUID=
+
+=======
+>>>>>>> master
 [SearchPath1]
 Path=..\altium-lib\*.*
 IncludeSubFolders=1
@@ -339,6 +350,13 @@ Value=Aashmika Mali & Liam Hawkins
 [Parameter3]
 Name=ProjectRevision
 Value=4.0
+<<<<<<< HEAD
+
+[Parameter3]
+Name=ProjectAuthor
+Value=Aashmika Mali & Liam Hawkins
+=======
+>>>>>>> master
 
 [Configuration1]
 Name=Default Configuration
@@ -499,9 +517,13 @@ OutputDefault20=0
 Name=Simulator Outputs
 Description=
 <<<<<<< HEAD
+TargetPrinter=Samsung ML-1440 (USB001)
+=======
+<<<<<<< HEAD
 TargetPrinter=Microsoft Print to PDF
 =======
 TargetPrinter=Brother DCP-L2540DW series
+>>>>>>> master
 >>>>>>> master
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
@@ -984,6 +1006,8 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+<<<<<<< HEAD
+=======
 OutputType10=MBAExportPARASOLID
 OutputName10=Export PARASOLID
 OutputDocumentPath10=
@@ -994,6 +1018,7 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+>>>>>>> master
 
 [OutputGroup10]
 Name=PostProcess Outputs

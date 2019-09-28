@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: C:\Users\Aashmika Mali\Documents\First Year\Midnight Sun\hardware\MSXII_DC-DC_Converter\MSXIV_DC-DC_Converter.PcbDoc
+RuleKind=Clearance|RuleName=Stitching HV_GND|Scope=Board|Minimum=5.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
