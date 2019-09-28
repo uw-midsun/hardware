@@ -498,7 +498,11 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
+<<<<<<< HEAD
 TargetPrinter=Microsoft Print to PDF
+=======
+TargetPrinter=Brother DCP-L2540DW series
+>>>>>>> master
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [GPS Board.PcbDoc]
+   Generated File[GPS Board_1.0.TXT]
+   Generated File[GPS Board_1.0.LDP]
+   Generated File[GPS Board_1.0.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:10:30 PM On 2019-01-23
