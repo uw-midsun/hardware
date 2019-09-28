@@ -1,0 +1,5 @@
+Device Type,Power Pin,Ground Pin,Voltage,Drop on Power,Drop on Ground,Current
+,,,,,,
+Power Supply,u1_9,u1_5,11.979,0.021,1.05e-007,21,
+IO Device,p1_2,p1_5,11.9354,0.05341,0.0112367,-10.5,
+,p1_3,p1_5,11.9327,0.05603,0.0112367,-10.5,
