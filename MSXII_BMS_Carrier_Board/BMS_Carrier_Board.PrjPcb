@@ -498,7 +498,11 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
+<<<<<<< HEAD
+TargetPrinter=Microsoft Print to PDF
+=======
 TargetPrinter=Brother DCP-L2540DW series
+>>>>>>> master
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1374,8 +1378,8 @@ ComponentUpdate2=0
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Schematic Diagrams.SchLib
-ComponentDesignItemID3=CAP CER 20PF 50V ±5% C0G/NP0 0603
-ComponentSymbolReference3=CAP CER 20PF 50V ±5% C0G/NP0 0603
+ComponentDesignItemID3=CAP CER 20PF 50V ?% C0G/NP0 0603
+ComponentSymbolReference3=CAP CER 20PF 50V ?% C0G/NP0 0603
 ComponentUpdate3=0
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
@@ -1771,7 +1775,7 @@ ParameterName125=Voltage - Output
 ParameterUpdate125=1
 ParameterName126=Voltage - Supply
 ParameterUpdate126=1
-ParameterName127=Voltage - Supply, Single/Dual (±)
+ParameterName127=Voltage - Supply, Single/Dual (?
 ParameterUpdate127=1
 ParameterName128=Voltage - Zener (Nom)
 ParameterUpdate128=1

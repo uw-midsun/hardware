@@ -1,1 +1,2 @@
-Record=TopLevelDocument|FileName=Controller_Board_Interface.SchDoc
+Record=TopLevelDocument|FileName=Power Distribution - DC-DC.SchDoc
+Record=SheetSymbol|SourceDocument=Power Distribution - DC-DC.SchDoc|Designator=Temperature Sense|SchDesignator=Temperature Sense|FileName=Power Distribution - Temperature Sense.SchDoc|SymbolType=Normal|RawFileName=Power Distribution - Temperature Sense.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
