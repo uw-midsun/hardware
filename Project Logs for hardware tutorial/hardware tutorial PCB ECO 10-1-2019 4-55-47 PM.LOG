@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=+12V Pin=P2-1
+Added Pin To Net: NetName=+12V Pin=R1-1
+Change Net Name : Old Net Name=+12V New Net Name=VBAT
+Added Room: Name=Hardware Tutorial - Controller_Board_Interface

@@ -1,0 +1,10 @@
+Added Component: Designator=R7(POT footprint (tutorial))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "PTV09A-4015F-B103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "PTV09A-4015F-B103-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=R7-1
+Added Pin To Net: NetName=NetR6_2 Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R7-3
+Added Class: Name=Hardware Tutorial - Controller_Board_Interface
+Added Room: Name=Hardware Tutorial - Controller_Board_Interface
