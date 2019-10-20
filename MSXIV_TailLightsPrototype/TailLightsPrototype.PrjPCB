@@ -156,6 +156,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DLVQFVDQ
 
+[Document8]
+DocumentPath=TailLightPrototypeRev3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IAHOSVNO
+
+[Document9]
+DocumentPath=TailLightPrototypeRev3LEDs.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HUCBKJMJ
+
 [ProjectVariant1]
 UniqueID=E81F1FDC-9E21-4578-8243-F028ADADBF74
 Description=01 - Brake Lights (Red)
@@ -1297,14 +1331,10 @@ DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLight
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.REP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
 DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.TXT
 DItemRevisionGUID=
 
@@ -1434,7 +1464,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
