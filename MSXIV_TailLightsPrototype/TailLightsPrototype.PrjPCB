@@ -160,7 +160,7 @@ DocumentUniqueId=DLVQFVDQ
 DocumentPath=TailLightPrototypeRev3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=2
@@ -177,6 +177,23 @@ DocumentUniqueId=IAHOSVNO
 DocumentPath=TailLightPrototypeRev3LEDs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HUCBKJMJ
+
+[Document10]
+DocumentPath=TailLightPrototypeRev3.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
@@ -188,7 +205,24 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HUCBKJMJ
+DocumentUniqueId=LYQDKUGY
+
+[Document11]
+DocumentPath=TailLightPrototypeRev3Lights.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TCADKPUW
 
 [ProjectVariant1]
 UniqueID=E81F1FDC-9E21-4578-8243-F028ADADBF74
@@ -1259,82 +1293,86 @@ ParamDesignator300=D2
 ParamVariationCount=300
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.DRR
+DocumentPath=Project Outputs for TailLightsPrototype\Design Rule Check - TailLightPrototypeRev3.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.EXTREP
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBL
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBO
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBP
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBS
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GKO
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM1
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM13
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM15
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM32767
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPB
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM32767
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPT
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTL
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTO
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTP
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTS
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.LDP
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.RUL
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
 DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.TXT
 DItemRevisionGUID=
 
