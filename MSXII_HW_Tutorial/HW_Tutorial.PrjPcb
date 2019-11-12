@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for HW_Tutorial
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -146,113 +146,13 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for HW_Tutorial\HW_Tutorial_1.0.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument7]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GM7
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.REP
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for HW_Tutorial\HW_Tutorial_2.0.step
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for HW_Tutorial\Fabrication Files\HW_Tutorial_2.0.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for HW_Tutorial\HW_Tutorial_2.0.xlsx
-DItemRevisionGUID=
-
 [Parameter1]
-Name=ProjectRevision
-Value=2.0
-
-[Parameter2]
 Name=ProjectAuthor
 Value=Mena Labib
+
+[Parameter2]
+Name=ProjectRevision
+Value=2.0
 
 [Configuration1]
 Name=Default Configuration
@@ -265,7 +165,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=Project Outputs for HW_Tutorial
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
