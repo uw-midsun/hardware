@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [MSXII_DC-DC_Converter.PcbDoc]
+   Generated File[MSXII_DC-DC_Converter_1.2.TXT]
+   Generated File[MSXII_DC-DC_Converter_1.2.LDP]
+   Generated File[MSXII_DC-DC_Converter_1.2.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:35:27 PM On 2018-02-23

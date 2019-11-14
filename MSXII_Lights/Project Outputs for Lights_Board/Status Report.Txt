@@ -1,0 +1,10 @@
+Output: Copy of Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Lights_Board.PrjPcb]
+   Generated File[Lights_Board_1.18.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:00:09 PM On 2018-02-27

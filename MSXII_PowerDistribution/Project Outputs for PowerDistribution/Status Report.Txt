@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PowerDistribution.PcbDoc]
+   Generated File[PowerDistribution_3.0.TXT]
+   Generated File[PowerDistribution_3.0.LDP]
+   Generated File[PowerDistribution_3.0.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:19:28 AM On 2018-06-22
