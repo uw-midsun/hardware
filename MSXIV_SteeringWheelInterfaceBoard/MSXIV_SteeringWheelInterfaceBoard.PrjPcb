@@ -225,7 +225,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
 [GeneratedDocument1]
-DocumentPath=..\MSXII_SteeringWheelInterfaceBoard\Project Outputs for MSXII_SteeringWheelInterfaceBoard\Fabrication Files\MSXII_SteeringWheelInterfaceBoard_2.0.REP
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Design Rule Check - SteeringWheelBoard.html
 DItemRevisionGUID=
 
 [Parameter1]
@@ -398,7 +398,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -892,6 +892,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
