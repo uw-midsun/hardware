@@ -275,6 +275,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueID=F8114CF4-3C6A-4D46-B254-DE2DC320BAD8
+Description=BMS_Carrier_Board
+AllowFabrication=1
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=P13|UniqueId=\EKDCPBBE|Kind=1|AlternatePart= 
+Variation2=Designator=P14|UniqueId=\NOMISCYQ|Kind=1|AlternatePart= 
+Variation3=Designator=R19|UniqueId=\OQANKXLM|Kind=1|AlternatePart= 
+Variation4=Designator=R13|UniqueId=\BWWVRXXF|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for BMS_Carrier_Board\Design Rule Check - BMS_Carrier_Board.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=..\altium-lib\*.*
 IncludeSubFolders=1
@@ -314,7 +330,7 @@ AddNetNetLabels=-1
 AddNetPorts=-1
 ShowComponentParameters=-1
 GlobalBookmarks=0
-ExportBOM=-1
+ExportBOM=0
 TemplateFilename=Board Stack Report.XLT
 TemplateStoreRelative=-1
 PCB_PrintColor=0
@@ -1284,7 +1300,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=1
+SortOrder=3
 SortLocation=0
 MatchParameter1=Library Reference
 MatchStrictly1=1
