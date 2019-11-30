@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [BMS Carrier - Slave Battery Box] of PCB Document [NiMH Battery Charger Rev.PcbDoc]
+   Generated File[NiMH Battery Charger_ProjectRevision.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:18:11 On 2019/11/30
