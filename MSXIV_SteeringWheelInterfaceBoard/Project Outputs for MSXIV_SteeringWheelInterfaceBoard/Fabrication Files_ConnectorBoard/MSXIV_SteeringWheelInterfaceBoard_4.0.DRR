@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SteeringWheelConnectorBoard.PcbDoc   2019-12-01  4:25:46 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : MSXIV_SteeringWheelInterfaceBoard_4.0.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      28mil (0.711mm)                                           Round             3         PTH        0.00inch (0.00mm)
+T2      40mil (1.02mm)          +/-2mil (0.04mm)                  Round             5         PTH        0.00inch (0.00mm)
+T3      91mil (2.3mm)           +/-2mil (0.04mm)                  Round             1         PTH        0.00inch (0.00mm)
+T4      91mil (2.3mm)                                             Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              10
+
+Total Processing Time (hh:mm:ss) : 00:00:00

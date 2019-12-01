@@ -1,10 +1,12 @@
-Output: Copy of Export STEP
-Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [SteeringWheelConnectorBoard.PcbDoc]
-   Generated File[MSXIV_SteeringWheelInterfaceBoard_4.0.step]
+Output: Copy of NC Drill Files
+Type  : NC Drill
+From  : PCB Document [SteeringWheelConnectorBoard.PcbDoc]
+   Generated File[MSXIV_SteeringWheelInterfaceBoard_4.0.TXT]
+   Generated File[MSXIV_SteeringWheelInterfaceBoard_4.0.LDP]
+   Generated File[MSXIV_SteeringWheelInterfaceBoard_4.0.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 1:23:34 AM On 2019-12-01
+Finished Output Generation At 4:25:46 PM On 2019-12-01
