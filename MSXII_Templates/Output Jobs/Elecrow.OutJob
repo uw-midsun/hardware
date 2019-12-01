@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Elecrow.OutJob
 Description=
-TargetOutputMedium=Copy of Fabrication Files
+TargetOutputMedium=BOM & STEP
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -126,7 +126,7 @@ OutputName6=Bill of Materials
 OutputCategory6=Report
 OutputDocumentPath6=[Project]
 OutputVariantName6=
-OutputEnabled6=0
+OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=2
 OutputEnabled6_OutputMedium3=0
@@ -137,7 +137,7 @@ PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration6_Name1=ColumnNameFormat
 Configuration6_Item1=CaptionAsName
 Configuration6_Name2=General
-Configuration6_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Liam\Documents\UWaterloo\Midnight Sun\Hardware Repository\hardware\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration6_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Midnight Sun\Documents\Midnight Sun\hardware\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration6_Name3=GroupOrder
 Configuration6_Item3=Comment=True|Footprint=True
 Configuration6_Name4=SortOrder
@@ -149,7 +149,7 @@ OutputName7=Design Rules Check
 OutputCategory7=Validation
 OutputDocumentPath7=SteeringWheelBoard.PcbDoc
 OutputVariantName7=
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -164,7 +164,7 @@ OutputName8=Export STEP
 OutputCategory8=Export
 OutputDocumentPath8=SteeringWheelBoard.PcbDoc
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
@@ -178,7 +178,7 @@ OutputName9=Copy of Gerber Files
 OutputCategory9=Fabrication
 OutputDocumentPath9=SteeringWheelConnectorBoard.PcbDoc
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
@@ -192,7 +192,7 @@ OutputName10=Copy of NC Drill Files
 OutputCategory10=Fabrication
 OutputDocumentPath10=SteeringWheelConnectorBoard.PcbDoc
 OutputVariantName10=
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
@@ -206,19 +206,21 @@ OutputName11=Copy of Export STEP
 OutputCategory11=Export
 OutputDocumentPath11=SteeringWheelConnectorBoard.PcbDoc
 OutputVariantName11=
-OutputEnabled11=0
+OutputEnabled11=1
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
 OutputEnabled11_OutputMedium4=5
 OutputEnabled11_OutputMedium5=0
 OutputDefault11=0
+Configuration11_Name1=OutputConfigurationParameter1
+Configuration11_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False
 OutputType12=Design Rules Check
 OutputName12=Copy of Design Rules Check
 OutputCategory12=Validation
 OutputDocumentPath12=SteeringWheelConnectorBoard.PcbDoc
 OutputVariantName12=
-OutputEnabled12=0
+OutputEnabled12=1
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
@@ -226,6 +228,8 @@ OutputEnabled12_OutputMedium4=3
 OutputEnabled12_OutputMedium5=0
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration12_Name1=OutputConfigurationParameter1
+Configuration12_Item1=5~1,16973831~1,16908289~1,16908301~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Taiping\Documents\MidnightSun\hardware\MSXII_BMS_Current_Sense\Project Outputs for BMS_Current_Sense\Job1.PDF
@@ -268,7 +272,7 @@ OutputFileNameMulti3==ProjectName+'_'+ProjectRevision
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\Liam\Documents\UWaterloo\Midnight Sun\Hardware Repository\hardware\MSXIV_TailLightsPrototype\Project Outputs for TailLightsPrototype\
+OutputFilePath4=C:\Users\Midnight Sun\Documents\Midnight Sun\hardware\MSXIV_SteeringWheelInterfaceBoard\Project Outputs for MSXIV_SteeringWheelInterfaceBoard\
 ReleaseManaged4=1
 OutputBasePath4=Project Outputs for MSXIV_SteeringWheelInterfaceBoard
 OutputPathMedia4=
@@ -308,7 +312,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\Liam\Documents\UWaterloo\Midnight Sun\Hardware Repository\hardware\MSXIV_TailLightsPrototype\Project Outputs for TailLightsPrototype\
+RelativeOutputPath4=C:\Users\Midnight Sun\Documents\Midnight Sun\hardware\MSXIV_SteeringWheelInterfaceBoard\Project Outputs for MSXIV_SteeringWheelInterfaceBoard\
 OpenOutputs4=0
 AddToProject4=1
 TimestampFolder4=0
