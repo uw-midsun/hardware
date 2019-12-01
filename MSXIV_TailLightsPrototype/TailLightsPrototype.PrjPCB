@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for TailLightsPrototype
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -38,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=TailLightPrototype.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=1
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TOWBEFYG
-
-[Document2]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMDFJJIM
 
-[Document3]
+[Document2]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,24 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TDJXRXCT
 
-[Document4]
-DocumentPath=TailLightPrototype.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QCCJBING
-
-[Document5]
+[Document3]
 DocumentPath=..\MSXII_Templates\Output Jobs\Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,41 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
-DocumentPath=DriverPrototype.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=1
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EFJMAMHW
-
-[Document7]
-DocumentPath=DriverPrototype.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DLVQFVDQ
-
-[Document8]
+[Document4]
 DocumentPath=TailLightPrototypeRev3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IAHOSVNO
 
-[Document9]
+[Document5]
 DocumentPath=TailLightPrototypeRev3LEDs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HUCBKJMJ
 
-[Document10]
+[Document6]
 DocumentPath=TailLightsPrototypeRev3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IIOWAECY
 
-[Document11]
+[Document7]
 DocumentPath=TailLightsPrototypeRev3LEDs.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1369,11 +1301,103 @@ DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLight
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.RUL
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.REP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for TailLightsPrototype\TailLightsPrototype_1.0.step
+DItemRevisionGUID=
+
+[GeneratedDocument23]
 DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for TailLightsPrototype\TailLightsPrototype_1.0.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.TXT
 DItemRevisionGUID=
 
 [Parameter1]
@@ -1391,7 +1415,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for TailLightsPrototype
 
 [OutputGroup1]
 Name=Netlist Outputs
