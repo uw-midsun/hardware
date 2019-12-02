@@ -1,0 +1,15 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:55:24 PM On 2019-12-01
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [MSXIV_BatteryModuleConnectorBoard.PcbDoc]
+   Generated File[Pick Place for MSXIV_BatteryModuleConnectorBoard.txt]
+   Generated File[Pick Place for MSXIV_BatteryModuleConnectorBoard.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 10:55:26 PM On 2019-12-01

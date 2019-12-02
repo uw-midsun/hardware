@@ -1,0 +1,36 @@
+Altium Designer Pick and Place Locations
+C:\Users\Midnight Sun\Documents\Midnight Sun\hardware\MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard\Project Outputs for MSXIV_BatteryModuleConnectorBoard\Pick & Place\Pick Place\Pick Place for MSXIV_BatteryModuleConnectorBoard.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       01-12-19
+Time:       22:55
+Revision:   0040c0df2c9ef99da6b782116e78c06d2d886676
+Variant:    No variations
+Units used: mil
+
+Designator Comment                              Layer    Footprint                Center-X(mil) Center-Y(mil) Rotation Description                                                                            
+R1         "RES 2 OHM 1% 1/4W 1206"             TopLayer RES_1206                 397.638       1208.661      270      "2 ±1% 1/4W 1206 Chip Resistor - Surface Mount RoHS
+"                                 
+F1         "500mA 250V"                         TopLayer FUSE_JFC2410-0500FS      393.701       901.575       270      "2410 Surface Mount Fuses RoHS"                                                        
+P2         "CONN 12POS HEADER R/A MICROFIT 3MM" TopLayer CONN,_12POS_R/A_MICROFIT 940.945       244.295       180      "Conn Power HDR 12 POS 3mm Solder RA Thru-Hole 12 Terminal 1 Port Micro-Fit 3.0™ Tray" 
+R2         "RES 2 OHM 1% 1/4W 1206"             TopLayer RES_1206                 642.559       1200.787      90       "2 ±1% 1/4W 1206 Chip Resistor - Surface Mount RoHS
+"                                 
+RT1        "10K NTC"                            TopLayer NTC_THERMISTOR_BEAD      1767.716      1407.480      90       "NTC Thermistor 10k Bead"                                                              
+R6         "RES 2 OHM 1% 1/4W 1206"             TopLayer RES_1206                 1637.835      1200.787      90       "2 ±1% 1/4W 1206 Chip Resistor - Surface Mount RoHS
+"                                 
+R5         "RES 2 OHM 1% 1/4W 1206"             TopLayer RES_1206                 1133.858      1196.850      270      "2 ±1% 1/4W 1206 Chip Resistor - Surface Mount RoHS
+"                                 
+R4         "RES 1 OHM 5% 1/4W 1206"             TopLayer RES_1206                 1381.890      1196.850      90       "1 ±5% 1/4W 1206 Chip Resistor - Surface Mount RoHS
+
+"                               
+R3         "RES 1 OHM 5% 1/4W 1206"             TopLayer RES_1206                 891.378       1200.787      270      "1 ±5% 1/4W 1206 Chip Resistor - Surface Mount RoHS
+
+"                               
+P1         "CONN 10POS MICRO-FIT  R/A3mm"       TopLayer CONN,_10POS_R/A_MICROFIT 945.279       1580.319      360      "CONN HEADER R/A 10POS 3MM"                                                            
+F6         "500mA 250V"                         TopLayer FUSE_JFC2410-0500FS      1637.795      901.575       90       "2410 Surface Mount Fuses RoHS"                                                        
+F5         "500mA 250V"                         TopLayer FUSE_JFC2410-0500FS      1133.858      901.575       270      "2410 Surface Mount Fuses RoHS"                                                        
+F4         "500mA 250V"                         TopLayer FUSE_JFC2410-0500FS      1385.827      901.575       90       "2410 Surface Mount Fuses RoHS"                                                        
+F3         "500mA 250V"                         TopLayer FUSE_JFC2410-0500FS      891.339       901.575       270      "2410 Surface Mount Fuses RoHS"                                                        
+F2         "500mA 250V"                         TopLayer FUSE_JFC2410-0500FS      642.520       901.575       90       "2410 Surface Mount Fuses RoHS"                                                        
