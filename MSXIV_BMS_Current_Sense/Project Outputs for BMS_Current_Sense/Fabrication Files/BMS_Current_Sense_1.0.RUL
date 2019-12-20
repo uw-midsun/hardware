@@ -1,6 +1,0 @@
-DRC Rules Export File for PCB: D:\Josh9\Documents\Midnight Sun\hardware\MSXIV_BMS_Current_Sense\BMS_Current_Sense.PcbDoc
-RuleKind=Clearance|RuleName=R1 Clearence|Scope=Board|Minimum=10.00
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
