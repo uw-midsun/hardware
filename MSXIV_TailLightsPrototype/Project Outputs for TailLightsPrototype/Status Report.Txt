@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [DriverPrototype.PcbDoc]
-   Generated File[TailLightsPrototype_1.0.TXT]
-   Generated File[TailLightsPrototype_1.0.LDP]
-   Generated File[TailLightsPrototype_1.0.DRR]
+Output: Export STEP LEDs
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [TailLightsPrototypeRev3LEDs.PcbDoc]
+   Generated File[TailLightsPrototype_1.0.step]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 12:01:21 AM On 2019-09-16
+Finished Output Generation At 11:49:49 PM On 2019-11-30
