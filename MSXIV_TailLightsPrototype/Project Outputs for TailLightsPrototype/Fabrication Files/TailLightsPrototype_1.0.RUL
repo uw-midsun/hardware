@@ -1,6 +1,5 @@
-DRC Rules Export File for PCB: D:\Josh9\Documents\Midnight Sun\hardware\MSXIV_TailLightsPrototype\DriverPrototype.PcbDoc
-RuleKind=Clearance|RuleName=Stitching GND|Scope=Board|Minimum=3.94
+DRC Rules Export File for PCB: C:\Users\Midnight Sun\Documents\Midnight Sun\hardware\MSXIV_TailLightsPrototype\TailLightsPrototypeRev3.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=19.69
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
