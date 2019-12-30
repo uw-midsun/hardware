@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for TailLightsPrototype
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -38,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=TailLightPrototype.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=1
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TOWBEFYG
-
-[Document2]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMDFJJIM
 
-[Document3]
+[Document2]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,24 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TDJXRXCT
 
-[Document4]
-DocumentPath=TailLightPrototype.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QCCJBING
-
-[Document5]
+[Document3]
 DocumentPath=..\MSXII_Templates\Output Jobs\Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -121,6 +87,74 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document4]
+DocumentPath=TailLightPrototypeRev3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IAHOSVNO
+
+[Document5]
+DocumentPath=TailLightPrototypeRev3LEDs.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HUCBKJMJ
+
+[Document6]
+DocumentPath=TailLightsPrototypeRev3.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IIOWAECY
+
+[Document7]
+DocumentPath=TailLightsPrototypeRev3LEDs.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UAKCPGHB
 
 [ProjectVariant1]
 UniqueID=E81F1FDC-9E21-4578-8243-F028ADADBF74
@@ -159,7 +193,7 @@ ParamVariation10=ParameterName=ComponentLink3URL|VariantValue=https://www.verica
 ParamDesignator10=D1
 ParamVariation11=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator11=D1
-ParamVariation12=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation12=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator12=D1
 ParamVariation13=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator13=D1
@@ -205,7 +239,7 @@ ParamVariation33=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator33=D1
 ParamVariation34=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator34=D1
-ParamVariation35=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation35=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator35=D1
 ParamVariation36=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator36=D1
@@ -232,7 +266,7 @@ ParamVariation46=ParameterName=ComponentLink3URL|VariantValue=https://www.verica
 ParamDesignator46=D2
 ParamVariation47=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator47=D2
-ParamVariation48=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation48=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator48=D2
 ParamVariation49=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator49=D2
@@ -278,7 +312,7 @@ ParamVariation69=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator69=D2
 ParamVariation70=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator70=D2
-ParamVariation71=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation71=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator71=D2
 ParamVariation72=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator72=D2
@@ -305,7 +339,7 @@ ParamVariation82=ParameterName=ComponentLink3URL|VariantValue=https://www.verica
 ParamDesignator82=D6
 ParamVariation83=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator83=D6
-ParamVariation84=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation84=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator84=D6
 ParamVariation85=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator85=D6
@@ -351,7 +385,7 @@ ParamVariation105=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator105=D6
 ParamVariation106=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator106=D6
-ParamVariation107=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation107=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator107=D6
 ParamVariation108=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator108=D6
@@ -378,7 +412,7 @@ ParamVariation118=ParameterName=ComponentLink3URL|VariantValue=https://www.veric
 ParamDesignator118=D4
 ParamVariation119=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator119=D4
-ParamVariation120=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation120=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator120=D4
 ParamVariation121=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator121=D4
@@ -424,7 +458,7 @@ ParamVariation141=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator141=D4
 ParamVariation142=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator142=D4
-ParamVariation143=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation143=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator143=D4
 ParamVariation144=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator144=D4
@@ -451,7 +485,7 @@ ParamVariation154=ParameterName=ComponentLink3URL|VariantValue=https://www.veric
 ParamDesignator154=D3
 ParamVariation155=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator155=D3
-ParamVariation156=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation156=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator156=D3
 ParamVariation157=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator157=D3
@@ -497,7 +531,7 @@ ParamVariation177=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator177=D3
 ParamVariation178=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator178=D3
-ParamVariation179=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation179=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator179=D3
 ParamVariation180=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator180=D3
@@ -524,7 +558,7 @@ ParamVariation190=ParameterName=ComponentLink3URL|VariantValue=https://www.veric
 ParamDesignator190=D5
 ParamVariation191=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
 ParamDesignator191=D5
-ParamVariation192=ParameterName=Description|VariantValue=LED Lighting XLamp® XP-E2 White, Cool 5700K 2.9V 350mA 110° 1414 (3535 Metric)
+ParamVariation192=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
 ParamDesignator192=D5
 ParamVariation193=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
 ParamDesignator193=D5
@@ -570,7 +604,7 @@ ParamVariation213=ParameterName=Test Current|VariantValue=350mA
 ParamDesignator213=D5
 ParamVariation214=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
 ParamDesignator214=D5
-ParamVariation215=ParameterName=Viewing Angle|VariantValue=115°
+ParamVariation215=ParameterName=Viewing Angle|VariantValue=115?
 ParamDesignator215=D5
 ParamVariation216=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator216=D5
@@ -601,7 +635,7 @@ ParamVariation8=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.c
 ParamDesignator8=D1
 ParamVariation9=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator9=D1
-ParamVariation10=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation10=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator10=D1
 ParamVariation11=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator11=D1
@@ -677,7 +711,7 @@ ParamVariation46=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator46=D1
 ParamVariation47=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator47=D1
-ParamVariation48=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation48=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator48=D1
 ParamVariation49=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator49=D1
@@ -702,7 +736,7 @@ ParamVariation58=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.
 ParamDesignator58=D3
 ParamVariation59=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator59=D3
-ParamVariation60=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation60=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator60=D3
 ParamVariation61=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator61=D3
@@ -778,7 +812,7 @@ ParamVariation96=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator96=D3
 ParamVariation97=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator97=D3
-ParamVariation98=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation98=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator98=D3
 ParamVariation99=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator99=D3
@@ -803,7 +837,7 @@ ParamVariation108=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser
 ParamDesignator108=D4
 ParamVariation109=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator109=D4
-ParamVariation110=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation110=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator110=D4
 ParamVariation111=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator111=D4
@@ -879,7 +913,7 @@ ParamVariation146=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator146=D4
 ParamVariation147=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator147=D4
-ParamVariation148=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation148=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator148=D4
 ParamVariation149=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator149=D4
@@ -904,7 +938,7 @@ ParamVariation158=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser
 ParamDesignator158=D5
 ParamVariation159=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator159=D5
-ParamVariation160=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation160=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator160=D5
 ParamVariation161=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator161=D5
@@ -980,7 +1014,7 @@ ParamVariation196=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator196=D5
 ParamVariation197=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator197=D5
-ParamVariation198=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation198=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator198=D5
 ParamVariation199=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator199=D5
@@ -1005,7 +1039,7 @@ ParamVariation208=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser
 ParamDesignator208=D6
 ParamVariation209=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator209=D6
-ParamVariation210=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation210=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator210=D6
 ParamVariation211=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator211=D6
@@ -1081,7 +1115,7 @@ ParamVariation246=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator246=D6
 ParamVariation247=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator247=D6
-ParamVariation248=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation248=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator248=D6
 ParamVariation249=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator249=D6
@@ -1106,7 +1140,7 @@ ParamVariation258=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser
 ParamDesignator258=D2
 ParamVariation259=ParameterName=Depth|VariantValue=3.45mm
 ParamDesignator259=D2
-ParamVariation260=ParameterName=Description|VariantValue=LED Lighting Color XLamp® XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamVariation260=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
 ParamDesignator260=D2
 ParamVariation261=ParameterName=Dominant Wavelength|VariantValue=595nm
 ParamDesignator261=D2
@@ -1182,13 +1216,189 @@ ParamVariation296=ParameterName=Test Temperature|VariantValue=25°C
 ParamDesignator296=D2
 ParamVariation297=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
 ParamDesignator297=D2
-ParamVariation298=ParameterName=Viewing Angle|VariantValue=130°
+ParamVariation298=ParameterName=Viewing Angle|VariantValue=130?
 ParamDesignator298=D2
 ParamVariation299=ParameterName=Wavelength|VariantValue=595nm
 ParamDesignator299=D2
 ParamVariation300=ParameterName=Width|VariantValue=3.45mm
 ParamDesignator300=D2
 ParamVariationCount=300
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for TailLightsPrototype\Design Rule Check - TailLightsPrototypeRev3LEDs.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM32767
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for TailLightsPrototype\TailLightsPrototype_1.0.step
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for TailLightsPrototype\TailLightsPrototype_1.0.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files LEDs\TailLightsPrototype_LEDs_1.0.TXT
+DItemRevisionGUID=
 
 [Parameter1]
 Name=ProjectRevision
@@ -1205,7 +1415,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for TailLightsPrototype
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1316,7 +1526,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother HL-L2360D series
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1336,6 +1546,8 @@ OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=1200|ViewY=900|LookAtX=0|LookAtY=0|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig=
 OutputType3=PCB 3D Video
 OutputName3=PCB 3D Video
 OutputDocumentPath3=
@@ -1348,6 +1560,22 @@ OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration4_Name2=OutputConfigurationParameter2
+Configuration4_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration4_Name3=OutputConfigurationParameter3
+Configuration4_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name4=OutputConfigurationParameter4
+Configuration4_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|LayerSet=Signal Layers|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name5=OutputConfigurationParameter5
+Configuration4_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name6=OutputConfigurationParameter6
+Configuration4_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name7=OutputConfigurationParameter7
+Configuration4_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name8=OutputConfigurationParameter8
+Configuration4_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|LayerSet=Mechanical Layers|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 OutputType5=PCBDrawing
 OutputName5=Draftsman
 OutputDocumentPath5=
@@ -1384,6 +1612,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1790,36 +2024,46 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1950,6 +2194,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -2018,6 +2264,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -2026,33 +2274,33 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=1
 Type11=2
-Type12=2
-Type13=2
+Type12=0
+Type13=0
 Type14=1
 Type15=1
 Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=2
 Type35=1
 Type36=2
@@ -2063,15 +2311,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -2079,10 +2327,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=2
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -2120,7 +2368,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -2165,6 +2413,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -2185,6 +2434,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Schematic Diagrams.SchLib
@@ -2339,7 +2589,140 @@ ModelUpdate1=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Schematic Diagrams.SchLib
+ComponentDesignItemID0=CAP CER 0.1UF 50V 10% X7R 0603
+ComponentSymbolReference0=CAP CER 0.1UF 50V 10% X7R 0603
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Schematic Diagrams.SchLib
+ComponentDesignItemID1=CAP CER 0.22UF 50V X7R 0805
+ComponentSymbolReference1=CAP CER 0.22UF 50V X7R 0805
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Schematic Diagrams.SchLib
+ComponentDesignItemID2=CAP CER 10nF 50V 5% X7R 0603
+ComponentSymbolReference2=CAP CER 10nF 50V 5% X7R 0603
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Schematic Diagrams.SchLib
+ComponentDesignItemID3=CAP CER 1UF 50V 10% X7R 0603
+ComponentSymbolReference3=CAP CER 1UF 50V 10% X7R 0603
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Schematic Diagrams.SchLib
+ComponentDesignItemID4=CAP CER 4.7UF 25V 10% X5R 0603
+ComponentSymbolReference4=CAP CER 4.7UF 25V 10% X5R 0603
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Schematic Diagrams.SchLib
+ComponentDesignItemID5=CAP CER 4.7UF 50V 10% X5R 0805
+ComponentSymbolReference5=CAP CER 4.7UF 50V 10% X5R 0805
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Schematic Diagrams.SchLib
+ComponentDesignItemID6=CAP CER 6800pF 50V 10% X7R 0603
+ComponentSymbolReference6=CAP CER 6800pF 50V 10% X7R 0603
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Schematic Diagrams.SchLib
+ComponentDesignItemID7=CONN 2POS ULTRA-FIT 0.138"
+ComponentSymbolReference7=CONN 2POS ULTRA-FIT 0.138"
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Schematic Diagrams.SchLib
+ComponentDesignItemID8=DIODE GEN PURP 100V 300MA SOD123
+ComponentSymbolReference8=DIODE GEN PURP 100V 300MA SOD123
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Schematic Diagrams.SchLib
+ComponentDesignItemID9=DIODE SCHOTTKY 40V 500MA SOD123
+ComponentSymbolReference9=DIODE SCHOTTKY 40V 500MA SOD123
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Schematic Diagrams.SchLib
+ComponentDesignItemID10=DIODE ZENER 16V 5W DO-214AA (SMB)
+ComponentSymbolReference10=DIODE ZENER 16V 5W DO-214AA (SMB)
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=Schematic Diagrams.SchLib
+ComponentDesignItemID11=FIXED IND 10UH 1.13A 237 MOHM
+ComponentSymbolReference11=FIXED IND 10UH 1.13A 237 MOHM
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Schematic Diagrams.SchLib
+ComponentDesignItemID12=IC LED DRIVER RGLTR DIM SOT23-6
+ComponentSymbolReference12=IC LED DRIVER RGLTR DIM SOT23-6
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=Schematic Diagrams.SchLib
+ComponentDesignItemID13=IC OSC SGL TIMER 2.1MHZ 8-SOIC
+ComponentSymbolReference13=IC OSC SGL TIMER 2.1MHZ 8-SOIC
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=Schematic Diagrams.SchLib
+ComponentDesignItemID14=LED XLAMP COOL WHITE 5700K 2SMD
+ComponentSymbolReference14=LED XLAMP COOL WHITE 5700K 2SMD
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=Schematic Diagrams.SchLib
+ComponentDesignItemID15=LED XLAMP XP-E RED SMD
+ComponentSymbolReference15=LED XLAMP XP-E RED SMD
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=Schematic Diagrams.SchLib
+ComponentDesignItemID16=LED XLAMP XPE2 AMBER 593NM 2SMD
+ComponentSymbolReference16=LED XLAMP XPE2 AMBER 593NM 2SMD
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=Schematic Diagrams.SchLib
+ComponentDesignItemID17=POT 20k OHM 20% 1/4W
+ComponentSymbolReference17=POT 20k OHM 20% 1/4W
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=Schematic Diagrams.SchLib
+ComponentDesignItemID18=RES 100 OHM 1% 1/10W 0603
+ComponentSymbolReference18=RES 100 OHM 1% 1/10W 0603
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=Schematic Diagrams.SchLib
+ComponentDesignItemID19=RES 1K OHM 5% 1/10W 0603
+ComponentSymbolReference19=RES 1K OHM 5% 1/10W 0603
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=Schematic Diagrams.SchLib
+ComponentDesignItemID20=RES SHUNT 100UOHM 5% 36W 60MM
+ComponentSymbolReference20=RES SHUNT 100UOHM 5% 36W 60MM
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=Schematic Diagrams.SchLib
+ComponentDesignItemID21=RES SMD 1.15 OHM 1% 1/4W 1206
+ComponentSymbolReference21=RES SMD 1.15 OHM 1% 1/4W 1206
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

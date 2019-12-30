@@ -28,10 +28,9 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for MSXII_DC-DC_Converter
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-LinkedManagedProjectGUID=
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -39,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=MSXII_DC-DC_Converter.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CUVCIDOY
-
-[Document2]
 DocumentPath=MSXII_DC-DC_Converter.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
-[Document3]
+[Document2]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,9 +69,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RXDWPGKY
+DocumentUniqueId=EMDFJJIM
 
-[Document4]
+[Document3]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -104,9 +86,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WYDNESVI
+DocumentUniqueId=TDJXRXCT
 
-[Document5]
+[Document4]
 DocumentPath=Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,89 +105,51 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document5]
+DocumentPath=MSXII_DC-DC_Converter.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=MSXII_DC-DC_Converter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.REP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXII_DC-DC_Converter.TXT
+DocumentPath=Project Outputs for MSXII_DC-DC_Converter\MSXIV_DC-DC_Converter_BOM.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
 Name=ProjectAuthor
-Value=Taiping Li
+Value=Aashmika Mali
 
 [Parameter2]
 Name=ProjectRevision
-Value=1.2
+Value=2.0
 
 [Configuration1]
 Name=Default Configuration
@@ -217,8 +161,44 @@ OutputJobsCount=0
 ContentTypeGUID=
 ConfigurationType=
 
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=-1
+TemplateFilename=Board Stack Report.XLT
+TemplateStoreRelative=0
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
+
 [Generic_EDE]
-OutputDir=Project Outputs for MSXII_DC-DC_Converter
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -325,22 +305,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Send To OneNote 2016
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -407,18 +377,6 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Wave Print
-OutputName11=Wave Prints
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=WaveSim Print
-OutputName12=WaveSim Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -529,11 +487,35 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Aashmika Mali\Documents\First Year\Midnight Sun\hardware\MSXII_Templates\BOM Templates\Midnight Sun BOM Template.xltx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=ForceUpdateSettings
+Configuration2_Item2=False
+Configuration2_Name3=General
+Configuration2_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration2_Name4=GroupOrder
+Configuration2_Item4=Document=True
+Configuration2_Name5=SortOrder
+Configuration2_Item5=Document=Up|Designator=Up
+Configuration2_Name6=VisibleOrder
+Configuration2_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType3=ReportHierarchy
 OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
@@ -773,6 +755,11 @@ OutputName6=Footprint Comparison Report
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -824,46 +811,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Orcad SDT Schematic
-OutputName12=Orcad SDT Schematic (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Orcad v7 Capture Design
-OutputName13=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD ASCII
-OutputName14=P-CAD ASCII (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD V16 Schematic Design
-OutputName15=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Protel PCB 2.8 ASCII
-OutputName16=Protel PCB 2.8 ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -967,6 +924,33 @@ Type87=1
 Type88=1
 Type89=1
 Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
+Type117=1
 
 [Difference Levels]
 Type1=1
@@ -1018,6 +1002,23 @@ Type46=1
 Type47=1
 Type48=1
 Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1133,6 +1134,15 @@ Type110=1
 Type111=1
 Type112=1
 Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
+MultiChannelAlternate=2
+AlternateItemFail=3
+Type122=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
