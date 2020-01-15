@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SteeringWheelBoard.PcbDoc   2019-11-30  8:11:13 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : MSXIV_SteeringWheelInterfaceBoard_4.0.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             48        PTH        0.00inch (0.00mm)
+T2      28mil (0.7mm)           +2mil (0.05mm)/-0mil (0mm)        Round             2         PTH        0.00inch (0.00mm)
+T3      28mil (0.711mm)                                           Round             9         PTH        0.00inch (0.00mm)
+T4      39mil (1mm)                                               Round             20        PTH        0.00inch (0.00mm)
+T5      40mil (1.02mm)          +/-2mil (0.04mm)                  Round             7         PTH        0.00inch (0.00mm)
+T6      40mil (1.02mm)          +/-2mil (0.05mm)                  Round             4         PTH        0.00inch (0.00mm)
+T7      91mil (2.3mm)           +/-2mil (0.04mm)                  Round             1         PTH        0.00inch (0.00mm)
+T8      91mil (2.3mm)           +/-16mil (0.4mm)                  Round             2         PTH        0.00inch (0.00mm)
+T9      91mil (2.3mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T10     106mil (2.7mm)                                            Round             6         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              100
+
+Total Processing Time (hh:mm:ss) : 00:00:00
