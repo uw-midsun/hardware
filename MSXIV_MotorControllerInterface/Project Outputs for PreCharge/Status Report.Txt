@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [01 - Standard] of PCB Document [Motor Interface.PcbDoc]
+   Generated File[PreCharge_4.0.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:02:58 PM On 2019-01-23
