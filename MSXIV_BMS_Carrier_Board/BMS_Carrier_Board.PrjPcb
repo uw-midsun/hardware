@@ -432,26 +432,18 @@ DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files Rev 5\BMS_C
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_1.0.REP
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files Rev 5\BMS_Carrier_Board_1.0.REP
-DItemRevisionGUID=
-
-[GeneratedDocument39]
 DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_1.0.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument38]
 DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files Rev 5\BMS_Carrier_Board_1.0.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument39]
 DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files\BMS_Carrier_Board_1.0.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument40]
 DocumentPath=Project Outputs for BMS_Carrier_Board\Fabrication Files Rev 5\BMS_Carrier_Board_1.0.TXT
 DItemRevisionGUID=
 
@@ -629,7 +621,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -697,12 +689,6 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=PDF3D MBA
-OutputName11=PDF3D MBA
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1127,36 +1113,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1287,8 +1243,6 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
-Type118=1
-Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1357,8 +1311,6 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
-Type67=1
-Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1506,7 +1458,6 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
-ReplaceSubparts=0
 MatchParameter1=Library Reference
 MatchStrictly1=1
 PhysicalNamingFormat=$Component_$RoomName
@@ -1525,7 +1476,6 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
-UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Schematic Diagrams.SchLib
@@ -1547,8 +1497,8 @@ ComponentUpdate2=0
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Schematic Diagrams.SchLib
-ComponentDesignItemID3=CAP CER 20PF 50V ±5% C0G/NP0 0603
-ComponentSymbolReference3=CAP CER 20PF 50V ±5% C0G/NP0 0603
+ComponentDesignItemID3=CAP CER 20PF 50V ?% C0G/NP0 0603
+ComponentSymbolReference3=CAP CER 20PF 50V ?% C0G/NP0 0603
 ComponentUpdate3=0
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
@@ -1944,7 +1894,7 @@ ParameterName125=Voltage - Output
 ParameterUpdate125=1
 ParameterName126=Voltage - Supply
 ParameterUpdate126=1
-ParameterName127=Voltage - Supply, Single/Dual (±)
+ParameterName127=Voltage - Supply, Single/Dual (?
 ParameterUpdate127=1
 ParameterName128=Voltage - Zener (Nom)
 ParameterUpdate128=1
@@ -2005,7 +1955,6 @@ ModelUpdate14=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
-UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
