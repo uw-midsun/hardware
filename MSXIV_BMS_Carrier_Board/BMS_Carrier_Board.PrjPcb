@@ -452,16 +452,16 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=MSPartNumber
-Value=MS-ELE0003
+Name=ProjectRevision
+Value=1.1
 
 [Parameter2]
 Name=ProjectAuthor
 Value=Liam Hawkins
 
 [Parameter3]
-Name=ProjectRevision
-Value=1.0
+Name=MSPartNumber
+Value=MS-ELE0003
 
 [Configuration1]
 Name=Default Configuration
