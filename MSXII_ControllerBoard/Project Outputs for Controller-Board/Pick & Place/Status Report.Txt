@@ -1,0 +1,15 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 9:54:02 PM On 2020-01-16
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [Controller_Board_Panel.PcbDoc]
+   Generated File[Pick Place for Controller_Board_Panel.txt]
+   Generated File[Pick Place for Controller_Board_Panel.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 9:54:07 PM On 2020-01-16

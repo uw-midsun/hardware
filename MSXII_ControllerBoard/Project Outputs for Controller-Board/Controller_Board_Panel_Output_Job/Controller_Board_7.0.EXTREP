@@ -1,0 +1,37 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: Controller_Board_7.0.GBR   2020-01-16  10:03:27 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.G1                 L2 (GND)                                
+.G2                 L3 (PWR)                                
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM17               3D Body Bottom                          
+.GM16               Mechanical 16                           
+.GM15               Mechanical 15                           
+.GM14               Route Tool Path                         
+.GM13               Mechanical 13                           
+.GM12               Courtyard Bottom                        
+.GM11               Courtyard Top                           
+.GM10               Assembly Bottom                         
+.GM9                Assembly Top                            
+.GM4                Mechanical 4                            
+.GM2                V_Cut                                   
+.GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.3                  Dielectric 4                            
+.2                  Dielectric 3                            
+.1                  Dielectric 2                            
+.GML                Multi-Layer                             
+------------------------------------------------------------------------------------------
