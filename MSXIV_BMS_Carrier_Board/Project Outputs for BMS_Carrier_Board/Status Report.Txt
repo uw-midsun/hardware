@@ -1,12 +1,12 @@
 Output: NC Drill Files
 Type  : NC Drill
 From  : PCB Document [BMS_Carrier_Board.PcbDoc]
-   Generated File[BMS_Carrier_Board_1.0.TXT]
-   Generated File[BMS_Carrier_Board_1.0.LDP]
-   Generated File[BMS_Carrier_Board_1.0.DRR]
+   Generated File[BMS_Carrier_Board_1.1.TXT]
+   Generated File[BMS_Carrier_Board_1.1.LDP]
+   Generated File[BMS_Carrier_Board_1.1.DRR]
 
 
 Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 11:37:44 PM On 2019-12-01
+Finished Output Generation At 19:15:38 On 2020/1/16
