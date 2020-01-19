@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [Controller_Board_Panel.PcbDoc]
-   Generated File[Controller_Board_7.0.TXT]
-   Generated File[Controller_Board_7.0.LDP]
-   Generated File[Controller_Board_7.0.DRR]
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [Controller_Board_Panel.PcbDoc]
+   Generated File[Controller_Board_7.0_Panel.step]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 9:43:27 AM On 2020-01-18
+Finished Output Generation At 9:04:47 PM On 2020-01-18
