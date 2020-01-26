@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EMDFJJIM
 
 [Document3]
 DocumentPath=..\..\altium-lib\Schematic Diagrams.SchLib
@@ -259,23 +259,6 @@ GenerateClassCluster=0
 DocumentUniqueId=HPFAZYCB
 
 [Document14]
-DocumentPath=HV_PowerPath.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=8
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HTOWLFZW
-
-[Document15]
 DocumentPath=SolarSense.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
