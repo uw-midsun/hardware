@@ -7,4 +7,4 @@ From  : Variant [BMS_Carrier_Board] of PCB Document [BMS_Carrier_Board.PcbDoc]
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 18:16:15 On 2020/1/28
+Finished Output Generation At 21:44:24 On 2020/1/28
