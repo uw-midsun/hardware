@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Front Power Distribution.PcbDoc   2020-01-20  8:23:53 PM
+NCDrill File Report For: Front Power Distribution.PcbDoc   2020-01-20  9:50:34 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,12 +7,12 @@ ASCII Plated RoundHoles File : MSXIV_Front_Power_Distribution_ProjectRevision-Pl
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.305mm)                                           Round             882       PTH        0.00inch (0.00mm)
+T1      12mil (0.305mm)                                           Round             884       PTH        0.00inch (0.00mm)
 T2      28mil (0.711mm)         +2mil (0.05mm)/-0mil (0mm)        Round             2         PTH        0.00inch (0.00mm)
 T3      40mil (1.016mm)         +/-2mil (0.04mm)                  Round             13        PTH        0.00inch (0.00mm)
 T4      40mil (1.016mm)         +/-2mil (0.05mm)                  Round             48        PTH        0.00inch (0.00mm)
 T5      106mil (2.692mm)                                          Round             7         PTH        0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              952
+Totals                                                                              954
 
 Total Processing Time (hh:mm:ss) : 00:00:00
