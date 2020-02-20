@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: MSXIV_Front_Power_Distribution_ProjectRevision.GBR   2020-01-20  9:50:34 PM
+Gerber File Extension Report For: MSXIV_Front_Power_Distribution_ProjectRevision.GBR   2020-02-19  10:46:14 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -9,12 +9,15 @@ Layer Extension     Layer Description
 .GTO                Top Overlay                             
 .GTP                Top Paste                               
 .GTS                Top Solder                              
-.GTL                Top Layer                               
-.GBL                Bottom Layer                            
+.GTL                Component Side                          
+.GBL                Solder Side                             
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
 .GM1                Mechanical 1                            
+.GM3                Mechanical 3                            
+.GM5                Mechanical 5                            
+.GM7                Mechanical 7                            
 .GM13               Mechanical 13                           
 .GM15               Mechanical 15                           
 .GKO                Keep-Out Layer                          

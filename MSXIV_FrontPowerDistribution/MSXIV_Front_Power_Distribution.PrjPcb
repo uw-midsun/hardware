@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for MSXIV_Front_Power_Distribution
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -86,7 +86,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EMDFJJIM
 
 [Document4]
 DocumentPath=Power Distribution - IO Expander.SchDoc
@@ -123,6 +123,23 @@ GenerateClassCluster=0
 DocumentUniqueId=MNTYQLLY
 
 [Document6]
+DocumentPath=Power Distribution - Camera.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MVWSIDFK
+
+[Document7]
 DocumentPath=Power Distribution - Pi.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ILAYFUFR
 
-[Document7]
+[Document8]
 DocumentPath=Power Distribution - Display.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XJXOIMMO
 
-[Document8]
+[Document9]
 DocumentPath=Power Distribution - Spares.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKWLFLTM
 
-[Document9]
+[Document10]
 DocumentPath=Power Distribution - Front Lights.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SBTATUNQ
 
-[Document10]
+[Document11]
 DocumentPath=Output Jobs\Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document12]
 DocumentPath=Front Power Distribution.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -265,54 +282,66 @@ DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication File
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM13
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM15
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GPB
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM7
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GPT
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTL
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTO
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTP
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTS
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.LDP
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.REP
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.RUL
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\MSXIV_Front_Power_Distribution_ProjectRevision.step
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.REP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\MSXIV_Front_Power_Distribution_ProjectRevision.step
+DItemRevisionGUID=
+
+[GeneratedDocument26]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\MSXIV_Front_Power_Distribution_ProjectRevision.xlsx
 DItemRevisionGUID=
 
@@ -327,7 +356,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for MSXIV_Front_Power_Distribution
 
 [OutputGroup1]
 Name=Netlist Outputs
