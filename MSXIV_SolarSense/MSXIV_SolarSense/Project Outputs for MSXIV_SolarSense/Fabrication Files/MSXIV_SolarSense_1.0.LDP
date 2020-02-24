@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Aashmika Mali\Documents\First Year\Midnight Sun\hardware\MSXIV_SolarSense\MSXIV_SolarSense\SolarSense.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=msxiv_solarsense_1.0-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=msxiv_solarsense_1.0-slotholes.txt|DrillLayers=gtl,gbl
