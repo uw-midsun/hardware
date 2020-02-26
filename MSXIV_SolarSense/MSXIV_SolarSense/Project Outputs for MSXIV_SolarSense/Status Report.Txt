@@ -1,10 +1,13 @@
-Output: Export STEP
-Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [SolarSense.PcbDoc]
-   Generated File[MSXIV_SolarSense_1.0.step]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [SolarSense.PcbDoc]
+   Generated File[MSXIV_SolarSense_1.0-RoundHoles.TXT]
+   Generated File[MSXIV_SolarSense_1.0-SlotHoles.TXT]
+   Generated File[MSXIV_SolarSense_1.0.LDP]
+   Generated File[MSXIV_SolarSense_1.0.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 9:02:59 AM On 2020-02-24
+Finished Output Generation At 11:01:35 PM On 2020-02-25
