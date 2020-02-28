@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: C:\Users\peiliang.guo\uw-midsun\hardware\MSXII_SolarSenseMaster\SolarSenseMaster.PcbDoc
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.91
+RuleKind=Width|RuleName=Width_3V3|Scope=Board|Minimum=10.00
