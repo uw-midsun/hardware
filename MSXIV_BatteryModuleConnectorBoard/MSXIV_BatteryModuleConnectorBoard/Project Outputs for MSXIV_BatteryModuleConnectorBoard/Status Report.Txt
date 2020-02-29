@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [MSXIV_BatteryModuleConnectorBoard.PcbDoc]
-   Generated File[MSXIV_BatteryModuleConnectorBoard_2.0.TXT]
-   Generated File[MSXIV_BatteryModuleConnectorBoard_2.0.LDP]
-   Generated File[MSXIV_BatteryModuleConnectorBoard_2.0.DRR]
+Output: Copy of Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [MSXIV_BatteryModuleConnectorBoard.PcbDoc]
+   Generated File[MSXIV_BatteryModuleConnectorBoard_2.0.step]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 10:40:20 PM On 2019-12-01
+Finished Output Generation At 12:04:48 AM On 2020-02-29
