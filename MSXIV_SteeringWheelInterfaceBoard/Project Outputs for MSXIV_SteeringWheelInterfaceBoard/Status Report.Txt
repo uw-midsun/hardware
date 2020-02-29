@@ -1,0 +1,12 @@
+Output: Copy of NC Drill Files
+Type  : NC Drill
+From  : PCB Document [SteeringWheelConnectorBoard.PcbDoc]
+   Generated File[MSXIV_SteeringWheelInterfaceBoard_4.0.TXT]
+   Generated File[MSXIV_SteeringWheelInterfaceBoard_4.0.LDP]
+   Generated File[MSXIV_SteeringWheelInterfaceBoard_4.0.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 5:46:03 PM On 2019-12-01
