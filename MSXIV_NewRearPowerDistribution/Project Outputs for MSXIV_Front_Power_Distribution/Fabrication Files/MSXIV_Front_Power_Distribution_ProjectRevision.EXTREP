@@ -1,0 +1,37 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: MSXIV_Front_Power_Distribution_ProjectRevision.GBR   2020-03-02  10:12:47 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Component Side                          
+.GP1                Ground                                  
+.G1                 Signal                                  
+.GBL                Solder Side                             
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM2                Mechanical 2                            
+.GM3                Mechanical 3                            
+.GM4                Mechanical 4                            
+.GM5                Mechanical 5                            
+.GM7                Mechanical 7                            
+.GM9                Top Assembly                            
+.GM10               Bottom Assembly                         
+.GM11               Top Courtyard                           
+.GM12               Bottom Courtyard                        
+.GM13               Mechanical 13                           
+.GM14               Top 3D Body                             
+.GM15               Mechanical 15                           
+.GM16               Mechanical 16                           
+.GM17               Bottom 3D Body                          
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+------------------------------------------------------------------------------------------
