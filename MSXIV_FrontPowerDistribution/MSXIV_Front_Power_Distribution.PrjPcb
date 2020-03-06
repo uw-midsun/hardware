@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for MSXIV_Front_Power_Distribution
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -259,150 +259,142 @@ GenerateClassCluster=0
 DocumentUniqueId=HSDPOCXD
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Design Rule Check - Front Power Distribution.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.G1
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM3
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM4
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM5
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM7
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM9
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM10
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM11
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM12
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM14
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM16
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GM17
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument26]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GPB
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument27]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GPT
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument28]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument29]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument30]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument31]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument32]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument34]
-DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.REP
-DItemRevisionGUID=
-
-[GeneratedDocument35]
+[GeneratedDocument33]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\Fabrication Files\MSXIV_Front_Power_Distribution_ProjectRevision.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument34]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\MSXIV_Front_Power_Distribution_ProjectRevision.step
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument35]
 DocumentPath=Project Outputs for MSXIV_Front_Power_Distribution\MSXIV_Front_Power_Distribution_ProjectRevision.xlsx
 DItemRevisionGUID=
 
@@ -417,7 +409,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for MSXIV_Front_Power_Distribution
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -528,7 +520,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Lexmark Universal v2
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

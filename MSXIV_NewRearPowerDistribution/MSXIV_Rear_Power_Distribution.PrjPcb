@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PIMKNKVS
 
 [Document5]
-DocumentPath=Power Distribution - Steering, Pedal, Center Console, and Fan.SchDoc
+DocumentPath=Power Distribution - Spares 6-9.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MNTYQLLY
 
 [Document6]
-DocumentPath=Power Distribution - Camera.SchDoc
+DocumentPath=Power Distribution - Strobe and Center Brake Lights.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +140,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MVWSIDFK
 
 [Document7]
-DocumentPath=Power Distribution - Parking Brake Actuator.SchDoc
+DocumentPath=Power Distribution - Motor Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,7 +157,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KZVMQYEV
 
 [Document8]
-DocumentPath=Power Distribution - Pi.SchDoc
+DocumentPath=Power Distribution - Turn and Brake Lights.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -174,7 +174,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ILAYFUFR
 
 [Document9]
-DocumentPath=Power Distribution - Display.SchDoc
+DocumentPath=Power Distribution - Spares 1-5.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XJXOIMMO
 
 [Document10]
-DocumentPath=Power Distribution - Spares.SchDoc
+DocumentPath=Power Distribution - Solar Sense, Telemetry, and BMS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -208,7 +208,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QKWLFLTM
 
 [Document11]
-DocumentPath=Power Distribution - Front Lights.SchDoc
+DocumentPath=Power Distribution - Charger and Rear Camera.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
