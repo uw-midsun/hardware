@@ -55,6 +55,23 @@ GenerateClassCluster=0
 DocumentUniqueId=OMDDWMFZ
 
 [Document2]
+DocumentPath=Power Selection - Power Supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SQTGQBRY
+
+[Document3]
 DocumentPath=Power Selection - DC-DC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PXIAEWQE
 
-[Document3]
+[Document4]
 DocumentPath=Power Selection - AUX.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EPICDHTO
 
-[Document4]
+[Document5]
 DocumentPath=Power Selection - Temperature Sense.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZJFYXAHJ
 
-[Document5]
+[Document6]
 DocumentPath=Power Selection - Power Path.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TMDKJVWJ
 
-[Document6]
+[Document7]
 DocumentPath=Output Jobs\Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document8]
 DocumentPath=..\altium-lib\Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -154,9 +171,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EMDFJJIM
 
-[Document8]
+[Document9]
 DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TDJXRXCT
 
-[Document9]
+[Document10]
 DocumentPath=Power Selection.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
