@@ -207,6 +207,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XARAFLYK
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MSXIV_PowerSelection\Design Rule Check - Power Selection.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
