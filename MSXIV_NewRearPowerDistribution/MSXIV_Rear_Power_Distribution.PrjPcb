@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PIMKNKVS
 
 [Document5]
-DocumentPath=Power Distribution - Spares 6-9.SchDoc
+DocumentPath=Power Distribution - Strobe and Center Brake Lights.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MNTYQLLY
 
 [Document6]
-DocumentPath=Power Distribution - Strobe and Center Brake Lights.SchDoc
+DocumentPath=Power Distribution - Spares 8-9 5V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,7 +157,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KZVMQYEV
 
 [Document8]
-DocumentPath=Power Distribution - Turn and Brake Lights.SchDoc
+DocumentPath=Power Distribution - Spares 1-4 5V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -174,7 +174,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ILAYFUFR
 
 [Document9]
-DocumentPath=Power Distribution - Spares 1-5.SchDoc
+DocumentPath=Power Distribution - Rear Turn and Brake Lights.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -208,7 +208,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QKWLFLTM
 
 [Document11]
-DocumentPath=Power Distribution - Charger and Rear Camera.SchDoc
+DocumentPath=Power Distribution -  Rear Camera and Charger.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
