@@ -1,0 +1,10 @@
+Output: Export STEP LEDs
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [TailLightsPrototypeRev3LEDs.PcbDoc]
+   Generated File[TailLightsPrototype_1.0.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 11:49:49 PM On 2019-11-30

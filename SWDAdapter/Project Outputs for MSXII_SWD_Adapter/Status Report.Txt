@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [SWD_Adapter_PCB.PcbDoc]
+   Generated File[MSXII_SWD_Adapter_ProjectRevision.TXT]
+   Generated File[MSXII_SWD_Adapter_ProjectRevision.LDP]
+   Generated File[MSXII_SWD_Adapter_ProjectRevision.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 12:12:40 AM On 2019-09-16

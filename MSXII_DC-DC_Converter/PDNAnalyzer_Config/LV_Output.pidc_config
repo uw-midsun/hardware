@@ -1,0 +1,72 @@
+{
+  "BoardFile": "C:\\Users\\Taiping\\Documents\\MidnightSun\\hardware\\MSXII_DC-DC_Converter\\MSXII_DC-DC_Converter.PcbDoc",
+  "SourcePowerNet": "NetC2_2",
+  "LoadPowerNet": "NetC2_2",
+  "GroundNet": "GND",
+  "SourceModel": {
+    "Name": null,
+    "PowerNet": "NetC2_2",
+    "PowerComponent": "EBFIESNR|25342520|32842520|U1",
+    "PowerPins": [
+      "XWSUNDWX|44342520|32842520|U1-9"
+    ],
+    "GroundNet": "GND",
+    "GroundComponent": "EBFIESNR|25342520|32842520|U1",
+    "GroundPins": [
+      "GUTDLMVB|44342520|18842520|U1-5"
+    ],
+    "SourceProperties": {
+      "MinDCVoltage": 12.0,
+      "MaxResistance": 0.0,
+      "MaxDCCurrent": 25.0,
+      "MaxPinCurrent": 0.0,
+      "MaxGndPinCurrent": 0.0
+    },
+    "LoadProperties": {
+      "UseCurrent": true,
+      "MaxDCCurrent": 0.0,
+      "MinResistance": 0.0,
+      "MinDCVoltage": 0.0
+    }
+  },
+  "LoadModels": [
+    {
+      "Name": null,
+      "PowerNet": "NetC2_2",
+      "PowerComponent": "GOVDVGOK|55153544|27842520|P1",
+      "PowerPins": [
+        "QICKPAKY|55153544|26464567|P1-2",
+        "LLWQPRFV|55153544|25086614|P1-3"
+      ],
+      "GroundNet": "GND",
+      "GroundComponent": "GOVDVGOK|55153544|27842520|P1",
+      "GroundPins": [
+        "AJCRGBMT|53342520|27842520|P1-5",
+        "VOGTAUWV|53342520|26464567|P1-6"
+      ],
+      "SourceProperties": {
+        "MinDCVoltage": 0.0,
+        "MaxResistance": 0.0,
+        "MaxDCCurrent": 0.0,
+        "MaxPinCurrent": 0.0,
+        "MaxGndPinCurrent": 0.0
+      },
+      "LoadProperties": {
+        "UseCurrent": true,
+        "MaxDCCurrent": 25.0,
+        "MinResistance": 0.0,
+        "MinDCVoltage": 11.9
+      }
+    }
+  ],
+  "Conductiviy": 47000000.0,
+  "ViaWallThickness": 0.7,
+  "ConductivityOptions": {
+    "BaseTemperature": 25.0,
+    "WorkTemperature": 25.0,
+    "BaseConductiviy": 47000000.0,
+    "Coefficient": 0.4
+  },
+  "IgnoreNets": [],
+  "PassiveGroups": []
+}

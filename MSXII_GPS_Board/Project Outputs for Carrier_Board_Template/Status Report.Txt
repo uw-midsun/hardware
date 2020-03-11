@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Carrier_Board_Template.PcbDoc]
+   Generated File[Carrier_Board_Template_ProjectRevision.TXT]
+   Generated File[Carrier_Board_Template_ProjectRevision.LDP]
+   Generated File[Carrier_Board_Template_ProjectRevision.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 8:52:54 PM On 2019-01-18
