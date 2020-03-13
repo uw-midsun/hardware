@@ -201,7 +201,7 @@ AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -275,6 +275,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document15]
+DocumentPath=BMS_Carrier_Board.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=F8114CF4-3C6A-4D46-B254-DE2DC320BAD8
 Description=BMS_Carrier_Board
@@ -292,16 +309,16 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=MSPartNumber
-Value=MS-ELE0003
+Name=ProjectRevision
+Value=2.0
 
 [Parameter2]
 Name=ProjectAuthor
-Value=Liam Hawkins
+Value=Chenao Yuan
 
 [Parameter3]
-Name=ProjectRevision
-Value=1.1
+Name=MSPartNumber
+Value=MS-ELE0003
 
 [Configuration1]
 Name=Default Configuration
@@ -461,7 +478,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -523,6 +540,8 @@ OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 OutputType10=SimView Print
 OutputName10=SimView Prints
 OutputDocumentPath10=
@@ -1314,6 +1333,62 @@ MatchStrictly1=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
+UniqueIDPath0=
+DocumentName0=BMS Carrier - AFE Interface.SchDoc
+IsEnabled0=1
+SelectionScope0=All
+Order0=1
+IndexEnabled0=0
+IndexStartValue0=1
+Suffix0=
+UniqueIDPath1=
+DocumentName1=BMS Carrier - Current Sense Interface.SchDoc
+IsEnabled1=1
+SelectionScope1=All
+Order1=4
+IndexEnabled1=0
+IndexStartValue1=1
+Suffix1=
+UniqueIDPath2=
+DocumentName2=Controller_Board_Interface.SchDoc
+IsEnabled2=1
+SelectionScope2=All
+Order2=7
+IndexEnabled2=0
+IndexStartValue2=1
+Suffix2=
+UniqueIDPath3=
+DocumentName3=BMS Carrier - Fan Controls.SchDoc
+IsEnabled3=1
+SelectionScope3=All
+Order3=5
+IndexEnabled3=0
+IndexStartValue3=1
+Suffix3=
+UniqueIDPath4=
+DocumentName4=BMS Carrier - Firmware Contactor Control.SchDoc
+IsEnabled4=1
+SelectionScope4=All
+Order4=6
+IndexEnabled4=0
+IndexStartValue4=1
+Suffix4=
+UniqueIDPath5=
+DocumentName5=BMS Carrier - Battery Relay Controls.SchDoc
+IsEnabled5=1
+SelectionScope5=All
+Order5=2
+IndexEnabled5=0
+IndexStartValue5=1
+Suffix5=
+UniqueIDPath6=
+DocumentName6=BMS Carrier - Connectors.SchDoc
+IsEnabled6=1
+SelectionScope6=All
+Order6=3
+IndexEnabled6=0
+IndexStartValue6=1
+Suffix6=
 
 [PrjClassGen]
 CompClassManualEnabled=0

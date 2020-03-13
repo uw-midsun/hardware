@@ -1,0 +1,28 @@
+[DesignatorManager]
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+DocumentName0=Controller_Board_Interface.SchDoc
+UniqueIDPath0=
+SheetNumber0=1
+DocumentName1=BMS Carrier - Connectors.SchDoc
+UniqueIDPath1=
+SheetNumber1=2
+DocumentName2=BMS Carrier - AFE Interface.SchDoc
+UniqueIDPath2=
+SheetNumber2=3
+DocumentName3=BMS Carrier - Current Sense Interface.SchDoc
+UniqueIDPath3=
+SheetNumber3=4
+DocumentName4=BMS Carrier - Battery Relay Controls.SchDoc
+UniqueIDPath4=
+SheetNumber4=5
+DocumentName5=BMS Carrier - Fan Controls.SchDoc
+UniqueIDPath5=
+SheetNumber5=6
+DocumentName6=BMS Carrier - Firmware Contactor Control.SchDoc
+UniqueIDPath6=
+SheetNumber6=7
+
+
