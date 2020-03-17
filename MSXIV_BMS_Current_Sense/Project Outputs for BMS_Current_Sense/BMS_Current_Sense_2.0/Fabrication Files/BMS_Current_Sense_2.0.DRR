@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: BMS_Current_Sense.PcbDoc   2020-03-01  4:29:37 PM
+NCDrill File Report For: BMS_Current_Sense.PcbDoc   2020-03-16  8:28:02 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,13 +7,14 @@ ASCII RoundHoles File : BMS_Current_Sense_2.0.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.3mm)                                             Round             106       PTH        0.00inch (0.00mm)
-T2      40mil (1.02mm)                                            Round             2         PTH        0.00inch (0.00mm)
-T3      73mil (1.85mm)                                            Round             2         PTH        0.00inch (0.00mm)
-T4      81mil (2.05mm)                                            Round             4         PTH        0.00inch (0.00mm)
-T5      104mil (2.65mm)         +4mil (0.1mm)                     Round             1         PTH        0.00inch (0.00mm)
-T6      104mil (2.65mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T1      12mil (0.3mm)                                             Round             102       PTH        0.00inch (0.00mm)
+T2      20mil (0.5mm)                                             Round             5         PTH        0.00inch (0.00mm)
+T3      40mil (1.02mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T4      73mil (1.85mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T5      81mil (2.05mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T6      104mil (2.65mm)         +4mil (0.1mm)                     Round             1         PTH        0.00inch (0.00mm)
+T7      104mil (2.65mm)                                           Round             1         PTH        0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              116
+Totals                                                                              117
 
 Total Processing Time (hh:mm:ss) : 00:00:00
