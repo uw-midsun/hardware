@@ -309,16 +309,16 @@ Path=..\altium-lib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectRevision
-Value=2.0
+Name=MSPartNumber
+Value=MS-ELE0003
 
 [Parameter2]
 Name=ProjectAuthor
 Value=Chenao Yuan
 
 [Parameter3]
-Name=MSPartNumber
-Value=MS-ELE0003
+Name=ProjectRevision
+Value=2.0
 
 [Configuration1]
 Name=Default Configuration
