@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [01 - Standard] of PCB Document [AFE.PcbDoc]
+   Generated File[BMS_AFE_1.0.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 5:18:04 PM On 2020-03-01
