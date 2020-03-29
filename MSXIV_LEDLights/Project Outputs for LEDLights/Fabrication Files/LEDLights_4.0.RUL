@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\plguo\Documents\uw-midsun\hardware\MSXIV_LEDLights\LEDLights.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_Via_Thermal|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_Via|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Stitching THERMAL_PAD|Scope=Board|Minimum=5.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.50
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

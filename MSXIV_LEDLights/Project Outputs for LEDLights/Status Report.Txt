@@ -1,0 +1,10 @@
+Output: Copy of Export STEP
+Type  : ExportSTEP
+From  : Variant [01 - Tail Lights] of PCB Document [LEDLights.PcbDoc]
+   Generated File[LEDLights_4.0.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 8:36:52 PM On 3/28/2020
