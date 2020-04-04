@@ -95,7 +95,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=7
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -180,7 +180,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -197,7 +197,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -214,7 +214,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -248,7 +248,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -265,7 +265,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -337,108 +337,24 @@ DocumentPath=AFE 2020-01-13 10-18-04 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.DRR
+DocumentPath=AFE 2020-04-02 1-42-47 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.G1
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.G2
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for BMS_AFE\BMS_AFE_1.0.step
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for BMS_AFE\Fabrication Files\BMS_AFE_1.0.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for BMS_AFE\BMS_AFE_1.0.xlsx
+DocumentPath=AFE 2020-04-02 2-18-56 PM.WAS
 DItemRevisionGUID=
 
 [Parameter1]
-Name=MSPartNumber
-Value=MS40005
+Name=ProjectRevision
+Value=2.0
 
 [Parameter2]
 Name=ProjectAuthor
 Value=Liam Hawkins
 
 [Parameter3]
-Name=ProjectRevision
-Value=1.0
+Name=MSPartNumber
+Value=MS40005
 
 [Configuration1]
 Name=Default Configuration
@@ -718,7 +634,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=OneNote
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1468,36 +1384,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1855,35 +1741,35 @@ MatchStrictly2=1
 PhysicalNamingFormat=$ComponentPrefix$GlobalIndex
 GlobalIndexSortOrder=1
 GlobalIndexSortLocation=1
-UniqueIDPath0=\THLOCXPK
-DocumentName0=BMS AFE - AFE.SchDoc
+UniqueIDPath0=\TIPIMKKY
+DocumentName0=BMS AFE - Cell Inputs.SchDoc
 IsEnabled0=1
 SelectionScope0=All
-Order0=2
+Order0=4
 IndexEnabled0=0
 IndexStartValue0=1
 Suffix0=
-UniqueIDPath1=\KOXKYMSU
-DocumentName1=BMS AFE - Cell Balancing.SchDoc
+UniqueIDPath1=\BNQPZEEL
+DocumentName1=BMS AFE - Regulator.SchDoc
 IsEnabled1=1
 SelectionScope1=All
-Order1=3
+Order1=8
 IndexEnabled1=0
 IndexStartValue1=1
 Suffix1=
-UniqueIDPath2=\TIPIMKKY
-DocumentName2=BMS AFE - Cell Inputs.SchDoc
+UniqueIDPath2=\IPAFXOWP
+DocumentName2=BMS AFE - Communications.SchDoc
 IsEnabled2=1
 SelectionScope2=All
-Order2=4
+Order2=5
 IndexEnabled2=0
 IndexStartValue2=1
 Suffix2=
-UniqueIDPath3=\IPAFXOWP
-DocumentName3=BMS AFE - Communications.SchDoc
+UniqueIDPath3=
+DocumentName3=BMS AFE - Top Sheet.SchDoc
 IsEnabled3=1
 SelectionScope3=All
-Order3=5
+Order3=1
 IndexEnabled3=0
 IndexStartValue3=1
 Suffix3=
@@ -1895,27 +1781,27 @@ Order4=6
 IndexEnabled4=0
 IndexStartValue4=1
 Suffix4=
-UniqueIDPath5=\BNQPZEEL
-DocumentName5=BMS AFE - Regulator.SchDoc
+UniqueIDPath5=\FPISKIWU
+DocumentName5=BMS AFE - Thermistors.SchDoc
 IsEnabled5=1
 SelectionScope5=All
-Order5=8
+Order5=7
 IndexEnabled5=0
 IndexStartValue5=1
 Suffix5=
-UniqueIDPath6=\FPISKIWU
-DocumentName6=BMS AFE - Thermistors.SchDoc
+UniqueIDPath6=\THLOCXPK
+DocumentName6=BMS AFE - AFE.SchDoc
 IsEnabled6=1
 SelectionScope6=All
-Order6=7
+Order6=2
 IndexEnabled6=0
 IndexStartValue6=1
 Suffix6=
-UniqueIDPath7=
-DocumentName7=BMS AFE - Top Sheet.SchDoc
+UniqueIDPath7=\KOXKYMSU
+DocumentName7=BMS AFE - Cell Balancing.SchDoc
 IsEnabled7=1
 SelectionScope7=All
-Order7=1
+Order7=3
 IndexEnabled7=0
 IndexStartValue7=1
 Suffix7=
@@ -2718,35 +2604,51 @@ Net24=NetName=ISOSPI_IA_P|NetColor=$00FFFF6E
 Net25=NetName=ISOSPI_IB_N|NetColor=$00FF6E6E
 Net26=NetName=ISOSPI_IB_P|NetColor=$00FFFF6E
 Net27=NetName=NetC?_1|NetColor=$006EFF6E
-Net28=NetName=NetC?_8|NetColor=$006EFF6E
-Net29=NetName=NetC39_1|NetColor=$006EFF6E
-Net30=NetName=NetR74_1|NetColor=$006EFF6E
-Net31=NetName=NetU1_27|NetColor=$006EFF6E
-Net32=NetName=THERMISTOR_AMBIENT|NetColor=$006EFF6E
-Net33=NetName=THERMISTOR_AMBIENT_|NetColor=$006EFF6E
-Net34=NetName=THERMISTOR_AMBIENT_0|NetColor=$006EFF6E
-Net35=NetName=THERMISTOR_AMBIENT_1|NetColor=$006EFF6E
-Net36=NetName=THERMISTOR_AMBIENT_2|NetColor=$006EFF6E
-Net37=NetName=THERMISTOR_CELL_|NetColor=$006EFF6E
-Net38=NetName=THERMISTOR_CELL_0|NetColor=$006EFF6E
-Net39=NetName=THERMISTOR_CELL_1|NetColor=$006EFF6E
-Net40=NetName=THERMISTOR_CELL_10|NetColor=$006EFF6E
-Net41=NetName=THERMISTOR_CELL_11|NetColor=$006EFF6E
-Net42=NetName=THERMISTOR_CELL_12|NetColor=$006EFF6E
-Net43=NetName=THERMISTOR_CELL_13|NetColor=$006EFF6E
-Net44=NetName=THERMISTOR_CELL_14|NetColor=$006EFF6E
-Net45=NetName=THERMISTOR_CELL_15|NetColor=$006EFF6E
-Net46=NetName=THERMISTOR_CELL_16|NetColor=$006EFF6E
-Net47=NetName=THERMISTOR_CELL_17|NetColor=$006EFF6E
-Net48=NetName=THERMISTOR_CELL_2|NetColor=$006EFF6E
-Net49=NetName=THERMISTOR_CELL_3|NetColor=$006EFF6E
-Net50=NetName=THERMISTOR_CELL_4|NetColor=$006EFF6E
-Net51=NetName=THERMISTOR_CELL_5|NetColor=$006EFF6E
-Net52=NetName=THERMISTOR_CELL_6|NetColor=$006EFF6E
-Net53=NetName=THERMISTOR_CELL_7|NetColor=$006EFF6E
-Net54=NetName=THERMISTOR_CELL_8|NetColor=$006EFF6E
-Net55=NetName=THERMISTOR_CELL_9|NetColor=$006EFF6E
-Net56=NetName=THERMISTOR_PCB|NetColor=$006EFF6E
+Net28=NetName=NetC?_5|NetColor=$006EFF6E
+Net29=NetName=NetC?_6|NetColor=$006EFF6E
+Net30=NetName=NetC?_8|NetColor=$006EFF6E
+Net31=NetName=NetC39_1|NetColor=$006EFF6E
+Net32=NetName=NetR74_1|NetColor=$006EFF6E
+Net33=NetName=NetU1_27|NetColor=$006EFF6E
+Net34=NetName=THERMISTOR_AMBIENT|NetColor=$006EFF6E
+Net35=NetName=THERMISTOR_AMBIENT_|NetColor=$006EFF6E
+Net36=NetName=THERMISTOR_AMBIENT_0|NetColor=$006EFF6E
+Net37=NetName=THERMISTOR_AMBIENT_1|NetColor=$006EFF6E
+Net38=NetName=THERMISTOR_AMBIENT_2|NetColor=$006EFF6E
+Net39=NetName=THERMISTOR_CELL_|NetColor=$006EFF6E
+Net40=NetName=THERMISTOR_CELL_0|NetColor=$006EFF6E
+Net41=NetName=THERMISTOR_CELL_1|NetColor=$006EFF6E
+Net42=NetName=THERMISTOR_CELL_10|NetColor=$006EFF6E
+Net43=NetName=THERMISTOR_CELL_11|NetColor=$006EFF6E
+Net44=NetName=THERMISTOR_CELL_12|NetColor=$006EFF6E
+Net45=NetName=THERMISTOR_CELL_13|NetColor=$006EFF6E
+Net46=NetName=THERMISTOR_CELL_14|NetColor=$006EFF6E
+Net47=NetName=THERMISTOR_CELL_15|NetColor=$006EFF6E
+Net48=NetName=THERMISTOR_CELL_16|NetColor=$006EFF6E
+Net49=NetName=THERMISTOR_CELL_17|NetColor=$006EFF6E
+Net50=NetName=THERMISTOR_CELL_18|NetColor=$006EFF6E
+Net51=NetName=THERMISTOR_CELL_19|NetColor=$006EFF6E
+Net52=NetName=THERMISTOR_CELL_2|NetColor=$006EFF6E
+Net53=NetName=THERMISTOR_CELL_20|NetColor=$006EFF6E
+Net54=NetName=THERMISTOR_CELL_21|NetColor=$006EFF6E
+Net55=NetName=THERMISTOR_CELL_22|NetColor=$006EFF6E
+Net56=NetName=THERMISTOR_CELL_23|NetColor=$006EFF6E
+Net57=NetName=THERMISTOR_CELL_24|NetColor=$006EFF6E
+Net58=NetName=THERMISTOR_CELL_25|NetColor=$006EFF6E
+Net59=NetName=THERMISTOR_CELL_26|NetColor=$006EFF6E
+Net60=NetName=THERMISTOR_CELL_27|NetColor=$006EFF6E
+Net61=NetName=THERMISTOR_CELL_28|NetColor=$006EFF6E
+Net62=NetName=THERMISTOR_CELL_29|NetColor=$006EFF6E
+Net63=NetName=THERMISTOR_CELL_3|NetColor=$006EFF6E
+Net64=NetName=THERMISTOR_CELL_4|NetColor=$006EFF6E
+Net65=NetName=THERMISTOR_CELL_5|NetColor=$006EFF6E
+Net66=NetName=THERMISTOR_CELL_6|NetColor=$006EFF6E
+Net67=NetName=THERMISTOR_CELL_7|NetColor=$006EFF6E
+Net68=NetName=THERMISTOR_CELL_8|NetColor=$006EFF6E
+Net69=NetName=THERMISTOR_CELL_9|NetColor=$006EFF6E
+Net70=NetName=THERMISTOR_PCB|NetColor=$006EFF6E
+Net71=NetName=THERMISTOR_PCB_0|NetColor=$006EFF6E
+Net72=NetName=THERMISTOR_PCB_1|NetColor=$006EFF6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
