@@ -72,23 +72,6 @@ GenerateClassCluster=0
 DocumentUniqueId=DHITSCMU
 
 [Document3]
-DocumentPath=MSXIV_BatteryModuleConnectorBoard.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
 DocumentPath=Elecrow.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,324 +89,176 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Design Rule Check - MSXIV_BatteryModuleConnectorBoard.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument17]
-DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.REP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for Free Documents\Project Outputs\Free Documents_ProjectRevision.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument20]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.1
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GML
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.REP
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument39]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_1.0.step
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_1.0.xlsx
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument44]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument45]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument47]
+[GeneratedDocument26]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument27]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument49]
+[GeneratedDocument28]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument50]
+[GeneratedDocument29]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument51]
+[GeneratedDocument30]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GPB
 DItemRevisionGUID=
 
-[GeneratedDocument52]
+[GeneratedDocument31]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GPT
 DItemRevisionGUID=
 
-[GeneratedDocument53]
+[GeneratedDocument32]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument54]
+[GeneratedDocument33]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument55]
+[GeneratedDocument34]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument56]
+[GeneratedDocument35]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument57]
+[GeneratedDocument36]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument58]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.REP
-DItemRevisionGUID=
-
-[GeneratedDocument59]
+[GeneratedDocument37]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument60]
+[GeneratedDocument38]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\Fabrication Files Rev 3\MSXIV_BatteryModuleConnectorBoard_2.0.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument61]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\BOM&STEP2.0\MSXIV_BatteryModuleConnectorBoard_3.0.step
-DItemRevisionGUID=
-
-[GeneratedDocument62]
+[GeneratedDocument39]
 DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\BOM&STEP3.0\MSXIV_BatteryModuleConnectorBoard_3.0.step
 DItemRevisionGUID=
 
-[GeneratedDocument63]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument64]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument65]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Keep-out.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument66]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument67]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument68]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Mechanical_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument69]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Mechanical_13.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument70]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Mechanical_15.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument71]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Pads_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument72]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Pads_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument73]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument74]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument75]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument76]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument77]
-DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\MSXIV_BatteryModuleConnectorBoard_Soldermask_Top.gbr
+[GeneratedDocument40]
+DocumentPath=Project Outputs for MSXIV_BatteryModuleConnectorBoard\BOM&STEP3.0\MSXIV_BatteryModuleConnectorBoard_3.0.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
-Name=website
-Value=uwmidsun.com
+Name=ProjectAuthor
+Value=Ricky Huang
 
 [Parameter2]
 Name=ProjectRevision
 Value=3.0
 
 [Parameter3]
-Name=ProjectAuthor
-Value=Ricky Huang
+Name=website
+Value=uwmidsun.com
 
 [Configuration1]
 Name=Sources
@@ -583,7 +418,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Photosmart 5510d series
+TargetPrinter=Canon Home printer 2019-12-26 Updated
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -651,6 +486,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -677,7 +518,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP Photosmart 5510d series
+TargetPrinter=Canon Home printer 2019-12-26 Updated
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -1075,6 +916,36 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1205,6 +1076,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1273,6 +1146,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1420,6 +1295,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1440,6 +1316,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 FullReplace=1
 UpdateDesignatorLock=1
@@ -1458,6 +1335,7 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]

@@ -1,9 +1,10 @@
-Output: Copy of Bill of Materials
-Type  : BOM
-From  : Variant [[No Variations]] of Schematic Document [MSXIV_BatteryModuleConnectorBoard.SchDoc]
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [MSXIV_BatteryModuleConnectorBoard.PcbDoc]
+   Generated File[MSXIV_BatteryModuleConnectorBoard_3.0.step]
 
 
-Files Generated   : 0
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 11:50:01 PM On 2020-04-08
+Finished Output Generation At 9:25:37 PM On 2020-04-08
