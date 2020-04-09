@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: MSXIV_BatteryModuleConnectorBoard.PcbDoc   2020-04-08  11:01:03 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Free Documents_ProjectRevision.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      18mil (0.45mm)          +/-2mil (0.05mm)                  Round             2         PTH        0.00inch (0.00mm)
+T2      28mil (0.711mm)                                           Round             7         PTH        0.00inch (0.00mm)
+T3      40mil (1.02mm)          +/-2mil (0.05mm)                  Round             26        PTH        0.00inch (0.00mm)
+T4      81mil (2.05mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T5      106mil (2.7mm)                                            Round             4         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              43
+
+Total Processing Time (hh:mm:ss) : 00:00:00
