@@ -30,7 +30,10 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=
+ManagedProjectGUID=AACDE3A2-4ED9-46CC-BF31-A9AFCC73A8E0
+VaultGUID=3F5908E8-D72C-4B4B-8852-7A2151BAF376
+ReleaseVaultName=University of Waterloo - Solar Car Team
+ItemGUID=AACDE3A2-4ED9-46CC-BF31-A9AFCC73A8E0
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -308,53 +311,17 @@ Variation7=Designator=P5|UniqueId=\NNJSQBUO\QSCLDBGO|Kind=1|AlternatePart=
 Variation8=Designator=R80|UniqueId=\THLOCXPK\LTKCFALH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=AFE 2020-01-10 8-43-22 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=AFE 2020-01-10 8-46-10 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=AFE 2020-01-13 9-50-51 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=AFE 2020-01-13 9-52-39 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=AFE 2020-01-13 9-54-14 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=AFE 2020-01-13 10-02-11 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=AFE 2020-01-13 10-18-04 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=AFE 2020-04-02 1-42-47 PM.WAS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=AFE 2020-04-02 2-18-56 PM.WAS
-DItemRevisionGUID=
-
 [Parameter1]
-Name=ProjectRevision
-Value=2.0
+Name=MSPartNumber
+Value=MS40005
 
 [Parameter2]
 Name=ProjectAuthor
 Value=Liam Hawkins
 
 [Parameter3]
-Name=MSPartNumber
-Value=MS40005
+Name=ProjectRevision
+Value=2.0
 
 [Configuration1]
 Name=Default Configuration
