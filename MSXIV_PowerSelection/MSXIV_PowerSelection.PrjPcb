@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TDJXRXCT
 
 [Document10]
-DocumentPath=Power Selection.PcbDoc
+DocumentPath=Power Selection_bottom_component.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -209,6 +209,14 @@ DocumentUniqueId=HSFDFWKW
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MSXIV_PowerSelection\Design Rule Check - Power Selection.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for MSXIV_PowerSelection\Design Rule Check - Power Selection_bottom_component.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for MSXIV_PowerSelection\Footprint Comparison - Power Selection_bottom_component.html
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1188,10 +1196,22 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name Only
+ComponentLibraryIdentifier0=University of Waterloo - Solar Car Team
+ComponentDesignItemID0=CMP-002-00071-2
+ComponentSymbolReference0=CONN HEADER TE  ELCON Mini 2POS PCB
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name Only
+ComponentLibraryIdentifier1=University of Waterloo - Solar Car Team
+ComponentDesignItemID1=CMP-002-00071-3
+ComponentSymbolReference1=CONN HEADER TE  ELCON Mini 2POS PCB
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1205,6 +1225,95 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Case/Package
+ParameterUpdate0=1
+ParameterName1=Circuit Application
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=Connector System
+ParameterUpdate4=1
+ParameterName5=Connector Type
+ParameterUpdate5=1
+ParameterName6=Contact Current Rating
+ParameterUpdate6=1
+ParameterName7=Contact Gender
+ParameterUpdate7=1
+ParameterName8=Contact Material
+ParameterUpdate8=1
+ParameterName9=Contact Plating
+ParameterUpdate9=1
+ParameterName10=Contact Retention
+ParameterUpdate10=1
+ParameterName11=Current Rating
+ParameterUpdate11=1
+ParameterName12=Depth
+ParameterUpdate12=1
+ParameterName13=Description
+ParameterUpdate13=1
+ParameterName14=Flammability Rating
+ParameterUpdate14=1
+ParameterName15=Gender
+ParameterUpdate15=1
+ParameterName16=Housing Color
+ParameterUpdate16=1
+ParameterName17=Housing Material
+ParameterUpdate17=1
+ParameterName18=Length
+ParameterUpdate18=1
+ParameterName19=Library Reference
+ParameterUpdate19=1
+ParameterName20=Max Operating Temperature
+ParameterUpdate20=1
+ParameterName21=Min Operating Temperature
+ParameterUpdate21=1
+ParameterName22=Mount
+ParameterUpdate22=1
+ParameterName23=Mounting Technology
+ParameterUpdate23=1
+ParameterName24=Number of Contacts
+ParameterUpdate24=1
+ParameterName25=Number of Ports
+ParameterUpdate25=1
+ParameterName26=Number of Positions
+ParameterUpdate26=1
+ParameterName27=Number of Power Positions
+ParameterUpdate27=1
+ParameterName28=Number of Rows
+ParameterUpdate28=1
+ParameterName29=Number of Terminals
+ParameterUpdate29=1
+ParameterName30=Orientation
+ParameterUpdate30=1
+ParameterName31=Package Quantity
+ParameterUpdate31=1
+ParameterName32=Packaging
+ParameterUpdate32=1
+ParameterName33=PCB Mounting Orientation
+ParameterUpdate33=1
+ParameterName34=Pins
+ParameterUpdate34=1
+ParameterName35=Pitch
+ParameterUpdate35=1
+ParameterName36=Radiation Hardening
+ParameterUpdate36=1
+ParameterName37=REACH SVHC
+ParameterUpdate37=1
+ParameterName38=RoHS Compliant
+ParameterUpdate38=1
+ParameterName39=Row Spacing
+ParameterUpdate39=1
+ParameterName40=Sealable
+ParameterUpdate40=1
+ParameterName41=Termination
+ParameterUpdate41=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=CONN HEADER TE  ELCON Mini 2POS PCB-Footprint-1
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
