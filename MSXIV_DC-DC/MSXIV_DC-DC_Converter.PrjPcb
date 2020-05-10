@@ -16,7 +16,7 @@ AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=1
 NetlistSinglePinNets=0
-DefaultConfiguration=Default Configuration
+DefaultConfiguration=Sources
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -39,6 +39,9 @@ IncludeDesignInRelease=0
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
+
+[Release]
+ReleaseTarget=3
 
 [Document1]
 DocumentPath=..\altium-lib\Footprints.PcbLib
@@ -187,82 +190,86 @@ Variation2=Designator=C19|UniqueId=\YWOJMUYG|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\MSXIV_DC-DC_Converter.xlsx
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Footprint Comparison - MSXIV_DC-DC_Converter.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.DRR
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\MSXIV_DC-DC_Converter.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.EXTREP
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GBL
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GBS
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GKO
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GM1
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GM13
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GM15
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GPB
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GPT
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTL
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTO
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTP
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTS
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.LDP
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.RUL
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\MSXIV_DC-DC_Converter_2.0.step
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.TXT
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\MSXIV_DC-DC_Converter_2.0.step
 DItemRevisionGUID=
 
 [GeneratedDocument20]
+DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\Fabrication Files\MSXIV_DC-DC_Converter_2.0.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument21]
 DocumentPath=Project Outputs for MSXIV_DC-DC_Converter\MSXIV_DC-DC_Converter_2.0.xls
 DItemRevisionGUID=
 
@@ -275,14 +282,54 @@ Name=ProjectRevision
 Value=2.0
 
 [Configuration1]
-Name=Default Configuration
+Name=Sources
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=1AD834F7-7C1B-46AA-B9BC-6EDBA98B1E53
+Variant=[No Variations]
+OutputJobsCount=2
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Elecrow.OutJob
+DocumentReferenceClass2=DocumentReference
+OutputJobFileName2=MSXIV_DC-DC_Converter.OutJob
+ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=
-ConfigurationType=
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Elecrow.OutJob
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly Variant of MSXIV_DC-DC_Converter
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=Variant of MSXIV_DC-DC_Converter
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Elecrow.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration4]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Elecrow.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -1000,7 +1047,7 @@ Type32=1
 Type33=1
 Type34=1
 Type35=1
-Type36=1
+Type36=0
 Type37=1
 Type38=1
 Type39=1
