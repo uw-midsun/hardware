@@ -30,7 +30,10 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=
 LogFolderPath=
-ManagedProjectGUID=
+ManagedProjectGUID=39589C38-8BDC-428C-A3D2-1714F47AEED9
+VaultGUID=3F5908E8-D72C-4B4B-8852-7A2151BAF376
+ReleaseVaultName=University of Waterloo - Solar Car Team
+ItemGUID=39589C38-8BDC-428C-A3D2-1714F47AEED9
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -71,8 +74,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HBBYDUWT
 
+[Document3]
+DocumentPath=Electrow 2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Design Rule Check - MSXIV_ConnectorTestingBoard.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\ExportSTEP\MSXIV_ConnectorTestingBoard.step
 DItemRevisionGUID=
 
 [Parameter1]
