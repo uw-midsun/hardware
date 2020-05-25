@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -72,23 +72,6 @@ GenerateClassCluster=0
 DocumentUniqueId=TDJXRXCT
 
 [Document3]
-DocumentPath=..\MSXII_Templates\Output Jobs\Elecrow.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
 DocumentPath=..\MSXII_SteeringWheelInterfaceBoard\Controller_Board_Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document4]
 DocumentPath=Steering Wheel Carrier Board Mezzanine.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UQTSTENX
 
-[Document6]
+[Document5]
 DocumentPath=Steering Wheel Steering Stalk Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CUVCIDOY
 
-[Document7]
+[Document6]
 DocumentPath=Steering Wheel Interface Analog Inputs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EVGRPMMX
 
-[Document8]
+[Document7]
 DocumentPath=Steering Wheel Interface Digital Inputs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CKDWTUDC
 
-[Document9]
+[Document8]
 DocumentPath=Steering Wheel Interface Schmitt Inverters.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MSPHVCTT
 
-[Document10]
+[Document9]
 DocumentPath=SteeringWheelConnectorBoard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PJAWWNIA
 
-[Document11]
+[Document10]
 DocumentPath=SteeringWheelBoard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,8 +207,217 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYRDSECY
 
+[Document11]
+DocumentPath=Elecrow.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Design Rule Check - SteeringWheelBoard.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.REP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for Free Documents\Fabrication Files_rev2\Free Documents_ProjectRevision.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for MSXIV_SteeringWheelInterfaceBoard\Fabrication Files_rev2\MSXIV_SteeringWheelInterfaceBoard_4.0.TXT
 DItemRevisionGUID=
 
 [Parameter1]
@@ -287,12 +479,12 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for MSXIV_SteeringWheelInterfaceBoard
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Officejet Pro 8600
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -398,7 +590,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Officejet Pro 8600
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -468,17 +660,11 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=PDF3D MBA
-OutputName11=PDF3D MBA
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Officejet Pro 8600
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -627,7 +813,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Officejet Pro 8600
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -807,7 +993,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Officejet Pro 8600
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -851,7 +1037,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Officejet Pro 8600
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -898,23 +1084,23 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=MBAExportPARASOLID
-OutputName12=Export PARASOLID
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=MBAExportSTEP
-OutputName13=Export STEP
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
@@ -942,7 +1128,7 @@ OutputDefault17=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Officejet Pro 8600
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1068,8 +1254,6 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
-Type118=1
-Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1138,8 +1322,6 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
-Type67=1
-Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1287,7 +1469,6 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
-ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1308,7 +1489,6 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
-UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Schematic Diagrams.SchLib
@@ -1774,7 +1954,6 @@ ModelUpdate10=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
-UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Schematic Diagrams.SchLib
