@@ -91,11 +91,141 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document4]
+DocumentPath=CAMtastic1.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=CAMtastic2.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Design Rule Check - MSXIV_ConnectorTestingBoard.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\NC Drill Files\MSXIV_ConnectorTestingBoard-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\NC Drill Files\MSXIV_ConnectorTestingBoard-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\NC Drill Files\MSXIV_ConnectorTestingBoard.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GM16
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\NC Drill Files\MSXIV_ConnectorTestingBoard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\Gerber Files\MSXIV_ConnectorTestingBoard.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument26]
 DocumentPath=Project Outputs for MSXIV_ConnectorTestingBoard\ExportSTEP\MSXIV_ConnectorTestingBoard.step
 DItemRevisionGUID=
 
