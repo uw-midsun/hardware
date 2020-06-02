@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Power Selection_bottom_component.PcbDoc]
+   Generated File[MSXIV_PowerSelection_ProjectRevision-Plated.TXT]
+   Generated File[MSXIV_PowerSelection_ProjectRevision.LDP]
+   Generated File[MSXIV_PowerSelection_ProjectRevision.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:11:48 AM On 2020-06-01
