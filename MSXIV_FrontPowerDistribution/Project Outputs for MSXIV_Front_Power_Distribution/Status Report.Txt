@@ -2,10 +2,9 @@ Output: Bill of Materials
 Type  : BOM
 From  : Variant [[No Variations]] of Project [MSXIV_Front_Power_Distribution.PrjPcb]
    Generated File[MSXIV_Front_Power_Distribution_ProjectRevision.xlsx]
-   Generated File[MSXIV_Front_Power_Distribution_ProjectRevision.xlsx]
 
 
-Files Generated   : 2
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 10:14:05 PM On 2020-03-02
+Finished Output Generation At 10:51:19 PM On 2020-06-01
