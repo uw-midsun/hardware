@@ -1,0 +1,1 @@
+This board requires 2oz of copper.

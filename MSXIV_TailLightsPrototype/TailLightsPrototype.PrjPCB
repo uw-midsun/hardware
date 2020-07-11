@@ -1,0 +1,2470 @@
+[Design]
+Version=1.0
+HierarchyMode=0
+ChannelRoomNamingStyle=0
+ReleasesFolder=
+ChannelDesignatorFormatString=$Component_$RoomName
+ChannelRoomLevelSeperator=_
+OpenOutputs=1
+ArchiveProject=0
+TimestampOutput=0
+SeparateFolders=0
+TemplateLocationPath=
+PinSwapBy_Netlabel=1
+PinSwapBy_Pin=1
+AllowPortNetNames=0
+AllowSheetEntryNetNames=1
+AppendSheetNumberToLocalNets=0
+NetlistSinglePinNets=0
+DefaultConfiguration=Sources
+UserID=0xFFFFFFFF
+DefaultPcbProtel=1
+DefaultPcbPcad=0
+ReorderDocumentsOnCompile=1
+NameNetsHierarchically=0
+PowerPortNamesTakePriority=0
+PushECOToAnnotationFile=1
+DItemRevisionGUID=
+ReportSuppressedErrorsInMessages=0
+FSMCodingStyle=eFMSDropDownList_OneProcess
+FSMEncodingStyle=eFMSDropDownList_OneHot
+OutputPath=
+LogFolderPath=
+ManagedProjectGUID=
+IncludeDesignInRelease=0
+
+[Preferences]
+PrefsVaultGUID=
+PrefsRevisionGUID=
+
+[Document1]
+DocumentPath=TailLightPrototype.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TOWBEFYG
+
+[Document2]
+DocumentPath=..\altium-lib\Footprints.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EMDFJJIM
+
+[Document3]
+DocumentPath=..\altium-lib\Schematic Diagrams.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TDJXRXCT
+
+[Document4]
+DocumentPath=TailLightPrototype.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QCCJBING
+
+[Document5]
+DocumentPath=..\MSXII_Templates\Output Jobs\Elecrow.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=DriverPrototype.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EFJMAMHW
+
+[Document7]
+DocumentPath=DriverPrototype.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DLVQFVDQ
+
+[ProjectVariant1]
+UniqueID=E81F1FDC-9E21-4578-8243-F028ADADBF74
+Description=01 - Brake Lights (Red)
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=EB751B65-3271-44E6-8261-F600B551319D
+Description=02 - DRL (White)
+AllowFabrication=0
+ParameterCount=0
+VariationCount=6
+Variation1=Designator=D1|UniqueId=\MPJKHHIQ|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator1=D1
+ParamVariation2=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator2=D1
+ParamVariation3=ParameterName=Color|VariantValue=White
+ParamDesignator3=D1
+ParamVariation4=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator4=D1
+ParamVariation5=ParameterName=ComponentLink1Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator5=D1
+ParamVariation6=ParameterName=ComponentLink1URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator6=D1
+ParamVariation7=ParameterName=ComponentLink2Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator7=D1
+ParamVariation8=ParameterName=ComponentLink2URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator8=D1
+ParamVariation9=ParameterName=ComponentLink3Description|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator9=D1
+ParamVariation10=ParameterName=ComponentLink3URL|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator10=D1
+ParamVariation11=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
+ParamDesignator11=D1
+ParamVariation12=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
+ParamDesignator12=D1
+ParamVariation13=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator13=D1
+ParamVariation14=ParameterName=Forward Voltage|VariantValue=2.8V
+ParamDesignator14=D1
+ParamVariation15=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator15=D1
+ParamVariation16=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator16=D1
+ParamVariation17=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator17=D1
+ParamVariation18=ParameterName=Library Reference|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator18=D1
+ParamVariation19=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator19=D1
+ParamVariation20=ParameterName=Manufacturer Part Number|VariantValue=XPGBWT-L1-0000-00JE2
+ParamDesignator20=D1
+ParamVariation21=ParameterName=Max Current Rating|VariantValue=1.5A
+ParamDesignator21=D1
+ParamVariation22=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator22=D1
+ParamVariation23=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator23=D1
+ParamVariation24=ParameterName=PCB3D|VariantValue= 
+ParamDesignator24=D1
+ParamVariation25=ParameterName=Pin Info|VariantValue= 
+ParamDesignator25=D1
+ParamVariation26=ParameterName=Pricing 1|VariantValue=1 = 1.47000, 10 = 1.40100, 100 = 1.25340, 250 = 1.13988, 500 = 1.06762 (USD)
+ParamDesignator26=D1
+ParamVariation27=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator27=D1
+ParamVariation28=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator28=D1
+ParamVariation29=ParameterName=Simulation|VariantValue= 
+ParamDesignator29=D1
+ParamVariation30=ParameterName=Stock 1|VariantValue=6024
+ParamDesignator30=D1
+ParamVariation31=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator31=D1
+ParamVariation32=ParameterName=Supplier Part Number 1|VariantValue=XPGBWT-L1-0000-00JE2CT-ND
+ParamDesignator32=D1
+ParamVariation33=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator33=D1
+ParamVariation34=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
+ParamDesignator34=D1
+ParamVariation35=ParameterName=Viewing Angle|VariantValue=115?
+ParamDesignator35=D1
+ParamVariation36=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator36=D1
+Variation2=Designator=D2|UniqueId=\DAGHEAAT|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation37=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator37=D2
+ParamVariation38=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator38=D2
+ParamVariation39=ParameterName=Color|VariantValue=White
+ParamDesignator39=D2
+ParamVariation40=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator40=D2
+ParamVariation41=ParameterName=ComponentLink1Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator41=D2
+ParamVariation42=ParameterName=ComponentLink1URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator42=D2
+ParamVariation43=ParameterName=ComponentLink2Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator43=D2
+ParamVariation44=ParameterName=ComponentLink2URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator44=D2
+ParamVariation45=ParameterName=ComponentLink3Description|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator45=D2
+ParamVariation46=ParameterName=ComponentLink3URL|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator46=D2
+ParamVariation47=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
+ParamDesignator47=D2
+ParamVariation48=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
+ParamDesignator48=D2
+ParamVariation49=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator49=D2
+ParamVariation50=ParameterName=Forward Voltage|VariantValue=2.8V
+ParamDesignator50=D2
+ParamVariation51=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator51=D2
+ParamVariation52=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator52=D2
+ParamVariation53=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator53=D2
+ParamVariation54=ParameterName=Library Reference|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator54=D2
+ParamVariation55=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator55=D2
+ParamVariation56=ParameterName=Manufacturer Part Number|VariantValue=XPGBWT-L1-0000-00JE2
+ParamDesignator56=D2
+ParamVariation57=ParameterName=Max Current Rating|VariantValue=1.5A
+ParamDesignator57=D2
+ParamVariation58=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator58=D2
+ParamVariation59=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator59=D2
+ParamVariation60=ParameterName=PCB3D|VariantValue= 
+ParamDesignator60=D2
+ParamVariation61=ParameterName=Pin Info|VariantValue= 
+ParamDesignator61=D2
+ParamVariation62=ParameterName=Pricing 1|VariantValue=1 = 1.47000, 10 = 1.40100, 100 = 1.25340, 250 = 1.13988, 500 = 1.06762 (USD)
+ParamDesignator62=D2
+ParamVariation63=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator63=D2
+ParamVariation64=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator64=D2
+ParamVariation65=ParameterName=Simulation|VariantValue= 
+ParamDesignator65=D2
+ParamVariation66=ParameterName=Stock 1|VariantValue=6024
+ParamDesignator66=D2
+ParamVariation67=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator67=D2
+ParamVariation68=ParameterName=Supplier Part Number 1|VariantValue=XPGBWT-L1-0000-00JE2CT-ND
+ParamDesignator68=D2
+ParamVariation69=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator69=D2
+ParamVariation70=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
+ParamDesignator70=D2
+ParamVariation71=ParameterName=Viewing Angle|VariantValue=115?
+ParamDesignator71=D2
+ParamVariation72=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator72=D2
+Variation3=Designator=D6|UniqueId=\UGJDGQOG|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation73=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator73=D6
+ParamVariation74=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator74=D6
+ParamVariation75=ParameterName=Color|VariantValue=White
+ParamDesignator75=D6
+ParamVariation76=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator76=D6
+ParamVariation77=ParameterName=ComponentLink1Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator77=D6
+ParamVariation78=ParameterName=ComponentLink1URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator78=D6
+ParamVariation79=ParameterName=ComponentLink2Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator79=D6
+ParamVariation80=ParameterName=ComponentLink2URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator80=D6
+ParamVariation81=ParameterName=ComponentLink3Description|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator81=D6
+ParamVariation82=ParameterName=ComponentLink3URL|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator82=D6
+ParamVariation83=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
+ParamDesignator83=D6
+ParamVariation84=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
+ParamDesignator84=D6
+ParamVariation85=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator85=D6
+ParamVariation86=ParameterName=Forward Voltage|VariantValue=2.8V
+ParamDesignator86=D6
+ParamVariation87=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator87=D6
+ParamVariation88=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator88=D6
+ParamVariation89=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator89=D6
+ParamVariation90=ParameterName=Library Reference|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator90=D6
+ParamVariation91=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator91=D6
+ParamVariation92=ParameterName=Manufacturer Part Number|VariantValue=XPGBWT-L1-0000-00JE2
+ParamDesignator92=D6
+ParamVariation93=ParameterName=Max Current Rating|VariantValue=1.5A
+ParamDesignator93=D6
+ParamVariation94=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator94=D6
+ParamVariation95=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator95=D6
+ParamVariation96=ParameterName=PCB3D|VariantValue= 
+ParamDesignator96=D6
+ParamVariation97=ParameterName=Pin Info|VariantValue= 
+ParamDesignator97=D6
+ParamVariation98=ParameterName=Pricing 1|VariantValue=1 = 1.47000, 10 = 1.40100, 100 = 1.25340, 250 = 1.13988, 500 = 1.06762 (USD)
+ParamDesignator98=D6
+ParamVariation99=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator99=D6
+ParamVariation100=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator100=D6
+ParamVariation101=ParameterName=Simulation|VariantValue= 
+ParamDesignator101=D6
+ParamVariation102=ParameterName=Stock 1|VariantValue=6024
+ParamDesignator102=D6
+ParamVariation103=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator103=D6
+ParamVariation104=ParameterName=Supplier Part Number 1|VariantValue=XPGBWT-L1-0000-00JE2CT-ND
+ParamDesignator104=D6
+ParamVariation105=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator105=D6
+ParamVariation106=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
+ParamDesignator106=D6
+ParamVariation107=ParameterName=Viewing Angle|VariantValue=115?
+ParamDesignator107=D6
+ParamVariation108=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator108=D6
+Variation4=Designator=D4|UniqueId=\IWYALBYP|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation109=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator109=D4
+ParamVariation110=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator110=D4
+ParamVariation111=ParameterName=Color|VariantValue=White
+ParamDesignator111=D4
+ParamVariation112=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator112=D4
+ParamVariation113=ParameterName=ComponentLink1Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator113=D4
+ParamVariation114=ParameterName=ComponentLink1URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator114=D4
+ParamVariation115=ParameterName=ComponentLink2Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator115=D4
+ParamVariation116=ParameterName=ComponentLink2URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator116=D4
+ParamVariation117=ParameterName=ComponentLink3Description|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator117=D4
+ParamVariation118=ParameterName=ComponentLink3URL|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator118=D4
+ParamVariation119=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
+ParamDesignator119=D4
+ParamVariation120=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
+ParamDesignator120=D4
+ParamVariation121=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator121=D4
+ParamVariation122=ParameterName=Forward Voltage|VariantValue=2.8V
+ParamDesignator122=D4
+ParamVariation123=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator123=D4
+ParamVariation124=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator124=D4
+ParamVariation125=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator125=D4
+ParamVariation126=ParameterName=Library Reference|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator126=D4
+ParamVariation127=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator127=D4
+ParamVariation128=ParameterName=Manufacturer Part Number|VariantValue=XPGBWT-L1-0000-00JE2
+ParamDesignator128=D4
+ParamVariation129=ParameterName=Max Current Rating|VariantValue=1.5A
+ParamDesignator129=D4
+ParamVariation130=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator130=D4
+ParamVariation131=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator131=D4
+ParamVariation132=ParameterName=PCB3D|VariantValue= 
+ParamDesignator132=D4
+ParamVariation133=ParameterName=Pin Info|VariantValue= 
+ParamDesignator133=D4
+ParamVariation134=ParameterName=Pricing 1|VariantValue=1 = 1.47000, 10 = 1.40100, 100 = 1.25340, 250 = 1.13988, 500 = 1.06762 (USD)
+ParamDesignator134=D4
+ParamVariation135=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator135=D4
+ParamVariation136=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator136=D4
+ParamVariation137=ParameterName=Simulation|VariantValue= 
+ParamDesignator137=D4
+ParamVariation138=ParameterName=Stock 1|VariantValue=6024
+ParamDesignator138=D4
+ParamVariation139=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator139=D4
+ParamVariation140=ParameterName=Supplier Part Number 1|VariantValue=XPGBWT-L1-0000-00JE2CT-ND
+ParamDesignator140=D4
+ParamVariation141=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator141=D4
+ParamVariation142=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
+ParamDesignator142=D4
+ParamVariation143=ParameterName=Viewing Angle|VariantValue=115?
+ParamDesignator143=D4
+ParamVariation144=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator144=D4
+Variation5=Designator=D3|UniqueId=\WCFSARWL|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation145=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator145=D3
+ParamVariation146=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator146=D3
+ParamVariation147=ParameterName=Color|VariantValue=White
+ParamDesignator147=D3
+ParamVariation148=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator148=D3
+ParamVariation149=ParameterName=ComponentLink1Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator149=D3
+ParamVariation150=ParameterName=ComponentLink1URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator150=D3
+ParamVariation151=ParameterName=ComponentLink2Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator151=D3
+ParamVariation152=ParameterName=ComponentLink2URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator152=D3
+ParamVariation153=ParameterName=ComponentLink3Description|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator153=D3
+ParamVariation154=ParameterName=ComponentLink3URL|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator154=D3
+ParamVariation155=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
+ParamDesignator155=D3
+ParamVariation156=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
+ParamDesignator156=D3
+ParamVariation157=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator157=D3
+ParamVariation158=ParameterName=Forward Voltage|VariantValue=2.8V
+ParamDesignator158=D3
+ParamVariation159=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator159=D3
+ParamVariation160=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator160=D3
+ParamVariation161=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator161=D3
+ParamVariation162=ParameterName=Library Reference|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator162=D3
+ParamVariation163=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator163=D3
+ParamVariation164=ParameterName=Manufacturer Part Number|VariantValue=XPGBWT-L1-0000-00JE2
+ParamDesignator164=D3
+ParamVariation165=ParameterName=Max Current Rating|VariantValue=1.5A
+ParamDesignator165=D3
+ParamVariation166=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator166=D3
+ParamVariation167=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator167=D3
+ParamVariation168=ParameterName=PCB3D|VariantValue= 
+ParamDesignator168=D3
+ParamVariation169=ParameterName=Pin Info|VariantValue= 
+ParamDesignator169=D3
+ParamVariation170=ParameterName=Pricing 1|VariantValue=1 = 1.47000, 10 = 1.40100, 100 = 1.25340, 250 = 1.13988, 500 = 1.06762 (USD)
+ParamDesignator170=D3
+ParamVariation171=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator171=D3
+ParamVariation172=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator172=D3
+ParamVariation173=ParameterName=Simulation|VariantValue= 
+ParamDesignator173=D3
+ParamVariation174=ParameterName=Stock 1|VariantValue=6024
+ParamDesignator174=D3
+ParamVariation175=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator175=D3
+ParamVariation176=ParameterName=Supplier Part Number 1|VariantValue=XPGBWT-L1-0000-00JE2CT-ND
+ParamDesignator176=D3
+ParamVariation177=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator177=D3
+ParamVariation178=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
+ParamDesignator178=D3
+ParamVariation179=ParameterName=Viewing Angle|VariantValue=115?
+ParamDesignator179=D3
+ParamVariation180=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator180=D3
+Variation6=Designator=D5|UniqueId=\DSQLSVSO|Kind=2|AlternatePart=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP COOL WHITE 5700K 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation181=ParameterName=Comment|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator181=D5
+ParamVariation182=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator182=D5
+ParamVariation183=ParameterName=Color|VariantValue=White
+ParamDesignator183=D5
+ParamVariation184=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator184=D5
+ParamVariation185=ParameterName=ComponentLink1Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator185=D5
+ParamVariation186=ParameterName=ComponentLink1URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator186=D5
+ParamVariation187=ParameterName=ComponentLink2Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator187=D5
+ParamVariation188=ParameterName=ComponentLink2URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator188=D5
+ParamVariation189=ParameterName=ComponentLink3Description|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator189=D5
+ParamVariation190=ParameterName=ComponentLink3URL|VariantValue=https://www.verical.com/server-webapp/html/getDatasheet?partID=702662&src-supplier=Verical
+ParamDesignator190=D5
+ParamVariation191=ParameterName=Correlated Color Temperature (CCT)|VariantValue=5700K
+ParamDesignator191=D5
+ParamVariation192=ParameterName=Description|VariantValue=LED Lighting XLamp?XP-E2 White, Cool 5700K 2.9V 350mA 110?1414 (3535 Metric)
+ParamDesignator192=D5
+ParamVariation193=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator193=D5
+ParamVariation194=ParameterName=Forward Voltage|VariantValue=2.8V
+ParamDesignator194=D5
+ParamVariation195=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator195=D5
+ParamVariation196=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator196=D5
+ParamVariation197=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator197=D5
+ParamVariation198=ParameterName=Library Reference|VariantValue=LED XLAMP COOL WHITE 5700K 2SMD
+ParamDesignator198=D5
+ParamVariation199=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator199=D5
+ParamVariation200=ParameterName=Manufacturer Part Number|VariantValue=XPGBWT-L1-0000-00JE2
+ParamDesignator200=D5
+ParamVariation201=ParameterName=Max Current Rating|VariantValue=1.5A
+ParamDesignator201=D5
+ParamVariation202=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator202=D5
+ParamVariation203=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator203=D5
+ParamVariation204=ParameterName=PCB3D|VariantValue= 
+ParamDesignator204=D5
+ParamVariation205=ParameterName=Pin Info|VariantValue= 
+ParamDesignator205=D5
+ParamVariation206=ParameterName=Pricing 1|VariantValue=1 = 1.47000, 10 = 1.40100, 100 = 1.25340, 250 = 1.13988, 500 = 1.06762 (USD)
+ParamDesignator206=D5
+ParamVariation207=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator207=D5
+ParamVariation208=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator208=D5
+ParamVariation209=ParameterName=Simulation|VariantValue= 
+ParamDesignator209=D5
+ParamVariation210=ParameterName=Stock 1|VariantValue=6024
+ParamDesignator210=D5
+ParamVariation211=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator211=D5
+ParamVariation212=ParameterName=Supplier Part Number 1|VariantValue=XPGBWT-L1-0000-00JE2CT-ND
+ParamDesignator212=D5
+ParamVariation213=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator213=D5
+ParamVariation214=ParameterName=Thermal Resistance of Package|VariantValue=4°C/W
+ParamDesignator214=D5
+ParamVariation215=ParameterName=Viewing Angle|VariantValue=115?
+ParamDesignator215=D5
+ParamVariation216=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator216=D5
+ParamVariationCount=216
+
+[ProjectVariant3]
+UniqueID=FCB06ECE-C0C5-4019-BE13-5A37304E3989
+Description=03 - Turn Lights (Amber)
+AllowFabrication=0
+ParameterCount=0
+VariationCount=6
+Variation1=Designator=D1|UniqueId=\MPJKHHIQ|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator1=D1
+ParamVariation2=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator2=D1
+ParamVariation3=ParameterName=Color|VariantValue=Orange
+ParamDesignator3=D1
+ParamVariation4=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator4=D1
+ParamVariation5=ParameterName=ComponentLink1Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator5=D1
+ParamVariation6=ParameterName=ComponentLink1URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator6=D1
+ParamVariation7=ParameterName=ComponentLink2Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator7=D1
+ParamVariation8=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator8=D1
+ParamVariation9=ParameterName=Depth|VariantValue=3.45mm
+ParamDesignator9=D1
+ParamVariation10=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamDesignator10=D1
+ParamVariation11=ParameterName=Dominant Wavelength|VariantValue=595nm
+ParamDesignator11=D1
+ParamVariation12=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator12=D1
+ParamVariation13=ParameterName=Forward Current|VariantValue=350mA
+ParamDesignator13=D1
+ParamVariation14=ParameterName=Forward Voltage|VariantValue=2.2V
+ParamDesignator14=D1
+ParamVariation15=ParameterName=Height|VariantValue=2.26mm
+ParamDesignator15=D1
+ParamVariation16=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator16=D1
+ParamVariation17=ParameterName=Illumination Color|VariantValue=Orange
+ParamDesignator17=D1
+ParamVariation18=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator18=D1
+ParamVariation19=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator19=D1
+ParamVariation20=ParameterName=Lens Color|VariantValue=Clear
+ParamDesignator20=D1
+ParamVariation21=ParameterName=Lens Style|VariantValue=Dome
+ParamDesignator21=D1
+ParamVariation22=ParameterName=Library Reference|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator22=D1
+ParamVariation23=ParameterName=Luminous Flux|VariantValue=73.9lm
+ParamDesignator23=D1
+ParamVariation24=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator24=D1
+ParamVariation25=ParameterName=Manufacturer Part Number|VariantValue=XPEBAM-L1-0000-00801
+ParamDesignator25=D1
+ParamVariation26=ParameterName=Max Current Rating|VariantValue=1A
+ParamDesignator26=D1
+ParamVariation27=ParameterName=Max Operating Temperature|VariantValue=150°C
+ParamDesignator27=D1
+ParamVariation28=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator28=D1
+ParamVariation29=ParameterName=Number of Elements|VariantValue=1
+ParamDesignator29=D1
+ParamVariation30=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator30=D1
+ParamVariation31=ParameterName=Package Quantity|VariantValue=1000
+ParamDesignator31=D1
+ParamVariation32=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator32=D1
+ParamVariation33=ParameterName=PCB3D|VariantValue= 
+ParamDesignator33=D1
+ParamVariation34=ParameterName=Pin Info|VariantValue= 
+ParamDesignator34=D1
+ParamVariation35=ParameterName=Power Rating|VariantValue=3W
+ParamDesignator35=D1
+ParamVariation36=ParameterName=Pricing 1|VariantValue=1 = 1.60000, 10 = 1.51600, 100 = 1.35640, 250 = 1.23356, 500 = 1.15536 (USD)
+ParamDesignator36=D1
+ParamVariation37=ParameterName=Reverse Voltage|VariantValue=5V
+ParamDesignator37=D1
+ParamVariation38=ParameterName=Reverse Voltage (DC)|VariantValue=5V
+ParamDesignator38=D1
+ParamVariation39=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator39=D1
+ParamVariation40=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator40=D1
+ParamVariation41=ParameterName=Simulation|VariantValue= 
+ParamDesignator41=D1
+ParamVariation42=ParameterName=Stock 1|VariantValue=4413
+ParamDesignator42=D1
+ParamVariation43=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator43=D1
+ParamVariation44=ParameterName=Supplier Part Number 1|VariantValue=XPEBAM-L1-0000-00801CT-ND
+ParamDesignator44=D1
+ParamVariation45=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator45=D1
+ParamVariation46=ParameterName=Test Temperature|VariantValue=25°C
+ParamDesignator46=D1
+ParamVariation47=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
+ParamDesignator47=D1
+ParamVariation48=ParameterName=Viewing Angle|VariantValue=130?
+ParamDesignator48=D1
+ParamVariation49=ParameterName=Wavelength|VariantValue=595nm
+ParamDesignator49=D1
+ParamVariation50=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator50=D1
+Variation2=Designator=D3|UniqueId=\WCFSARWL|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation51=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator51=D3
+ParamVariation52=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator52=D3
+ParamVariation53=ParameterName=Color|VariantValue=Orange
+ParamDesignator53=D3
+ParamVariation54=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator54=D3
+ParamVariation55=ParameterName=ComponentLink1Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator55=D3
+ParamVariation56=ParameterName=ComponentLink1URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator56=D3
+ParamVariation57=ParameterName=ComponentLink2Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator57=D3
+ParamVariation58=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator58=D3
+ParamVariation59=ParameterName=Depth|VariantValue=3.45mm
+ParamDesignator59=D3
+ParamVariation60=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamDesignator60=D3
+ParamVariation61=ParameterName=Dominant Wavelength|VariantValue=595nm
+ParamDesignator61=D3
+ParamVariation62=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator62=D3
+ParamVariation63=ParameterName=Forward Current|VariantValue=350mA
+ParamDesignator63=D3
+ParamVariation64=ParameterName=Forward Voltage|VariantValue=2.2V
+ParamDesignator64=D3
+ParamVariation65=ParameterName=Height|VariantValue=2.26mm
+ParamDesignator65=D3
+ParamVariation66=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator66=D3
+ParamVariation67=ParameterName=Illumination Color|VariantValue=Orange
+ParamDesignator67=D3
+ParamVariation68=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator68=D3
+ParamVariation69=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator69=D3
+ParamVariation70=ParameterName=Lens Color|VariantValue=Clear
+ParamDesignator70=D3
+ParamVariation71=ParameterName=Lens Style|VariantValue=Dome
+ParamDesignator71=D3
+ParamVariation72=ParameterName=Library Reference|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator72=D3
+ParamVariation73=ParameterName=Luminous Flux|VariantValue=73.9lm
+ParamDesignator73=D3
+ParamVariation74=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator74=D3
+ParamVariation75=ParameterName=Manufacturer Part Number|VariantValue=XPEBAM-L1-0000-00801
+ParamDesignator75=D3
+ParamVariation76=ParameterName=Max Current Rating|VariantValue=1A
+ParamDesignator76=D3
+ParamVariation77=ParameterName=Max Operating Temperature|VariantValue=150°C
+ParamDesignator77=D3
+ParamVariation78=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator78=D3
+ParamVariation79=ParameterName=Number of Elements|VariantValue=1
+ParamDesignator79=D3
+ParamVariation80=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator80=D3
+ParamVariation81=ParameterName=Package Quantity|VariantValue=1000
+ParamDesignator81=D3
+ParamVariation82=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator82=D3
+ParamVariation83=ParameterName=PCB3D|VariantValue= 
+ParamDesignator83=D3
+ParamVariation84=ParameterName=Pin Info|VariantValue= 
+ParamDesignator84=D3
+ParamVariation85=ParameterName=Power Rating|VariantValue=3W
+ParamDesignator85=D3
+ParamVariation86=ParameterName=Pricing 1|VariantValue=1 = 1.60000, 10 = 1.51600, 100 = 1.35640, 250 = 1.23356, 500 = 1.15536 (USD)
+ParamDesignator86=D3
+ParamVariation87=ParameterName=Reverse Voltage|VariantValue=5V
+ParamDesignator87=D3
+ParamVariation88=ParameterName=Reverse Voltage (DC)|VariantValue=5V
+ParamDesignator88=D3
+ParamVariation89=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator89=D3
+ParamVariation90=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator90=D3
+ParamVariation91=ParameterName=Simulation|VariantValue= 
+ParamDesignator91=D3
+ParamVariation92=ParameterName=Stock 1|VariantValue=4413
+ParamDesignator92=D3
+ParamVariation93=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator93=D3
+ParamVariation94=ParameterName=Supplier Part Number 1|VariantValue=XPEBAM-L1-0000-00801CT-ND
+ParamDesignator94=D3
+ParamVariation95=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator95=D3
+ParamVariation96=ParameterName=Test Temperature|VariantValue=25°C
+ParamDesignator96=D3
+ParamVariation97=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
+ParamDesignator97=D3
+ParamVariation98=ParameterName=Viewing Angle|VariantValue=130?
+ParamDesignator98=D3
+ParamVariation99=ParameterName=Wavelength|VariantValue=595nm
+ParamDesignator99=D3
+ParamVariation100=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator100=D3
+Variation3=Designator=D4|UniqueId=\IWYALBYP|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation101=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator101=D4
+ParamVariation102=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator102=D4
+ParamVariation103=ParameterName=Color|VariantValue=Orange
+ParamDesignator103=D4
+ParamVariation104=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator104=D4
+ParamVariation105=ParameterName=ComponentLink1Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator105=D4
+ParamVariation106=ParameterName=ComponentLink1URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator106=D4
+ParamVariation107=ParameterName=ComponentLink2Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator107=D4
+ParamVariation108=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator108=D4
+ParamVariation109=ParameterName=Depth|VariantValue=3.45mm
+ParamDesignator109=D4
+ParamVariation110=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamDesignator110=D4
+ParamVariation111=ParameterName=Dominant Wavelength|VariantValue=595nm
+ParamDesignator111=D4
+ParamVariation112=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator112=D4
+ParamVariation113=ParameterName=Forward Current|VariantValue=350mA
+ParamDesignator113=D4
+ParamVariation114=ParameterName=Forward Voltage|VariantValue=2.2V
+ParamDesignator114=D4
+ParamVariation115=ParameterName=Height|VariantValue=2.26mm
+ParamDesignator115=D4
+ParamVariation116=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator116=D4
+ParamVariation117=ParameterName=Illumination Color|VariantValue=Orange
+ParamDesignator117=D4
+ParamVariation118=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator118=D4
+ParamVariation119=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator119=D4
+ParamVariation120=ParameterName=Lens Color|VariantValue=Clear
+ParamDesignator120=D4
+ParamVariation121=ParameterName=Lens Style|VariantValue=Dome
+ParamDesignator121=D4
+ParamVariation122=ParameterName=Library Reference|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator122=D4
+ParamVariation123=ParameterName=Luminous Flux|VariantValue=73.9lm
+ParamDesignator123=D4
+ParamVariation124=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator124=D4
+ParamVariation125=ParameterName=Manufacturer Part Number|VariantValue=XPEBAM-L1-0000-00801
+ParamDesignator125=D4
+ParamVariation126=ParameterName=Max Current Rating|VariantValue=1A
+ParamDesignator126=D4
+ParamVariation127=ParameterName=Max Operating Temperature|VariantValue=150°C
+ParamDesignator127=D4
+ParamVariation128=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator128=D4
+ParamVariation129=ParameterName=Number of Elements|VariantValue=1
+ParamDesignator129=D4
+ParamVariation130=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator130=D4
+ParamVariation131=ParameterName=Package Quantity|VariantValue=1000
+ParamDesignator131=D4
+ParamVariation132=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator132=D4
+ParamVariation133=ParameterName=PCB3D|VariantValue= 
+ParamDesignator133=D4
+ParamVariation134=ParameterName=Pin Info|VariantValue= 
+ParamDesignator134=D4
+ParamVariation135=ParameterName=Power Rating|VariantValue=3W
+ParamDesignator135=D4
+ParamVariation136=ParameterName=Pricing 1|VariantValue=1 = 1.60000, 10 = 1.51600, 100 = 1.35640, 250 = 1.23356, 500 = 1.15536 (USD)
+ParamDesignator136=D4
+ParamVariation137=ParameterName=Reverse Voltage|VariantValue=5V
+ParamDesignator137=D4
+ParamVariation138=ParameterName=Reverse Voltage (DC)|VariantValue=5V
+ParamDesignator138=D4
+ParamVariation139=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator139=D4
+ParamVariation140=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator140=D4
+ParamVariation141=ParameterName=Simulation|VariantValue= 
+ParamDesignator141=D4
+ParamVariation142=ParameterName=Stock 1|VariantValue=4413
+ParamDesignator142=D4
+ParamVariation143=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator143=D4
+ParamVariation144=ParameterName=Supplier Part Number 1|VariantValue=XPEBAM-L1-0000-00801CT-ND
+ParamDesignator144=D4
+ParamVariation145=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator145=D4
+ParamVariation146=ParameterName=Test Temperature|VariantValue=25°C
+ParamDesignator146=D4
+ParamVariation147=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
+ParamDesignator147=D4
+ParamVariation148=ParameterName=Viewing Angle|VariantValue=130?
+ParamDesignator148=D4
+ParamVariation149=ParameterName=Wavelength|VariantValue=595nm
+ParamDesignator149=D4
+ParamVariation150=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator150=D4
+Variation4=Designator=D5|UniqueId=\DSQLSVSO|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation151=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator151=D5
+ParamVariation152=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator152=D5
+ParamVariation153=ParameterName=Color|VariantValue=Orange
+ParamDesignator153=D5
+ParamVariation154=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator154=D5
+ParamVariation155=ParameterName=ComponentLink1Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator155=D5
+ParamVariation156=ParameterName=ComponentLink1URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator156=D5
+ParamVariation157=ParameterName=ComponentLink2Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator157=D5
+ParamVariation158=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator158=D5
+ParamVariation159=ParameterName=Depth|VariantValue=3.45mm
+ParamDesignator159=D5
+ParamVariation160=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamDesignator160=D5
+ParamVariation161=ParameterName=Dominant Wavelength|VariantValue=595nm
+ParamDesignator161=D5
+ParamVariation162=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator162=D5
+ParamVariation163=ParameterName=Forward Current|VariantValue=350mA
+ParamDesignator163=D5
+ParamVariation164=ParameterName=Forward Voltage|VariantValue=2.2V
+ParamDesignator164=D5
+ParamVariation165=ParameterName=Height|VariantValue=2.26mm
+ParamDesignator165=D5
+ParamVariation166=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator166=D5
+ParamVariation167=ParameterName=Illumination Color|VariantValue=Orange
+ParamDesignator167=D5
+ParamVariation168=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator168=D5
+ParamVariation169=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator169=D5
+ParamVariation170=ParameterName=Lens Color|VariantValue=Clear
+ParamDesignator170=D5
+ParamVariation171=ParameterName=Lens Style|VariantValue=Dome
+ParamDesignator171=D5
+ParamVariation172=ParameterName=Library Reference|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator172=D5
+ParamVariation173=ParameterName=Luminous Flux|VariantValue=73.9lm
+ParamDesignator173=D5
+ParamVariation174=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator174=D5
+ParamVariation175=ParameterName=Manufacturer Part Number|VariantValue=XPEBAM-L1-0000-00801
+ParamDesignator175=D5
+ParamVariation176=ParameterName=Max Current Rating|VariantValue=1A
+ParamDesignator176=D5
+ParamVariation177=ParameterName=Max Operating Temperature|VariantValue=150°C
+ParamDesignator177=D5
+ParamVariation178=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator178=D5
+ParamVariation179=ParameterName=Number of Elements|VariantValue=1
+ParamDesignator179=D5
+ParamVariation180=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator180=D5
+ParamVariation181=ParameterName=Package Quantity|VariantValue=1000
+ParamDesignator181=D5
+ParamVariation182=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator182=D5
+ParamVariation183=ParameterName=PCB3D|VariantValue= 
+ParamDesignator183=D5
+ParamVariation184=ParameterName=Pin Info|VariantValue= 
+ParamDesignator184=D5
+ParamVariation185=ParameterName=Power Rating|VariantValue=3W
+ParamDesignator185=D5
+ParamVariation186=ParameterName=Pricing 1|VariantValue=1 = 1.60000, 10 = 1.51600, 100 = 1.35640, 250 = 1.23356, 500 = 1.15536 (USD)
+ParamDesignator186=D5
+ParamVariation187=ParameterName=Reverse Voltage|VariantValue=5V
+ParamDesignator187=D5
+ParamVariation188=ParameterName=Reverse Voltage (DC)|VariantValue=5V
+ParamDesignator188=D5
+ParamVariation189=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator189=D5
+ParamVariation190=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator190=D5
+ParamVariation191=ParameterName=Simulation|VariantValue= 
+ParamDesignator191=D5
+ParamVariation192=ParameterName=Stock 1|VariantValue=4413
+ParamDesignator192=D5
+ParamVariation193=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator193=D5
+ParamVariation194=ParameterName=Supplier Part Number 1|VariantValue=XPEBAM-L1-0000-00801CT-ND
+ParamDesignator194=D5
+ParamVariation195=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator195=D5
+ParamVariation196=ParameterName=Test Temperature|VariantValue=25°C
+ParamDesignator196=D5
+ParamVariation197=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
+ParamDesignator197=D5
+ParamVariation198=ParameterName=Viewing Angle|VariantValue=130?
+ParamDesignator198=D5
+ParamVariation199=ParameterName=Wavelength|VariantValue=595nm
+ParamDesignator199=D5
+ParamVariation200=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator200=D5
+Variation5=Designator=D6|UniqueId=\UGJDGQOG|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation201=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator201=D6
+ParamVariation202=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator202=D6
+ParamVariation203=ParameterName=Color|VariantValue=Orange
+ParamDesignator203=D6
+ParamVariation204=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator204=D6
+ParamVariation205=ParameterName=ComponentLink1Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator205=D6
+ParamVariation206=ParameterName=ComponentLink1URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator206=D6
+ParamVariation207=ParameterName=ComponentLink2Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator207=D6
+ParamVariation208=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator208=D6
+ParamVariation209=ParameterName=Depth|VariantValue=3.45mm
+ParamDesignator209=D6
+ParamVariation210=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamDesignator210=D6
+ParamVariation211=ParameterName=Dominant Wavelength|VariantValue=595nm
+ParamDesignator211=D6
+ParamVariation212=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator212=D6
+ParamVariation213=ParameterName=Forward Current|VariantValue=350mA
+ParamDesignator213=D6
+ParamVariation214=ParameterName=Forward Voltage|VariantValue=2.2V
+ParamDesignator214=D6
+ParamVariation215=ParameterName=Height|VariantValue=2.26mm
+ParamDesignator215=D6
+ParamVariation216=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator216=D6
+ParamVariation217=ParameterName=Illumination Color|VariantValue=Orange
+ParamDesignator217=D6
+ParamVariation218=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator218=D6
+ParamVariation219=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator219=D6
+ParamVariation220=ParameterName=Lens Color|VariantValue=Clear
+ParamDesignator220=D6
+ParamVariation221=ParameterName=Lens Style|VariantValue=Dome
+ParamDesignator221=D6
+ParamVariation222=ParameterName=Library Reference|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator222=D6
+ParamVariation223=ParameterName=Luminous Flux|VariantValue=73.9lm
+ParamDesignator223=D6
+ParamVariation224=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator224=D6
+ParamVariation225=ParameterName=Manufacturer Part Number|VariantValue=XPEBAM-L1-0000-00801
+ParamDesignator225=D6
+ParamVariation226=ParameterName=Max Current Rating|VariantValue=1A
+ParamDesignator226=D6
+ParamVariation227=ParameterName=Max Operating Temperature|VariantValue=150°C
+ParamDesignator227=D6
+ParamVariation228=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator228=D6
+ParamVariation229=ParameterName=Number of Elements|VariantValue=1
+ParamDesignator229=D6
+ParamVariation230=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator230=D6
+ParamVariation231=ParameterName=Package Quantity|VariantValue=1000
+ParamDesignator231=D6
+ParamVariation232=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator232=D6
+ParamVariation233=ParameterName=PCB3D|VariantValue= 
+ParamDesignator233=D6
+ParamVariation234=ParameterName=Pin Info|VariantValue= 
+ParamDesignator234=D6
+ParamVariation235=ParameterName=Power Rating|VariantValue=3W
+ParamDesignator235=D6
+ParamVariation236=ParameterName=Pricing 1|VariantValue=1 = 1.60000, 10 = 1.51600, 100 = 1.35640, 250 = 1.23356, 500 = 1.15536 (USD)
+ParamDesignator236=D6
+ParamVariation237=ParameterName=Reverse Voltage|VariantValue=5V
+ParamDesignator237=D6
+ParamVariation238=ParameterName=Reverse Voltage (DC)|VariantValue=5V
+ParamDesignator238=D6
+ParamVariation239=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator239=D6
+ParamVariation240=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator240=D6
+ParamVariation241=ParameterName=Simulation|VariantValue= 
+ParamDesignator241=D6
+ParamVariation242=ParameterName=Stock 1|VariantValue=4413
+ParamDesignator242=D6
+ParamVariation243=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator243=D6
+ParamVariation244=ParameterName=Supplier Part Number 1|VariantValue=XPEBAM-L1-0000-00801CT-ND
+ParamDesignator244=D6
+ParamVariation245=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator245=D6
+ParamVariation246=ParameterName=Test Temperature|VariantValue=25°C
+ParamDesignator246=D6
+ParamVariation247=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
+ParamDesignator247=D6
+ParamVariation248=ParameterName=Viewing Angle|VariantValue=130?
+ParamDesignator248=D6
+ParamVariation249=ParameterName=Wavelength|VariantValue=595nm
+ParamDesignator249=D6
+ParamVariation250=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator250=D6
+Variation6=Designator=D2|UniqueId=\DAGHEAAT|Kind=2|AlternatePart=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Schematic Diagrams.SchLib|AltLibLink_SymbolReference=LED XLAMP XP-E RED SMD|AltLibLink_DesignItemID=LED XLAMP XPE2 AMBER 593NM 2SMD|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Schematic Diagrams.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=LED CREE XP-E2 1414 2-SMD|AltLibLink_IsSameFootprint=True
+ParamVariation251=ParameterName=Comment|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator251=D2
+ParamVariation252=ParameterName=Case/Package|VariantValue=SMD/SMT
+ParamDesignator252=D2
+ParamVariation253=ParameterName=Color|VariantValue=Orange
+ParamDesignator253=D2
+ParamVariation254=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator254=D2
+ParamVariation255=ParameterName=ComponentLink1Description|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator255=D2
+ParamVariation256=ParameterName=ComponentLink1URL|VariantValue=http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPE2.pdf?src-supplier=Digi-Key
+ParamDesignator256=D2
+ParamVariation257=ParameterName=ComponentLink2Description|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator257=D2
+ParamVariation258=ParameterName=ComponentLink2URL|VariantValue=http://www.mouser.com/ds/2/90/XLampXPE2-253473.pdf?src-supplier=Mouser
+ParamDesignator258=D2
+ParamVariation259=ParameterName=Depth|VariantValue=3.45mm
+ParamDesignator259=D2
+ParamVariation260=ParameterName=Description|VariantValue=LED Lighting Color XLamp?XP-E2 Amber 593nm (590nm ~ 595nm) 1414 (3535 Metric)
+ParamDesignator260=D2
+ParamVariation261=ParameterName=Dominant Wavelength|VariantValue=595nm
+ParamDesignator261=D2
+ParamVariation262=ParameterName=Footprint|VariantValue=LED CREE XP-E2 1414 2-SMD
+ParamDesignator262=D2
+ParamVariation263=ParameterName=Forward Current|VariantValue=350mA
+ParamDesignator263=D2
+ParamVariation264=ParameterName=Forward Voltage|VariantValue=2.2V
+ParamDesignator264=D2
+ParamVariation265=ParameterName=Height|VariantValue=2.26mm
+ParamDesignator265=D2
+ParamVariation266=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator266=D2
+ParamVariation267=ParameterName=Illumination Color|VariantValue=Orange
+ParamDesignator267=D2
+ParamVariation268=ParameterName=Lead Free|VariantValue=Lead Free
+ParamDesignator268=D2
+ParamVariation269=ParameterName=Length|VariantValue=3.45mm
+ParamDesignator269=D2
+ParamVariation270=ParameterName=Lens Color|VariantValue=Clear
+ParamDesignator270=D2
+ParamVariation271=ParameterName=Lens Style|VariantValue=Dome
+ParamDesignator271=D2
+ParamVariation272=ParameterName=Library Reference|VariantValue=LED XLAMP XPE2 AMBER 593NM 2SMD
+ParamDesignator272=D2
+ParamVariation273=ParameterName=Luminous Flux|VariantValue=73.9lm
+ParamDesignator273=D2
+ParamVariation274=ParameterName=Manufacturer|VariantValue=Cree
+ParamDesignator274=D2
+ParamVariation275=ParameterName=Manufacturer Part Number|VariantValue=XPEBAM-L1-0000-00801
+ParamDesignator275=D2
+ParamVariation276=ParameterName=Max Current Rating|VariantValue=1A
+ParamDesignator276=D2
+ParamVariation277=ParameterName=Max Operating Temperature|VariantValue=150°C
+ParamDesignator277=D2
+ParamVariation278=ParameterName=Mount|VariantValue=Surface Mount
+ParamDesignator278=D2
+ParamVariation279=ParameterName=Number of Elements|VariantValue=1
+ParamDesignator279=D2
+ParamVariation280=ParameterName=Number of Pins|VariantValue=2
+ParamDesignator280=D2
+ParamVariation281=ParameterName=Package Quantity|VariantValue=1000
+ParamDesignator281=D2
+ParamVariation282=ParameterName=Packaging|VariantValue=Tape and Reel
+ParamDesignator282=D2
+ParamVariation283=ParameterName=PCB3D|VariantValue= 
+ParamDesignator283=D2
+ParamVariation284=ParameterName=Pin Info|VariantValue= 
+ParamDesignator284=D2
+ParamVariation285=ParameterName=Power Rating|VariantValue=3W
+ParamDesignator285=D2
+ParamVariation286=ParameterName=Pricing 1|VariantValue=1 = 1.60000, 10 = 1.51600, 100 = 1.35640, 250 = 1.23356, 500 = 1.15536 (USD)
+ParamDesignator286=D2
+ParamVariation287=ParameterName=Reverse Voltage|VariantValue=5V
+ParamDesignator287=D2
+ParamVariation288=ParameterName=Reverse Voltage (DC)|VariantValue=5V
+ParamDesignator288=D2
+ParamVariation289=ParameterName=RoHS|VariantValue=Yes
+ParamDesignator289=D2
+ParamVariation290=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator290=D2
+ParamVariation291=ParameterName=Simulation|VariantValue= 
+ParamDesignator291=D2
+ParamVariation292=ParameterName=Stock 1|VariantValue=4413
+ParamDesignator292=D2
+ParamVariation293=ParameterName=Supplier 1|VariantValue=Digi-Key
+ParamDesignator293=D2
+ParamVariation294=ParameterName=Supplier Part Number 1|VariantValue=XPEBAM-L1-0000-00801CT-ND
+ParamDesignator294=D2
+ParamVariation295=ParameterName=Test Current|VariantValue=350mA
+ParamDesignator295=D2
+ParamVariation296=ParameterName=Test Temperature|VariantValue=25°C
+ParamDesignator296=D2
+ParamVariation297=ParameterName=Thermal Resistance of Package|VariantValue=7°C/W
+ParamDesignator297=D2
+ParamVariation298=ParameterName=Viewing Angle|VariantValue=130?
+ParamDesignator298=D2
+ParamVariation299=ParameterName=Wavelength|VariantValue=595nm
+ParamDesignator299=D2
+ParamVariation300=ParameterName=Width|VariantValue=3.45mm
+ParamDesignator300=D2
+ParamVariationCount=300
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GM32767
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for TailLightsPrototype\Fabrication Files\TailLightsPrototype_1.0.TXT
+DItemRevisionGUID=
+
+[Parameter1]
+Name=ProjectRevision
+Value=1.0
+
+[Configuration1]
+Name=Sources
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=
+
+[OutputGroup1]
+Name=Netlist Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=CadnetixNetlist
+OutputName1=Cadnetix Netlist
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=CalayNetlist
+OutputName2=Calay Netlist
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=EDIF
+OutputName3=EDIF for PCB
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=EESofNetlist
+OutputName4=EESof Netlist
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+OutputType5=IntergraphNetlist
+OutputName5=Intergraph Netlist
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+OutputType6=MentorBoardStationNetlist
+OutputName6=Mentor BoardStation Netlist
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=MultiWire
+OutputName7=MultiWire
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=OrCadPCB2Netlist
+OutputName8=Orcad/PCB2 Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=PADSNetlist
+OutputName9=PADS ASCII Netlist
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=Pcad
+OutputName10=Pcad for PCB
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=PCADNetlist
+OutputName11=PCAD Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Protel2Netlist
+OutputName13=Protel2 Netlist
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=ProtelNetlist
+OutputName14=Protel
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+
+[OutputGroup2]
+Name=Simulator Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+
+[OutputGroup3]
+Name=Documentation Outputs
+Description=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Composite
+OutputName1=Composite Drawing
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=PCB 3D Print
+OutputName2=PCB 3D Print
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=1200|ViewY=900|LookAtX=0|LookAtY=0|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1E-6|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ViewConfig=
+OutputType3=PCB 3D Video
+OutputName3=PCB 3D Video
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=PCB Print
+OutputName4=PCB Prints
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration4_Name2=OutputConfigurationParameter2
+Configuration4_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration4_Name3=OutputConfigurationParameter3
+Configuration4_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name4=OutputConfigurationParameter4
+Configuration4_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|LayerSet=Signal Layers|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name5=OutputConfigurationParameter5
+Configuration4_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name6=OutputConfigurationParameter6
+Configuration4_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name7=OutputConfigurationParameter7
+Configuration4_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration4_Name8=OutputConfigurationParameter8
+Configuration4_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|LayerSet=Mechanical Layers|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+OutputType5=PCBDrawing
+OutputName5=Draftsman
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=PCBLIB Print
+OutputName6=PCBLIB Prints
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=PDF3D
+OutputName7=PDF3D
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Report Print
+OutputName8=Report Prints
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Schematic Print
+OutputName9=Schematic Prints
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=SimView Print
+OutputName10=SimView Prints
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup4]
+Name=Assembly Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Assembly
+OutputName1=Assembly Drawings
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Pick Place
+OutputName2=Generates pick and place files
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+
+[OutputGroup5]
+Name=Fabrication Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Board Stack Report
+OutputName1=Report Board Stack
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=CompositeDrill
+OutputName2=Composite Drill Drawing
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Drill
+OutputName3=Drill Drawing/Guides
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Final
+OutputName4=Final Artwork Prints
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Gerber
+OutputName5=Gerber Files
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=Gerber X2
+OutputName6=Gerber X2 Files
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=IPC2581
+OutputName7=IPC-2581 Files
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=Mask
+OutputName8=Solder/Paste Mask Prints
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=NC Drill
+OutputName9=NC Drill Files
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=ODB
+OutputName10=ODB++ Files
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
+OutputType11=Plane
+OutputName11=Power-Plane Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Test Points
+OutputName12=Test Point Report
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+
+[OutputGroup6]
+Name=Report Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=BOM_PartType
+OutputName1=Bill of Materials
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=ComponentCrossReference
+OutputName2=Component Cross Reference Report
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+OutputType3=ReportHierarchy
+OutputName3=Report Project Hierarchy
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+OutputType4=Script
+OutputName4=Script Output
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+OutputType5=SimpleBOM
+OutputName5=Simple BOM
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=SinglePinNetReporter
+OutputName6=Report Single Pin Nets
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+
+[OutputGroup7]
+Name=Other Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Text Print
+OutputName1=Text Print
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Text Print
+OutputName2=Text Print
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Text Print
+OutputName3=Text Print
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Text Print
+OutputName4=Text Print
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Text Print
+OutputName5=Text Print
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Text Print
+OutputName6=Text Print
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=Text Print
+OutputName7=Text Print
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Text Print
+OutputName8=Text Print
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Text Print
+OutputName9=Text Print
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Text Print
+OutputName10=Text Print
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Text Print
+OutputName11=Text Print
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Text Print
+OutputName12=Text Print
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=Text Print
+OutputName13=Text Print
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=Text Print
+OutputName14=Text Print
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=Text Print
+OutputName15=Text Print
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType16=Text Print
+OutputName16=Text Print
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType17=Text Print
+OutputName17=Text Print
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType18=Text Print
+OutputName18=Text Print
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType19=Text Print
+OutputName19=Text Print
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType20=Text Print
+OutputName20=Text Print
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType21=Text Print
+OutputName21=Text Print
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType22=Text Print
+OutputName22=Text Print
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType23=Text Print
+OutputName23=Text Print
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType24=Text Print
+OutputName24=Text Print
+OutputDocumentPath24=
+OutputVariantName24=
+OutputDefault24=0
+PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType25=Text Print
+OutputName25=Text Print
+OutputDocumentPath25=
+OutputVariantName25=
+OutputDefault25=0
+PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType26=Text Print
+OutputName26=Text Print
+OutputDocumentPath26=
+OutputVariantName26=
+OutputDefault26=0
+PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType27=Text Print
+OutputName27=Text Print
+OutputDocumentPath27=
+OutputVariantName27=
+OutputDefault27=0
+PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType28=Text Print
+OutputName28=Text Print
+OutputDocumentPath28=
+OutputVariantName28=
+OutputDefault28=0
+PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType29=Text Print
+OutputName29=Text Print
+OutputDocumentPath29=
+OutputVariantName29=
+OutputDefault29=0
+PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup8]
+Name=Validation Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Component states check
+OutputName1=Server's components states check
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=Configuration compliance
+OutputName2=Environment configuration compliance check
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=Design Rules Check
+OutputName3=Design Rules Check
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Differences Report
+OutputName4=Differences Report
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Electrical Rules Check
+OutputName5=Electrical Rules Check
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Footprint Comparison Report
+OutputName6=Footprint Comparison Report
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+
+[OutputGroup9]
+Name=Export Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=ExportIDF
+OutputName3=Export IDF
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+OutputType5=ExportSTEP
+OutputName5=Export STEP
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ExportVRML
+OutputName6=Export VRML
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=Save As/Export PCB
+OutputName7=Save As/Export PCB
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=Save As/Export Schematic
+OutputName8=Save As/Export Schematic
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=Specctra Design PCB
+OutputName9=Specctra Design PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+
+[OutputGroup10]
+Name=PostProcess Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Copy Files
+OutputName1=Copy Files
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[Modification Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
+Type96=1
+Type97=1
+Type98=1
+Type99=1
+Type100=1
+Type101=1
+Type102=1
+Type103=1
+Type104=1
+Type105=1
+Type106=1
+Type107=1
+Type108=1
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=1
+Type115=1
+Type116=1
+Type117=1
+
+[Difference Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+
+[Electrical Rules Check]
+Type1=1
+Type2=1
+Type3=2
+Type4=1
+Type5=2
+Type6=2
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=2
+Type12=2
+Type13=2
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=2
+Type26=2
+Type27=2
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=2
+Type33=2
+Type34=2
+Type35=1
+Type36=2
+Type37=1
+Type38=2
+Type39=2
+Type40=2
+Type41=0
+Type42=2
+Type43=1
+Type44=1
+Type45=2
+Type46=1
+Type47=2
+Type48=2
+Type49=1
+Type50=2
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=2
+Type57=1
+Type58=1
+Type59=2
+Type60=1
+Type61=2
+Type62=2
+Type63=1
+Type64=0
+Type65=2
+Type66=3
+Type67=2
+Type68=2
+Type69=2
+Type70=2
+Type71=2
+Type72=2
+Type73=2
+Type74=1
+Type75=2
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=2
+Type81=3
+Type82=3
+Type83=3
+Type84=3
+Type85=3
+Type86=2
+Type87=2
+Type88=2
+Type89=1
+Type90=1
+Type91=3
+Type92=3
+Type93=2
+Type94=2
+Type95=2
+Type96=2
+Type97=2
+Type98=0
+Type99=1
+Type100=2
+Type101=1
+Type102=2
+Type103=2
+Type104=1
+Type105=2
+Type106=2
+Type107=2
+Type108=2
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+Type114=2
+Type115=2
+Type116=2
+Type117=3
+Type118=3
+Type119=3
+MultiChannelAlternate=2
+AlternateItemFail=3
+Type122=2
+
+[ERC Connection Matrix]
+L1=NNNNNNNNNNNWNNNWW
+L2=NNWNNNNWWWNWNWNWN
+L3=NWEENEEEENEWNEEWN
+L4=NNENNNWEENNWNENWN
+L5=NNNNNNNNNNNNNNNNN
+L6=NNENNNNEENNWNENWN
+L7=NNEWNNWEENNWNENWN
+L8=NWEENEENEEENNEENN
+L9=NWEENEEEENEWNEEWW
+L10=NWNNNNNENNEWNNEWN
+L11=NNENNNNEEENWNENWN
+L12=WWWWNWWNWWWNWWWNN
+L13=NNNNNNNNNNNWNNNWW
+L14=NWEENEEEENEWNEEWW
+L15=NNENNNNEEENWNENWW
+L16=WWWWNWWNWWWNWWWNW
+L17=WNNNNNNNWNNNWWWWN
+
+[Annotate]
+SortOrder=3
+SortLocation=0
+MatchParameter1=Comment
+MatchStrictly1=1
+MatchParameter2=Library Reference
+MatchStrictly2=1
+PhysicalNamingFormat=$Component_$RoomName
+GlobalIndexSortOrder=3
+GlobalIndexSortLocation=0
+
+[PrjClassGen]
+CompClassManualEnabled=0
+CompClassManualRoomEnabled=0
+NetClassAutoBusEnabled=1
+NetClassAutoCompEnabled=0
+NetClassAutoNamedHarnessEnabled=0
+NetClassManualEnabled=1
+NetClassSeparateForBusSections=0
+
+[LibraryUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Schematic Diagrams.SchLib
+ComponentDesignItemID0=CONN 2POS ULTRA-FIT 0.138"
+ComponentSymbolReference0=CONN 2POS ULTRA-FIT 0.138"
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Schematic Diagrams.SchLib
+ComponentDesignItemID1=LED XLAMP XP-E RED SMD
+ComponentSymbolReference1=LED XLAMP XP-E RED SMD
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+FullReplace=1
+UpdateDesignatorLock=1
+UpdatePartIDLock=1
+PreserveParameterLocations=1
+PreserveParameterVisibility=1
+DoGraphics=1
+DoParameters=1
+DoModels=1
+AddParameters=0
+RemoveParameters=0
+AddModels=1
+RemoveModels=1
+UpdateCurrentModels=1
+ParameterName0=Case/Package
+ParameterUpdate0=1
+ParameterName1=Color
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=ComponentLink1Description
+ParameterUpdate4=1
+ParameterName5=ComponentLink1URL
+ParameterUpdate5=1
+ParameterName6=Connector Type
+ParameterUpdate6=1
+ParameterName7=Contact Finish - Mating
+ParameterUpdate7=1
+ParameterName8=Contact Finish - Post
+ParameterUpdate8=1
+ParameterName9=Contact Finish Thickness - Mating
+ParameterUpdate9=1
+ParameterName10=Contact Finish Thickness - Post
+ParameterUpdate10=1
+ParameterName11=Contact Length - Mating
+ParameterUpdate11=1
+ParameterName12=Contact Length - Post
+ParameterUpdate12=1
+ParameterName13=Contact Material
+ParameterUpdate13=1
+ParameterName14=Contact Shape
+ParameterUpdate14=1
+ParameterName15=Contact Type
+ParameterUpdate15=1
+ParameterName16=Current Rating
+ParameterUpdate16=1
+ParameterName17=Description
+ParameterUpdate17=1
+ParameterName18=Fastening Type
+ParameterUpdate18=1
+ParameterName19=Forward Voltage
+ParameterUpdate19=1
+ParameterName20=Ingress Protection
+ParameterUpdate20=1
+ParameterName21=Insulation Color
+ParameterUpdate21=1
+ParameterName22=Insulation Height
+ParameterUpdate22=1
+ParameterName23=Insulation Material
+ParameterUpdate23=1
+ParameterName24=Lead Free
+ParameterUpdate24=1
+ParameterName25=Library Reference
+ParameterUpdate25=1
+ParameterName26=Manufacturer
+ParameterUpdate26=1
+ParameterName27=Manufacturer 1
+ParameterUpdate27=1
+ParameterName28=Manufacturer Part Number
+ParameterUpdate28=1
+ParameterName29=Manufacturer Part Number 1
+ParameterUpdate29=1
+ParameterName30=Mated Stacking Heights
+ParameterUpdate30=1
+ParameterName31=Material Flammability Rating
+ParameterUpdate31=1
+ParameterName32=Max Current Rating
+ParameterUpdate32=1
+ParameterName33=Mount
+ParameterUpdate33=1
+ParameterName34=Mounting Type
+ParameterUpdate34=1
+ParameterName35=Number of Positions
+ParameterUpdate35=1
+ParameterName36=Number of Positions Loaded
+ParameterUpdate36=1
+ParameterName37=Number of Rows
+ParameterUpdate37=1
+ParameterName38=Operating Temperature
+ParameterUpdate38=1
+ParameterName39=Overall Contact Length
+ParameterUpdate39=1
+ParameterName40=Packaging
+ParameterUpdate40=1
+ParameterName41=Part Status
+ParameterUpdate41=1
+ParameterName42=Pitch - Mating
+ParameterUpdate42=1
+ParameterName43=Pricing 1
+ParameterUpdate43=1
+ParameterName44=Row Spacing - Mating
+ParameterUpdate44=1
+ParameterName45=Series
+ParameterUpdate45=1
+ParameterName46=Shrouding
+ParameterUpdate46=1
+ParameterName47=Stock 1
+ParameterUpdate47=1
+ParameterName48=Style
+ParameterUpdate48=1
+ParameterName49=Supplier 1
+ParameterUpdate49=1
+ParameterName50=Supplier Part Number 1
+ParameterUpdate50=1
+ParameterName51=Termination
+ParameterUpdate51=1
+ParameterName52=Test Current
+ParameterUpdate52=1
+ParameterName53=Test Temperature
+ParameterUpdate53=1
+ParameterName54=Thermal Resistance of Package
+ParameterUpdate54=1
+ParameterName55=Viewing Angle
+ParameterUpdate55=1
+ParameterName56=Voltage
+ParameterUpdate56=1
+ParameterName57=Wavelength
+ParameterUpdate57=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=CONN, 2POS ULTRA-FIT
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=LED CREE XP-E2 1414 2-SMD
+ModelUpdate1=1
+
+[DatabaseUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+PartTypes=0
+
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
